@@ -394,4 +394,8 @@ for blk in range(max_block):
     pic_block_tail.set_part(1, block_tale_letters[blk + 1])
     trial_block_tail.present()
 trial_task_tail.present()
+
+
+# TODO exporting log
+
 del scen
