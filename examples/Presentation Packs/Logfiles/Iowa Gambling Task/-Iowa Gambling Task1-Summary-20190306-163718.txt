@@ -1,0 +1,2 @@
+Subject ID	Deck 1 Choices	Deck 2 Choices	Deck 3 Choices	Deck 4 Choices	Avg RT	Avg RT (SD)	Net Gain	Number of Trials	Date/Time	
+	14	11	16	9	716.02	222.56	-600	50	03/06/2019 16:37:18

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Spanish">
+  <map name="default">
+    <item key="Instructions">En este experimento, aparecerán secuencias de letras aisladas o de grupos de letras, de una en una. Su tarea consistirá en decidir si cada letra (o grupo de letras) coincide con la diana (=target) o si no coincide con ella, y en presionar el botón correspondiente.
+
+En este experimento, la diana (=target) es: [TARGET_LETTER]. Pero hay un truco. SOLO se debe considerar que la “[TARGET_LETTER]” es la diana cuando sigue a la [VALID_CUE_LETTER]. Si la [TARGET_LETTER] va detrás de CUALQUIER OTRA letra (o grupo de letras), no la debe considerar una diana.
+
+Así que, por ejemplo, si ve la siguiente secuencia:
+[VALID_CUE_LETTER], [TARGET_LETTER], [INVALID_CUE_LETTER], [TARGET_LETTER], solo la segunda letra en la secuencia es una diana. Todas las demás letras, incluyendo la última, NO son dianas. 
+
+Si la letra es una diana (=target), pulse el botón izquierdo del ratón.
+
+Si la letra NO es una diana (=target), pulse el botón derecho del ratón.
+
+Intente responder tan rápidamente como pueda, procurando no cometer errores. Pulse “Intro” cuando esté preparado/a para comenzar.</item>
+    <item key="No Instructions Caption">Presione el botón izquierdo del ratón para comenzar la siguiente parte.</item>
+    <item key="Rest Screen Caption">Presione el botón izquierdo del ratón cuando esté preparado/a.</item>
+    <item key="Progress Bar Caption">Avance:</item>
+    <item key="Practice Caption">Comenzará con unos cuantos ensayos de práctica.</item>
+    <item key="Practice Complete Caption">Ha concluido la práctica. Presione el botón izquierdo del ratón para comenzar.</item>
+    <item key="Completion Screen Caption">Ha concluido el experimento. Gracias por su participación. Presione el botón izquierdo del ratón para salir del programa. </item>
+    <item key="Block Complete Caption">Ha concluido [BLOCK_NUMBER] bloque(s). Hay un total de [TOTAL_BLOCKS] bloques en el experimento. 
+
+Presione el botón izquierdo del ratón para continuar.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

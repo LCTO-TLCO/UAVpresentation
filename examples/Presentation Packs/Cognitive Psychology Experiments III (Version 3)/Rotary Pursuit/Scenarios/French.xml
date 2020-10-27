@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="French">
+  <map name="default">
+    <item key="Instructions">Dans cette tâche, vous allez utiliser la souris pour suivre une cible mouvante.
+
+Le cible est [TARGET_DESCRIPTION]. Au début de chaque essai, la cible et le curseur de votre souris apparaîtront au même endroit. Après un court délai, la cible commencera à se déplacer. Utilisez la souris pour garder votre curseur en contact avec la cible autant que possible, jusqu'à ce qu'elle s'arrête. Soyez prudent! Parfois, la souris peut ne pas se déplacer dans la direction que vous attendez. Il pourrait être difficile de garder le curseur en contact avec la cible, mais faites de votre mieux pour suivre la cible jusqu'à ce qu'elle s'arrête.
+
+Cliquez sur le bouton gauche de la souris pour démarrer lorsque vous êtes prêt.</item>
+    <item key="Feedback Caption">Comme prévu:</item>
+    <item key="No Instructions Caption">Cliquez sur le bouton gauche de la souris pour continuer.</item>
+    <item key="Rest Screen Caption">Cliquez sur le bouton gauche de la souris pour commencer quand vous êtes prêt à passer à la partie suivante.</item>
+    <item key="Progress Bar Caption">Progrès:</item>
+    <item key="Practice Caption">Commençons par quelques essais pour vous enseigner la tâche.</item>
+    <item key="Practice Complete Caption">Essais complets de pratique. Cliquez sur le bouton gauche de la souris pour avancer.</item>
+    <item key="Completion Screen Caption">Vous avez terminé le test. Merci beaucoup pour votre participation. Cliquez sur le bouton gauche de la souris pour quitter le programme.</item>
+    <item key="Block Complete Caption">Vous avez terminé [BLOCK_NUMBER] bloc (s). Il y a un total de [TOTAL_BLOCKS] blocs dans le test. Cliquez sur le bouton gauche de la souris pour quitter le programme.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

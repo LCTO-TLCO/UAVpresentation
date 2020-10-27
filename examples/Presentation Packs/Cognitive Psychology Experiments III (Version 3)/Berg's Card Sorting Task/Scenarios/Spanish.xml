@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Spanish">
+  <map name="default">
+    <item key="Instructions">En este experimento, su tarea consiste en clasificar una serie de cartas lo más correctamente posible. La clasificación puede basarse en el número, el color, o el tipo de figuras (por ejemplo, cuadrados o triángulos) que aparecen en cada carta.
+
+En cada ensayo, sacará una carta (que se mostrará en el centro de la pantalla). Cada carta contiene un número distinto de figuras o formas de varios colores. Utilice el ratón para seleccionar uno de los cuatro mazos de cartas que aparecen en la parte superior de la pantalla, al que crea que corresponde la carta. Luego, pulse el botón izquierdo del ratón para “clasificar” la carta, asignándola a ese mazo de cartas. 
+
+Después de clasificar su carta, se le informará de si ha clasificado la carta correcta o incorrectamente. No se le dirá cómo debe de clasificar las cartas, por lo que debe comenzar por adivinar qué característica de la carta es la relevante. A veces, las reglas de clasificación pueden cambiar. Utilice la información que se le da para descubrir cómo clasificar la carta siguiente.
+
+Pulse el botón izquierdo del ratón cuando esté listo/a para comenzar.</item>
+    <item key="Select Caption">
+Usa el ratón para seleccionar la pila en la que se debe ordenar la tarjeta.</item>
+    <item key="No Instructions Caption">Presione el botón izquierdo del ratón para comenzar la siguiente parte.</item>
+    <item key="Practice Caption">Comenzará con unos cuantos ensayos de práctica.</item>
+    <item key="Practice Complete Caption">Ha concluido la práctica. Presione el botón izquierdo del ratón para comenzar.</item>
+    <item key="Completion Screen Caption">Ha concluido el experimento. Gracias por su participación. Presione el botón izquierdo del ratón para salir del programa. </item>
+    <item key="Rest Screen Caption">Presione el botón izquierdo del ratón cuando esté preparado/a.</item>
+    <item key="Progress Bar Caption">Progress:</item>
+    <item key="Block Complete Caption">Ha concluido [BLOCK_NUMBER] bloque(s). Hay un total de [TOTAL_BLOCKS] bloques en el experimento. 
+
+Presione el botón izquierdo del ratón para continuar.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

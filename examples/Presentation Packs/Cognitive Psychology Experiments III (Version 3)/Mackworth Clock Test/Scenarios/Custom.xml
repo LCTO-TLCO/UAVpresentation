@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Instructions">In this experiment, you will see a clock face on the screen. However, instead of numbers on the clock, there will be small circles at each position (there may be more or fewer than 12 positions on this "clock"). 
+
+Pay attention to the clock: there will be one target circle that is a different color than the other circles. The target circle will travel around the clock like the second hand moves around a standard clock. It will occupy a position on the clock face for a moment and then move to the next position. This target circle will travel in a [DIRECTION] direction.
+
+Your task is to click the left mouse button any time the highlighted target skips a position. If you imagine it like a clock, skipping a position would be like the hand of a clock moving directly from 6 to 8. Any time the target skips a position, click the left mouse button. Try to respond as quickly as possible while still being accurate. 
+
+The task may last awhile, so try to pay attention to the target and try not to miss it when it skips a spot!
+
+Click the left mouse button when you are ready to begin.</item>
+    <item key="Clockwise">clockwise</item>
+    <item key="Counter-Clockwise">counter-clockwise</item>
+    <item key="No Instructions Caption">Click the left mouse button to begin the next part.</item>
+    <item key="Rest Screen Caption">Click the left mouse button to begin when you are ready to move on to the next part.</item>
+    <item key="Progress Bar Caption">Progress:</item>
+    <item key="Practice Caption">You will start by doing a few examples for practice.</item>
+    <item key="Practice Complete Caption">Practice trials complete. Click the left mouse button to move on.</item>
+    <item key="Completion Screen Caption">You have finished the experiment. Thank you very much for participating! Click the left mouse button to exit the program.</item>
+    <item key="Block Complete Caption">You have completed [BLOCK_NUMBER] block(s). There are [TOTAL_BLOCKS] blocks in the experiment. 
+
+Click the left mouse button to move on.</item>
+    <item key="Next Screen Caption">Click the left mouse button to continue.</item>
+    <item key="Previous Screen Caption">Click the left mouse button to go back.</item>
+    <item key="Multi-Screen Start Experiment Caption">Click the left mouse button to start the experiment when you are ready.</item>
+    <item key="Start Experiment Caption">Click the left mouse button to start the experiment when you are ready.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

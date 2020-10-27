@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="French">
+  <map name="default">
+    <item key="Instructions">Dans cette expérience, votre tâche sera de trier une série de cartes aussi précisément que possible. Le tri peut se baser sur le nombre de formes sur la carte, la couleur des ces formes, ou la configuration des formes elles-mêmes.
+
+Dans chaque essai, vous allez tirer une carte (qui figure au centre de l'écran). Chaque carte a des formes qui pourraient apparaître dans différentes couleurs et le nombre de formes peut aussi varier. Utilisez la souris pour sélectionner l'un des quatre jeux figurant dans la partie supérieure de l'écran, qui correspond le mieux à votre carte. Puis cliquez sur le bouton gauche de la souris pour "trier" votre carte au jeu ou elle est le mieux assortie. 
+
+Après que vous avez sélectionné votre carte, vous serez informé si le choix était correct ou non.  Vous devez deviner comment sélectionner les cartes, c’est-à-dire, deviner quel attribut de la carte (forme, couleur, ou la nombre des formes) est pertinent. Parfois, les règles vont changer. Utilisez les résultats de chaque essai pour savoir comment classifier la carte suivante.
+
+Cliquez sur le bouton gauche de la souris lorsque vous êtes prêt à commencer.</item>
+    <item key="Select Caption">Choisissez un jeu de cartes.</item>
+    <item key="No Instructions Caption">Cliquez sur le bouton gauche de la souris pour continuer.</item>
+    <item key="Practice Caption">Commençons par quelques essais pour vous enseigner la tâche.</item>
+    <item key="Practice Complete Caption">Essais complets de pratique. Cliquez sur le bouton gauche de la souris pour avancer.</item>
+    <item key="Completion Screen Caption">Vous avez terminé le test. Merci beaucoup pour votre participation. Cliquez sur le bouton gauche de la souris pour quitter le programme.</item>
+    <item key="Rest Screen Caption">Cliquez sur le bouton gauche de la souris pour commencer quand vous êtes prêt à passer à la partie suivante.</item>
+    <item key="Progress Bar Caption">Progrès:</item>
+    <item key="Block Complete Caption">Vous avez terminé [BLOCK_NUMBER] bloc (s). Il y a un total de [TOTAL_BLOCKS] blocs dans le test. Cliquez sur le bouton gauche de la souris pour quitter le programme.</item>
+    <item key="Alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

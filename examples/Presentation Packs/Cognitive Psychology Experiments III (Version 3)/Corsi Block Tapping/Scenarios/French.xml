@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="French">
+  <map name="default">
+    <item key="Forward Instructions">Dans cette expérience, nous allons tester votre mémoire pour une séquence de position à l’écran.
+
+Dans chaque essai, vous verrez un ensemble de carrés présentés à l’écran. Un à la fois, ces carrés clignoteront dans une couleur différente. Faites attention pour vous rappeler l'ordre dans lequel les carrés sont illuminés. Lorsque la séquence est terminée, vous devez reproduire l’ordre séquentiel.
+
+Quand le signal de répondre apparait, utilisez la souris pour sélectionner le premier carré dans la séquence, puis cliquez sur le bouton gauche de la souris pour le sélectionner. Ensuite, choisissez le  prochain carré dans la séquence et cliquez sur le bouton gauche de la souris pour le sélectionner. Continuer ainsi jusqu'à ce que vous ayez terminé la séquence entière. Si vous n'êtes pas certain de la séquence, estimez de votre mieux. 
+
+Une fois que vous avez sélectionné tous les carrés dans l'ordre de leur présentation, cliquez sur le bouton droit de la souris pour passer à l’essai prochain.</item>
+    <item key="Backward Instructions">Dans cette expérience, nous allons tester votre mémoire pour une séquence de position à l’écran.
+
+Dans chaque essai, vous verrez un ensemble de carrés présentés à l’écran. Un à la fois, ces carrés clignoteront dans une couleur différente. Faites attention pour vous rappeler de l'ordre dans lequel les carrés sont illuminées. Lorsque la séquence est terminée, vous devez reproduire l’ordre séquentiel, mais DANS L’ORDRE INVERSE.  Cette tâche est plus difficile parce que vous devez vous rappeler le dernier carré d'abord, puis l'avant-dernier, et ainsi de suite jusqu’au premier carré qui a été illuminée.
+
+Quand le signal de répondre apparait, utilisez la souris pour sélectionner le dernier carré dans la séquence, puis cliquez sur le bouton gauche de la souris pour le sélectionner. Ensuite, choisissez l’avant dernier carré dans la séquence et cliquez sur le bouton gauche de la souris pour le sélectionner. Continuer ainsi jusqu'à ce que vous ayez terminé la séquence entière. Si vous n'êtes pas sur de la séquence, estimez de votre mieux. 
+
+Une fois que vous avez sélectionné tous les carrés DANS L’ORDRE INVERSE de leur présentation, cliquez sur le bouton droit de la souris pour passer au prochain essai.</item>
+    <item key="Practice Caption">Commençons par quelques essais pour vous enseigner la tâche.</item>
+    <item key="Ready Caption">Prêt</item>
+    <item key="Set Caption">Feu</item>
+    <item key="Go Caption">Partez</item>
+    <item key="Practice Complete Caption">Vous avez terminé les essais préliminaires. Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Completion Screen Caption">Vous avez terminé l'expérience. Nous vous remercions de votre participation. Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Block Complete Caption">Vous avez terminé [BLOCK_NUMBER] bloc (s). Il y a un total de [TOTAL_BLOCKS] blocs dans l'expérience.
+
+Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

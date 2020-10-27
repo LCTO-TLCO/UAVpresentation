@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Chinese">
+  <map name="default">
+    <item key="Instructions">
+在本实验中，你唯一的任务是当目标出现在屏幕上时按下鼠标左键。
+
+实验流程如下：在每个试次中，一个大的彩色方块会在屏幕上呈现一个短暂的时间。在大方块之内会有一个小一些的矩形。请注意小矩形的位置。
+
+如果小矩形出现在大方块的[TARGET_SIDE]侧，并且仅当它出现在大方块的[TARGET_SIDE]侧时，小矩形才是目标。此时你要按下鼠标左键进行反应。如果小矩形出现在了其他位置，则它不是目标，你也不应作出反应。
+
+需要注意的是，只有当目标出现时（小矩形出现在了大方块的[TARGET_SIDE]侧），你才要通过点击鼠标左键进行反应。实验可能会持续一段时间，所以请在结束之前尽量集中注意并作出正确反应。
+
+如果你准备好了，请点击鼠标左键开始。
+</item>
+    <item key="No Instructions Caption">按下兩個鼠標按鈕開始下一部分</item>
+    <item key="Rest Screen Caption">按下任一的滑鼠按鈕開始，當你準備移動到下一部分。</item>
+    <item key="Progress Bar Caption">进度：</item>
+    <item key="Practice Caption">首先你要做几个试次的练习。</item>
+    <item key="Practice Complete Caption">實踐試驗完成。按下兩個鼠標按鈕繼續前進。</item>
+    <item key="Completion Screen Caption">你已經完成了實驗。非常感謝您的參與。按下兩個鼠標按鈕來退出程序。</item>
+    <item key="Block Complete Caption">你已经完成了[BLOCK_NUMBER]个组块。本实验共有[TOTAL_BLOCKS]个组块。.
+按下兩個鼠標按鈕繼續前進。</item>
+    <item key="Word Wrap Mode">Character</item>
+  </map>
+</experiment_text>

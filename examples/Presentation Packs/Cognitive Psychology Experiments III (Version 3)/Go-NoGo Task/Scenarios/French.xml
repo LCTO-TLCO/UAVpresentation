@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Instructions">Dans cette expérience, vous verrez une série de stimuli visuels, présentés un à la fois. Votre tâche est de répondre aussi rapidement que possible à tous les stimuli SAUF les stimuli cibles.
+
+Dans cette partie de l'expérience, le stimulus cible est [NOGO_STIMULUS_LABEL]. Chaque fois que [NOGO_STIMULUS_LABEL] apparaît, vous ne devrez pas repondre.
+
+Si un autre stimulus sauf [NOGO_STIMULUS_LABEL] apparaît, répondez en cliquant le plus rapidement possible sur le bouton gauche de la souris.
+
+Lorsque vous êtes prêt à commencer, cliquez sur le bouton gauche de la souris. Essayez de répondre aussi rapidement que possible tout en étant précis.</item>
+    <item key="No Instructions Caption">Cliquez sur le bouton gauche de la souris pour continuer.</item>
+    <item key="Rest Screen Caption">Cliquez sur le bouton gauche de la souris pour commencer quand vous êtes prêt à passer à la partie suivante.</item>
+    <item key="Progress Bar Caption">Progrès:</item>
+    <item key="Practice Caption">Commençons par quelques essais pour vous enseigner la tâche.</item>
+    <item key="Practice Complete Caption">Essais complets de pratique. Cliquez sur le bouton gauche de la souris pour avancer.</item>
+    <item key="Completion Screen Caption">Vous avez terminé le test. Merci beaucoup pour votre participation. Cliquez sur le bouton gauche de la souris pour quitter le programme.</item>
+    <item key="Block Complete Caption">Vous avez terminé [BLOCK_NUMBER] bloc (s). Il y a un total de [TOTAL_BLOCKS] blocs dans le test. Cliquez sur le bouton gauche de la souris pour quitter le programme.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+  <map name="Sound">
+    <item key="Instructions">Dans cette expérience, vous entendrez une série de sons, présenté un à la fois. Votre tâche est de répondre aussi rapidement que possible à tous les sons, sauf les sons cibles.
+
+Dans cette partie de l'expérience, le son cible est [NOGO_STIMULUS_LABEL]. Chaque fois que vous entendez [NOGO_STIMULUS_LABEL], ne répondez pas. 
+
+Si vous entendez n’importe quel autre son que [NOGO_STIMULUS_LABEL], répondez en cliquant sur le bouton gauche de la souris le plus rapidement possible.
+
+Lorsque vous êtes prêt à commencer, cliquez sur le bouton gauche de la souris. Essayez de répondre aussi rapidement que possible tout en étant précis</item>
+  </map>
+</experiment_text>

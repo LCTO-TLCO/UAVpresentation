@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="German">
+  <map name="default">
+    <item key="Forward Instructions">Bei diesem Experiment sind wir daran interissiert, wie gut Sie sich eine Reihe von Zahlen merken können..
+
+Bei diesem Experiment hören Sie eine Reihe von Zahlen, laut gelesen eine nach der anderen. Ihre Aufgabe ist es, sich die Zahlen in der Reihenfolge, in  der sie vorgetragen wurden, zu merken. Nachdem die letzte Zahl präsentiert worden ist, sehen Sie eine Befehlszeile auf dem Schirm, sich der gehörten Zahlen zu erinneren. Wenn der Befehl erscheint, tippen Sie die Zahlen in der gehörten Reihenfolge ein. Sie brauchen keine Leerzeichen oder andere Schriftzeichen zwischen die Zahlen einzufügen. Sie können die Rücktaste benutzen, um Zahlen zu entfernen, wenn Sie einen Fehler gemacht haben. Wenn Sie unsicher bezüglich der Reihenfolge sind, können Sie die Reihenfolge schätzen. 
+
+Sobald Sie alle Zahlen der Reihe eingegeben haben, drücken Sie „ENTER“ bevor Sie fortfahren. Die nächste Reihenfolge von Zahlen wird kurz darauf erscheinen.
+
+Drücken Sie „ENTER“ um fort zu fahren. 
+</item>
+    <item key="Backward Instructions">Bei diesem Experiment sind wir interessiert, wie gut Sie sich eine Sequenz von Nummern merken können.
+
+Bei jedem Versuch wird Ihnen eine Reihe von Zahlen nacheinander laut angesagt. Ihre Aufgabe ist es, sich die Zahlen in umgekehrter Reihenfolge zu merken. Das heist, wenn Sie die Reihenfolge „1,2,3“ hören, geben Sie „..3,2,1“ ein.
+
+Nachdem die letzte Zahl erscheint, bekommen Sie auf dem Schirm den Befehl, die Zahlen aus der Erinnerung wiederzugeben, die Sie vorher gehört haben. Wenn diese Befehlszeile erscheint, tippen Sie mit der Tastatur die Nummern ein und zwar in der umgekehrten Reihenfolge, in der sie erschienen, d.h. sie starten mit der letzten Nummer. Sie brauchen keine Leerstellen oder irgendwelche andere Schriftzeichen zwischen die Nummern einzuschieben. Sie können die Rücktaste benutzen, um Nummern zu entfernen, falls Sie einen Fehler gemacht haben. Wenn Sie unsicher bezüglich der Reihenfolge sind, schätzen Sie sie so gut Sie können.
+
+Sobald Sie alle Zahlen dieser Reihe eingegeben haben, drücken Sie „ENTER“ um fort zu fahren. Die nächste Zahlen-Sequenz wird kurz danach erscheinen
+
+Drücken Sie „ENTER“, wenn Sie fortfahren wollen.
+</item>
+    <item key="Response Prompt">Tippen Sie Ihre Antwort ein und drücken Sie „ENTER“</item>
+    <item key="Practice Caption"> Beginnen Sie mit einigen Übungsversuchen</item>
+    <item key="Ready Caption">Auf die Plätze</item>
+    <item key="Set Caption">fertig</item>
+    <item key="Go Caption">los</item>
+    <item key="Practice Complete Caption"> Nachdem Sie die Übungsversuche beendet haben, drücken Sie “enter”, um zu beginnen.</item>
+    <item key="Completion Screen Caption">Sie haben das Experiment beendet. Danke für Ihre Teilnahme. Drücken Sie „enter“, um das Programm zu verlassen.</item>
+    <item key="Block Complete Caption"> Sie haben die [BLOCK_NUMBER] Blöcke beendet. Es gibt [TOTAL_NUMBER] Blöcke. Drücken Sie “enter”, um fort zu fahren.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+  <map name="Visual">
+    <item key="Forward Instructions">Bei diesem Experiment sind wir daran interissiert, wie gut Sie sich eine Reihe von Zahlen merken können..
+
+Bei jedem Versuch sehen Sie eine Reihe von Ziffern nacheinander auf dem Schirm. Ihre Aufgabe ist es, sich die Zahlen in der Reihenfolge, in  der sie vorgetragen wurden, zu merken. Nachdem die letzte Zahl präsentiert worden ist, sehen Sie eine Befehlszeile auf dem Schirm, sich der gehörten Zahlen zu erinneren. Wenn der Befehl erscheint, tippen Sie die Zahlen in der gehörten Reihenfolge ein. Sie brauchen keine Leerzeichen oder andere Schriftzeichen zwischen die Zahlen einzufügen. Sie können die Rücktaste benutzen, um Zahlen zu entfernen, wenn Sie einen Fehler gemacht haben. Wenn Sie unsicher bezüglich der Reihenfolge sind, können Sie die Reihenfolge schätzen. 
+
+Sobald Sie alle Zahlen der Reihe eingegeben haben, drücken Sie „ENTER“ bevor Sie fortfahren. Die nächste Reihenfolge von Zahlen wird kurz darauf erscheinen.
+
+Drücken Sie „ENTER“ um fort zu fahren. 
+</item>
+    <item key="Backward Instructions">Bei diesem Experiment sind wir interessiert, wie gut Sie sich eine Sequenz von Nummern merken können.
+
+Bei jedem Versuch sehen Sie eine Reihe von Ziffern nacheinander auf dem Schirm.. Ihre Aufgabe ist es, sich die Zahlen in umgekehrter Reihenfolge zu merken. Das heist, wenn Sie die Reihenfolge „1,2,3“ hören, geben Sie „..3,2,1“ ein.
+
+Nachdem die letzte Zahl erscheint, bekommen Sie auf dem Schirm den Befehl, die Zahlen aus der Erinnerung wiederzugeben, die Sie vorher gehört haben. Wenn diese Befehlszeile erscheint, tippen Sie mit der Tastatur die Nummern ein und zwar in der umgekehrten Reihenfolge, in der sie erschienen, d.h. sie starten mit der letzten Nummer. Sie brauchen keine Leerstellen oder irgendwelche andere Schriftzeichen zwischen die Nummern einzuschieben. Sie können die Rücktaste benutzen, um Nummern zu entfernen, falls Sie einen Fehler gemacht haben. Wenn Sie unsicher bezüglich der Reihenfolge sind, schätzen Sie sie so gut Sie können.
+
+Sobald Sie alle Zahlen dieser Reihe eingegeben haben, drücken Sie „ENTER“ um fort zu fahren. Die nächste Zahlen-Sequenz wird kurz danach erscheinen
+
+Drücken Sie „ENTER“, wenn Sie fortfahren wollen.
+</item>
+  </map>
+</experiment_text>

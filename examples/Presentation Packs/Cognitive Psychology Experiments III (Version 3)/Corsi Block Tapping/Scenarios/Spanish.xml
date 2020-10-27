@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Spanish">
+  <map name="default">
+    <item key="Forward Instructions">En este experimento, vamos a medir su capacidad para recordar una secuencia de posiciones espaciales.
+
+En cada ensayo, verá un conjunto de cuadrados en la pantalla. Los cuadrados se iluminarán de uno en uno y en diferentes colores. Preste atención e intente recordar el orden en el que los cuadrados se iluminan (imagínese que son como botones que va presionando). Cuando la secuencia se acabe, se le pedirá que recuerde la secuencia. 
+
+Cuando el aviso aparezca, utilice el ratón para indicar el primer cuadrado que apareció en la secuencia, y pulse el botón izquierdo del ratón para seleccionar ese cuadrado. Después, indique el cuadrado siguiente de la secuencia, seleccionándolo mediante un clic del botón izquierdo del ratón. Continúe haciendo esto hasta completar la secuencia. Si no está seguro/a de cuál es la secuencia, intente adivinarla lo mejor posible. 
+
+Una vez que haya indicado y seleccionado los cuadrados en el orden en el que fueron inicialmente presentados, pulse el botón derecho del ratón para pasar al ensayo siguiente.</item>
+    <item key="Backward Instructions">En este experimento, vamos a medir su capacidad para recordar una secuencia de posiciones espaciales.
+
+En cada ensayo, verá un conjunto de cuadrados en la pantalla. Los cuadrados se iluminarán de uno en uno y en diferentes colores. Preste atención e intente recordar el orden en el que los cuadrados se iluminan (imagínese que son como botones que va presionando). En esta parte del experimento, no tendrá que recordar la secuencia en el orden en el que fue presentada. En vez de eso, cuando la secuencia se acabe, se le pedirá que recuerde la secuencia en el orden INVERSO al orden en que fue presentada. 
+
+Cuando el aviso aparezca, utilice el ratón para indicar el último cuadrado que apareció en la secuencia, y pulse el botón izquierdo del ratón para seleccionar ese cuadrado. Después, indique el penúltimo cuadrado de la secuencia, seleccionándolo mediante un clic del botón izquierdo del ratón. Continúe haciendo esto hasta completar la secuencia. Si no está seguro/a de cuál es la secuencia, intente adivinarla lo mejor posible.
+
+Una vez que haya indicado y seleccionado los cuadrados en el orden INVERSO al orden en el que fueron presentados inicialmente, pulse el botón derecho del ratón para pasar al ensayo siguiente.</item>
+    <item key="Practice Caption">Comenzará con unos cuantos ensayos de práctica.</item>
+    <item key="Ready Caption">Preparado/a</item>
+    <item key="Set Caption">Listo/a</item>
+    <item key="Go Caption">Ya!</item>
+    <item key="Practice Complete Caption">Ha concluido la práctica. Presione el botón izquierdo del ratón para comenzar.</item>
+    <item key="Completion Screen Caption">Ha concluido el experimento. Gracias por su participación. Presione el botón izquierdo del ratón para salir del programa. </item>
+    <item key="Block Complete Caption">Ha concluido [BLOCK_NUMBER] bloque(s). Hay un total de [TOTAL_BLOCKS] bloques en el experimento. 
+
+Presione el botón izquierdo del ratón para continuar.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

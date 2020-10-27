@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Instructions">In this experiment, you will see a series of two different stimuli presented one at a time. Your task is to determine which stimulus was presented, and press the appropriate button as quickly as possible.
+
+If you see [STIM_ONE_DESCRIPTION], press the left mouse button as quickly as possible. 
+
+If you see [STIM_TWO_DESCRIPTION], press the right mouse button as quickly as possible.
+
+Try not to anticipate which stimulus will appear, or when it will appear. Simply respond as quickly as possible when you see a stimulus. Remember, press the left mouse button if you see [STIM_ONE_DESCRIPTION]. Press the right mouse button if you see [STIM_TWO_DESCRIPTION].
+
+Press either mouse button when you are ready to begin.</item>
+    <item key="No Instructions Caption">Press either mouse button to begin the next part.</item>
+    <item key="Rest Screen Caption">Press either mouse button to begin when you are ready to move on to the next part.</item>
+    <item key="Progress Bar Caption">Progress:</item>
+    <item key="Practice Caption">You will start by doing a few examples for practice.</item>
+    <item key="Practice Complete Caption">Practice trials complete. Press either mouse button to move on.</item>
+    <item key="Completion Screen Caption">You have finished the experiment. Thank you very much for participating! Press either mouse button to exit the program.</item>
+    <item key="Block Complete Caption">You have completed [BLOCK_NUMBER] block(s). There are [TOTAL_BLOCKS] blocks in the experiment. 
+
+Press either mouse button to move on.</item>
+    <item key="Next Screen Caption">Click the right mouse button to continue.</item>
+    <item key="Previous Screen Caption">Click the left mouse button to go back.</item>
+    <item key="Multi-Screen Start Experiment Caption">Click the right mouse button to start the experiment when you are ready.</item>
+    <item key="Start Experiment Caption">Click either mouse button to start the experiment when you are ready.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+  <map name="Sound">
+    <item key="Instructions">In this experiment, you will hear a series of two sounds presented one at a time. Your task is to determine which of two possible sounds was presented, and press the appropriate button as quickly as possible.
+
+If you hear [STIM_ONE_DESCRIPTION], press the left mouse button as quickly as possible. 
+
+If you hear [STIM_TWO_DESCRIPTION], press the right mouse button as quickly as possible.
+
+Try not to anticipate which sound you will hear, or when it will occur. Simply respond as quickly as possible when you hear a sound. Remember, press the left mouse button if you hear [STIM_ONE_DESCRIPTION]. Press the right mouse button if you hear [STIM_TWO_DESCRIPTION].
+
+Press either mouse button when you are ready to begin.</item>
+  </map>
+</experiment_text>

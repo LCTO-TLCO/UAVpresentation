@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="German">
+  <map name="default">
+    <item key="Instructions">Bei diesem Experiment sehen Sie so was wie das Gesicht einer Uhr auf dem Bildschirm. Anstatt der Zahlen erscheinen jedoch kleine Kreise in allen Uhr-Positionen (es können mehr oder weniger als 12 Positionen auf dieser „Uhr“ sein).
+
+Schauen Sie auf die „Uhr“: Sie sehen einen Target-Kreis mit einer anderer Farbe hat als die anderen Kreise; der Kreis bewegt sich um die Uhr wie der kleine Zeiger bei einer normalen Uhr. Der Kreis hält kurzzeitig an einer Uhr-Position an und bewegt sich dann weiter in die nächste Position. Das Target bewegt sich in einer [DIRECTION]-Richtung.
+
+Ihre Aufgabe ist es, die linke Maus-Taste zu drücken, jedesmal wenn das hervorgehobene Target seine Uhren-Position ändert. Stellen Sie sich eine Uhr vor, wo  der sekundäre Uhrzeiger direkt von 6 auf 8 springt. Jedesmal wenn das Target seine Position ändert, klicken Sie die linke Maus-Taste. Versuchen Sie möglichst schnell und akkurat zu respondieren.
+
+Der Test dauert eine Zeitlang. Versuchen Sie sich auf das Target zu konzentrieren, damit Sie eine Positions-Änderung nicht vermissen.
+
+Klicken Sie die linke Maus-Taste um fort zu fahren.
+</item>
+    <item key="Clockwise">im Uhrzeigersinn</item>
+    <item key="Counter-Clockwise">gegen den Uhrzeigersinn</item>
+    <item key="No Instructions Caption">Klicken die linke Maustaste, um den nächsten Teil zu beginnen. </item>
+    <item key="Rest Screen Caption">Sobald Sie bereit sind, Klicken die linke Maustaste.</item>
+    <item key="Progress Bar Caption">Fortfahren:</item>
+    <item key="Practice Caption"> Beginnen Sie mit einigen Übungsversuchen</item>
+    <item key="Practice Complete Caption">Nachdem Sie die Übungsversuche beendet haben. Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Completion Screen Caption">Sie haben das Experiment beendet. Danke für Ihre Teilnahme. Klicken  die linke Maustaste, um das Programm zu verlassen.</item>
+    <item key="Block Complete Caption">Sie haben die [BLOCK_NUMBER] Blöcke beendet. Es gibt [TOTAL_NUMBER] Blöcke.
+Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="French">
+  <map name="default">
+    <item key="Forward Instructions">Dans cette expérience, nous allons tester votre mémoire pour une séquence de chiffres.
+
+Dans chaque essai, vous entendrez une séquence de chiffres, un à la fois. Votre but est de vous rappeler des chiffres dans l'ordre où ils ont été présentés. Après que le dernier chiffre est présenté, vous devez vous rappeler tous les chiffres que vous avez entendus dans l’ordre de leur présentation. Pour répondre, utilisez le clavier pour taper les numéros, dans l'ordre dans lequel ils sont apparus. Vous n'avez pas besoin d'inclure des espaces ou d'autres caractères entre les chiffres. Vous pouvez utiliser la touche Retour pour effacer des numéros si vous faites une erreur. Si vous n'êtes pas sûr de la séquence, devinez au mieux possible.
+
+Une fois que vous avez terminé tous les chiffres en séquence, appuyez sur Entrée pour le prochain essai. 
+
+Appuyez sur Entrée pour commencer.</item>
+    <item key="Backward Instructions">Dans cette expérience, nous allons tester votre mémoire pour une séquence de chiffres.
+
+Dans chaque essai, vous entendrez une séquence de chiffres, un à la fois. Votre but est de vous rappeler des chiffres DANS L'ORDRE INVERSE de leur présentation. Donc, si vous avez entendu la séquence "1,2,3", vous devez répondre "3,2,1".
+
+Après que le dernier chiffre a été présenté, vous devez vous rappeler tous les chiffres que vous avez entendus DANS L’ORDRE INVERSE de leur présentation. Pour répondre, utilisez le clavier pour taper les numéros, dans l'ordre inverse de leur apparition. Vous n'avez pas besoin d'inclure des espaces ou d'autres caractères entre les chiffres. Vous pouvez utiliser la touche Retour pour effacer des numéros si vous faites une erreur. Si vous n'êtes pas sûr de la séquence, devinez au mieux possible.
+
+Une fois que vous avez indiqués tous les chiffres de cette séquence en ordre inverse, appuyez sur Entrée pour passer au prochain essai.
+
+Appuyez sur Entrée pour commencer.</item>
+    <item key="Response Prompt">Tapez votre réponse et appuyez sur Entrée:</item>
+    <item key="Practice Caption">Commençons par quelques essais pour vous enseigner la tâche.</item>
+    <item key="Ready Caption">Prêt</item>
+    <item key="Set Caption">Régler</item>
+    <item key="Go Caption">Aller</item>
+    <item key="Practice Complete Caption">Vous avez terminé les essais préliminaires. Appuyez sur Entrer pour commencer l’expérience. </item>
+    <item key="Completion Screen Caption">Vous avez terminé l'expérience. Nous vous remercions de votre participation. Appuyez sur Entrer pour terminer.</item>
+    <item key="Block Complete Caption">Vous avez terminé [BLOCK_NUMBER] bloc (s). Il y a un total de [TOTAL_BLOCKS] blocs dans l'expérience.
+
+Appuyez sur Entrer pour continuer.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+  <map name="Visual">
+    <item key="Forward Instructions">Dans cette expérience, nous allons tester votre mémoire pour une séquence de chiffres.
+
+Dans chaque essai, vous verrez une séquence de chiffres présentés à l'écran, un à la fois. Votre but est de vous rappeler des chiffres dans l'ordre où ils ont été présentés. Après que le dernier chiffre est présenté, vous devez vous rappeler tous les chiffres que vous avez entendus dans l’ordre de leur présentation. Pour répondre, utilisez le clavier pour taper les numéros, dans l'ordre dans lequel ils sont apparus. Vous n'avez pas besoin d'inclure des espaces ou d'autres caractères entre les chiffres. Vous pouvez utiliser la touche Retour pour effacer des numéros si vous faites une erreur. Si vous n'êtes pas sûr de la séquence, devinez au mieux possible.
+
+Une fois que vous avez terminé tous les chiffres en séquence, appuyez sur Entrée pour le prochain essai. 
+
+Appuyez sur Entrée pour commencer.</item>
+    <item key="Backward Instructions">Dans cette expérience, nous allons tester votre mémoire pour une séquence de chiffres.
+
+Dans chaque essai, vous verrez une séquence de chiffres présentés à l'écran, un à la fois. Votre but est de vous rappeler des chiffres DANS L'ORDRE INVERSE de leur présentation. Donc, si vous avez entendu la séquence "1,2,3", vous devez répondre "3,2,1".
+
+Après que le dernier chiffre a été présenté, vous devez vous rappeler tous les chiffres que vous avez entendus DANS L’ORDRE INVERSE de leur présentation. Pour répondre, utilisez le clavier pour taper les numéros, dans l'ordre inverse de leur apparition. Vous n'avez pas besoin d'inclure des espaces ou d'autres caractères entre les chiffres. Vous pouvez utiliser la touche Retour pour effacer des numéros si vous faites une erreur. Si vous n'êtes pas sûr de la séquence, devinez au mieux possible.
+
+Une fois que vous avez indiqués tous les chiffres de cette séquence en ordre inverse, appuyez sur Entrée pour passer au prochain essai.
+
+Appuyez sur Entrée pour commencer.</item>
+  </map>
+</experiment_text>

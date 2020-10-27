@@ -1,0 +1,7 @@
+# Mackworth Clock Test
+
+event_pair_table my_rm_table( trial_number1, stim_pos1, elapsed_time1, skip_cond1, num_skips1, code2, rm_type, time_diff )
+good_pairs(rm_all) :: event_cond1 == "Stim"
+
+print"Trial Number\tStim Position\tElapsed Time\tSkip\tSkip Count\tPort Code\tResponse\tAccuracy\tRT"
+print my_rm_table( good_pairs, "\t", "\n", no_header_row )

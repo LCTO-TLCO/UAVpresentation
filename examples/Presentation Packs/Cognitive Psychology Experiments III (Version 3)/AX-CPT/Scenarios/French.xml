@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="French">
+  <map name="default">
+    <item key="Instructions">Dans cette expérience, vous verrez apparaître une série de lettres, une à la fois. Votre tâche est de déterminer si chaque lettre est une cible, et d'appuyer sur le bouton correspondant.
+
+Dans cette expérience, la lettre cible est: [TARGET_LETTER]. Cependant, il y a une  restriction importante. "[TARGET_LETTER]" est seulement une cible quand elle suit la lettre [VALID_CUE_LETTER]. Si [TARGET_LETTER] vient après une autre lettre, elle n’est plus une cible.
+
+Donc, par exemple, si vous voyez la séquence suivante:
+[VALID_CUE_LETTER], [TARGET_LETTER], [INVALID_CUE_LETTER], [TARGET_LETTER]
+
+Seule la seconde lettre est une cible. Toutes les autres lettres, y compris la dernière, NE SONT PAS des cibles.
+
+Si la lettre est une cible, appuyez sur le bouton gauche de la souris.
+
+Pour chaque lettre qui N’EST PAS une cible, appuyez sur le bouton droit de la souris.
+
+Essayez de répondre aussi rapidement que possible tout en étant précis. Appuyez sur un des boutons de la souris lorsque vous êtes prêt à commencer.</item>
+    <item key="No Instructions Caption">Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Rest Screen Caption">Appuyez sur un des boutons de la souris pour commencer que lorsque vous êtes prêt à passer à la partie suivante.</item>
+    <item key="Progress Bar Caption">Progrès:</item>
+    <item key="Practice Caption">Commençons par quelques essais pour vous enseigner la tâche.</item>
+    <item key="Practice Complete Caption">Vous avez terminé les essais préliminaires. Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Completion Screen Caption">Vous avez terminé l'expérience. Nous vous remercions de votre participation. Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Block Complete Caption">Vous avez terminé [BLOCK_NUMBER] bloc (s). Il y a un total de [TOTAL_BLOCKS] blocs dans le test.
+
+Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

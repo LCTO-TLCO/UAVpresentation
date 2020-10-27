@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Chinese">
+  <map name="default">
+    <item key="Instructions">在本实验中，你唯一的任务是确定一个视觉刺激在屏幕上的位置并按下相应的按键。
+
+实验进行时，四个方块的边框会一直出现在屏幕上，从左到右排成一条直线。这四个方块代表了视觉刺激可能出现的四个位置。每次只有一个刺激出现，你的任务是指出刺激位于哪一个方块中。
+
+如果视觉刺激出现在了最左边的方块中，请尽快按1。如果视觉刺激出现在稍右边的方块中，请尽快按2。当视觉刺激出现在更右边一个方块中，请按3。最后，如果视觉刺激出现在了最右边的方块中，请尽快按下4。
+
+除此之外你没有其它任务，你只需指出视觉刺激出现的位置（在哪个方块中），并且尽快按下相应的按键。
+
+如果你准备好了，请按回车（Enter）键开始。
+</item>
+    <item key="No Instructions Caption">请按回车键开始下一部分。</item>
+    <item key="Rest Screen Caption">如果你准备好了，请按回车键开始。</item>
+    <item key="Progress Bar Caption">进度：</item>
+    <item key="Practice Caption">首先你要做几个试次的练习。</item>
+    <item key="Practice Complete Caption">练习结束。请按回车键开始。</item>
+    <item key="Completion Screen Caption">
+你已经完成本实验。感谢参与。请按回车键退出程序。
+</item>
+    <item key="Block Complete Caption">你已经完成了[BLOCK_NUMBER]个组块。本实验共有[TOTAL_BLOCKS]个组块。
+请按回车键继续。
+</item>
+    <item key="Word Wrap Mode">Character</item>
+  </map>
+</experiment_text>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Instructions">You will be shown a series of letter strings, one at a time. Your task is to identify whether each letter string you see is a target, and to press the corresponding button.
+
+In this experiment, the target string is: [TARGET_LETTER]. However, there is a catch. [TARGET_LETTER] should ONLY be considered a target when it follows the string [VALID_CUE_LETTER]. If [TARGET_LETTER] follows ANY other string, you should no longer consider it a target. So, for example, if you see the following sequence:
+
+[VALID_CUE_LETTER], [TARGET_LETTER], [INVALID_CUE_LETTER], [TARGET_LETTER]
+
+only the second string in that sequence is a target. All the other strings, including the last one, are NOT targets.
+
+When you see a target, press the left mouse button. For any other stimuli, press the right mouse button.
+
+Try to answer as quickly as possible while still being accurate. Press either mouse button when you are ready to begin.</item>
+    <item key="No Instructions Caption">Press either mouse button to begin the next part.</item>
+    <item key="Rest Screen Caption">Press either mouse button to begin when you are ready to move on to the next part.</item>
+    <item key="Progress Bar Caption">Progress:</item>
+    <item key="Practice Caption">You will start by doing a few examples for practice.</item>
+    <item key="Practice Complete Caption">Practice trials complete. Press either mouse button to move on.</item>
+    <item key="Completion Screen Caption">You have finished the experiment. Thank you very much for participating! Press either mouse button to exit the program.</item>
+    <item key="Block Complete Caption">You have completed [BLOCK_NUMBER] block(s). There are [TOTAL_BLOCKS] blocks in the experiment. 
+
+Press either mouse button to move on.</item>
+    <item key="Next Screen Caption">Click the right mouse button to continue.</item>
+    <item key="Previous Screen Caption">Click the left mouse button to go back.</item>
+    <item key="Multi-Screen Start Experiment Caption">Click the right mouse button to start the experiment when you are ready.</item>
+    <item key="Start Experiment Caption">Click either mouse button to start the experiment when you are ready.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

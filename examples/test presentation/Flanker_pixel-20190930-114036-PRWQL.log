@@ -1,0 +1,80 @@
+Scenario - 
+Logfile written - 09/30/2019 11:41:16
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Response	3	81072	80906	11
+2	Picture	fix	81167	0	1	4333	8	0	next	other	0
+3	Picture	STIM R I	85501	0	8	333	8	0	200	miss	0
+4	Picture	omission	95667	0	1	333	1	0	200	other	0
+5	Picture	fix	96001	0	1	5333	6	0	next	other	0
+6	Picture	STIM R I	101334	0	6	333	6	0	200	miss	0
+7	Picture	omission	111501	0	1	500	1	0	200	other	0
+8	Picture	fix	112001	0	1	5833	5	0	next	other	0
+9	Picture	STIM R I	117834	0	5	333	5	0	200	miss	0
+10	Picture	omission	128001	0	1	333	1	0	200	other	0
+11	Picture	fix	128501	0	1	5667	5	0	next	other	0
+12	Picture	STIM R C	134168	0	5	333	5	0	200	miss	0
+13	Picture	omission	144334	0	1	333	1	0	200	other	0
+14	Picture	fix	144834	0	1	5667	8	0	next	other	0
+15	Picture	STIM L C	150501	0	7	333	8	0	200	miss	0
+16	Picture	omission	160668	0	1	333	1	0	200	other	0
+17	Picture	fix	161168	0	1	4500	6	0	next	other	0
+18	Picture	STIM L I	165668	0	5	333	6	0	200	miss	0
+19	Picture	omission	175834	0	1	333	1	0	200	other	0
+20	Picture	fix	176168	0	1	5167	6	0	next	other	0
+21	Picture	STIM R C	181335	0	6	333	6	0	200	miss	0
+22	Picture	omission	191501	0	1	333	1	0	200	other	0
+23	Picture	fix	191835	0	1	4833	7	0	next	other	0
+24	Picture	STIM R C	196668	0	7	333	7	0	200	miss	0
+25	Picture	omission	206835	0	1	333	1	0	200	other	0
+26	Picture	fix	207335	0	1	4833	6	0	next	other	0
+27	Picture	STIM R I	212168	0	6	333	6	0	200	miss	0
+28	Picture	omission	222335	0	1	333	1	0	200	other	0
+29	Picture	fix	222835	0	1	5667	5	0	next	other	0
+30	Picture	STIM R C	228502	0	5	333	5	0	200	miss	0
+31	Picture	omission	238668	0	1	333	1	0	200	other	0
+32	Picture	fix	239002	0	1	6000	5	0	next	other	0
+33	Picture	STIM L C	245002	0	5	333	5	0	200	miss	0
+34	Picture	omission	255168	0	1	333	1	0	200	other	0
+35	Picture	fix	255502	0	1	6000	8	0	next	other	0
+36	Picture	STIM L I	261502	0	8	333	8	0	200	miss	0
+37	Picture	omission	271669	0	1	333	1	0	200	other	0
+38	Picture	fix	272002	0	1	5334	8	0	next	other	0
+39	Picture	STIM L I	277335	0	8	333	8	0	200	miss	0
+40	Picture	omission	287502	0	1	333	1	0	200	other	0
+41	Picture	fix	287835	0	1	4167	7	0	next	other	0
+42	Picture	STIM L C	292002	0	7	333	7	0	200	miss	0
+43	Picture	omission	302169	0	1	333	1	0	200	other	0
+44	Picture	fix	302502	0	1	4333	9	0	next	other	0
+45	Picture	STIM L I	306836	0	9	333	9	0	200	miss	0
+46	Picture	omission	317002	0	1	333	1	0	200	other	0
+47	Picture	fix	317336	0	1	4333	9	0	next	other	0
+48	Picture	STIM L C	321669	0	9	333	9	0	200	miss	0
+49	Picture	omission	331836	0	1	333	1	0	200	other	0
+50	Picture	fix	332169	0	1	4833	6	0	next	other	0
+51	Picture	STIM L C	337002	0	6	333	6	0	200	miss	0
+52	Picture	omission	347169	0	1	333	1	0	200	other	0
+53	Picture	fix	347502	0	1	5833	6	0	next	other	0
+54	Picture	STIM R C	353336	0	6	333	6	0	200	miss	0
+55	Picture	omission	363503	0	1	333	1	0	200	other	0
+56	Picture	fix	363836	0	1	4333	6	0	next	other	0
+57	Picture	STIM L C	368169	0	6	333	6	0	200	miss	0
+58	Picture	omission	378336	0	1	333	1	0	200	other	0
+59	Picture	fix	378669	0	1	5502	1	0	next	other	0
+59	Quit		378906	237	NA
+
+
+{
+   "app": "Presentation Version 21.0 Build 06.06.19",
+   "device": "Alienware Alienware 15 R3",
+   "experiment": "{4A2AFD06-9C75-486E-92CA-5BDB1E053DD1}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "Flanker_pixel.sce",
+   "subject": "",
+   "timestamp": "2019/09/30 02:40:36 GMT"
+}

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Chinese">
+  <map name="default">
+    <item key="Instructions">在这项任务中，你要做的是尽量使你赢得的钱数最大化。
+
+在每个试次，你都要从屏幕上的[NUMBER_DECKS_LABEL]副牌中选择一副，并从中抽取一张牌。你所选择的每张牌都代表了一项奖励以及一项处罚。或者说，对于每张牌你都会获得一定数额的钱作为奖励并且失去一定数额作为处罚。
+
+请用鼠标高亮屏幕上[NUMBER_DECKS_LABEL]副牌中的一副，并点击鼠标左键从那副牌中选择一张。之后，屏幕上会出现一个对话框，告知你那张牌所代表的奖励和处罚的数额，以及你当前的总钱数。请记住，你的目标是尽可能多地赢钱。
+
+如果你准备好了，请按鼠标左键开始。
+</item>
+    <item key="Deck Caption">请选择一副牌！</item>
+    <item key="Choice Caption">你的选择是：</item>
+    <item key="Reward Caption">你赢得了：</item>
+    <item key="Penalty Caption">你失去了：</item>
+    <item key="Total Caption">你的总钱数是：</item>
+    <item key="Current Total Caption">你的总钱数是：</item>
+    <item key="Practice Caption">首先你要做几个试次的练习。</item>
+    <item key="Practice Complete Caption">實踐試驗完成。按下兩個鼠標按鈕繼續前進。</item>
+    <item key="Block Complete Caption">你已经完成了[BLOCK_NUMBER]个组块。本实验共有[TOTAL_BLOCKS]个组块。.
+按下兩個鼠標按鈕繼續前進。</item>
+    <item key="Completion Screen Caption">你已經完成了實驗。非常感謝您的參與。按下兩個鼠標按鈕來退出程序。</item>
+    <item key="Word Wrap Mode">Character</item>
+  </map>
+</experiment_text>

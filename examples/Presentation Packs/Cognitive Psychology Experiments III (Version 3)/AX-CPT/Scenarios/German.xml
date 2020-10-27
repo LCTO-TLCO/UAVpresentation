@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="German">
+  <map name="default">
+    <item key="Instructions">Bei diesem Experiment sehen Sie nacheinander eine Serie von Buchstaben-Ketten. Ihre Aufgabe ist es heraus zu finden, ob jede Buchstaben-Kette, die Sie sehen, ein Target ist. Dann drücken Sie die entsprechende Taste.
+
+Bei diesem Experiment heist die Target-Serie [TARGET_LETTER]: Jedoch da  ist ein Haken dabei: Der [TARGET_LETTER] soll NUR dann als Target betrachtet werden, wenn er nach dem [VALID_CUE_LETTER] folgt. Wenn [TARGET_LETTER] nach irgendeiner anderen Kette kommt, sollten Sie diese nicht mehr als Target betrachten.
+ 
+Wenn Sie beispielsweise die Sequenz [VALID_CUE_LETTER], [TARGET_LETTER], [INVALID_CUE_LETTER], [TARGET_LETTER] sehen, ist nur die zweite Kette ein Target. Alle anderen Ketten einschliesslich die Letzte sind keine Targets.
+
+Wenn die Kette, die erscheint, ein Target ist, drücken Sie die linke Maus-Taste.
+
+Wenn die Serie, die erscheint, KEIN Target ist, drücken Sie die rechte Maus-Taste.
+
+Versuchen Sie so rasch wie möglich und akkurat zu antworten. Drücken Sie einen der Maus-Tasten, wenn Sie bereit sind zu beginnen.
+ </item>
+    <item key="No Instructions Caption"> Drücke Sie “enter”, um den nächsten Teil zu beginnen</item>
+    <item key="Rest Screen Caption">Sobald Sie bereit sind, drücken Sie “enter” um zu beginnen</item>
+    <item key="Progress Bar Caption">Fortfahren:</item>
+    <item key="Practice Caption">Beginnen Sie mit einigen Übungsversuchen</item>
+    <item key="Practice Complete Caption"> Nachdem Sie die Übungsversuche beendet haben, drücken Sie “enter”, um zu beginnen.</item>
+    <item key="Completion Screen Caption">Sie haben das Experiment beendet. Danke für Ihre Teilnahme. Klicken Sie einen der beiden Maus-Tasten</item>
+    <item key="Block Complete Caption">Sie haben die (BLOCK_NUMBER) Blöcke beendet. Es gibt [TOTAL_NUMBER] Blöcke.
+
+Klicken Sie einen der beiden Maus-Tasten</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

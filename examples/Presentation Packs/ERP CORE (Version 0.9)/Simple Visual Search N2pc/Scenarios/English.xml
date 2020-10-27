@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Main Instructions">In this task, an array of squares will be presented to the left and right of a central fixation point. For each block of trials, you will be given a target color ([COLOR_ONE] or [COLOR_TWO]) to attend to. Your task is to respond whether the square matching the target color contains a gap on the top or on the bottom. 
+
+If the gap is on the TOP of the target square, 
+press [TOP_BUTTON] with your dominant hand. 
+
+If the gap is on the BOTTOM of the target square, 
+press [BOTTOM_BUTTON] with your dominant hand. 
+
+Please respond as quickly and accurately as possible. 
+
+Press either button to see the target for this block.</item>
+    <item key="Target Instructions">Your target color for this block is: [TARGET_COLOR]
+
+As a reminder, if the gap is on the TOP of the target square, 
+press [TOP_BUTTON] with your dominant hand. 
+
+If the gap is on the BOTTOM of the target square, 
+press [BOTTOM_BUTTON] with your dominant hand.  
+
+Press either button to begin.</item>
+    <item key="Timed Rest Caption">Take a rest!
+
+The next set will begin soon.</item>
+    <item key="Untimed Rest Caption">Take a rest!
+
+Press either button to continue.</item>
+    <item key="Target Reminder Caption">Your target color for this block is: [TARGET_COLOR].
+
+As a reminder, if the gap is on the TOP of the target square, 
+press [TOP_BUTTON] with your dominant hand. 
+
+If the gap is on the BOTTOM of the target square, 
+press [BOTTOM_BUTTON] with your dominant hand.  
+
+Press either button to begin.</item>
+    <item key="Ready Caption">Ready</item>
+    <item key="Set Caption">Set</item>
+    <item key="Go Caption">Go</item>
+    <item key="Completion Screen Caption">You have completed the experiment. Thank you for participating. Press either button to exit the program.</item>
+    <item key="Practice Caption">You will start by doing a few trials for practice.</item>
+    <item key="Practice Complete Caption">Practice trials complete! 
+
+Please wait for instructions from the experimenter.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

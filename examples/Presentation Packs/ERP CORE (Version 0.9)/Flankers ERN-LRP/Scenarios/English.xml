@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Instructions">In this task, a set of five arrowheads will be presented. Your task is to respond whether the arrowhead in the center of the screen is pointing to the left or right.  
+
+If the central arrowhead is pointing to the left 
+[LEFT_CHAR]
+press [LEFT_BUTTON]. 
+
+If the central arrowhead is pointing to the right
+[RIGHT_CHAR]
+press [RIGHT_BUTTON]. 
+
+Please respond as quickly and accurately as possible.</item>
+    <item key="Reminder Caption">If the central arrowhead is pointing to the left 
+[LEFT_CHAR]
+press [LEFT_BUTTON]. 
+
+If the central arrowhead is pointing to the right
+[RIGHT_CHAR]
+press [RIGHT_BUTTON]. 
+
+Press either button to continue.</item>
+    <item key="Timed Rest Caption">Take a rest!
+
+[FEEDBACK]
+
+Press the left or right button when you are ready to continue.</item>
+    <item key="Untimed Rest Caption">Take a rest!
+
+[FEEDBACK]
+
+Press [LEFT_BUTTON] or [RIGHT_BUTTON] when you are ready to continue.</item>
+    <item key="Ready Caption">Ready</item>
+    <item key="Set Caption">Set</item>
+    <item key="Go Caption">Go</item>
+    <item key="Slow Down Caption">Try to respond more accurately.</item>
+    <item key="Speed Up Caption">Try to respond a bit faster.</item>
+    <item key="OK Caption">Great job!</item>
+    <item key="Completion Screen Caption">You have now completed the experiment. 
+
+Thank you for participating. Press either button to exit.</item>
+    <item key="Practice Caption">Press either button to begin the practice trials.</item>
+    <item key="Practice Complete Caption">Practice trials complete! 
+
+Please wait for the experimenter.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

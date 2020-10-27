@@ -1,0 +1,1988 @@
+Scenario - Stop Signal Task
+Logfile written - 01/15/2019 15:48:44
+
+Subject	Trial	Event Type	Code	event_cond(str)	block_name(str)	trial_number(num)	stim_caption(str)	stim_cond(str)	stop_type(str)	curr_ssd(num)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+test	1	Response	1								779039	778373	0
+test	2	Picture	ITI	ITI							779391	0	1	10168	1	0	next	other	0
+test	3	Picture	Fixation	Fixation							789559	0	1	5000	1	0	next	other	0
+test	4	Picture	Stim;Practice;1;A;Left;Go;400	Stim	Practice	1	A	Left	Go	400	794559	0	1	1000	1	0	920	hit	5
+test	4	Response	1								797522	2963	0
+test	6	Picture	Feedback	Feedback							803560	0	1	5000	1	0	next	other	0
+test	7	Picture	ITI	ITI							808560	0	1	10001	1	0	next	other	0
+test	8	Picture	Fixation	Fixation							818561	0	1	5000	1	0	next	other	0
+test	9	Picture	Stim;Practice;2;A;Left;Go;400	Stim	Practice	2	A	Left	Go	400	823561	0	1	1000	1	0	920	hit	10
+test	9	Response	1								827602	4041	0
+test	11	Picture	Feedback	Feedback							832562	0	1	5167	1	0	next	other	0
+test	12	Picture	ITI	ITI							837729	0	1	10001	1	0	next	other	0
+test	13	Picture	Fixation	Fixation							847730	0	1	5000	1	0	next	other	0
+test	14	Picture	Stim;Practice;3;Z;Right;Go;400	Stim	Practice	3	Z	Right	Go	400	852730	0	1	1000	1	0	920	hit	15
+test	14	Response	2								856798	4068	0
+test	14	Response	2								857919	5189	0
+test	16	Picture	Feedback	Feedback							861897	0	1	5000	1	0	next	other	0
+test	17	Picture	ITI	ITI							866898	0	1	10001	1	0	next	other	0
+test	18	Picture	Fixation	Fixation							876898	0	1	5167	1	0	next	other	0
+test	19	Picture	Stim;Practice;4;Z;Right;Go;400	Stim	Practice	4	Z	Right	Go	400	882066	0	1	1000	1	0	920	hit	21
+test	19	Response	2								884962	2896	0
+test	21	Picture	Feedback	Feedback							891066	0	1	5000	1	0	next	other	0
+test	22	Picture	ITI	ITI							896067	0	1	10001	1	0	next	other	0
+test	23	Picture	Fixation	Fixation							906067	0	1	5000	1	0	next	other	0
+test	24	Picture	Stim;Practice;5;Z;Right;Stop;400	Stim	Practice	5	Z	Right	Stop	400	911068	0	1	1000	1	0	920	false_alarm	26
+test	24	Response	2								914722	3654	0
+test	25	Picture	Stop	Stop							915235	0	1	5000	1	0	next	other	0
+test	27	Picture	Feedback	Feedback							920235	0	1	5000	1	0	next	other	0
+test	28	Picture	ITI	ITI							925235	0	1	10001	1	0	next	other	0
+test	29	Picture	Fixation	Fixation							935236	0	1	5000	1	0	next	other	0
+test	30	Picture	Stim;Practice;6;Z;Right;Go;384	Stim	Practice	6	Z	Right	Go	384	940237	0	1	1167	1	0	920	hit	32
+test	30	Response	2								944322	4085	0
+test	32	Picture	Feedback	Feedback							949071	0	1	5000	1	0	next	other	0
+test	33	Picture	ITI	ITI							954071	0	1	10001	1	0	next	other	0
+test	34	Picture	Fixation	Fixation							964072	0	1	5000	1	0	next	other	0
+test	35	Picture	Stim;Practice;7;A;Left;Go;384	Stim	Practice	7	A	Left	Go	384	969072	0	1	1000	1	0	920	hit	37
+test	35	Response	1								972162	3090	0
+test	37	Picture	Feedback	Feedback							977906	0	1	5000	1	0	next	other	0
+test	38	Picture	ITI	ITI							982906	0	1	10001	1	0	next	other	0
+test	39	Picture	Fixation	Fixation							992907	0	1	5167	1	0	next	other	0
+test	40	Picture	Stim;Practice;8;Z;Right;Stop;384	Stim	Practice	8	Z	Right	Stop	384	998074	0	1	1000	1	0	920	false_alarm	42
+test	40	Response	2								1000960	2886	0
+test	41	Picture	Stop	Stop							1001908	0	1	5000	1	0	next	other	0
+test	43	Picture	Feedback	Feedback							1006908	0	1	5000	1	0	next	other	0
+test	44	Picture	ITI	ITI							1011909	0	1	10001	1	0	next	other	0
+test	45	Picture	Fixation	Fixation							1021909	0	1	5000	1	0	next	other	0
+test	46	Picture	Stim;Practice;9;A;Left;Stop;368	Stim	Practice	9	A	Left	Stop	368	1026910	0	1	1000	1	0	920	false_alarm	48
+test	46	Response	1								1029522	2612	0
+test	47	Picture	Stop	Stop							1030577	0	1	5167	1	0	next	other	0
+test	49	Picture	Feedback	Feedback							1035744	0	1	5000	1	0	next	other	0
+test	50	Picture	ITI	ITI							1040744	0	1	10001	1	0	next	other	0
+test	51	Picture	Fixation	Fixation							1050745	0	1	5000	1	0	next	other	0
+test	52	Picture	Stim;Practice;10;A;Left;Stop;352	Stim	Practice	10	A	Left	Stop	352	1055745	0	1	1000	1	0	920	false_alarm	54
+test	52	Response	2								1058000	2255	0
+test	53	Picture	Stop	Stop							1059245	0	1	5000	1	0	next	other	0
+test	55	Picture	Feedback	Feedback							1064246	0	1	5000	1	0	next	other	0
+test	56	Picture	ITI	ITI							1069246	0	1	10001	1	0	next	other	0
+test	57	Response	1								1109121	29874	0
+test	58	Picture	ITI	ITI							1109582	0	1	10168	1	0	next	other	0
+test	59	Picture	Fixation	Fixation							1119750	0	1	5167	1	0	next	other	0
+test	60	Picture	Stim;Main;1;Z;Right;Go;400	Stim	Main	1	Z	Right	Go	400	1124917	0	1	1000	1	0	920	incorrect	62
+test	60	Response	1								1128239	3322	0
+test	62	Picture	Feedback	Feedback							1133918	0	1	5000	1	0	next	other	0
+test	63	Picture	ITI	ITI							1138918	0	1	10001	1	0	next	other	0
+test	64	Picture	Fixation	Fixation							1148919	0	1	5000	1	0	next	other	0
+test	65	Picture	Stim;Main;2;A;Left;Go;400	Stim	Main	2	A	Left	Go	400	1153919	0	1	1167	1	0	920	hit	67
+test	65	Response	1								1158401	4482	0
+test	67	Picture	Feedback	Feedback							1162920	0	1	5167	1	0	next	other	0
+test	68	Picture	ITI	ITI							1168087	0	1	10168	1	0	next	other	0
+test	69	Picture	Fixation	Fixation							1178254	0	1	5000	1	0	next	other	0
+test	70	Picture	Stim;Main;3;A;Left;Go;400	Stim	Main	3	A	Left	Go	400	1183255	0	1	1167	1	0	920	incorrect	72
+test	70	Response	2								1186081	2826	0
+test	72	Picture	Feedback	Feedback							1192255	0	1	5000	1	0	next	other	0
+test	73	Picture	ITI	ITI							1197256	0	1	10001	1	0	next	other	0
+test	74	Picture	Fixation	Fixation							1207256	0	1	5000	1	0	next	other	0
+test	75	Picture	Stim;Main;4;A;Left;Go;400	Stim	Main	4	A	Left	Go	400	1212257	0	1	1000	1	0	920	hit	77
+test	75	Response	1								1215202	2945	0
+test	77	Picture	Feedback	Feedback							1221258	0	1	5000	1	0	next	other	0
+test	78	Picture	ITI	ITI							1226258	0	1	10000	2	0	next	other	0
+test	79	Picture	Fixation	Fixation							1236258	0	2	5001	2	0	next	other	0
+test	80	Picture	Stim;Main;5;Z;Right;Go;400	Stim	Main	5	Z	Right	Go	400	1241259	0	1	1000	1	0	920	hit	82
+test	80	Response	2								1246241	4982	0
+test	82	Picture	Feedback	Feedback							1250260	0	1	5000	1	0	next	other	0
+test	83	Picture	ITI	ITI							1255260	0	1	10001	1	0	next	other	0
+test	84	Picture	Fixation	Fixation							1265261	0	1	5000	1	0	next	other	0
+test	85	Picture	Stim;Main;6;A;Left;Stop;400	Stim	Main	6	A	Left	Stop	400	1270261	0	1	1000	1	0	920	false_alarm	87
+test	85	Response	1								1273842	3580	0
+test	86	Picture	Stop	Stop							1274261	0	1	5000	1	0	next	other	0
+test	88	Picture	Feedback	Feedback							1279262	0	1	5000	1	0	next	other	0
+test	89	Picture	ITI	ITI							1284262	0	1	10167	1	0	next	other	0
+test	90	Picture	Fixation	Fixation							1294430	0	1	5167	1	0	next	other	0
+test	91	Picture	Stim;Main;7;A;Left;Go;384	Stim	Main	7	A	Left	Go	384	1299597	0	1	1000	1	0	920	hit	93
+test	91	Response	1								1304880	5284	0
+test	93	Picture	Feedback	Feedback							1308431	0	1	5167	1	0	next	other	0
+test	94	Picture	ITI	ITI							1313598	0	1	10001	1	0	next	other	0
+test	95	Picture	Fixation	Fixation							1323598	0	1	5000	1	0	next	other	0
+test	96	Picture	Stim;Main;8;Z;Right;Go;384	Stim	Main	8	Z	Right	Go	384	1328599	0	1	1000	1	0	920	hit	98
+test	96	Response	2								1331842	3243	0
+test	98	Picture	Feedback	Feedback							1337433	0	1	5000	1	0	next	other	0
+test	99	Picture	ITI	ITI							1342433	0	1	10001	1	0	next	other	0
+test	100	Picture	Fixation	Fixation							1352434	0	1	5167	1	0	next	other	0
+test	101	Picture	Stim;Main;9;Z;Right;Stop;384	Stim	Main	9	Z	Right	Stop	384	1357601	0	1	1000	1	0	920	false_alarm	103
+test	101	Response	2								1361200	3599	0
+test	102	Picture	Stop	Stop							1361435	0	1	5000	1	0	next	other	0
+test	104	Picture	Feedback	Feedback							1366435	0	1	5000	1	0	next	other	0
+test	105	Picture	ITI	ITI							1371435	0	1	10167	1	0	next	other	0
+test	106	Picture	Fixation	Fixation							1381603	0	1	5000	1	0	next	other	0
+test	107	Picture	Stim;Main;10;Z;Right;Go;368	Stim	Main	10	Z	Right	Go	368	1386603	0	1	1000	1	0	920	hit	109
+test	107	Response	2								1391041	4438	0
+test	109	Picture	Feedback	Feedback							1395270	0	1	5167	1	0	next	other	0
+test	110	Picture	ITI	ITI							1400438	0	1	10001	1	0	next	other	0
+test	111	Picture	Fixation	Fixation							1410438	0	1	5000	1	0	next	other	0
+test	112	Picture	Stim;Main;11;Z;Right;Go;368	Stim	Main	11	Z	Right	Go	368	1415439	0	1	1000	1	0	920	hit	114
+test	112	Response	2								1419121	3682	0
+test	114	Picture	Feedback	Feedback							1424273	0	1	5001	1	0	next	other	0
+test	115	Picture	ITI	ITI							1429273	0	1	10001	1	0	next	other	0
+test	116	Picture	Fixation	Fixation							1439274	0	1	5000	1	0	next	other	0
+test	117	Picture	Stim;Main;12;Z;Right;Go;368	Stim	Main	12	Z	Right	Go	368	1444274	0	1	1167	1	0	920	hit	119
+test	117	Response	2								1448481	4206	0
+test	119	Picture	Feedback	Feedback							1452941	0	1	5000	1	0	next	other	0
+test	120	Picture	ITI	ITI							1457942	0	1	10001	1	0	next	other	0
+test	121	Picture	Fixation	Fixation							1467943	0	1	5000	1	0	next	other	0
+test	122	Picture	Stim;Main;13;A;Left;Go;368	Stim	Main	13	A	Left	Go	368	1472943	0	1	1000	1	0	920	hit	124
+test	122	Response	1								1476321	3378	0
+test	124	Picture	Feedback	Feedback							1481610	0	1	5000	1	0	next	other	0
+test	125	Picture	ITI	ITI							1486611	0	1	10001	1	0	next	other	0
+test	126	Picture	Fixation	Fixation							1496611	0	1	5000	1	0	next	other	0
+test	127	Picture	Stim;Main;14;A;Left;Stop;368	Stim	Main	14	A	Left	Stop	368	1501612	0	1	1000	1	0	920	false_alarm	129
+test	127	Response	2								1504562	2950	0
+test	128	Picture	Stop	Stop							1505279	0	1	5000	1	0	next	other	0
+test	130	Picture	Feedback	Feedback							1510279	0	1	5167	1	0	next	other	0
+test	131	Picture	ITI	ITI							1515446	0	1	10001	1	0	next	other	0
+test	132	Picture	Fixation	Fixation							1525447	0	1	5000	1	0	next	other	0
+test	133	Picture	Stim;Main;15;A;Left;Stop;352	Stim	Main	15	A	Left	Stop	352	1530447	0	1	1000	1	0	920	false_alarm	136
+test	134	Picture	Stop	Stop							1534114	0	1	5000	1	0	next	other	0
+test	134	Response	1								1535761	1647	0
+test	136	Picture	Feedback	Feedback							1539115	0	1	5000	1	0	next	other	0
+test	137	Picture	ITI	ITI							1544115	0	1	10001	1	0	next	other	0
+test	138	Picture	Fixation	Fixation							1554116	0	1	5000	1	0	next	other	0
+test	139	Picture	Stim;Main;16;A;Left;Go;336	Stim	Main	16	A	Left	Go	336	1559116	0	1	1000	1	0	920	hit	141
+test	139	Response	1								1566241	7125	0
+test	141	Picture	Feedback	Feedback							1567450	0	1	5000	1	0	next	other	0
+test	142	Picture	ITI	ITI							1572450	0	1	10001	1	0	next	other	0
+test	143	Picture	Fixation	Fixation							1582451	0	1	5000	1	0	next	other	0
+test	144	Picture	Stim;Main;17;A;Left;Go;336	Stim	Main	17	A	Left	Go	336	1587451	0	1	1000	1	0	920	hit	146
+test	144	Response	1								1591520	4069	0
+test	146	Picture	Feedback	Feedback							1595952	0	1	5167	1	0	next	other	0
+test	147	Picture	ITI	ITI							1601119	0	1	10001	1	0	next	other	0
+test	148	Picture	Fixation	Fixation							1611120	0	1	5000	1	0	next	other	0
+test	149	Picture	Stim;Main;18;Z;Right;Go;336	Stim	Main	18	Z	Right	Go	336	1616120	0	1	1000	1	0	920	hit	151
+test	149	Response	2								1620160	4040	0
+test	151	Picture	Feedback	Feedback							1624454	0	1	5000	1	0	next	other	0
+test	152	Picture	ITI	ITI							1629455	0	1	10001	1	0	next	other	0
+test	153	Picture	Fixation	Fixation							1639455	0	1	5000	1	0	next	other	0
+test	154	Picture	Stim;Main;19;A;Left;Go;336	Stim	Main	19	A	Left	Go	336	1644456	0	1	1000	1	0	920	hit	156
+test	154	Response	1								1647842	3386	0
+test	156	Picture	Feedback	Feedback							1652790	0	1	5000	1	0	next	other	0
+test	157	Picture	ITI	ITI							1657790	0	1	10001	1	0	next	other	0
+test	158	Picture	Fixation	Fixation							1667791	0	1	5000	1	0	next	other	0
+test	159	Picture	Stim;Main;20;Z;Right;Go;336	Stim	Main	20	Z	Right	Go	336	1672791	0	1	1000	1	0	920	hit	161
+test	159	Response	2								1676161	3370	0
+test	161	Picture	Feedback	Feedback							1681292	0	1	5000	1	0	next	other	0
+test	162	Picture	ITI	ITI							1686292	0	1	10000	2	0	next	other	0
+test	163	Picture	Fixation	Fixation							1696292	0	2	5001	2	0	next	other	0
+test	164	Picture	Stim;Main;21;A;Left;Go;336	Stim	Main	21	A	Left	Go	336	1701293	0	1	1167	1	0	920	hit	166
+test	164	Response	1								1704561	3268	0
+test	166	Picture	Feedback	Feedback							1709794	0	1	5000	1	0	next	other	0
+test	167	Picture	ITI	ITI							1714794	0	1	10167	1	0	next	other	0
+test	168	Picture	Fixation	Fixation							1724962	0	1	5000	1	0	next	other	0
+test	169	Picture	Stim;Main;22;A;Left;Go;336	Stim	Main	22	A	Left	Go	336	1729962	0	1	1167	1	0	920	hit	171
+test	169	Response	1								1733600	3638	0
+test	171	Picture	Feedback	Feedback							1738463	0	1	5000	1	0	next	other	0
+test	172	Picture	ITI	ITI							1743463	0	1	10001	1	0	next	other	0
+test	173	Picture	Fixation	Fixation							1753464	0	1	5000	1	0	next	other	0
+test	174	Picture	Stim;Main;23;A;Left;Go;336	Stim	Main	23	A	Left	Go	336	1758464	0	1	1000	1	0	920	hit	176
+test	174	Response	1								1762081	3617	0
+test	176	Picture	Feedback	Feedback							1766965	0	1	5000	1	0	next	other	0
+test	177	Picture	ITI	ITI							1771965	0	1	10001	1	0	next	other	0
+test	178	Picture	Fixation	Fixation							1781966	0	1	5000	1	0	next	other	0
+test	179	Picture	Stim;Main;24;Z;Right;Go;336	Stim	Main	24	Z	Right	Go	336	1786966	0	1	1000	1	0	920	hit	181
+test	179	Response	2								1790881	3915	0
+test	181	Picture	Feedback	Feedback							1795300	0	1	5000	1	0	next	other	0
+test	182	Picture	ITI	ITI							1800301	0	1	10168	1	0	next	other	0
+test	183	Picture	Fixation	Fixation							1810468	0	1	5000	1	0	next	other	0
+test	184	Picture	Stim;Main;25;Z;Right;Go;336	Stim	Main	25	Z	Right	Go	336	1815468	0	1	1000	1	0	920	hit	186
+test	184	Response	2								1819440	3972	0
+test	186	Picture	Feedback	Feedback							1823802	0	1	5000	1	0	next	other	0
+test	187	Picture	ITI	ITI							1828803	0	1	10334	1	0	next	other	0
+test	188	Picture	Fixation	Fixation							1839137	0	1	5000	1	0	next	other	0
+test	189	Picture	Stim;Main;26;Z;Right;Go;336	Stim	Main	26	Z	Right	Go	336	1844137	0	1	1000	1	0	920	hit	191
+test	189	Response	2								1848482	4345	0
+test	191	Picture	Feedback	Feedback							1852471	0	1	5000	1	0	next	other	0
+test	192	Picture	ITI	ITI							1857472	0	1	10001	1	0	next	other	0
+test	193	Picture	Fixation	Fixation							1867472	0	1	5000	1	0	next	other	0
+test	194	Picture	Stim;Main;27;Z;Right;Go;336	Stim	Main	27	Z	Right	Go	336	1872473	0	1	1167	1	0	920	hit	196
+test	194	Response	2								1876641	4168	0
+test	196	Picture	Feedback	Feedback							1880973	0	1	5000	1	0	next	other	0
+test	197	Picture	ITI	ITI							1885974	0	1	10167	1	0	next	other	0
+test	198	Picture	Fixation	Fixation							1896141	0	1	5167	1	0	next	other	0
+test	199	Picture	Stim;Main;28;A;Left;Stop;336	Stim	Main	28	A	Left	Stop	336	1901308	0	1	1000	1	0	920	false_alarm	201
+test	199	Response	1								1904320	3012	0
+test	200	Picture	Stop	Stop							1904642	0	1	5000	1	0	next	other	0
+test	202	Picture	Feedback	Feedback							1909642	0	1	5000	1	0	next	other	0
+test	203	Picture	ITI	ITI							1914643	0	1	10001	1	0	next	other	0
+test	204	Picture	Fixation	Fixation							1924643	0	1	5000	1	0	next	other	0
+test	205	Picture	Stim;Main;29;A;Left;Go;320	Stim	Main	29	A	Left	Go	320	1929644	0	1	1000	1	0	920	hit	207
+test	205	Response	1								1933920	4276	0
+test	207	Picture	Feedback	Feedback							1937978	0	1	5000	1	0	next	other	0
+test	208	Picture	ITI	ITI							1942978	0	1	10001	1	0	next	other	0
+test	209	Picture	Fixation	Fixation							1952979	0	1	5167	1	0	next	other	0
+test	210	Picture	Stim;Main;30;Z;Right;Go;320	Stim	Main	30	Z	Right	Go	320	1958146	0	1	1000	1	0	920	hit	212
+test	210	Response	2								1961120	2974	0
+test	212	Picture	Feedback	Feedback							1966313	0	1	5167	1	0	next	other	0
+test	213	Picture	ITI	ITI							1971480	0	1	10167	1	0	next	other	0
+test	214	Picture	Fixation	Fixation							1981648	0	1	5000	1	0	next	other	0
+test	215	Picture	Stim;Main;31;Z;Right;Go;320	Stim	Main	31	Z	Right	Go	320	1986648	0	1	1000	1	0	920	hit	217
+test	215	Response	2								1990640	3992	0
+test	217	Picture	Feedback	Feedback							1994982	0	1	5000	1	0	next	other	0
+test	218	Picture	ITI	ITI							1999982	0	1	10001	1	0	next	other	0
+test	219	Picture	Fixation	Fixation							2009983	0	1	5000	1	0	next	other	0
+test	220	Picture	Stim;Main;32;A;Left;Go;320	Stim	Main	32	A	Left	Go	320	2014983	0	1	1000	1	0	920	hit	222
+test	220	Response	1								2018321	3337	0
+test	222	Picture	Feedback	Feedback							2023151	0	1	5000	1	0	next	other	0
+test	223	Picture	ITI	ITI							2028151	0	1	10001	1	0	next	other	0
+test	224	Picture	Fixation	Fixation							2038152	0	1	5000	1	0	next	other	0
+test	225	Picture	Stim;Main;33;A;Left;Go;320	Stim	Main	33	A	Left	Go	320	2043152	0	1	1000	1	0	920	hit	227
+test	225	Response	1								2046721	3569	0
+test	227	Picture	Feedback	Feedback							2051319	0	1	5000	1	0	next	other	0
+test	228	Picture	ITI	ITI							2056320	0	1	10001	1	0	next	other	0
+test	229	Picture	Fixation	Fixation							2066320	0	1	5000	1	0	next	other	0
+test	230	Picture	Stim;Main;34;Z;Right;Go;320	Stim	Main	34	Z	Right	Go	320	2071321	0	1	1167	1	0	920	hit	232
+test	230	Response	2								2075201	3880	0
+test	232	Picture	Feedback	Feedback							2079488	0	1	5000	1	0	next	other	0
+test	233	Picture	ITI	ITI							2084488	0	1	10001	1	0	next	other	0
+test	234	Picture	Fixation	Fixation							2094489	0	1	5000	1	0	next	other	0
+test	235	Picture	Stim;Main;35;Z;Right;Go;320	Stim	Main	35	Z	Right	Go	320	2099490	0	1	1000	1	0	920	hit	237
+test	235	Response	2								2103281	3791	0
+test	237	Picture	Feedback	Feedback							2107657	0	1	5167	1	0	next	other	0
+test	238	Picture	ITI	ITI							2112824	0	1	10001	1	0	next	other	0
+test	239	Picture	Fixation	Fixation							2122825	0	1	5334	1	0	next	other	0
+test	240	Picture	Stim;Main;36;Z;Right;Go;320	Stim	Main	36	Z	Right	Go	320	2128158	0	1	1000	1	0	920	hit	242
+test	240	Response	2								2132079	3921	0
+test	242	Picture	Feedback	Feedback							2136326	0	1	5167	1	0	next	other	0
+test	243	Picture	ITI	ITI							2141493	0	1	10001	1	0	next	other	0
+test	244	Picture	Fixation	Fixation							2151494	0	1	5000	1	0	next	other	0
+test	245	Picture	Stim;Main;37;A;Left;Stop;320	Stim	Main	37	A	Left	Stop	320	2156494	0	1	1000	1	0	920	false_alarm	248
+test	246	Picture	Stop	Stop							2159661	0	1	5000	1	0	next	other	0
+test	246	Response	1								2160080	420	0
+test	248	Picture	Feedback	Feedback							2164661	0	1	5000	1	0	next	other	0
+test	249	Picture	ITI	ITI							2169661	0	1	10001	1	0	next	other	0
+test	250	Picture	Fixation	Fixation							2179662	0	1	5000	1	0	next	other	0
+test	251	Picture	Stim;Main;38;A;Left;Go;304	Stim	Main	38	A	Left	Go	304	2184663	0	1	1000	1	0	920	incorrect	253
+test	251	Response	2								2188801	4139	0
+test	253	Picture	Feedback	Feedback							2192830	0	1	5000	1	0	next	other	0
+test	254	Picture	ITI	ITI							2197830	0	1	10167	1	0	next	other	0
+test	255	Picture	Fixation	Fixation							2207998	0	1	5000	1	0	next	other	0
+test	256	Picture	Stim;Main;39;Z;Right;Go;304	Stim	Main	39	Z	Right	Go	304	2212998	0	1	1000	1	0	920	hit	258
+test	256	Response	2								2217281	4283	0
+test	258	Picture	Feedback	Feedback							2220999	0	1	5000	1	0	next	other	0
+test	259	Picture	ITI	ITI							2225999	0	1	10001	1	0	next	other	0
+test	260	Picture	Fixation	Fixation							2236000	0	1	5000	1	0	next	other	0
+test	261	Picture	Stim;Main;40;Z;Right;Stop;304	Stim	Main	40	Z	Right	Stop	304	2241000	0	1	1167	1	0	920	false_alarm	264
+test	262	Picture	Stop	Stop							2244000	0	1	5000	1	0	next	other	0
+test	262	Response	2								2245041	1040	0
+test	264	Picture	Feedback	Feedback							2249001	0	1	5000	1	0	next	other	0
+test	265	Picture	ITI	ITI							2254001	0	1	10001	1	0	next	other	0
+test	266	Picture	Fixation	Fixation							2264002	0	1	5000	1	0	next	other	0
+test	267	Picture	Stim;Main;41;A;Left;Go;288	Stim	Main	41	A	Left	Go	288	2269002	0	1	1000	1	0	920	hit	269
+test	267	Response	1								2273761	4759	0
+test	269	Picture	Feedback	Feedback							2277003	0	1	5167	1	0	next	other	0
+test	270	Picture	ITI	ITI							2282170	0	1	10167	1	0	next	other	0
+test	271	Picture	Fixation	Fixation							2292337	0	1	5167	1	0	next	other	0
+test	272	Picture	Stim;Main;42;A;Left;Go;288	Stim	Main	42	A	Left	Go	288	2297504	0	1	1167	1	0	920	hit	274
+test	272	Response	1								2301681	4177	0
+test	274	Picture	Feedback	Feedback							2305338	0	1	5167	1	0	next	other	0
+test	275	Picture	ITI	ITI							2310505	0	1	10001	1	0	next	other	0
+test	276	Picture	Fixation	Fixation							2320506	0	1	5167	1	0	next	other	0
+test	277	Picture	Stim;Main;43;Z;Right;Go;288	Stim	Main	43	Z	Right	Go	288	2325673	0	1	1167	1	0	920	hit	279
+test	277	Response	2								2329680	4007	0
+test	279	Picture	Feedback	Feedback							2333507	0	1	5167	1	0	next	other	0
+test	280	Picture	ITI	ITI							2338674	0	1	10001	1	0	next	other	0
+test	281	Picture	Fixation	Fixation							2348675	0	1	5000	1	0	next	other	0
+test	282	Picture	Stim;Main;44;A;Left;Go;288	Stim	Main	44	A	Left	Go	288	2353675	0	1	1000	1	0	920	hit	284
+test	282	Response	1								2356240	2565	0
+test	284	Picture	Feedback	Feedback							2361509	0	1	5167	1	0	next	other	0
+test	285	Picture	ITI	ITI							2366676	0	1	10001	1	0	next	other	0
+test	286	Picture	Fixation	Fixation							2376677	0	1	5000	1	0	next	other	0
+test	287	Picture	Stim;Main;45;Z;Right;Go;288	Stim	Main	45	Z	Right	Go	288	2381677	0	1	1000	1	0	920	hit	289
+test	287	Response	2								2384241	2564	0
+test	289	Picture	Feedback	Feedback							2389511	0	1	5000	1	0	next	other	0
+test	290	Picture	ITI	ITI							2394512	0	1	10001	1	0	next	other	0
+test	291	Picture	Fixation	Fixation							2404512	0	1	5000	1	0	next	other	0
+test	292	Picture	Stim;Main;46;A;Left;Stop;288	Stim	Main	46	A	Left	Stop	288	2409513	0	1	1000	1	0	920	false_alarm	295
+test	293	Picture	Stop	Stop							2412513	0	1	5000	1	0	next	other	0
+test	293	Response	1								2412798	285	0
+test	295	Picture	Feedback	Feedback							2417513	0	1	5000	1	0	next	other	0
+test	296	Picture	ITI	ITI							2422514	0	1	10167	1	0	next	other	0
+test	297	Picture	Fixation	Fixation							2432681	0	1	5000	1	0	next	other	0
+test	298	Picture	Stim;Main;47;Z;Right;Stop;272	Stim	Main	47	Z	Right	Stop	272	2437682	0	1	1000	1	0	920	false_alarm	301
+test	299	Picture	Stop	Stop							2440515	0	1	5000	1	0	next	other	0
+test	299	Response	2								2440560	45	0
+test	301	Picture	Feedback	Feedback							2445515	0	1	5000	1	0	next	other	0
+test	302	Picture	ITI	ITI							2450516	0	1	10001	1	0	next	other	0
+test	303	Picture	Fixation	Fixation							2460517	0	1	5000	1	0	next	other	0
+test	304	Picture	Stim;Main;48;A;Left;Go;256	Stim	Main	48	A	Left	Go	256	2465517	0	1	1000	1	0	920	hit	306
+test	304	Response	1								2468559	3042	0
+test	306	Picture	Feedback	Feedback							2473184	0	1	5000	1	0	next	other	0
+test	307	Picture	ITI	ITI							2478185	0	1	10001	1	0	next	other	0
+test	308	Picture	Fixation	Fixation							2488185	0	1	5167	1	0	next	other	0
+test	309	Picture	Stim;Main;49;Z;Right;Go;256	Stim	Main	49	Z	Right	Go	256	2493352	0	1	1000	1	0	920	hit	311
+test	309	Response	2								2496400	3048	0
+test	311	Picture	Feedback	Feedback							2501020	0	1	5000	1	0	next	other	0
+test	312	Picture	ITI	ITI							2506020	0	1	10001	1	0	next	other	0
+test	313	Picture	Fixation	Fixation							2516021	0	1	5000	1	0	next	other	0
+test	314	Picture	Stim;Main;50;A;Left;Go;256	Stim	Main	50	A	Left	Go	256	2521021	0	1	1000	1	0	920	hit	316
+test	314	Response	1								2523918	2897	0
+test	316	Picture	Feedback	Feedback							2528688	0	1	5167	1	0	next	other	0
+test	317	Picture	ITI	ITI							2533855	0	1	10001	1	0	next	other	0
+test	318	Picture	Fixation	Fixation							2543856	0	1	5000	1	0	next	other	0
+test	319	Picture	Stim;Main;51;Z;Right;Go;256	Stim	Main	51	Z	Right	Go	256	2548856	0	1	1000	1	0	920	hit	321
+test	319	Response	2								2552000	3143	0
+test	321	Picture	Feedback	Feedback							2556524	0	1	5167	1	0	next	other	0
+test	322	Picture	ITI	ITI							2561691	0	1	10001	1	0	next	other	0
+test	323	Picture	Fixation	Fixation							2571692	0	1	5000	1	0	next	other	0
+test	324	Picture	Stim;Main;52;A;Left;Stop;256	Stim	Main	52	A	Left	Stop	256	2576692	0	1	1167	1	0	920	false_alarm	327
+test	325	Picture	Stop	Stop							2579359	0	1	5001	1	0	next	other	0
+test	325	Response	1								2580319	961	0
+test	327	Picture	Feedback	Feedback							2584359	0	1	5000	1	0	next	other	0
+test	328	Picture	ITI	ITI							2589359	0	1	10001	1	0	next	other	0
+test	329	Picture	Fixation	Fixation							2599360	0	1	5000	1	0	next	other	0
+test	330	Picture	Stim;Main;53;A;Left;Go;240	Stim	Main	53	A	Left	Go	240	2604361	0	1	1000	1	0	920	hit	332
+test	330	Response	1								2607921	3560	0
+test	332	Picture	Feedback	Feedback							2611861	0	1	5000	1	0	next	other	0
+test	333	Picture	ITI	ITI							2616862	0	1	10001	1	0	next	other	0
+test	334	Picture	Fixation	Fixation							2626862	0	1	5000	1	0	next	other	0
+test	335	Picture	Stim;Main;54;Z;Right;Stop;240	Stim	Main	54	Z	Right	Stop	240	2631863	0	1	1000	1	0	920	false_alarm	338
+test	336	Picture	Stop	Stop							2634363	0	1	5167	1	0	next	other	0
+test	336	Response	2								2635362	999	0
+test	338	Picture	Feedback	Feedback							2639530	0	1	5000	1	0	next	other	0
+test	339	Picture	ITI	ITI							2644530	0	1	10001	1	0	next	other	0
+test	340	Picture	Fixation	Fixation							2654531	0	1	5167	1	0	next	other	0
+test	341	Picture	Stim;Main;55;A;Left;Go;224	Stim	Main	55	A	Left	Go	224	2659698	0	1	1000	1	0	920	hit	343
+test	341	Response	1								2662798	3100	0
+test	343	Picture	Feedback	Feedback							2667032	0	1	5167	1	0	next	other	0
+test	344	Picture	ITI	ITI							2672199	0	1	10167	1	0	next	other	0
+test	345	Picture	Fixation	Fixation							2682366	0	1	5000	1	0	next	other	0
+test	346	Picture	Stim;Main;56;Z;Right;Stop;224	Stim	Main	56	Z	Right	Stop	224	2687367	0	1	1000	1	0	920	false_alarm	349
+test	347	Picture	Stop	Stop							2689700	0	1	5000	1	0	next	other	0
+test	347	Response	2								2690800	1100	0
+test	349	Picture	Feedback	Feedback							2694701	0	1	5000	1	0	next	other	0
+test	350	Picture	ITI	ITI							2699701	0	1	10001	1	0	next	other	0
+test	351	Picture	Fixation	Fixation							2709702	0	1	5167	1	0	next	other	0
+test	352	Picture	Stim;Main;57;A;Left;Go;208	Stim	Main	57	A	Left	Go	208	2714869	0	1	1000	1	0	920	hit	354
+test	352	Response	1								2717600	2732	0
+test	354	Picture	Feedback	Feedback							2722036	0	1	5000	1	0	next	other	0
+test	355	Picture	ITI	ITI							2727036	0	1	10001	1	0	next	other	0
+test	356	Picture	Fixation	Fixation							2737037	0	1	5167	1	0	next	other	0
+test	357	Picture	Stim;Main;58;Z;Right;Go;208	Stim	Main	58	Z	Right	Go	208	2742204	0	1	1000	1	0	920	hit	359
+test	357	Response	2								2745758	3554	0
+test	359	Picture	Feedback	Feedback							2749371	0	1	5167	1	0	next	other	0
+test	360	Picture	ITI	ITI							2754538	0	1	10167	1	0	next	other	0
+test	361	Picture	Fixation	Fixation							2764706	0	1	5000	1	0	next	other	0
+test	362	Picture	Stim;Main;59;Z;Right;Go;208	Stim	Main	59	Z	Right	Go	208	2769706	0	1	1167	1	0	920	incorrect	364
+test	362	Response	1								2774241	4534	0
+test	364	Picture	Feedback	Feedback							2776866	0	8	5007	8	0	next	other	0
+test	365	Picture	ITI	ITI							2781874	0	1	10001	1	0	next	other	0
+test	366	Picture	Fixation	Fixation							2791875	0	1	5000	1	0	next	other	0
+test	367	Picture	Stim;Main;60;A;Left;Go;208	Stim	Main	60	A	Left	Go	208	2796875	0	1	1000	1	0	920	hit	369
+test	367	Response	1								2801441	4566	0
+test	369	Picture	Feedback	Feedback							2804042	0	1	5000	1	0	next	other	0
+test	370	Picture	ITI	ITI							2809042	0	1	9904	98	0	next	other	0
+test	371	Picture	Fixation	Fixation							2818947	0	98	5097	98	0	next	other	0
+test	372	Picture	Stim;Main;61;Z;Right;Stop;208	Stim	Main	61	Z	Right	Stop	208	2824044	0	1	1167	1	0	920	false_alarm	375
+test	373	Picture	Stop	Stop							2826211	0	1	5000	1	0	next	other	0
+test	373	Response	2								2827600	1389	0
+test	375	Picture	Feedback	Feedback							2831211	0	1	5000	1	0	next	other	0
+test	376	Picture	ITI	ITI							2836211	0	1	10167	1	0	next	other	0
+test	377	Picture	Fixation	Fixation							2846379	0	1	5167	1	0	next	other	0
+test	378	Picture	Stim;Main;62;A;Left;Go;192	Stim	Main	62	A	Left	Go	192	2851546	0	1	1000	1	0	920	hit	380
+test	378	Response	1								2854081	2535	0
+test	380	Picture	Feedback	Feedback							2858546	0	1	5167	1	0	next	other	0
+test	381	Picture	ITI	ITI							2863713	0	1	10001	1	0	next	other	0
+test	382	Picture	Fixation	Fixation							2873714	0	1	5000	1	0	next	other	0
+test	383	Picture	Stim;Main;63;A;Left;Go;192	Stim	Main	63	A	Left	Go	192	2878714	0	1	1000	1	0	920	incorrect	385
+test	383	Response	2								2880398	1684	0
+test	385	Picture	Feedback	Feedback							2885882	0	1	5000	1	0	next	other	0
+test	386	Picture	ITI	ITI							2890882	0	1	10001	1	0	next	other	0
+test	387	Picture	Fixation	Fixation							2900883	0	1	5000	1	0	next	other	0
+test	388	Picture	Stim;Main;64;Z;Right;Go;192	Stim	Main	64	Z	Right	Go	192	2905883	0	1	1167	1	0	920	hit	390
+test	388	Response	2								2908319	2436	0
+test	390	Picture	Feedback	Feedback							2912884	0	1	5000	1	0	next	other	0
+test	391	Picture	ITI	ITI							2917884	0	1	10001	1	0	next	other	0
+test	392	Picture	Fixation	Fixation							2927885	0	1	5000	1	0	next	other	0
+test	393	Picture	Stim;Main;65;Z;Right;Stop;192	Stim	Main	65	Z	Right	Stop	192	2932885	0	1	1000	1	0	920	false_alarm	396
+test	394	Picture	Stop	Stop							2934885	0	1	5167	1	0	next	other	0
+test	394	Response	1								2935599	713	0
+test	396	Picture	Feedback	Feedback							2940052	0	1	5000	1	0	next	other	0
+test	397	Picture	ITI	ITI							2945053	0	1	10167	1	0	next	other	0
+test	398	Picture	Fixation	Fixation							2955220	0	1	5000	1	0	next	other	0
+test	399	Picture	Stim;Main;66;A;Left;Go;176	Stim	Main	66	A	Left	Go	176	2960220	0	1	1000	1	0	920	hit	401
+test	399	Response	1								2962881	2660	0
+test	401	Picture	Feedback	Feedback							2967054	0	1	5000	1	0	next	other	0
+test	402	Picture	ITI	ITI							2972055	0	1	10001	1	0	next	other	0
+test	403	Picture	Fixation	Fixation							2982056	0	1	5000	1	0	next	other	0
+test	404	Picture	Stim;Main;67;Z;Right;Go;176	Stim	Main	67	Z	Right	Go	176	2987056	0	1	1000	1	0	920	hit	406
+test	404	Response	2								2991840	4785	0
+test	406	Picture	Feedback	Feedback							2993890	0	1	5167	1	0	next	other	0
+test	407	Picture	ITI	ITI							2999057	0	1	10167	1	0	next	other	0
+test	408	Picture	Fixation	Fixation							3009224	0	1	5000	1	0	next	other	0
+test	409	Picture	Stim;Main;68;A;Left;Go;176	Stim	Main	68	A	Left	Go	176	3014225	0	1	1000	1	0	920	hit	411
+test	409	Response	1								3016960	2736	0
+test	411	Picture	Feedback	Feedback							3021058	0	1	5167	1	0	next	other	0
+test	412	Picture	ITI	ITI							3026225	0	1	10001	1	0	next	other	0
+test	413	Picture	Fixation	Fixation							3036226	0	1	5000	1	0	next	other	0
+test	414	Picture	Stim;Main;69;Z;Right;Go;176	Stim	Main	69	Z	Right	Go	176	3041227	0	1	1167	1	0	920	hit	416
+test	414	Response	2								3044000	2773	0
+test	416	Picture	Feedback	Feedback							3048060	0	1	5167	1	0	next	other	0
+test	417	Picture	ITI	ITI							3053227	0	1	10001	1	0	next	other	0
+test	418	Picture	Fixation	Fixation							3063228	0	1	5167	1	0	next	other	0
+test	419	Picture	Stim;Main;70;Z;Right;Go;176	Stim	Main	70	Z	Right	Go	176	3068395	0	1	1000	1	0	920	hit	421
+test	419	Response	2								3072080	3685	0
+test	421	Picture	Feedback	Feedback							3075229	0	1	5000	1	0	next	other	0
+test	422	Picture	ITI	ITI							3080229	0	1	10001	1	0	next	other	0
+test	423	Picture	Fixation	Fixation							3090230	0	1	5000	1	0	next	other	0
+test	424	Picture	Stim;Main;71;Z;Right;Go;176	Stim	Main	71	Z	Right	Go	176	3095231	0	1	1167	1	0	920	hit	426
+test	424	Response	2								3098878	3648	0
+test	426	Picture	Feedback	Feedback							3102064	0	1	5000	1	0	next	other	0
+test	427	Picture	ITI	ITI							3107065	0	1	10001	1	0	next	other	0
+test	428	Picture	Fixation	Fixation							3117066	0	1	5167	1	0	next	other	0
+test	429	Picture	Stim;Main;72;Z;Right;Go;176	Stim	Main	72	Z	Right	Go	176	3122233	0	1	1000	1	0	920	hit	431
+test	429	Response	2								3126318	4085	0
+test	431	Picture	Feedback	Feedback							3129066	0	1	5167	1	0	next	other	0
+test	432	Picture	ITI	ITI							3134233	0	1	10001	1	0	next	other	0
+test	433	Picture	Fixation	Fixation							3144234	0	1	5167	1	0	next	other	0
+test	434	Picture	Stim;Main;73;Z;Right;Go;176	Stim	Main	73	Z	Right	Go	176	3149401	0	1	1000	1	0	920	hit	436
+test	434	Response	2								3153440	4039	0
+test	436	Picture	Feedback	Feedback							3156235	0	1	5000	1	0	next	other	0
+test	437	Picture	ITI	ITI							3161236	0	1	10001	1	0	next	other	0
+test	438	Picture	Fixation	Fixation							3171236	0	1	5000	1	0	next	other	0
+test	439	Picture	Stim;Main;74;Z;Right;Go;176	Stim	Main	74	Z	Right	Go	176	3176237	0	1	1000	1	0	920	incorrect	441
+test	439	Response	1								3179360	3123	0
+test	441	Picture	Feedback	Feedback							3183070	0	1	5167	1	0	next	other	0
+test	441	Response	1								3187999	4929	0
+test	442	Picture	ITI	ITI							3188238	0	1	10167	1	0	next	other	0
+test	443	Picture	Fixation	Fixation							3198405	0	1	5000	1	0	next	other	0
+test	444	Picture	Stim;Main;75;Z;Right;Go;176	Stim	Main	75	Z	Right	Go	176	3203405	0	1	1000	1	0	920	hit	447
+test	444	Response	2								3206800	3395	0
+test	446	Picture	Feedback	Feedback							3210406	0	1	5167	1	0	next	other	0
+test	447	Picture	ITI	ITI							3215573	0	1	10001	1	0	next	other	0
+test	448	Picture	Fixation	Fixation							3225574	0	1	5000	1	0	next	other	0
+test	449	Picture	Stim;Main;76;A;Left;Go;176	Stim	Main	76	A	Left	Go	176	3230574	0	1	1000	1	0	920	hit	452
+test	449	Response	1								3234079	3505	0
+test	451	Picture	Feedback	Feedback							3237408	0	1	5000	1	0	next	other	0
+test	452	Picture	ITI	ITI							3242408	0	1	10001	1	0	next	other	0
+test	453	Picture	Fixation	Fixation							3252409	0	1	5167	1	0	next	other	0
+test	454	Picture	Stim;Main;77;Z;Right;Stop;176	Stim	Main	77	Z	Right	Stop	176	3257576	0	1	1000	1	0	920	false_alarm	458
+test	455	Picture	Stop	Stop							3259410	0	1	5167	1	0	next	other	0
+test	455	Response	2								3260801	1391	0
+test	457	Picture	Feedback	Feedback							3264577	0	1	5000	1	0	next	other	0
+test	458	Picture	ITI	ITI							3269577	0	1	10001	1	0	next	other	0
+test	459	Picture	Fixation	Fixation							3279578	0	1	5000	1	0	next	other	0
+test	460	Picture	Stim;Main;78;A;Left;Go;160	Stim	Main	78	A	Left	Go	160	3284578	0	1	1167	1	0	920	hit	463
+test	460	Response	1								3287039	2461	0
+test	462	Picture	Feedback	Feedback							3291245	0	1	5000	1	0	next	other	0
+test	463	Picture	ITI	ITI							3296246	0	1	10001	1	0	next	other	0
+test	464	Picture	Fixation	Fixation							3306246	0	1	5000	1	0	next	other	0
+test	465	Picture	Stim;Main;79;A;Left;Go;160	Stim	Main	79	A	Left	Go	160	3311247	0	1	1167	1	0	920	hit	468
+test	465	Response	1								3316800	5554	0
+test	467	Picture	Feedback	Feedback							3317914	0	1	5000	1	0	next	other	0
+test	468	Picture	ITI	ITI							3322914	0	1	10001	1	0	next	other	0
+test	469	Picture	Fixation	Fixation							3332915	0	1	5000	1	0	next	other	0
+test	470	Picture	Stim;Main;80;Z;Right;Stop;160	Stim	Main	80	Z	Right	Stop	160	3337915	0	1	1000	1	0	920	false_alarm	474
+test	471	Picture	Stop	Stop							3339582	0	1	5000	1	0	next	other	0
+test	471	Response	2								3340959	1377	0
+test	473	Picture	Feedback	Feedback							3344583	0	1	5000	1	0	next	other	0
+test	474	Picture	ITI	ITI							3349583	0	1	10001	1	0	next	other	0
+test	475	Picture	Fixation	Fixation							3359584	0	1	5000	1	0	next	other	0
+test	476	Picture	Stim;Main;81;A;Left;Go;144	Stim	Main	81	A	Left	Go	144	3364584	0	1	1000	1	0	920	hit	479
+test	476	Response	1								3367679	3095	0
+test	478	Picture	Feedback	Feedback							3371251	0	1	5167	1	0	next	other	0
+test	479	Picture	ITI	ITI							3376418	0	1	10001	1	0	next	other	0
+test	480	Picture	Fixation	Fixation							3386419	0	1	5000	1	0	next	other	0
+test	481	Picture	Stim;Main;82;Z;Right;Go;144	Stim	Main	82	Z	Right	Go	144	3391419	0	1	1000	1	0	920	hit	484
+test	481	Response	2								3394400	2981	0
+test	483	Picture	Feedback	Feedback							3397920	0	1	5334	1	0	next	other	0
+test	484	Picture	ITI	ITI							3403253	0	1	10001	1	0	next	other	0
+test	485	Picture	Fixation	Fixation							3413254	0	1	5000	1	0	next	other	0
+test	486	Picture	Stim;Main;83;Z;Right;Go;144	Stim	Main	83	Z	Right	Go	144	3418255	0	1	1000	1	0	920	incorrect	489
+test	486	Response	1								3422240	3985	0
+test	486	Response	2								3423517	5262	0
+test	488	Picture	Feedback	Feedback							3424755	0	1	5000	1	0	next	other	0
+test	489	Picture	ITI	ITI							3429756	0	1	10167	1	0	next	other	0
+test	490	Picture	Fixation	Fixation							3439923	0	1	5000	1	0	next	other	0
+test	491	Picture	Stim;Main;84;A;Left;Stop;144	Stim	Main	84	A	Left	Stop	144	3444923	0	1	1000	1	0	920	false_alarm	496
+test	492	Picture	Stop	Stop							3446424	0	1	5167	1	0	next	other	0
+test	492	Response	1								3447120	697	0
+test	494	Picture	Feedback	Feedback							3451590	0	1	5000	1	0	next	other	0
+test	495	Picture	ITI	ITI							3456591	0	1	10001	1	0	next	other	0
+test	496	Picture	Fixation	Fixation							3466592	0	1	5000	1	0	next	other	0
+test	497	Picture	Stim;Main;85;A;Left;Go;128	Stim	Main	85	A	Left	Go	128	3471592	0	1	1000	1	0	920	incorrect	501
+test	497	Response	2								3474960	3368	0
+test	499	Picture	Feedback	Feedback							3477926	0	1	5167	1	0	next	other	0
+test	500	Picture	ITI	ITI							3483093	0	1	10001	1	0	next	other	0
+test	501	Picture	Fixation	Fixation							3493094	0	1	5000	1	0	next	other	0
+test	502	Picture	Stim;Main;86;A;Left;Go;128	Stim	Main	86	A	Left	Go	128	3498094	0	1	1000	1	0	920	hit	506
+test	502	Response	1								3503039	4945	0
+test	504	Picture	Feedback	Feedback							3504428	0	1	5000	1	0	next	other	0
+test	505	Picture	ITI	ITI							3509428	0	1	10167	1	0	next	other	0
+test	506	Picture	Fixation	Fixation							3519596	0	1	5000	1	0	next	other	0
+test	507	Picture	Stim;Main;87;Z;Right;Stop;128	Stim	Main	87	Z	Right	Stop	128	3524596	0	1	1000	1	0	920	false_alarm	512
+test	508	Picture	Stop	Stop							3525929	0	1	5000	1	0	next	other	0
+test	508	Response	2								3527519	1590	0
+test	510	Picture	Feedback	Feedback							3530930	0	1	5167	1	0	next	other	0
+test	511	Picture	ITI	ITI							3536097	0	1	10001	1	0	next	other	0
+test	512	Picture	Fixation	Fixation							3546098	0	1	5000	1	0	next	other	0
+test	513	Picture	Stim;Main;88;Z;Right;Stop;112	Stim	Main	88	Z	Right	Stop	112	3551098	0	1	1000	1	0	920	false_alarm	517
+test	513	Response	1								3551920	822	0
+test	514	Picture	Stop	Stop							3552265	0	1	5000	1	0	next	other	0
+test	516	Picture	Feedback	Feedback							3557265	0	1	5167	1	0	next	other	0
+test	517	Picture	ITI	ITI							3562432	0	1	10167	1	0	next	other	0
+test	518	Picture	Fixation	Fixation							3572599	0	1	5000	1	0	next	other	0
+test	519	Picture	Stim;Main;89;A;Left;Go;96	Stim	Main	89	A	Left	Go	96	3577600	0	1	1000	1	0	920	hit	523
+test	519	Response	1								3580480	2880	0
+test	521	Picture	Feedback	Feedback							3583767	0	1	5000	1	0	next	other	0
+test	522	Picture	ITI	ITI							3588767	0	1	10001	1	0	next	other	0
+test	523	Picture	Fixation	Fixation							3598768	0	1	5000	1	0	next	other	0
+test	524	Picture	Stim;Main;90;Z;Right;Stop;96	Stim	Main	90	Z	Right	Stop	96	3603768	0	1	1000	1	0	920	false_alarm	529
+test	525	Picture	Stop	Stop							3604769	0	1	5000	1	0	next	other	0
+test	525	Response	2								3606719	1950	0
+test	527	Picture	Feedback	Feedback							3609769	0	1	5167	1	0	next	other	0
+test	528	Picture	ITI	ITI							3614936	0	1	10001	1	0	next	other	0
+test	529	Picture	Fixation	Fixation							3624937	0	1	5000	1	0	next	other	0
+test	530	Picture	Stim;Main;91;Z;Right;Go;80	Stim	Main	91	Z	Right	Go	80	3629937	0	1	1000	1	0	920	hit	534
+test	530	Response	2								3634400	4463	0
+test	532	Picture	Feedback	Feedback							3635771	0	1	5000	1	0	next	other	0
+test	533	Picture	ITI	ITI							3640771	0	1	10001	1	0	next	other	0
+test	534	Picture	Fixation	Fixation							3650772	0	1	5000	1	0	next	other	0
+test	535	Picture	Stim;Main;92;Z;Right;Go;80	Stim	Main	92	Z	Right	Go	80	3655772	0	1	1000	1	0	920	hit	539
+test	535	Response	2								3659840	4068	0
+test	537	Picture	Feedback	Feedback							3661606	0	1	5167	1	0	next	other	0
+test	538	Picture	ITI	ITI							3666773	0	1	10167	1	0	next	other	0
+test	539	Picture	Fixation	Fixation							3676941	0	1	5167	1	0	next	other	0
+test	540	Picture	Stim;Main;93;Z;Right;Go;80	Stim	Main	93	Z	Right	Go	80	3682108	0	1	1000	1	0	920	hit	544
+test	540	Response	2								3685920	3812	0
+test	542	Picture	Feedback	Feedback							3688108	0	1	5167	1	0	next	other	0
+test	543	Picture	ITI	ITI							3693275	0	1	10001	1	0	next	other	0
+test	544	Picture	Fixation	Fixation							3703276	0	1	5000	1	0	next	other	0
+test	545	Picture	Stim;Main;94;Z;Right;Go;80	Stim	Main	94	Z	Right	Go	80	3708276	0	1	1167	1	0	920	hit	549
+test	545	Response	2								3711838	3562	0
+test	547	Picture	Feedback	Feedback							3714110	0	1	5167	1	0	next	other	0
+test	548	Picture	ITI	ITI							3719277	0	1	10001	1	0	next	other	0
+test	549	Picture	Fixation	Fixation							3729278	0	1	5000	1	0	next	other	0
+test	550	Picture	Stim;Main;95;Z;Right;Go;80	Stim	Main	95	Z	Right	Go	80	3734278	0	1	1000	1	0	920	hit	554
+test	550	Response	2								3736880	2602	0
+test	552	Picture	Feedback	Feedback							3740112	0	1	5000	1	0	next	other	0
+test	553	Picture	ITI	ITI							3745112	0	1	10001	1	0	next	other	0
+test	554	Picture	Fixation	Fixation							3755113	0	1	5000	1	0	next	other	0
+test	555	Picture	Stim;Main;96;A;Left;Go;80	Stim	Main	96	A	Left	Go	80	3760114	0	1	1000	1	0	920	hit	559
+test	555	Response	1								3763919	3806	0
+test	557	Picture	Feedback	Feedback							3765947	0	1	5000	1	0	next	other	0
+test	558	Picture	ITI	ITI							3770948	0	1	10001	1	0	next	other	0
+test	559	Picture	Fixation	Fixation							3780948	0	1	5000	1	0	next	other	0
+test	560	Picture	Stim;Main;97;Z;Right;Go;80	Stim	Main	97	Z	Right	Go	80	3785949	0	1	1000	1	0	920	hit	564
+test	560	Response	2								3789760	3811	0
+test	562	Picture	Feedback	Feedback							3791949	0	1	5000	1	0	next	other	0
+test	563	Picture	ITI	ITI							3796950	0	1	10167	1	0	next	other	0
+test	564	Picture	Fixation	Fixation							3807117	0	1	5167	1	0	next	other	0
+test	565	Picture	Stim;Main;98;A;Left;Go;80	Stim	Main	98	A	Left	Go	80	3812284	0	1	1000	1	0	920	hit	569
+test	565	Response	1								3815839	3555	0
+test	567	Picture	Feedback	Feedback							3818118	0	1	5000	1	0	next	other	0
+test	568	Picture	ITI	ITI							3823118	0	1	10001	1	0	next	other	0
+test	569	Picture	Fixation	Fixation							3833119	0	1	5000	1	0	next	other	0
+test	570	Picture	Stim;Main;99;Z;Right;Go;80	Stim	Main	99	Z	Right	Go	80	3838119	0	1	1167	1	0	920	hit	574
+test	570	Response	2								3840957	2837	0
+test	572	Picture	Feedback	Feedback							3843953	0	1	5000	1	0	next	other	0
+test	573	Picture	ITI	ITI							3848953	0	1	10167	1	0	next	other	0
+test	574	Picture	Fixation	Fixation							3859121	0	1	5167	1	0	next	other	0
+test	575	Picture	Stim;Main;100;A;Left;Stop;80	Stim	Main	100	A	Left	Stop	80	3864288	0	1	833	1	0	920	false_alarm	580
+test	576	Picture	Stop	Stop							3865121	0	1	5167	1	0	next	other	0
+test	576	Response	1								3868478	3357	0
+test	578	Picture	Feedback	Feedback							3870288	0	1	5000	1	0	next	other	0
+test	579	Picture	ITI	ITI							3875289	0	1	10001	1	0	next	other	0
+test	580	Picture	Fixation	Fixation							3885289	0	1	5000	1	0	next	other	0
+test	581	Picture	Stim;Main;101;A;Left;Go;64	Stim	Main	101	A	Left	Go	64	3890290	0	1	1000	1	0	920	hit	585
+test	581	Response	1								3893520	3230	0
+test	583	Picture	Feedback	Feedback							3895950	0	8	5174	8	0	next	other	0
+test	584	Picture	ITI	ITI							3901124	0	1	10001	1	0	next	other	0
+test	585	Picture	Fixation	Fixation							3911125	0	1	5000	1	0	next	other	0
+test	586	Picture	Stim;Main;102;Z;Right;Go;64	Stim	Main	102	Z	Right	Go	64	3916125	0	1	1000	1	0	920	hit	590
+test	586	Response	2								3920079	3954	0
+test	588	Picture	Feedback	Feedback							3921785	0	8	5007	8	0	next	other	0
+test	589	Picture	ITI	ITI							3926793	0	1	10168	1	0	next	other	0
+test	590	Picture	Fixation	Fixation							3936960	0	1	5000	1	0	next	other	0
+test	591	Picture	Stim;Main;103;Z;Right;Go;64	Stim	Main	103	Z	Right	Go	64	3941960	0	1	1000	1	0	920	hit	595
+test	591	Response	2								3945440	3479	0
+test	593	Picture	Feedback	Feedback							3947621	0	7	5007	8	0	next	other	0
+test	594	Picture	ITI	ITI							3952628	0	1	10001	1	0	next	other	0
+test	595	Picture	Fixation	Fixation							3962629	0	1	5000	1	0	next	other	0
+test	596	Picture	Stim;Main;104;Z;Right;Stop;64	Stim	Main	104	Z	Right	Stop	64	3967629	0	1	659	8	0	920	other	0
+test	597	Picture	Stop	Stop							3968288	0	8	5008	8	0	next	other	0
+test	599	Picture	Feedback	Feedback							3973296	0	1	5000	1	0	next	other	0
+test	600	Picture	ITI	ITI							3978296	0	1	10001	1	0	next	other	0
+test	601	Picture	Fixation	Fixation							3988297	0	1	5000	1	0	next	other	0
+test	602	Picture	Stim;Main;105;A;Left;Go;80	Stim	Main	105	A	Left	Go	80	3993298	0	1	1000	1	0	920	hit	605
+test	602	Response	1								3995999	2702	0
+test	604	Picture	Feedback	Feedback							3999131	0	1	5000	1	0	next	other	0
+test	605	Picture	ITI	ITI							4004132	0	1	10001	1	0	next	other	0
+test	606	Picture	Fixation	Fixation							4014132	0	1	5167	1	0	next	other	0
+test	607	Picture	Stim;Main;106;A;Left;Go;80	Stim	Main	106	A	Left	Go	80	4019300	0	1	1000	1	0	920	hit	610
+test	607	Response	1								4023440	4140	0
+test	609	Picture	Feedback	Feedback							4025133	0	1	5167	1	0	next	other	0
+test	610	Picture	ITI	ITI							4030300	0	1	10168	1	0	next	other	0
+test	611	Picture	Fixation	Fixation							4040468	0	1	5000	1	0	next	other	0
+test	612	Picture	Stim;Main;107;Z;Right;Go;80	Stim	Main	107	Z	Right	Go	80	4045468	0	1	1167	1	0	920	hit	615
+test	612	Response	2								4049439	3971	0
+test	614	Picture	Feedback	Feedback							4051302	0	1	5000	1	0	next	other	0
+test	615	Picture	ITI	ITI							4056302	0	1	10001	1	0	next	other	0
+test	616	Picture	Fixation	Fixation							4066303	0	1	5000	1	0	next	other	0
+test	617	Picture	Stim;Main;108;A;Left;Go;80	Stim	Main	108	A	Left	Go	80	4071303	0	1	1000	1	0	920	hit	620
+test	617	Response	1								4074958	3655	0
+test	619	Picture	Feedback	Feedback							4077137	0	1	5000	1	0	next	other	0
+test	620	Picture	ITI	ITI							4082138	0	1	10001	1	0	next	other	0
+test	621	Picture	Fixation	Fixation							4092138	0	1	5167	1	0	next	other	0
+test	622	Picture	Stim;Main;109;A;Left;Go;80	Stim	Main	109	A	Left	Go	80	4097305	0	1	1000	1	0	920	hit	625
+test	622	Response	1								4101599	4294	0
+test	624	Picture	Feedback	Feedback							4103306	0	1	5000	1	0	next	other	0
+test	625	Picture	ITI	ITI							4108306	0	1	10001	1	0	next	other	0
+test	626	Picture	Fixation	Fixation							4118307	0	1	5000	1	0	next	other	0
+test	627	Picture	Stim;Main;110;A;Left;Go;80	Stim	Main	110	A	Left	Go	80	4123307	0	1	1000	1	0	920	hit	630
+test	627	Response	1								4127039	3732	0
+test	629	Picture	Feedback	Feedback							4129141	0	1	5000	1	0	next	other	0
+test	630	Picture	ITI	ITI							4134141	0	1	10001	1	0	next	other	0
+test	631	Picture	Fixation	Fixation							4144142	0	1	5000	1	0	next	other	0
+test	632	Picture	Stim;Main;111;Z;Right;Go;80	Stim	Main	111	Z	Right	Go	80	4149143	0	1	1167	1	0	920	incorrect	635
+test	632	Response	1								4151758	2616	0
+test	634	Picture	Feedback	Feedback							4155143	0	1	5000	1	0	next	other	0
+test	635	Picture	ITI	ITI							4160143	0	1	10001	1	0	next	other	0
+test	636	Picture	Fixation	Fixation							4170144	0	1	5000	1	0	next	other	0
+test	637	Picture	Stim;Main;112;A;Left;Go;80	Stim	Main	112	A	Left	Go	80	4175144	0	1	1000	1	0	920	hit	640
+test	637	Response	1								4179519	4375	0
+test	639	Picture	Feedback	Feedback							4180978	0	1	5000	1	0	next	other	0
+test	640	Picture	ITI	ITI							4185979	0	1	10001	1	0	next	other	0
+test	641	Picture	Fixation	Fixation							4195979	0	1	5000	1	0	next	other	0
+test	642	Picture	Stim;Main;113;Z;Right;Go;80	Stim	Main	113	Z	Right	Go	80	4200980	0	1	1000	1	0	920	hit	645
+test	642	Response	2								4204319	3339	0
+test	644	Picture	Feedback	Feedback							4206980	0	1	5000	1	0	next	other	0
+test	645	Picture	ITI	ITI							4211981	0	1	10167	1	0	next	other	0
+test	646	Picture	Fixation	Fixation							4222148	0	1	5167	1	0	next	other	0
+test	647	Picture	Stim;Main;114;Z;Right;Go;80	Stim	Main	114	Z	Right	Go	80	4227315	0	1	1000	1	0	920	hit	650
+test	647	Response	2								4231119	3804	0
+test	649	Picture	Feedback	Feedback							4233315	0	1	5167	1	0	next	other	0
+test	650	Picture	ITI	ITI							4238483	0	1	10001	1	0	next	other	0
+test	651	Picture	Fixation	Fixation							4248483	0	1	5000	1	0	next	other	0
+test	652	Picture	Stim;Main;115;Z;Right;Stop;80	Stim	Main	115	Z	Right	Stop	80	4253484	0	1	833	1	0	920	other	0
+test	653	Picture	Stop	Stop							4254317	0	1	5000	1	0	next	other	0
+test	655	Picture	Feedback	Feedback							4259317	0	1	5000	1	0	next	other	0
+test	656	Picture	ITI	ITI							4264318	0	1	10001	1	0	next	other	0
+test	657	Picture	Fixation	Fixation							4274318	0	1	5000	1	0	next	other	0
+test	658	Picture	Stim;Main;116;A;Left;Stop;96	Stim	Main	116	A	Left	Stop	96	4279319	0	1	1167	1	0	920	false_alarm	661
+test	659	Picture	Stop	Stop							4280486	0	1	5000	1	0	next	other	0
+test	659	Response	1								4281916	1431	0
+test	661	Picture	Feedback	Feedback							4285486	0	1	5167	1	0	next	other	0
+test	662	Picture	ITI	ITI							4290653	0	1	10001	1	0	next	other	0
+test	663	Picture	Fixation	Fixation							4300654	0	1	5167	1	0	next	other	0
+test	664	Picture	Stim;Main;117;A;Left;Go;80	Stim	Main	117	A	Left	Go	80	4305821	0	1	1000	1	0	920	hit	666
+test	664	Response	1								4309996	4175	0
+test	666	Picture	Feedback	Feedback							4311655	0	1	5167	1	0	next	other	0
+test	667	Picture	ITI	ITI							4316822	0	1	10001	1	0	next	other	0
+test	668	Picture	Fixation	Fixation							4326822	0	1	5000	1	0	next	other	0
+test	669	Picture	Stim;Main;118;Z;Right;Go;80	Stim	Main	118	Z	Right	Go	80	4331823	0	1	1000	1	0	920	hit	671
+test	669	Response	2								4334957	3134	0
+test	671	Picture	Feedback	Feedback							4337823	0	1	5000	1	0	next	other	0
+test	672	Picture	ITI	ITI							4342824	0	1	10001	1	0	next	other	0
+test	673	Picture	Fixation	Fixation							4352824	0	1	5000	1	0	next	other	0
+test	674	Picture	Stim;Main;119;A;Left;Stop;80	Stim	Main	119	A	Left	Stop	80	4357825	0	1	833	1	0	920	false_alarm	677
+test	675	Picture	Stop	Stop							4358658	0	1	5167	1	0	next	other	0
+test	675	Response	1								4360637	1979	0
+test	677	Picture	Feedback	Feedback							4363825	0	1	5167	1	0	next	other	0
+test	678	Picture	ITI	ITI							4368992	0	1	10001	1	0	next	other	0
+test	679	Picture	Fixation	Fixation							4378993	0	1	5167	1	0	next	other	0
+test	680	Picture	Stim;Main;120;Z;Right;Go;64	Stim	Main	120	Z	Right	Go	64	4384160	0	1	1000	1	0	920	hit	682
+test	680	Response	2								4387600	3440	0
+test	682	Picture	Feedback	Feedback							4389820	0	8	5007	8	0	next	other	0
+test	683	Picture	ITI	ITI							4394827	0	1	10001	1	0	next	other	0
+test	684	Picture	Fixation	Fixation							4404828	0	1	5000	1	0	next	other	0
+test	685	Picture	Stim;Main;121;A;Left;Stop;64	Stim	Main	121	A	Left	Stop	64	4409829	0	1	667	1	0	920	other	0
+test	686	Picture	Stop	Stop							4410495	0	1	5000	1	0	next	other	0
+test	688	Picture	Feedback	Feedback							4415496	0	1	5000	1	0	next	other	0
+test	689	Picture	ITI	ITI							4420496	0	1	10001	1	0	next	other	0
+test	690	Picture	Fixation	Fixation							4430497	0	1	5000	1	0	next	other	0
+test	691	Picture	Stim;Main;122;Z;Right;Go;80	Stim	Main	122	Z	Right	Go	80	4435497	0	1	1000	1	0	920	hit	692
+test	691	Response	2								4438719	3222	0
+test	693	Picture	Feedback	Feedback							4441331	0	1	5000	1	0	next	other	0
+test	694	Picture	ITI	ITI							4446331	0	1	10001	1	0	next	other	0
+test	695	Picture	Fixation	Fixation							4456332	0	1	5000	1	0	next	other	0
+test	696	Picture	Stim;Main;123;Z;Right;Go;80	Stim	Main	123	Z	Right	Go	80	4461332	0	1	1000	1	0	920	hit	697
+test	696	Response	2								4465919	4587	0
+test	698	Picture	Feedback	Feedback							4467166	0	1	5000	1	0	next	other	0
+test	699	Picture	ITI	ITI							4472167	0	1	10001	1	0	next	other	0
+test	700	Picture	Fixation	Fixation							4482167	0	1	5000	1	0	next	other	0
+test	701	Picture	Stim;Main;124;Z;Right;Go;80	Stim	Main	124	Z	Right	Go	80	4487168	0	1	1000	1	0	920	hit	702
+test	701	Response	2								4490879	3711	0
+test	703	Picture	Feedback	Feedback							4493002	0	1	5167	1	0	next	other	0
+test	704	Picture	ITI	ITI							4498169	0	1	10001	1	0	next	other	0
+test	705	Picture	Fixation	Fixation							4508169	0	1	5000	1	0	next	other	0
+test	706	Picture	Stim;Main;125;A;Left;Go;80	Stim	Main	125	A	Left	Go	80	4513170	0	1	1000	1	0	920	incorrect	707
+test	706	Response	2								4516719	3549	0
+test	708	Picture	Feedback	Feedback							4519003	0	1	5167	1	0	next	other	0
+test	708	Response	1								4519037	33	0
+test	709	Picture	ITI	ITI							4524170	0	1	10001	1	0	next	other	0
+test	710	Picture	Fixation	Fixation							4534171	0	1	5000	1	0	next	other	0
+test	711	Picture	Stim;Main;126;Z;Right;Stop;80	Stim	Main	126	Z	Right	Stop	80	4539172	0	1	833	1	0	920	false_alarm	714
+test	712	Picture	Stop	Stop							4540005	0	1	5000	1	0	next	other	0
+test	712	Response	2								4541997	1992	0
+test	714	Picture	Feedback	Feedback							4545005	0	1	5001	1	0	next	other	0
+test	715	Picture	ITI	ITI							4550006	0	1	10167	1	0	next	other	0
+test	716	Picture	Fixation	Fixation							4560173	0	1	5000	1	0	next	other	0
+test	717	Picture	Stim;Main;127;A;Left;Go;64	Stim	Main	127	A	Left	Go	64	4565174	0	1	1000	1	0	920	hit	719
+test	717	Response	1								4568399	3226	0
+test	719	Picture	Feedback	Feedback							4570834	0	7	5007	7	0	next	other	0
+test	720	Picture	ITI	ITI							4575841	0	1	10001	1	0	next	other	0
+test	721	Picture	Fixation	Fixation							4585842	0	1	5000	1	0	next	other	0
+test	722	Picture	Stim;Main;128;Z;Right;Go;64	Stim	Main	128	Z	Right	Go	64	4590842	0	1	1000	1	0	920	hit	724
+test	722	Response	2								4595119	4277	0
+test	724	Picture	Feedback	Feedback							4596509	0	1	5167	1	0	next	other	0
+test	725	Picture	ITI	ITI							4601676	0	1	10167	1	0	next	other	0
+test	726	Picture	Fixation	Fixation							4611844	0	1	5167	1	0	next	other	0
+test	727	Picture	Stim;Main;129;Z;Right;Go;64	Stim	Main	129	Z	Right	Go	64	4617011	0	1	1167	1	0	920	hit	729
+test	727	Response	2								4621039	4028	0
+test	729	Picture	Feedback	Feedback							4622678	0	1	5000	1	0	next	other	0
+test	730	Picture	ITI	ITI							4627678	0	1	10001	1	0	next	other	0
+test	731	Picture	Fixation	Fixation							4637679	0	1	5000	1	0	next	other	0
+test	732	Picture	Stim;Main;130;A;Left;Go;64	Stim	Main	130	A	Left	Go	64	4642679	0	1	1000	1	0	920	hit	734
+test	732	Response	1								4646159	3480	0
+test	734	Picture	Feedback	Feedback							4648340	0	7	5007	8	0	next	other	0
+test	735	Picture	ITI	ITI							4653347	0	1	10001	1	0	next	other	0
+test	736	Picture	Fixation	Fixation							4663348	0	1	5000	1	0	next	other	0
+test	737	Picture	Stim;Main;131;A;Left;Go;64	Stim	Main	131	A	Left	Go	64	4668348	0	1	1167	1	0	920	hit	739
+test	737	Response	1								4672558	4210	0
+test	739	Picture	Feedback	Feedback							4674015	0	1	5000	1	0	next	other	0
+test	740	Picture	ITI	ITI							4679015	0	1	10167	1	0	next	other	0
+test	741	Picture	Fixation	Fixation							4689183	0	1	5000	1	0	next	other	0
+test	742	Picture	Stim;Main;132;Z;Right;Go;64	Stim	Main	132	Z	Right	Go	64	4694183	0	1	1000	1	0	920	hit	744
+test	742	Response	2								4697679	3496	0
+test	744	Picture	Feedback	Feedback							4699850	0	1	5000	1	0	next	other	0
+test	745	Picture	ITI	ITI							4704851	0	1	10167	1	0	next	other	0
+test	746	Picture	Fixation	Fixation							4715018	0	1	5167	1	0	next	other	0
+test	747	Picture	Stim;Main;133;A;Left;Go;64	Stim	Main	133	A	Left	Go	64	4720185	0	1	1000	1	0	920	hit	749
+test	747	Response	1								4723998	3813	0
+test	749	Picture	Feedback	Feedback							4725852	0	1	5000	1	0	next	other	0
+test	750	Picture	ITI	ITI							4730853	0	1	10001	1	0	next	other	0
+test	751	Picture	Fixation	Fixation							4740853	0	1	5167	1	0	next	other	0
+test	752	Picture	Stim;Main;134;Z;Right;Go;64	Stim	Main	134	Z	Right	Go	64	4746020	0	1	1167	1	0	920	hit	754
+test	752	Response	2								4749119	3099	0
+test	754	Picture	Feedback	Feedback							4751854	0	1	5167	1	0	next	other	0
+test	755	Picture	ITI	ITI							4757021	0	1	10001	1	0	next	other	0
+test	756	Picture	Fixation	Fixation							4767022	0	1	5000	1	0	next	other	0
+test	757	Picture	Stim;Main;135;Z;Right;Go;64	Stim	Main	135	Z	Right	Go	64	4772022	0	1	1000	1	0	920	hit	759
+test	757	Response	2								4775758	3735	0
+test	759	Picture	Feedback	Feedback							4777682	0	8	5007	8	0	next	other	0
+test	760	Picture	ITI	ITI							4782690	0	1	10001	1	0	next	other	0
+test	761	Picture	Fixation	Fixation							4792690	0	1	5000	1	0	next	other	0
+test	762	Picture	Stim;Main;136;A;Left;Go;64	Stim	Main	136	A	Left	Go	64	4797691	0	1	1000	1	0	920	hit	764
+test	762	Response	1								4800718	3027	0
+test	764	Picture	Feedback	Feedback							4803351	0	7	5007	7	0	next	other	0
+test	765	Picture	ITI	ITI							4808358	0	1	10001	1	0	next	other	0
+test	766	Picture	Fixation	Fixation							4818359	0	1	5000	1	0	next	other	0
+test	767	Picture	Stim;Main;137;Z;Right;Go;64	Stim	Main	137	Z	Right	Go	64	4823359	0	1	1000	1	0	920	hit	769
+test	767	Response	2								4826239	2879	0
+test	769	Picture	Feedback	Feedback							4829193	0	1	5167	1	0	next	other	0
+test	770	Picture	ITI	ITI							4834360	0	1	10001	1	0	next	other	0
+test	771	Picture	Fixation	Fixation							4844361	0	1	5167	1	0	next	other	0
+test	772	Picture	Stim;Main;138;A;Left;Go;64	Stim	Main	138	A	Left	Go	64	4849528	0	1	1000	1	0	920	hit	774
+test	772	Response	1								4852478	2950	0
+test	774	Picture	Feedback	Feedback							4855188	0	8	5007	8	0	next	other	0
+test	775	Picture	ITI	ITI							4860196	0	1	10001	1	0	next	other	0
+test	776	Picture	Fixation	Fixation							4870196	0	1	5000	1	0	next	other	0
+test	777	Picture	Stim;Main;139;A;Left;Go;64	Stim	Main	139	A	Left	Go	64	4875197	0	1	1000	1	0	920	hit	779
+test	777	Response	1								4878639	3442	0
+test	779	Picture	Feedback	Feedback							4880857	0	7	5174	7	0	next	other	0
+test	780	Picture	ITI	ITI							4886031	0	1	10001	1	0	next	other	0
+test	781	Picture	Fixation	Fixation							4896032	0	1	5000	1	0	next	other	0
+test	782	Picture	Stim;Main;140;Z;Right;Stop;64	Stim	Main	140	Z	Right	Stop	64	4901032	0	1	833	1	0	920	other	0
+test	783	Picture	Stop	Stop							4901865	0	1	5000	1	0	next	other	0
+test	784	Response	2								4906796	11	0
+test	785	Picture	Feedback	Feedback							4906866	0	1	5000	1	0	next	other	0
+test	786	Picture	ITI	ITI							4911866	0	1	10001	1	0	next	other	0
+test	787	Picture	Fixation	Fixation							4921867	0	1	5000	1	0	next	other	0
+test	788	Picture	Stim;Main;141;A;Left;Go;80	Stim	Main	141	A	Left	Go	80	4926867	0	1	1000	1	0	920	hit	790
+test	788	Response	1								4931038	4171	0
+test	790	Picture	Feedback	Feedback							4932701	0	1	5000	1	0	next	other	0
+test	791	Picture	ITI	ITI							4937701	0	1	10001	1	0	next	other	0
+test	792	Picture	Fixation	Fixation							4947702	0	1	5000	1	0	next	other	0
+test	793	Picture	Stim;Main;142;A;Left;Go;80	Stim	Main	142	A	Left	Go	80	4952702	0	1	1000	1	0	920	hit	795
+test	793	Response	1								4956478	3776	0
+test	795	Picture	Feedback	Feedback							4958536	0	1	5000	1	0	next	other	0
+test	796	Picture	ITI	ITI							4963537	0	1	10001	1	0	next	other	0
+test	797	Picture	Fixation	Fixation							4973537	0	1	5167	1	0	next	other	0
+test	798	Picture	Stim;Main;143;A;Left;Go;80	Stim	Main	143	A	Left	Go	80	4978704	0	1	1000	1	0	920	hit	800
+test	798	Response	1								4982796	4092	0
+test	800	Picture	Feedback	Feedback							4984538	0	1	5000	1	0	next	other	0
+test	801	Picture	ITI	ITI							4989538	0	1	10001	1	0	next	other	0
+test	802	Picture	Fixation	Fixation							4999539	0	1	5000	1	0	next	other	0
+test	803	Picture	Stim;Main;144;Z;Right;Go;80	Stim	Main	144	Z	Right	Go	80	5004540	0	1	1000	1	0	920	hit	805
+test	803	Response	2								5008638	4099	0
+test	805	Picture	Feedback	Feedback							5010366	0	8	5007	8	0	next	other	0
+test	806	Picture	ITI	ITI							5015374	0	1	10001	1	0	next	other	0
+test	807	Picture	Fixation	Fixation							5025374	0	1	5167	1	0	next	other	0
+test	808	Picture	Stim;Main;145;Z;Right;Stop;80	Stim	Main	145	Z	Right	Stop	80	5030541	0	1	827	8	0	920	other	0
+test	809	Picture	Stop	Stop							5031368	0	8	5007	8	0	next	other	0
+test	811	Picture	Feedback	Feedback							5036375	0	1	5000	1	0	next	other	0
+test	812	Picture	ITI	ITI							5041376	0	1	10001	1	0	next	other	0
+test	813	Picture	Fixation	Fixation							5051376	0	1	5000	1	0	next	other	0
+test	814	Picture	Stim;Main;146;A;Left;Go;96	Stim	Main	146	A	Left	Go	96	5056377	0	1	1000	1	0	920	hit	815
+test	814	Response	1								5059119	2742	0
+test	816	Picture	Feedback	Feedback							5062377	0	1	5000	1	0	next	other	0
+test	817	Picture	ITI	ITI							5067378	0	1	10167	1	0	next	other	0
+test	818	Picture	Fixation	Fixation							5077545	0	1	5000	1	0	next	other	0
+test	819	Picture	Stim;Main;147;A;Left;Go;96	Stim	Main	147	A	Left	Go	96	5082545	0	1	1167	1	0	920	hit	820
+test	819	Response	1								5086718	4173	0
+test	821	Picture	Feedback	Feedback							5088546	0	1	5000	1	0	next	other	0
+test	822	Picture	ITI	ITI							5093546	0	1	10167	1	0	next	other	0
+test	823	Picture	Fixation	Fixation							5103714	0	1	5000	1	0	next	other	0
+test	824	Picture	Stim;Main;148;A;Left;Go;96	Stim	Main	148	A	Left	Go	96	5108714	0	1	1000	1	0	920	hit	825
+test	824	Response	1								5112479	3765	0
+test	826	Picture	Feedback	Feedback							5114714	0	1	5000	1	0	next	other	0
+test	827	Picture	ITI	ITI							5119715	0	1	10001	1	0	next	other	0
+test	828	Picture	Fixation	Fixation							5129716	0	1	5000	1	0	next	other	0
+test	829	Picture	Stim;Main;149;A;Left;Stop;96	Stim	Main	149	A	Left	Stop	96	5134716	0	1	1000	1	0	920	false_alarm	831
+test	830	Picture	Stop	Stop							5135716	0	1	5167	1	0	next	other	0
+test	830	Response	1								5137598	1882	0
+test	832	Picture	Feedback	Feedback							5140883	0	1	5000	1	0	next	other	0
+test	833	Picture	ITI	ITI							5145883	0	1	10001	1	0	next	other	0
+test	834	Picture	Fixation	Fixation							5155884	0	1	5000	1	0	next	other	0
+test	835	Picture	Stim;Main;150;A;Left;Stop;80	Stim	Main	150	A	Left	Stop	80	5160885	0	1	1000	1	0	920	false_alarm	837
+test	836	Picture	Stop	Stop							5161885	0	1	5000	1	0	next	other	0
+test	836	Response	2								5165998	4113	0
+test	838	Picture	Feedback	Feedback							5166885	0	1	5000	1	0	next	other	0
+test	839	Picture	ITI	ITI							5171885	0	1	10001	1	0	next	other	0
+test	840	Picture	Fixation	Fixation							5181886	0	1	5167	1	0	next	other	0
+test	841	Picture	Stim;Main;151;A;Left;Go;64	Stim	Main	151	A	Left	Go	64	5187053	0	1	1000	1	0	920	hit	842
+test	841	Response	1								5190238	3185	0
+test	843	Picture	Feedback	Feedback							5192713	0	8	5007	8	0	next	other	0
+test	844	Picture	ITI	ITI							5197721	0	1	10001	1	0	next	other	0
+test	845	Picture	Fixation	Fixation							5207721	0	1	5000	1	0	next	other	0
+test	846	Picture	Stim;Main;152;Z;Right;Stop;64	Stim	Main	152	Z	Right	Stop	64	5212722	0	1	659	8	0	920	other	0
+test	847	Picture	Stop	Stop							5213381	0	8	5008	8	0	next	other	0
+test	849	Picture	Feedback	Feedback							5218389	0	1	5000	1	0	next	other	0
+test	850	Picture	ITI	ITI							5223389	0	1	10001	1	0	next	other	0
+test	851	Picture	Fixation	Fixation							5233390	0	1	5000	1	0	next	other	0
+test	852	Picture	Stim;Main;153;Z;Right;Go;80	Stim	Main	153	Z	Right	Go	80	5238390	0	1	1000	1	0	920	hit	852
+test	852	Response	2								5242719	4328	0
+test	854	Picture	Feedback	Feedback							5244224	0	1	5000	1	0	next	other	0
+test	855	Picture	ITI	ITI							5249225	0	1	10167	1	0	next	other	0
+test	856	Picture	Fixation	Fixation							5259392	0	1	5167	1	0	next	other	0
+test	857	Picture	Stim;Main;154;Z;Right;Stop;80	Stim	Main	154	Z	Right	Stop	80	5264559	0	1	1000	1	0	920	false_alarm	858
+test	858	Picture	Stop	Stop							5265559	0	1	5000	1	0	next	other	0
+test	858	Response	2								5268318	2759	0
+test	860	Picture	Feedback	Feedback							5270559	0	1	5000	1	0	next	other	0
+test	861	Picture	ITI	ITI							5275560	0	1	10001	1	0	next	other	0
+test	862	Picture	Fixation	Fixation							5285560	0	1	5000	1	0	next	other	0
+test	863	Picture	Stim;Main;155;Z;Right;Go;64	Stim	Main	155	Z	Right	Go	64	5290561	0	1	1000	1	0	920	miss	0
+test	865	Picture	Feedback	Feedback							5296221	0	8	5174	8	0	next	other	0
+test	866	Picture	ITI	ITI							5301395	0	1	10001	1	0	next	other	0
+test	867	Picture	Fixation	Fixation							5311396	0	1	5000	1	0	next	other	0
+test	868	Picture	Stim;Main;156;Z;Right;Go;64	Stim	Main	156	Z	Right	Go	64	5316396	0	1	1167	1	0	920	hit	867
+test	868	Response	2								5320557	4161	0
+test	870	Picture	Feedback	Feedback							5322063	0	1	5000	1	0	next	other	0
+test	871	Picture	ITI	ITI							5327064	0	1	10001	1	0	next	other	0
+test	872	Picture	Fixation	Fixation							5337064	0	1	5000	1	0	next	other	0
+test	873	Picture	Stim;Main;157;A;Left;Go;64	Stim	Main	157	A	Left	Go	64	5342065	0	1	1000	1	0	920	hit	872
+test	873	Response	1								5344878	2814	0
+test	875	Picture	Feedback	Feedback							5347898	0	1	5167	1	0	next	other	0
+test	876	Picture	ITI	ITI							5353066	0	1	10001	1	0	next	other	0
+test	877	Picture	Fixation	Fixation							5363066	0	1	5000	1	0	next	other	0
+test	878	Picture	Stim;Main;158;A;Left;Go;64	Stim	Main	158	A	Left	Go	64	5368067	0	1	1000	1	0	920	hit	877
+test	878	Response	1								5372555	4489	0
+test	880	Picture	Feedback	Feedback							5373900	0	1	5000	1	0	next	other	0
+test	881	Picture	ITI	ITI							5378901	0	1	10168	1	0	next	other	0
+test	882	Picture	Fixation	Fixation							5389068	0	1	5000	1	0	next	other	0
+test	883	Picture	Stim;Main;159;A;Left;Go;64	Stim	Main	159	A	Left	Go	64	5394069	0	1	1000	1	0	920	hit	882
+test	883	Response	1								5398078	4009	0
+test	885	Picture	Feedback	Feedback							5399736	0	1	5000	1	0	next	other	0
+test	886	Picture	ITI	ITI							5404736	0	1	10334	1	0	next	other	0
+test	887	Picture	Fixation	Fixation							5415070	0	1	5000	1	0	next	other	0
+test	888	Picture	Stim;Main;160;A;Left;Go;64	Stim	Main	160	A	Left	Go	64	5420071	0	1	1000	1	0	920	hit	887
+test	888	Response	1								5423678	3607	0
+test	890	Picture	Feedback	Feedback							5425731	0	8	5007	8	0	next	other	0
+test	891	Picture	ITI	ITI							5430738	0	1	10001	1	0	next	other	0
+test	892	Picture	Fixation	Fixation							5440739	0	1	5000	1	0	next	other	0
+test	893	Picture	Stim;Main;161;Z;Right;Go;64	Stim	Main	161	Z	Right	Go	64	5445739	0	1	1000	1	0	920	hit	892
+test	893	Response	2								5449276	3537	0
+test	895	Picture	Feedback	Feedback							5451573	0	1	5000	1	0	next	other	0
+test	896	Picture	ITI	ITI							5456573	0	1	10001	1	0	next	other	0
+test	897	Picture	Fixation	Fixation							5466574	0	1	5000	1	0	next	other	0
+test	898	Picture	Stim;Main;162;Z;Right;Go;64	Stim	Main	162	Z	Right	Go	64	5471574	0	1	1167	1	0	920	hit	897
+test	898	Response	2								5475436	3862	0
+test	900	Picture	Feedback	Feedback							5477235	0	8	5007	8	0	next	other	0
+test	901	Picture	ITI	ITI							5482242	0	1	10001	1	0	next	other	0
+test	902	Picture	Fixation	Fixation							5492243	0	1	5000	1	0	next	other	0
+test	903	Picture	Stim;Main;163;A;Left;Go;64	Stim	Main	163	A	Left	Go	64	5497243	0	1	1167	1	0	920	hit	902
+test	903	Response	1								5499836	2593	0
+test	905	Picture	Feedback	Feedback							5502910	0	1	5000	1	0	next	other	0
+test	906	Picture	ITI	ITI							5507910	0	1	10001	1	0	next	other	0
+test	907	Picture	Fixation	Fixation							5517911	0	1	5000	1	0	next	other	0
+test	908	Picture	Stim;Main;164;A;Left;Stop;64	Stim	Main	164	A	Left	Stop	64	5522912	0	1	833	1	0	920	other	0
+test	909	Picture	Stop	Stop							5523745	0	1	5000	1	0	next	other	0
+test	911	Picture	Feedback	Feedback							5528745	0	1	5000	1	0	next	other	0
+test	912	Picture	ITI	ITI							5533746	0	1	10167	1	0	next	other	0
+test	913	Picture	Fixation	Fixation							5543913	0	1	5000	1	0	next	other	0
+test	914	Picture	Stim;Main;165;A;Left;Go;80	Stim	Main	165	A	Left	Go	80	5548913	0	1	1000	1	0	920	hit	912
+test	914	Response	1								5553038	4125	0
+test	916	Picture	Feedback	Feedback							5554747	0	1	5000	1	0	next	other	0
+test	917	Picture	ITI	ITI							5559748	0	1	10001	1	0	next	other	0
+test	918	Picture	Fixation	Fixation							5569748	0	1	5167	1	0	next	other	0
+test	919	Picture	Stim;Main;166;A;Left;Stop;80	Stim	Main	166	A	Left	Stop	80	5574915	0	1	1000	1	0	920	other	0
+test	920	Picture	Stop	Stop							5575915	0	1	5000	1	0	next	other	0
+test	922	Picture	Feedback	Feedback							5580916	0	1	5167	1	0	next	other	0
+test	923	Picture	ITI	ITI							5586083	0	1	10001	1	0	next	other	0
+test	924	Picture	Fixation	Fixation							5596084	0	1	5167	1	0	next	other	0
+test	925	Picture	Stim;Main;167;A;Left;Go;96	Stim	Main	167	A	Left	Go	96	5601251	0	1	1000	1	0	920	hit	922
+test	925	Response	1								5605357	4106	0
+test	927	Picture	Feedback	Feedback							5607251	0	1	5000	1	0	next	other	0
+test	928	Picture	ITI	ITI							5612251	0	1	10167	1	0	next	other	0
+test	929	Picture	Fixation	Fixation							5622419	0	1	5000	1	0	next	other	0
+test	930	Picture	Stim;Main;168;A;Left;Go;96	Stim	Main	168	A	Left	Go	96	5627419	0	1	1000	1	0	920	hit	927
+test	930	Response	1								5630878	3459	0
+test	932	Picture	Feedback	Feedback							5633420	0	1	5000	1	0	next	other	0
+test	933	Picture	ITI	ITI							5638420	0	1	10001	1	0	next	other	0
+test	934	Picture	Fixation	Fixation							5648421	0	1	5000	1	0	next	other	0
+test	935	Picture	Stim;Main;169;Z;Right;Go;96	Stim	Main	169	Z	Right	Go	96	5653421	0	1	1000	1	0	920	hit	932
+test	935	Response	2								5656398	2977	0
+test	937	Picture	Feedback	Feedback							5659422	0	1	5000	1	0	next	other	0
+test	938	Picture	ITI	ITI							5664422	0	1	10001	1	0	next	other	0
+test	939	Picture	Fixation	Fixation							5674423	0	1	5167	1	0	next	other	0
+test	940	Picture	Stim;Main;170;Z;Right;Go;96	Stim	Main	170	Z	Right	Go	96	5679590	0	1	1000	1	0	920	hit	937
+test	940	Response	2								5682637	3047	0
+test	942	Picture	Feedback	Feedback							5685590	0	1	5167	1	0	next	other	0
+test	943	Picture	ITI	ITI							5690757	0	1	10001	1	0	next	other	0
+test	944	Picture	Fixation	Fixation							5700758	0	1	5000	1	0	next	other	0
+test	945	Picture	Stim;Main;171;A;Left;Go;96	Stim	Main	171	A	Left	Go	96	5705759	0	1	1000	1	0	920	hit	942
+test	945	Response	1								5708957	3199	0
+test	947	Picture	Feedback	Feedback							5711759	0	1	5000	1	0	next	other	0
+test	948	Picture	ITI	ITI							5716759	0	1	10167	1	0	next	other	0
+test	949	Picture	Fixation	Fixation							5726927	0	1	5000	1	0	next	other	0
+test	950	Picture	Stim;Main;172;Z;Right;Go;96	Stim	Main	172	Z	Right	Go	96	5731927	0	1	1167	1	0	920	hit	947
+test	950	Response	2								5735277	3350	0
+test	952	Picture	Feedback	Feedback							5737928	0	1	5000	1	0	next	other	0
+test	953	Picture	ITI	ITI							5742928	0	1	10167	1	0	next	other	0
+test	954	Picture	Fixation	Fixation							5753095	0	1	5167	1	0	next	other	0
+test	955	Picture	Stim;Main;173;A;Left;Go;96	Stim	Main	173	A	Left	Go	96	5758262	0	1	1000	1	0	920	hit	952
+test	955	Response	1								5761357	3094	0
+test	957	Picture	Feedback	Feedback							5764263	0	1	5167	1	0	next	other	0
+test	958	Picture	ITI	ITI							5769430	0	1	10001	1	0	next	other	0
+test	959	Picture	Fixation	Fixation							5779431	0	1	5000	1	0	next	other	0
+test	960	Picture	Stim;Main;174;A;Left;Go;96	Stim	Main	174	A	Left	Go	96	5784431	0	1	1000	1	0	920	hit	957
+test	960	Response	1								5787837	3406	0
+test	962	Picture	Feedback	Feedback							5790598	0	1	5000	1	0	next	other	0
+test	963	Picture	ITI	ITI							5795599	0	1	10167	1	0	next	other	0
+test	964	Picture	Fixation	Fixation							5805766	0	1	5167	1	0	next	other	0
+test	965	Picture	Stim;Main;175;A;Left;Stop;96	Stim	Main	175	A	Left	Stop	96	5810933	0	1	1000	1	0	920	other	0
+test	966	Picture	Stop	Stop							5811933	0	1	5000	1	0	next	other	0
+test	968	Picture	Feedback	Feedback							5816933	0	1	5000	1	0	next	other	0
+test	969	Picture	ITI	ITI							5821934	0	1	10001	1	0	next	other	0
+test	970	Picture	Fixation	Fixation							5831935	0	1	5000	1	0	next	other	0
+test	971	Picture	Stim;Main;176;A;Left;Go;112	Stim	Main	176	A	Left	Go	112	5836935	0	1	1167	1	0	920	hit	967
+test	971	Response	1								5840078	3143	0
+test	973	Picture	Feedback	Feedback							5843102	0	1	5000	1	0	next	other	0
+test	974	Picture	ITI	ITI							5848102	0	1	10001	1	0	next	other	0
+test	975	Picture	Fixation	Fixation							5858103	0	1	5000	1	0	next	other	0
+test	976	Picture	Stim;Main;177;A;Left;Stop;112	Stim	Main	177	A	Left	Stop	112	5863104	0	1	1000	1	0	920	false_alarm	973
+test	977	Picture	Stop	Stop							5864270	0	1	5001	1	0	next	other	0
+test	977	Response	1								5866158	1888	0
+test	979	Picture	Feedback	Feedback							5869271	0	1	5167	1	0	next	other	0
+test	980	Picture	ITI	ITI							5874438	0	1	10334	1	0	next	other	0
+test	981	Picture	Fixation	Fixation							5884772	0	1	5000	1	0	next	other	0
+test	982	Picture	Stim;Main;178;Z;Right;Go;96	Stim	Main	178	Z	Right	Go	96	5889772	0	1	1000	1	0	920	incorrect	978
+test	982	Response	1								5893198	3426	0
+test	982	Response	2								5894796	5024	0
+test	984	Picture	Feedback	Feedback							5895939	0	1	5000	1	0	next	other	0
+test	985	Picture	ITI	ITI							5900940	0	1	10167	1	0	next	other	0
+test	986	Picture	Fixation	Fixation							5911107	0	1	5000	1	0	next	other	0
+test	987	Picture	Stim;Main;179;Z;Right;Go;96	Stim	Main	179	Z	Right	Go	96	5916108	0	1	1000	1	0	920	hit	984
+test	987	Response	2								5920078	3970	0
+test	989	Picture	Feedback	Feedback							5922275	0	1	5000	1	0	next	other	0
+test	990	Picture	ITI	ITI							5927275	0	1	10167	1	0	next	other	0
+test	991	Picture	Fixation	Fixation							5937442	0	1	5000	1	0	next	other	0
+test	992	Picture	Stim;Main;180;A;Left;Go;96	Stim	Main	180	A	Left	Go	96	5942443	0	1	1000	1	0	920	hit	989
+test	992	Response	1								5946558	4115	0
+test	994	Picture	Feedback	Feedback							5948443	0	1	5000	1	0	next	other	0
+test	995	Picture	ITI	ITI							5953444	0	1	10167	1	0	next	other	0
+test	996	Picture	Fixation	Fixation							5963611	0	1	5000	1	0	next	other	0
+test	997	Picture	Stim;Main;181;Z;Right;Go;96	Stim	Main	181	Z	Right	Go	96	5968611	0	1	1000	1	0	920	hit	994
+test	997	Response	2								5972398	3786	0
+test	999	Picture	Feedback	Feedback							5974612	0	1	5000	1	0	next	other	0
+test	1000	Picture	ITI	ITI							5979612	0	1	10001	1	0	next	other	0
+test	1001	Picture	Fixation	Fixation							5989613	0	1	5000	1	0	next	other	0
+test	1002	Picture	Stim;Main;182;Z;Right;Go;96	Stim	Main	182	Z	Right	Go	96	5994613	0	1	1167	1	0	920	hit	999
+test	1002	Response	2								5998798	4184	0
+test	1004	Picture	Feedback	Feedback							6000614	0	1	5000	1	0	next	other	0
+test	1005	Picture	ITI	ITI							6005614	0	1	10167	1	0	next	other	0
+test	1006	Picture	Fixation	Fixation							6015782	0	1	5000	1	0	next	other	0
+test	1007	Picture	Stim;Main;183;A;Left;Go;96	Stim	Main	183	A	Left	Go	96	6020782	0	1	1167	1	0	920	hit	1004
+test	1007	Response	1								6024796	4014	0
+test	1009	Picture	Feedback	Feedback							6026782	0	1	5167	1	0	next	other	0
+test	1010	Picture	ITI	ITI							6031949	0	1	10167	1	0	next	other	0
+test	1011	Picture	Fixation	Fixation							6042117	0	1	5000	1	0	next	other	0
+test	1012	Picture	Stim;Main;184;A;Left;Go;96	Stim	Main	184	A	Left	Go	96	6047117	0	1	1000	1	0	920	hit	1009
+test	1012	Response	1								6051518	4401	0
+test	1014	Picture	Feedback	Feedback							6053118	0	1	5000	1	0	next	other	0
+test	1015	Picture	ITI	ITI							6058118	0	1	10001	1	0	next	other	0
+test	1016	Picture	Fixation	Fixation							6068119	0	1	5000	1	0	next	other	0
+test	1017	Picture	Stim;Main;185;A;Left;Stop;96	Stim	Main	185	A	Left	Stop	96	6073119	0	1	1000	1	0	920	other	0
+test	1018	Picture	Stop	Stop							6074119	0	1	5167	1	0	next	other	0
+test	1020	Picture	Feedback	Feedback							6079286	0	1	5167	1	0	next	other	0
+test	1021	Picture	ITI	ITI							6084453	0	1	10001	1	0	next	other	0
+test	1022	Picture	Fixation	Fixation							6094454	0	1	5000	1	0	next	other	0
+test	1023	Picture	Stim;Main;186;Z;Right;Go;112	Stim	Main	186	Z	Right	Go	112	6099455	0	1	1000	1	0	920	hit	1019
+test	1023	Response	2								6103836	4382	0
+test	1025	Picture	Feedback	Feedback							6105622	0	1	5000	1	0	next	other	0
+test	1026	Picture	ITI	ITI							6110622	0	1	10001	1	0	next	other	0
+test	1027	Picture	Fixation	Fixation							6120623	0	1	5000	1	0	next	other	0
+test	1028	Picture	Stim;Main;187;A;Left;Go;112	Stim	Main	187	A	Left	Go	112	6125623	0	1	1000	1	0	920	hit	1024
+test	1028	Response	1								6129438	3814	0
+test	1030	Picture	Feedback	Feedback							6131790	0	1	5167	1	0	next	other	0
+test	1031	Picture	ITI	ITI							6136957	0	1	10001	1	0	next	other	0
+test	1032	Picture	Fixation	Fixation							6146958	0	1	5000	1	0	next	other	0
+test	1033	Picture	Stim;Main;188;A;Left;Go;112	Stim	Main	188	A	Left	Go	112	6151958	0	1	1333	1	0	920	miss	0
+test	1035	Picture	Feedback	Feedback							6158126	0	1	5167	1	0	next	other	0
+test	1035	Response	1								6162155	4029	0
+test	1036	Picture	ITI	ITI							6163293	0	1	10168	1	0	next	other	0
+test	1037	Picture	Fixation	Fixation							6173460	0	1	5000	1	0	next	other	0
+test	1038	Picture	Stim;Main;189;Z;Right;Go;112	Stim	Main	189	Z	Right	Go	112	6178460	0	1	1000	1	0	920	hit	1034
+test	1038	Response	2								6182717	4256	0
+test	1040	Picture	Feedback	Feedback							6184627	0	1	5000	1	0	next	other	0
+test	1041	Picture	ITI	ITI							6189628	0	1	10167	1	0	next	other	0
+test	1042	Picture	Fixation	Fixation							6199795	0	1	5167	1	0	next	other	0
+test	1043	Picture	Stim;Main;190;A;Left;Go;112	Stim	Main	190	A	Left	Go	112	6204962	0	1	1000	1	0	920	hit	1039
+test	1043	Response	1								6208235	3272	0
+test	1045	Picture	Feedback	Feedback							6211296	0	1	5000	1	0	next	other	0
+test	1046	Picture	ITI	ITI							6216297	0	1	10001	1	0	next	other	0
+test	1047	Picture	Fixation	Fixation							6226297	0	1	5000	1	0	next	other	0
+test	1048	Picture	Stim;Main;191;A;Left;Go;112	Stim	Main	191	A	Left	Go	112	6231298	0	1	1167	1	0	920	hit	1044
+test	1048	Response	1								6234718	3420	0
+test	1050	Picture	Feedback	Feedback							6237465	0	1	5000	1	0	next	other	0
+test	1051	Picture	ITI	ITI							6242465	0	1	10001	1	0	next	other	0
+test	1052	Picture	Fixation	Fixation							6252466	0	1	5000	1	0	next	other	0
+test	1053	Picture	Stim;Main;192;Z;Right;Go;112	Stim	Main	192	Z	Right	Go	112	6257466	0	1	1000	1	0	920	hit	1049
+test	1053	Response	2								6261037	3571	0
+test	1055	Picture	Feedback	Feedback							6263633	0	1	5000	1	0	next	other	0
+test	1056	Picture	ITI	ITI							6268634	0	1	10001	1	0	next	other	0
+test	1057	Picture	Fixation	Fixation							6278635	0	1	5000	1	0	next	other	0
+test	1058	Picture	Stim;Main;193;Z;Right;Go;112	Stim	Main	193	Z	Right	Go	112	6283635	0	1	1000	1	0	920	hit	1054
+test	1058	Response	2								6286958	3323	0
+test	1060	Picture	Feedback	Feedback							6289802	0	1	5000	1	0	next	other	0
+test	1061	Picture	ITI	ITI							6294802	0	1	10001	1	0	next	other	0
+test	1062	Picture	Fixation	Fixation							6304803	0	1	5000	1	0	next	other	0
+test	1063	Picture	Stim;Main;194;Z;Right;Go;112	Stim	Main	194	Z	Right	Go	112	6309804	0	1	1000	1	0	920	hit	1059
+test	1063	Response	2								6313757	3954	0
+test	1065	Picture	Feedback	Feedback							6315971	0	1	5000	1	0	next	other	0
+test	1066	Picture	ITI	ITI							6320971	0	1	10001	1	0	next	other	0
+test	1067	Picture	Fixation	Fixation							6330972	0	1	5000	1	0	next	other	0
+test	1068	Picture	Stim;Main;195;Z;Right;Stop;112	Stim	Main	195	Z	Right	Stop	112	6335972	0	1	1000	1	0	920	false_alarm	1065
+test	1069	Picture	Stop	Stop							6337139	0	1	5000	1	0	next	other	0
+test	1069	Response	2								6338878	1739	0
+test	1071	Picture	Feedback	Feedback							6342139	0	1	5167	1	0	next	other	0
+test	1072	Picture	ITI	ITI							6347306	0	1	10001	1	0	next	other	0
+test	1073	Picture	Fixation	Fixation							6357307	0	1	5000	1	0	next	other	0
+test	1074	Picture	Stim;Main;196;Z;Right;Go;96	Stim	Main	196	Z	Right	Go	96	6362307	0	1	1000	1	0	920	hit	1070
+test	1074	Response	2								6367436	5128	0
+test	1076	Picture	Feedback	Feedback							6368308	0	1	5167	1	0	next	other	0
+test	1077	Picture	ITI	ITI							6373475	0	1	10001	1	0	next	other	0
+test	1078	Picture	Fixation	Fixation							6383476	0	1	5000	1	0	next	other	0
+test	1079	Picture	Stim;Main;197;Z;Right;Go;96	Stim	Main	197	Z	Right	Go	96	6388476	0	1	1000	1	0	920	hit	1075
+test	1079	Response	2								6392235	3759	0
+test	1081	Picture	Feedback	Feedback							6394477	0	1	5000	1	0	next	other	0
+test	1082	Picture	ITI	ITI							6399477	0	1	10001	1	0	next	other	0
+test	1083	Picture	Fixation	Fixation							6409478	0	1	5000	1	0	next	other	0
+test	1084	Picture	Stim;Main;198;Z;Right;Go;96	Stim	Main	198	Z	Right	Go	96	6414478	0	1	1000	1	0	920	hit	1080
+test	1084	Response	2								6417917	3439	0
+test	1086	Picture	Feedback	Feedback							6420478	0	1	5000	1	0	next	other	0
+test	1087	Picture	ITI	ITI							6425479	0	1	10167	1	0	next	other	0
+test	1088	Picture	Fixation	Fixation							6435646	0	1	5000	1	0	next	other	0
+test	1089	Picture	Stim;Main;199;A;Left;Go;96	Stim	Main	199	A	Left	Go	96	6440647	0	1	1000	1	0	920	hit	1085
+test	1089	Response	1								6444396	3750	0
+test	1091	Picture	Feedback	Feedback							6446647	0	1	5000	1	0	next	other	0
+test	1092	Picture	ITI	ITI							6451647	0	1	10001	1	0	next	other	0
+test	1093	Picture	Fixation	Fixation							6461648	0	1	5000	1	0	next	other	0
+test	1094	Picture	Stim;Main;200;A;Left;Stop;96	Stim	Main	200	A	Left	Stop	96	6466649	0	1	1167	1	0	920	other	0
+test	1095	Picture	Stop	Stop							6467815	0	1	5000	1	0	next	other	0
+test	1097	Picture	Feedback	Feedback							6472816	0	1	5000	1	0	next	other	0
+test	1098	Picture	ITI	ITI							6477816	0	1	10001	1	0	next	other	0
+test	1099	Response	1								6532319	44502	0
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Picture	ITI	other				779391	1	10168	1	0	next
+Picture	Fixation	other				789559	1	5000	1	0	next
+Picture	Stim;Practice;1;A;Left;Go;400	hit	1	2963	1	794559	1	1000	1	0	920
+Picture	Feedback	other				803560	1	5000	1	0	next
+Picture	ITI	other				808560	1	10001	1	0	next
+Picture	Fixation	other				818561	1	5000	1	0	next
+Picture	Stim;Practice;2;A;Left;Go;400	hit	1	4041	1	823561	1	1000	1	0	920
+Picture	Feedback	other				832562	1	5167	1	0	next
+Picture	ITI	other				837729	1	10001	1	0	next
+Picture	Fixation	other				847730	1	5000	1	0	next
+Picture	Stim;Practice;3;Z;Right;Go;400	hit	2	4068	1	852730	1	1000	1	0	920
+Picture	Feedback	other				861897	1	5000	1	0	next
+Picture	ITI	other				866898	1	10001	1	0	next
+Picture	Fixation	other				876898	1	5167	1	0	next
+Picture	Stim;Practice;4;Z;Right;Go;400	hit	2	2896	1	882066	1	1000	1	0	920
+Picture	Feedback	other				891066	1	5000	1	0	next
+Picture	ITI	other				896067	1	10001	1	0	next
+Picture	Fixation	other				906067	1	5000	1	0	next
+Picture	Stim;Practice;5;Z;Right;Stop;400	false_alarm	2	3654	1	911068	1	1000	1	0	920
+Picture	Stop	other				915235	1	5000	1	0	next
+Picture	Feedback	other				920235	1	5000	1	0	next
+Picture	ITI	other				925235	1	10001	1	0	next
+Picture	Fixation	other				935236	1	5000	1	0	next
+Picture	Stim;Practice;6;Z;Right;Go;384	hit	2	4085	1	940237	1	1167	1	0	920
+Picture	Feedback	other				949071	1	5000	1	0	next
+Picture	ITI	other				954071	1	10001	1	0	next
+Picture	Fixation	other				964072	1	5000	1	0	next
+Picture	Stim;Practice;7;A;Left;Go;384	hit	1	3090	1	969072	1	1000	1	0	920
+Picture	Feedback	other				977906	1	5000	1	0	next
+Picture	ITI	other				982906	1	10001	1	0	next
+Picture	Fixation	other				992907	1	5167	1	0	next
+Picture	Stim;Practice;8;Z;Right;Stop;384	false_alarm	2	2886	1	998074	1	1000	1	0	920
+Picture	Stop	other				1001908	1	5000	1	0	next
+Picture	Feedback	other				1006908	1	5000	1	0	next
+Picture	ITI	other				1011909	1	10001	1	0	next
+Picture	Fixation	other				1021909	1	5000	1	0	next
+Picture	Stim;Practice;9;A;Left;Stop;368	false_alarm	1	2612	1	1026910	1	1000	1	0	920
+Picture	Stop	other				1030577	1	5167	1	0	next
+Picture	Feedback	other				1035744	1	5000	1	0	next
+Picture	ITI	other				1040744	1	10001	1	0	next
+Picture	Fixation	other				1050745	1	5000	1	0	next
+Picture	Stim;Practice;10;A;Left;Stop;352	false_alarm	2	2255	1	1055745	1	1000	1	0	920
+Picture	Stop	other				1059245	1	5000	1	0	next
+Picture	Feedback	other				1064246	1	5000	1	0	next
+Picture	ITI	other				1069246	1	10001	1	0	next
+Picture	ITI	other				1109582	1	10168	1	0	next
+Picture	Fixation	other				1119750	1	5167	1	0	next
+Picture	Stim;Main;1;Z;Right;Go;400	incorrect	1	3322	1	1124917	1	1000	1	0	920
+Picture	Feedback	other				1133918	1	5000	1	0	next
+Picture	ITI	other				1138918	1	10001	1	0	next
+Picture	Fixation	other				1148919	1	5000	1	0	next
+Picture	Stim;Main;2;A;Left;Go;400	hit	1	4482	1	1153919	1	1167	1	0	920
+Picture	Feedback	other				1162920	1	5167	1	0	next
+Picture	ITI	other				1168087	1	10168	1	0	next
+Picture	Fixation	other				1178254	1	5000	1	0	next
+Picture	Stim;Main;3;A;Left;Go;400	incorrect	2	2826	1	1183255	1	1167	1	0	920
+Picture	Feedback	other				1192255	1	5000	1	0	next
+Picture	ITI	other				1197256	1	10001	1	0	next
+Picture	Fixation	other				1207256	1	5000	1	0	next
+Picture	Stim;Main;4;A;Left;Go;400	hit	1	2945	1	1212257	1	1000	1	0	920
+Picture	Feedback	other				1221258	1	5000	1	0	next
+Picture	ITI	other				1226258	1	10000	2	0	next
+Picture	Fixation	other				1236258	2	5001	2	0	next
+Picture	Stim;Main;5;Z;Right;Go;400	hit	2	4982	1	1241259	1	1000	1	0	920
+Picture	Feedback	other				1250260	1	5000	1	0	next
+Picture	ITI	other				1255260	1	10001	1	0	next
+Picture	Fixation	other				1265261	1	5000	1	0	next
+Picture	Stim;Main;6;A;Left;Stop;400	false_alarm	1	3580	1	1270261	1	1000	1	0	920
+Picture	Stop	other				1274261	1	5000	1	0	next
+Picture	Feedback	other				1279262	1	5000	1	0	next
+Picture	ITI	other				1284262	1	10167	1	0	next
+Picture	Fixation	other				1294430	1	5167	1	0	next
+Picture	Stim;Main;7;A;Left;Go;384	hit	1	5284	1	1299597	1	1000	1	0	920
+Picture	Feedback	other				1308431	1	5167	1	0	next
+Picture	ITI	other				1313598	1	10001	1	0	next
+Picture	Fixation	other				1323598	1	5000	1	0	next
+Picture	Stim;Main;8;Z;Right;Go;384	hit	2	3243	1	1328599	1	1000	1	0	920
+Picture	Feedback	other				1337433	1	5000	1	0	next
+Picture	ITI	other				1342433	1	10001	1	0	next
+Picture	Fixation	other				1352434	1	5167	1	0	next
+Picture	Stim;Main;9;Z;Right;Stop;384	false_alarm	2	3599	1	1357601	1	1000	1	0	920
+Picture	Stop	other				1361435	1	5000	1	0	next
+Picture	Feedback	other				1366435	1	5000	1	0	next
+Picture	ITI	other				1371435	1	10167	1	0	next
+Picture	Fixation	other				1381603	1	5000	1	0	next
+Picture	Stim;Main;10;Z;Right;Go;368	hit	2	4438	1	1386603	1	1000	1	0	920
+Picture	Feedback	other				1395270	1	5167	1	0	next
+Picture	ITI	other				1400438	1	10001	1	0	next
+Picture	Fixation	other				1410438	1	5000	1	0	next
+Picture	Stim;Main;11;Z;Right;Go;368	hit	2	3682	1	1415439	1	1000	1	0	920
+Picture	Feedback	other				1424273	1	5001	1	0	next
+Picture	ITI	other				1429273	1	10001	1	0	next
+Picture	Fixation	other				1439274	1	5000	1	0	next
+Picture	Stim;Main;12;Z;Right;Go;368	hit	2	4206	1	1444274	1	1167	1	0	920
+Picture	Feedback	other				1452941	1	5000	1	0	next
+Picture	ITI	other				1457942	1	10001	1	0	next
+Picture	Fixation	other				1467943	1	5000	1	0	next
+Picture	Stim;Main;13;A;Left;Go;368	hit	1	3378	1	1472943	1	1000	1	0	920
+Picture	Feedback	other				1481610	1	5000	1	0	next
+Picture	ITI	other				1486611	1	10001	1	0	next
+Picture	Fixation	other				1496611	1	5000	1	0	next
+Picture	Stim;Main;14;A;Left;Stop;368	false_alarm	2	2950	1	1501612	1	1000	1	0	920
+Picture	Stop	other				1505279	1	5000	1	0	next
+Picture	Feedback	other				1510279	1	5167	1	0	next
+Picture	ITI	other				1515446	1	10001	1	0	next
+Picture	Fixation	other				1525447	1	5000	1	0	next
+Picture	Stim;Main;15;A;Left;Stop;352	false_alarm	1	5314	1	1530447	1	1000	1	0	920
+Picture	Stop	other				1534114	1	5000	1	0	next
+Picture	Feedback	other				1539115	1	5000	1	0	next
+Picture	ITI	other				1544115	1	10001	1	0	next
+Picture	Fixation	other				1554116	1	5000	1	0	next
+Picture	Stim;Main;16;A;Left;Go;336	hit	1	7125	1	1559116	1	1000	1	0	920
+Picture	Feedback	other				1567450	1	5000	1	0	next
+Picture	ITI	other				1572450	1	10001	1	0	next
+Picture	Fixation	other				1582451	1	5000	1	0	next
+Picture	Stim;Main;17;A;Left;Go;336	hit	1	4069	1	1587451	1	1000	1	0	920
+Picture	Feedback	other				1595952	1	5167	1	0	next
+Picture	ITI	other				1601119	1	10001	1	0	next
+Picture	Fixation	other				1611120	1	5000	1	0	next
+Picture	Stim;Main;18;Z;Right;Go;336	hit	2	4040	1	1616120	1	1000	1	0	920
+Picture	Feedback	other				1624454	1	5000	1	0	next
+Picture	ITI	other				1629455	1	10001	1	0	next
+Picture	Fixation	other				1639455	1	5000	1	0	next
+Picture	Stim;Main;19;A;Left;Go;336	hit	1	3386	1	1644456	1	1000	1	0	920
+Picture	Feedback	other				1652790	1	5000	1	0	next
+Picture	ITI	other				1657790	1	10001	1	0	next
+Picture	Fixation	other				1667791	1	5000	1	0	next
+Picture	Stim;Main;20;Z;Right;Go;336	hit	2	3370	1	1672791	1	1000	1	0	920
+Picture	Feedback	other				1681292	1	5000	1	0	next
+Picture	ITI	other				1686292	1	10000	2	0	next
+Picture	Fixation	other				1696292	2	5001	2	0	next
+Picture	Stim;Main;21;A;Left;Go;336	hit	1	3268	1	1701293	1	1167	1	0	920
+Picture	Feedback	other				1709794	1	5000	1	0	next
+Picture	ITI	other				1714794	1	10167	1	0	next
+Picture	Fixation	other				1724962	1	5000	1	0	next
+Picture	Stim;Main;22;A;Left;Go;336	hit	1	3638	1	1729962	1	1167	1	0	920
+Picture	Feedback	other				1738463	1	5000	1	0	next
+Picture	ITI	other				1743463	1	10001	1	0	next
+Picture	Fixation	other				1753464	1	5000	1	0	next
+Picture	Stim;Main;23;A;Left;Go;336	hit	1	3617	1	1758464	1	1000	1	0	920
+Picture	Feedback	other				1766965	1	5000	1	0	next
+Picture	ITI	other				1771965	1	10001	1	0	next
+Picture	Fixation	other				1781966	1	5000	1	0	next
+Picture	Stim;Main;24;Z;Right;Go;336	hit	2	3915	1	1786966	1	1000	1	0	920
+Picture	Feedback	other				1795300	1	5000	1	0	next
+Picture	ITI	other				1800301	1	10168	1	0	next
+Picture	Fixation	other				1810468	1	5000	1	0	next
+Picture	Stim;Main;25;Z;Right;Go;336	hit	2	3972	1	1815468	1	1000	1	0	920
+Picture	Feedback	other				1823802	1	5000	1	0	next
+Picture	ITI	other				1828803	1	10334	1	0	next
+Picture	Fixation	other				1839137	1	5000	1	0	next
+Picture	Stim;Main;26;Z;Right;Go;336	hit	2	4345	1	1844137	1	1000	1	0	920
+Picture	Feedback	other				1852471	1	5000	1	0	next
+Picture	ITI	other				1857472	1	10001	1	0	next
+Picture	Fixation	other				1867472	1	5000	1	0	next
+Picture	Stim;Main;27;Z;Right;Go;336	hit	2	4168	1	1872473	1	1167	1	0	920
+Picture	Feedback	other				1880973	1	5000	1	0	next
+Picture	ITI	other				1885974	1	10167	1	0	next
+Picture	Fixation	other				1896141	1	5167	1	0	next
+Picture	Stim;Main;28;A;Left;Stop;336	false_alarm	1	3012	1	1901308	1	1000	1	0	920
+Picture	Stop	other				1904642	1	5000	1	0	next
+Picture	Feedback	other				1909642	1	5000	1	0	next
+Picture	ITI	other				1914643	1	10001	1	0	next
+Picture	Fixation	other				1924643	1	5000	1	0	next
+Picture	Stim;Main;29;A;Left;Go;320	hit	1	4276	1	1929644	1	1000	1	0	920
+Picture	Feedback	other				1937978	1	5000	1	0	next
+Picture	ITI	other				1942978	1	10001	1	0	next
+Picture	Fixation	other				1952979	1	5167	1	0	next
+Picture	Stim;Main;30;Z;Right;Go;320	hit	2	2974	1	1958146	1	1000	1	0	920
+Picture	Feedback	other				1966313	1	5167	1	0	next
+Picture	ITI	other				1971480	1	10167	1	0	next
+Picture	Fixation	other				1981648	1	5000	1	0	next
+Picture	Stim;Main;31;Z;Right;Go;320	hit	2	3992	1	1986648	1	1000	1	0	920
+Picture	Feedback	other				1994982	1	5000	1	0	next
+Picture	ITI	other				1999982	1	10001	1	0	next
+Picture	Fixation	other				2009983	1	5000	1	0	next
+Picture	Stim;Main;32;A;Left;Go;320	hit	1	3337	1	2014983	1	1000	1	0	920
+Picture	Feedback	other				2023151	1	5000	1	0	next
+Picture	ITI	other				2028151	1	10001	1	0	next
+Picture	Fixation	other				2038152	1	5000	1	0	next
+Picture	Stim;Main;33;A;Left;Go;320	hit	1	3569	1	2043152	1	1000	1	0	920
+Picture	Feedback	other				2051319	1	5000	1	0	next
+Picture	ITI	other				2056320	1	10001	1	0	next
+Picture	Fixation	other				2066320	1	5000	1	0	next
+Picture	Stim;Main;34;Z;Right;Go;320	hit	2	3880	1	2071321	1	1167	1	0	920
+Picture	Feedback	other				2079488	1	5000	1	0	next
+Picture	ITI	other				2084488	1	10001	1	0	next
+Picture	Fixation	other				2094489	1	5000	1	0	next
+Picture	Stim;Main;35;Z;Right;Go;320	hit	2	3791	1	2099490	1	1000	1	0	920
+Picture	Feedback	other				2107657	1	5167	1	0	next
+Picture	ITI	other				2112824	1	10001	1	0	next
+Picture	Fixation	other				2122825	1	5334	1	0	next
+Picture	Stim;Main;36;Z;Right;Go;320	hit	2	3921	1	2128158	1	1000	1	0	920
+Picture	Feedback	other				2136326	1	5167	1	0	next
+Picture	ITI	other				2141493	1	10001	1	0	next
+Picture	Fixation	other				2151494	1	5000	1	0	next
+Picture	Stim;Main;37;A;Left;Stop;320	false_alarm	1	3586	1	2156494	1	1000	1	0	920
+Picture	Stop	other				2159661	1	5000	1	0	next
+Picture	Feedback	other				2164661	1	5000	1	0	next
+Picture	ITI	other				2169661	1	10001	1	0	next
+Picture	Fixation	other				2179662	1	5000	1	0	next
+Picture	Stim;Main;38;A;Left;Go;304	incorrect	2	4139	1	2184663	1	1000	1	0	920
+Picture	Feedback	other				2192830	1	5000	1	0	next
+Picture	ITI	other				2197830	1	10167	1	0	next
+Picture	Fixation	other				2207998	1	5000	1	0	next
+Picture	Stim;Main;39;Z;Right;Go;304	hit	2	4283	1	2212998	1	1000	1	0	920
+Picture	Feedback	other				2220999	1	5000	1	0	next
+Picture	ITI	other				2225999	1	10001	1	0	next
+Picture	Fixation	other				2236000	1	5000	1	0	next
+Picture	Stim;Main;40;Z;Right;Stop;304	false_alarm	2	4040	1	2241000	1	1167	1	0	920
+Picture	Stop	other				2244000	1	5000	1	0	next
+Picture	Feedback	other				2249001	1	5000	1	0	next
+Picture	ITI	other				2254001	1	10001	1	0	next
+Picture	Fixation	other				2264002	1	5000	1	0	next
+Picture	Stim;Main;41;A;Left;Go;288	hit	1	4759	1	2269002	1	1000	1	0	920
+Picture	Feedback	other				2277003	1	5167	1	0	next
+Picture	ITI	other				2282170	1	10167	1	0	next
+Picture	Fixation	other				2292337	1	5167	1	0	next
+Picture	Stim;Main;42;A;Left;Go;288	hit	1	4177	1	2297504	1	1167	1	0	920
+Picture	Feedback	other				2305338	1	5167	1	0	next
+Picture	ITI	other				2310505	1	10001	1	0	next
+Picture	Fixation	other				2320506	1	5167	1	0	next
+Picture	Stim;Main;43;Z;Right;Go;288	hit	2	4007	1	2325673	1	1167	1	0	920
+Picture	Feedback	other				2333507	1	5167	1	0	next
+Picture	ITI	other				2338674	1	10001	1	0	next
+Picture	Fixation	other				2348675	1	5000	1	0	next
+Picture	Stim;Main;44;A;Left;Go;288	hit	1	2565	1	2353675	1	1000	1	0	920
+Picture	Feedback	other				2361509	1	5167	1	0	next
+Picture	ITI	other				2366676	1	10001	1	0	next
+Picture	Fixation	other				2376677	1	5000	1	0	next
+Picture	Stim;Main;45;Z;Right;Go;288	hit	2	2564	1	2381677	1	1000	1	0	920
+Picture	Feedback	other				2389511	1	5000	1	0	next
+Picture	ITI	other				2394512	1	10001	1	0	next
+Picture	Fixation	other				2404512	1	5000	1	0	next
+Picture	Stim;Main;46;A;Left;Stop;288	false_alarm	1	3285	1	2409513	1	1000	1	0	920
+Picture	Stop	other				2412513	1	5000	1	0	next
+Picture	Feedback	other				2417513	1	5000	1	0	next
+Picture	ITI	other				2422514	1	10167	1	0	next
+Picture	Fixation	other				2432681	1	5000	1	0	next
+Picture	Stim;Main;47;Z;Right;Stop;272	false_alarm	2	2879	1	2437682	1	1000	1	0	920
+Picture	Stop	other				2440515	1	5000	1	0	next
+Picture	Feedback	other				2445515	1	5000	1	0	next
+Picture	ITI	other				2450516	1	10001	1	0	next
+Picture	Fixation	other				2460517	1	5000	1	0	next
+Picture	Stim;Main;48;A;Left;Go;256	hit	1	3042	1	2465517	1	1000	1	0	920
+Picture	Feedback	other				2473184	1	5000	1	0	next
+Picture	ITI	other				2478185	1	10001	1	0	next
+Picture	Fixation	other				2488185	1	5167	1	0	next
+Picture	Stim;Main;49;Z;Right;Go;256	hit	2	3048	1	2493352	1	1000	1	0	920
+Picture	Feedback	other				2501020	1	5000	1	0	next
+Picture	ITI	other				2506020	1	10001	1	0	next
+Picture	Fixation	other				2516021	1	5000	1	0	next
+Picture	Stim;Main;50;A;Left;Go;256	hit	1	2897	1	2521021	1	1000	1	0	920
+Picture	Feedback	other				2528688	1	5167	1	0	next
+Picture	ITI	other				2533855	1	10001	1	0	next
+Picture	Fixation	other				2543856	1	5000	1	0	next
+Picture	Stim;Main;51;Z;Right;Go;256	hit	2	3143	1	2548856	1	1000	1	0	920
+Picture	Feedback	other				2556524	1	5167	1	0	next
+Picture	ITI	other				2561691	1	10001	1	0	next
+Picture	Fixation	other				2571692	1	5000	1	0	next
+Picture	Stim;Main;52;A;Left;Stop;256	false_alarm	1	3627	1	2576692	1	1167	1	0	920
+Picture	Stop	other				2579359	1	5001	1	0	next
+Picture	Feedback	other				2584359	1	5000	1	0	next
+Picture	ITI	other				2589359	1	10001	1	0	next
+Picture	Fixation	other				2599360	1	5000	1	0	next
+Picture	Stim;Main;53;A;Left;Go;240	hit	1	3560	1	2604361	1	1000	1	0	920
+Picture	Feedback	other				2611861	1	5000	1	0	next
+Picture	ITI	other				2616862	1	10001	1	0	next
+Picture	Fixation	other				2626862	1	5000	1	0	next
+Picture	Stim;Main;54;Z;Right;Stop;240	false_alarm	2	3499	1	2631863	1	1000	1	0	920
+Picture	Stop	other				2634363	1	5167	1	0	next
+Picture	Feedback	other				2639530	1	5000	1	0	next
+Picture	ITI	other				2644530	1	10001	1	0	next
+Picture	Fixation	other				2654531	1	5167	1	0	next
+Picture	Stim;Main;55;A;Left;Go;224	hit	1	3100	1	2659698	1	1000	1	0	920
+Picture	Feedback	other				2667032	1	5167	1	0	next
+Picture	ITI	other				2672199	1	10167	1	0	next
+Picture	Fixation	other				2682366	1	5000	1	0	next
+Picture	Stim;Main;56;Z;Right;Stop;224	false_alarm	2	3433	1	2687367	1	1000	1	0	920
+Picture	Stop	other				2689700	1	5000	1	0	next
+Picture	Feedback	other				2694701	1	5000	1	0	next
+Picture	ITI	other				2699701	1	10001	1	0	next
+Picture	Fixation	other				2709702	1	5167	1	0	next
+Picture	Stim;Main;57;A;Left;Go;208	hit	1	2732	1	2714869	1	1000	1	0	920
+Picture	Feedback	other				2722036	1	5000	1	0	next
+Picture	ITI	other				2727036	1	10001	1	0	next
+Picture	Fixation	other				2737037	1	5167	1	0	next
+Picture	Stim;Main;58;Z;Right;Go;208	hit	2	3554	1	2742204	1	1000	1	0	920
+Picture	Feedback	other				2749371	1	5167	1	0	next
+Picture	ITI	other				2754538	1	10167	1	0	next
+Picture	Fixation	other				2764706	1	5000	1	0	next
+Picture	Stim;Main;59;Z;Right;Go;208	incorrect	1	4534	1	2769706	1	1167	1	0	920
+Picture	Feedback	other				2776866	8	5007	8	0	next
+Picture	ITI	other				2781874	1	10001	1	0	next
+Picture	Fixation	other				2791875	1	5000	1	0	next
+Picture	Stim;Main;60;A;Left;Go;208	hit	1	4566	1	2796875	1	1000	1	0	920
+Picture	Feedback	other				2804042	1	5000	1	0	next
+Picture	ITI	other				2809042	1	9904	98	0	next
+Picture	Fixation	other				2818947	98	5097	98	0	next
+Picture	Stim;Main;61;Z;Right;Stop;208	false_alarm	2	3556	1	2824044	1	1167	1	0	920
+Picture	Stop	other				2826211	1	5000	1	0	next
+Picture	Feedback	other				2831211	1	5000	1	0	next
+Picture	ITI	other				2836211	1	10167	1	0	next
+Picture	Fixation	other				2846379	1	5167	1	0	next
+Picture	Stim;Main;62;A;Left;Go;192	hit	1	2535	1	2851546	1	1000	1	0	920
+Picture	Feedback	other				2858546	1	5167	1	0	next
+Picture	ITI	other				2863713	1	10001	1	0	next
+Picture	Fixation	other				2873714	1	5000	1	0	next
+Picture	Stim;Main;63;A;Left;Go;192	incorrect	2	1684	1	2878714	1	1000	1	0	920
+Picture	Feedback	other				2885882	1	5000	1	0	next
+Picture	ITI	other				2890882	1	10001	1	0	next
+Picture	Fixation	other				2900883	1	5000	1	0	next
+Picture	Stim;Main;64;Z;Right;Go;192	hit	2	2436	1	2905883	1	1167	1	0	920
+Picture	Feedback	other				2912884	1	5000	1	0	next
+Picture	ITI	other				2917884	1	10001	1	0	next
+Picture	Fixation	other				2927885	1	5000	1	0	next
+Picture	Stim;Main;65;Z;Right;Stop;192	false_alarm	1	2714	1	2932885	1	1000	1	0	920
+Picture	Stop	other				2934885	1	5167	1	0	next
+Picture	Feedback	other				2940052	1	5000	1	0	next
+Picture	ITI	other				2945053	1	10167	1	0	next
+Picture	Fixation	other				2955220	1	5000	1	0	next
+Picture	Stim;Main;66;A;Left;Go;176	hit	1	2660	1	2960220	1	1000	1	0	920
+Picture	Feedback	other				2967054	1	5000	1	0	next
+Picture	ITI	other				2972055	1	10001	1	0	next
+Picture	Fixation	other				2982056	1	5000	1	0	next
+Picture	Stim;Main;67;Z;Right;Go;176	hit	2	4785	1	2987056	1	1000	1	0	920
+Picture	Feedback	other				2993890	1	5167	1	0	next
+Picture	ITI	other				2999057	1	10167	1	0	next
+Picture	Fixation	other				3009224	1	5000	1	0	next
+Picture	Stim;Main;68;A;Left;Go;176	hit	1	2736	1	3014225	1	1000	1	0	920
+Picture	Feedback	other				3021058	1	5167	1	0	next
+Picture	ITI	other				3026225	1	10001	1	0	next
+Picture	Fixation	other				3036226	1	5000	1	0	next
+Picture	Stim;Main;69;Z;Right;Go;176	hit	2	2773	1	3041227	1	1167	1	0	920
+Picture	Feedback	other				3048060	1	5167	1	0	next
+Picture	ITI	other				3053227	1	10001	1	0	next
+Picture	Fixation	other				3063228	1	5167	1	0	next
+Picture	Stim;Main;70;Z;Right;Go;176	hit	2	3685	1	3068395	1	1000	1	0	920
+Picture	Feedback	other				3075229	1	5000	1	0	next
+Picture	ITI	other				3080229	1	10001	1	0	next
+Picture	Fixation	other				3090230	1	5000	1	0	next
+Picture	Stim;Main;71;Z;Right;Go;176	hit	2	3648	1	3095231	1	1167	1	0	920
+Picture	Feedback	other				3102064	1	5000	1	0	next
+Picture	ITI	other				3107065	1	10001	1	0	next
+Picture	Fixation	other				3117066	1	5167	1	0	next
+Picture	Stim;Main;72;Z;Right;Go;176	hit	2	4085	1	3122233	1	1000	1	0	920
+Picture	Feedback	other				3129066	1	5167	1	0	next
+Picture	ITI	other				3134233	1	10001	1	0	next
+Picture	Fixation	other				3144234	1	5167	1	0	next
+Picture	Stim;Main;73;Z;Right;Go;176	hit	2	4039	1	3149401	1	1000	1	0	920
+Picture	Feedback	other				3156235	1	5000	1	0	next
+Picture	ITI	other				3161236	1	10001	1	0	next
+Picture	Fixation	other				3171236	1	5000	1	0	next
+Picture	Stim;Main;74;Z;Right;Go;176	incorrect	1	3123	1	3176237	1	1000	1	0	920
+Picture	Feedback	other				3183070	1	5167	1	0	next
+Picture	ITI	other				3188238	1	10167	1	0	next
+Picture	Fixation	other				3198405	1	5000	1	0	next
+Picture	Stim;Main;75;Z;Right;Go;176	hit	2	3395	1	3203405	1	1000	1	0	920
+Picture	Feedback	other				3210406	1	5167	1	0	next
+Picture	ITI	other				3215573	1	10001	1	0	next
+Picture	Fixation	other				3225574	1	5000	1	0	next
+Picture	Stim;Main;76;A;Left;Go;176	hit	1	3505	1	3230574	1	1000	1	0	920
+Picture	Feedback	other				3237408	1	5000	1	0	next
+Picture	ITI	other				3242408	1	10001	1	0	next
+Picture	Fixation	other				3252409	1	5167	1	0	next
+Picture	Stim;Main;77;Z;Right;Stop;176	false_alarm	2	3225	1	3257576	1	1000	1	0	920
+Picture	Stop	other				3259410	1	5167	1	0	next
+Picture	Feedback	other				3264577	1	5000	1	0	next
+Picture	ITI	other				3269577	1	10001	1	0	next
+Picture	Fixation	other				3279578	1	5000	1	0	next
+Picture	Stim;Main;78;A;Left;Go;160	hit	1	2461	1	3284578	1	1167	1	0	920
+Picture	Feedback	other				3291245	1	5000	1	0	next
+Picture	ITI	other				3296246	1	10001	1	0	next
+Picture	Fixation	other				3306246	1	5000	1	0	next
+Picture	Stim;Main;79;A;Left;Go;160	hit	1	5554	1	3311247	1	1167	1	0	920
+Picture	Feedback	other				3317914	1	5000	1	0	next
+Picture	ITI	other				3322914	1	10001	1	0	next
+Picture	Fixation	other				3332915	1	5000	1	0	next
+Picture	Stim;Main;80;Z;Right;Stop;160	false_alarm	2	3044	1	3337915	1	1000	1	0	920
+Picture	Stop	other				3339582	1	5000	1	0	next
+Picture	Feedback	other				3344583	1	5000	1	0	next
+Picture	ITI	other				3349583	1	10001	1	0	next
+Picture	Fixation	other				3359584	1	5000	1	0	next
+Picture	Stim;Main;81;A;Left;Go;144	hit	1	3095	1	3364584	1	1000	1	0	920
+Picture	Feedback	other				3371251	1	5167	1	0	next
+Picture	ITI	other				3376418	1	10001	1	0	next
+Picture	Fixation	other				3386419	1	5000	1	0	next
+Picture	Stim;Main;82;Z;Right;Go;144	hit	2	2981	1	3391419	1	1000	1	0	920
+Picture	Feedback	other				3397920	1	5334	1	0	next
+Picture	ITI	other				3403253	1	10001	1	0	next
+Picture	Fixation	other				3413254	1	5000	1	0	next
+Picture	Stim;Main;83;Z;Right;Go;144	incorrect	1	3985	1	3418255	1	1000	1	0	920
+Picture	Feedback	other				3424755	1	5000	1	0	next
+Picture	ITI	other				3429756	1	10167	1	0	next
+Picture	Fixation	other				3439923	1	5000	1	0	next
+Picture	Stim;Main;84;A;Left;Stop;144	false_alarm	1	2197	1	3444923	1	1000	1	0	920
+Picture	Stop	other				3446424	1	5167	1	0	next
+Picture	Feedback	other				3451590	1	5000	1	0	next
+Picture	ITI	other				3456591	1	10001	1	0	next
+Picture	Fixation	other				3466592	1	5000	1	0	next
+Picture	Stim;Main;85;A;Left;Go;128	incorrect	2	3368	1	3471592	1	1000	1	0	920
+Picture	Feedback	other				3477926	1	5167	1	0	next
+Picture	ITI	other				3483093	1	10001	1	0	next
+Picture	Fixation	other				3493094	1	5000	1	0	next
+Picture	Stim;Main;86;A;Left;Go;128	hit	1	4945	1	3498094	1	1000	1	0	920
+Picture	Feedback	other				3504428	1	5000	1	0	next
+Picture	ITI	other				3509428	1	10167	1	0	next
+Picture	Fixation	other				3519596	1	5000	1	0	next
+Picture	Stim;Main;87;Z;Right;Stop;128	false_alarm	2	2923	1	3524596	1	1000	1	0	920
+Picture	Stop	other				3525929	1	5000	1	0	next
+Picture	Feedback	other				3530930	1	5167	1	0	next
+Picture	ITI	other				3536097	1	10001	1	0	next
+Picture	Fixation	other				3546098	1	5000	1	0	next
+Picture	Stim;Main;88;Z;Right;Stop;112	false_alarm	1	822	1	3551098	1	1000	1	0	920
+Picture	Stop	other				3552265	1	5000	1	0	next
+Picture	Feedback	other				3557265	1	5167	1	0	next
+Picture	ITI	other				3562432	1	10167	1	0	next
+Picture	Fixation	other				3572599	1	5000	1	0	next
+Picture	Stim;Main;89;A;Left;Go;96	hit	1	2880	1	3577600	1	1000	1	0	920
+Picture	Feedback	other				3583767	1	5000	1	0	next
+Picture	ITI	other				3588767	1	10001	1	0	next
+Picture	Fixation	other				3598768	1	5000	1	0	next
+Picture	Stim;Main;90;Z;Right;Stop;96	false_alarm	2	2951	1	3603768	1	1000	1	0	920
+Picture	Stop	other				3604769	1	5000	1	0	next
+Picture	Feedback	other				3609769	1	5167	1	0	next
+Picture	ITI	other				3614936	1	10001	1	0	next
+Picture	Fixation	other				3624937	1	5000	1	0	next
+Picture	Stim;Main;91;Z;Right;Go;80	hit	2	4463	1	3629937	1	1000	1	0	920
+Picture	Feedback	other				3635771	1	5000	1	0	next
+Picture	ITI	other				3640771	1	10001	1	0	next
+Picture	Fixation	other				3650772	1	5000	1	0	next
+Picture	Stim;Main;92;Z;Right;Go;80	hit	2	4068	1	3655772	1	1000	1	0	920
+Picture	Feedback	other				3661606	1	5167	1	0	next
+Picture	ITI	other				3666773	1	10167	1	0	next
+Picture	Fixation	other				3676941	1	5167	1	0	next
+Picture	Stim;Main;93;Z;Right;Go;80	hit	2	3812	1	3682108	1	1000	1	0	920
+Picture	Feedback	other				3688108	1	5167	1	0	next
+Picture	ITI	other				3693275	1	10001	1	0	next
+Picture	Fixation	other				3703276	1	5000	1	0	next
+Picture	Stim;Main;94;Z;Right;Go;80	hit	2	3562	1	3708276	1	1167	1	0	920
+Picture	Feedback	other				3714110	1	5167	1	0	next
+Picture	ITI	other				3719277	1	10001	1	0	next
+Picture	Fixation	other				3729278	1	5000	1	0	next
+Picture	Stim;Main;95;Z;Right;Go;80	hit	2	2602	1	3734278	1	1000	1	0	920
+Picture	Feedback	other				3740112	1	5000	1	0	next
+Picture	ITI	other				3745112	1	10001	1	0	next
+Picture	Fixation	other				3755113	1	5000	1	0	next
+Picture	Stim;Main;96;A;Left;Go;80	hit	1	3806	1	3760114	1	1000	1	0	920
+Picture	Feedback	other				3765947	1	5000	1	0	next
+Picture	ITI	other				3770948	1	10001	1	0	next
+Picture	Fixation	other				3780948	1	5000	1	0	next
+Picture	Stim;Main;97;Z;Right;Go;80	hit	2	3811	1	3785949	1	1000	1	0	920
+Picture	Feedback	other				3791949	1	5000	1	0	next
+Picture	ITI	other				3796950	1	10167	1	0	next
+Picture	Fixation	other				3807117	1	5167	1	0	next
+Picture	Stim;Main;98;A;Left;Go;80	hit	1	3555	1	3812284	1	1000	1	0	920
+Picture	Feedback	other				3818118	1	5000	1	0	next
+Picture	ITI	other				3823118	1	10001	1	0	next
+Picture	Fixation	other				3833119	1	5000	1	0	next
+Picture	Stim;Main;99;Z;Right;Go;80	hit	2	2837	1	3838119	1	1167	1	0	920
+Picture	Feedback	other				3843953	1	5000	1	0	next
+Picture	ITI	other				3848953	1	10167	1	0	next
+Picture	Fixation	other				3859121	1	5167	1	0	next
+Picture	Stim;Main;100;A;Left;Stop;80	false_alarm	1	4191	1	3864288	1	833	1	0	920
+Picture	Stop	other				3865121	1	5167	1	0	next
+Picture	Feedback	other				3870288	1	5000	1	0	next
+Picture	ITI	other				3875289	1	10001	1	0	next
+Picture	Fixation	other				3885289	1	5000	1	0	next
+Picture	Stim;Main;101;A;Left;Go;64	hit	1	3230	1	3890290	1	1000	1	0	920
+Picture	Feedback	other				3895950	8	5174	8	0	next
+Picture	ITI	other				3901124	1	10001	1	0	next
+Picture	Fixation	other				3911125	1	5000	1	0	next
+Picture	Stim;Main;102;Z;Right;Go;64	hit	2	3954	1	3916125	1	1000	1	0	920
+Picture	Feedback	other				3921785	8	5007	8	0	next
+Picture	ITI	other				3926793	1	10168	1	0	next
+Picture	Fixation	other				3936960	1	5000	1	0	next
+Picture	Stim;Main;103;Z;Right;Go;64	hit	2	3479	1	3941960	1	1000	1	0	920
+Picture	Feedback	other				3947621	7	5007	8	0	next
+Picture	ITI	other				3952628	1	10001	1	0	next
+Picture	Fixation	other				3962629	1	5000	1	0	next
+Picture	Stim;Main;104;Z;Right;Stop;64	other				3967629	1	659	8	0	920
+Picture	Stop	other				3968288	8	5008	8	0	next
+Picture	Feedback	other				3973296	1	5000	1	0	next
+Picture	ITI	other				3978296	1	10001	1	0	next
+Picture	Fixation	other				3988297	1	5000	1	0	next
+Picture	Stim;Main;105;A;Left;Go;80	hit	1	2702	1	3993298	1	1000	1	0	920
+Picture	Feedback	other				3999131	1	5000	1	0	next
+Picture	ITI	other				4004132	1	10001	1	0	next
+Picture	Fixation	other				4014132	1	5167	1	0	next
+Picture	Stim;Main;106;A;Left;Go;80	hit	1	4140	1	4019300	1	1000	1	0	920
+Picture	Feedback	other				4025133	1	5167	1	0	next
+Picture	ITI	other				4030300	1	10168	1	0	next
+Picture	Fixation	other				4040468	1	5000	1	0	next
+Picture	Stim;Main;107;Z;Right;Go;80	hit	2	3971	1	4045468	1	1167	1	0	920
+Picture	Feedback	other				4051302	1	5000	1	0	next
+Picture	ITI	other				4056302	1	10001	1	0	next
+Picture	Fixation	other				4066303	1	5000	1	0	next
+Picture	Stim;Main;108;A;Left;Go;80	hit	1	3655	1	4071303	1	1000	1	0	920
+Picture	Feedback	other				4077137	1	5000	1	0	next
+Picture	ITI	other				4082138	1	10001	1	0	next
+Picture	Fixation	other				4092138	1	5167	1	0	next
+Picture	Stim;Main;109;A;Left;Go;80	hit	1	4294	1	4097305	1	1000	1	0	920
+Picture	Feedback	other				4103306	1	5000	1	0	next
+Picture	ITI	other				4108306	1	10001	1	0	next
+Picture	Fixation	other				4118307	1	5000	1	0	next
+Picture	Stim;Main;110;A;Left;Go;80	hit	1	3732	1	4123307	1	1000	1	0	920
+Picture	Feedback	other				4129141	1	5000	1	0	next
+Picture	ITI	other				4134141	1	10001	1	0	next
+Picture	Fixation	other				4144142	1	5000	1	0	next
+Picture	Stim;Main;111;Z;Right;Go;80	incorrect	1	2616	1	4149143	1	1167	1	0	920
+Picture	Feedback	other				4155143	1	5000	1	0	next
+Picture	ITI	other				4160143	1	10001	1	0	next
+Picture	Fixation	other				4170144	1	5000	1	0	next
+Picture	Stim;Main;112;A;Left;Go;80	hit	1	4375	1	4175144	1	1000	1	0	920
+Picture	Feedback	other				4180978	1	5000	1	0	next
+Picture	ITI	other				4185979	1	10001	1	0	next
+Picture	Fixation	other				4195979	1	5000	1	0	next
+Picture	Stim;Main;113;Z;Right;Go;80	hit	2	3339	1	4200980	1	1000	1	0	920
+Picture	Feedback	other				4206980	1	5000	1	0	next
+Picture	ITI	other				4211981	1	10167	1	0	next
+Picture	Fixation	other				4222148	1	5167	1	0	next
+Picture	Stim;Main;114;Z;Right;Go;80	hit	2	3804	1	4227315	1	1000	1	0	920
+Picture	Feedback	other				4233315	1	5167	1	0	next
+Picture	ITI	other				4238483	1	10001	1	0	next
+Picture	Fixation	other				4248483	1	5000	1	0	next
+Picture	Stim;Main;115;Z;Right;Stop;80	other				4253484	1	833	1	0	920
+Picture	Stop	other				4254317	1	5000	1	0	next
+Picture	Feedback	other				4259317	1	5000	1	0	next
+Picture	ITI	other				4264318	1	10001	1	0	next
+Picture	Fixation	other				4274318	1	5000	1	0	next
+Picture	Stim;Main;116;A;Left;Stop;96	false_alarm	1	2597	1	4279319	1	1167	1	0	920
+Picture	Stop	other				4280486	1	5000	1	0	next
+Picture	Feedback	other				4285486	1	5167	1	0	next
+Picture	ITI	other				4290653	1	10001	1	0	next
+Picture	Fixation	other				4300654	1	5167	1	0	next
+Picture	Stim;Main;117;A;Left;Go;80	hit	1	4175	1	4305821	1	1000	1	0	920
+Picture	Feedback	other				4311655	1	5167	1	0	next
+Picture	ITI	other				4316822	1	10001	1	0	next
+Picture	Fixation	other				4326822	1	5000	1	0	next
+Picture	Stim;Main;118;Z;Right;Go;80	hit	2	3134	1	4331823	1	1000	1	0	920
+Picture	Feedback	other				4337823	1	5000	1	0	next
+Picture	ITI	other				4342824	1	10001	1	0	next
+Picture	Fixation	other				4352824	1	5000	1	0	next
+Picture	Stim;Main;119;A;Left;Stop;80	false_alarm	1	2812	1	4357825	1	833	1	0	920
+Picture	Stop	other				4358658	1	5167	1	0	next
+Picture	Feedback	other				4363825	1	5167	1	0	next
+Picture	ITI	other				4368992	1	10001	1	0	next
+Picture	Fixation	other				4378993	1	5167	1	0	next
+Picture	Stim;Main;120;Z;Right;Go;64	hit	2	3440	1	4384160	1	1000	1	0	920
+Picture	Feedback	other				4389820	8	5007	8	0	next
+Picture	ITI	other				4394827	1	10001	1	0	next
+Picture	Fixation	other				4404828	1	5000	1	0	next
+Picture	Stim;Main;121;A;Left;Stop;64	other				4409829	1	667	1	0	920
+Picture	Stop	other				4410495	1	5000	1	0	next
+Picture	Feedback	other				4415496	1	5000	1	0	next
+Picture	ITI	other				4420496	1	10001	1	0	next
+Picture	Fixation	other				4430497	1	5000	1	0	next
+Picture	Stim;Main;122;Z;Right;Go;80	hit	2	3222	1	4435497	1	1000	1	0	920
+Picture	Feedback	other				4441331	1	5000	1	0	next
+Picture	ITI	other				4446331	1	10001	1	0	next
+Picture	Fixation	other				4456332	1	5000	1	0	next
+Picture	Stim;Main;123;Z;Right;Go;80	hit	2	4587	1	4461332	1	1000	1	0	920
+Picture	Feedback	other				4467166	1	5000	1	0	next
+Picture	ITI	other				4472167	1	10001	1	0	next
+Picture	Fixation	other				4482167	1	5000	1	0	next
+Picture	Stim;Main;124;Z;Right;Go;80	hit	2	3711	1	4487168	1	1000	1	0	920
+Picture	Feedback	other				4493002	1	5167	1	0	next
+Picture	ITI	other				4498169	1	10001	1	0	next
+Picture	Fixation	other				4508169	1	5000	1	0	next
+Picture	Stim;Main;125;A;Left;Go;80	incorrect	2	3549	1	4513170	1	1000	1	0	920
+Picture	Feedback	other				4519003	1	5167	1	0	next
+Picture	ITI	other				4524170	1	10001	1	0	next
+Picture	Fixation	other				4534171	1	5000	1	0	next
+Picture	Stim;Main;126;Z;Right;Stop;80	false_alarm	2	2825	1	4539172	1	833	1	0	920
+Picture	Stop	other				4540005	1	5000	1	0	next
+Picture	Feedback	other				4545005	1	5001	1	0	next
+Picture	ITI	other				4550006	1	10167	1	0	next
+Picture	Fixation	other				4560173	1	5000	1	0	next
+Picture	Stim;Main;127;A;Left;Go;64	hit	1	3226	1	4565174	1	1000	1	0	920
+Picture	Feedback	other				4570834	7	5007	7	0	next
+Picture	ITI	other				4575841	1	10001	1	0	next
+Picture	Fixation	other				4585842	1	5000	1	0	next
+Picture	Stim;Main;128;Z;Right;Go;64	hit	2	4277	1	4590842	1	1000	1	0	920
+Picture	Feedback	other				4596509	1	5167	1	0	next
+Picture	ITI	other				4601676	1	10167	1	0	next
+Picture	Fixation	other				4611844	1	5167	1	0	next
+Picture	Stim;Main;129;Z;Right;Go;64	hit	2	4028	1	4617011	1	1167	1	0	920
+Picture	Feedback	other				4622678	1	5000	1	0	next
+Picture	ITI	other				4627678	1	10001	1	0	next
+Picture	Fixation	other				4637679	1	5000	1	0	next
+Picture	Stim;Main;130;A;Left;Go;64	hit	1	3480	1	4642679	1	1000	1	0	920
+Picture	Feedback	other				4648340	7	5007	8	0	next
+Picture	ITI	other				4653347	1	10001	1	0	next
+Picture	Fixation	other				4663348	1	5000	1	0	next
+Picture	Stim;Main;131;A;Left;Go;64	hit	1	4210	1	4668348	1	1167	1	0	920
+Picture	Feedback	other				4674015	1	5000	1	0	next
+Picture	ITI	other				4679015	1	10167	1	0	next
+Picture	Fixation	other				4689183	1	5000	1	0	next
+Picture	Stim;Main;132;Z;Right;Go;64	hit	2	3496	1	4694183	1	1000	1	0	920
+Picture	Feedback	other				4699850	1	5000	1	0	next
+Picture	ITI	other				4704851	1	10167	1	0	next
+Picture	Fixation	other				4715018	1	5167	1	0	next
+Picture	Stim;Main;133;A;Left;Go;64	hit	1	3813	1	4720185	1	1000	1	0	920
+Picture	Feedback	other				4725852	1	5000	1	0	next
+Picture	ITI	other				4730853	1	10001	1	0	next
+Picture	Fixation	other				4740853	1	5167	1	0	next
+Picture	Stim;Main;134;Z;Right;Go;64	hit	2	3099	1	4746020	1	1167	1	0	920
+Picture	Feedback	other				4751854	1	5167	1	0	next
+Picture	ITI	other				4757021	1	10001	1	0	next
+Picture	Fixation	other				4767022	1	5000	1	0	next
+Picture	Stim;Main;135;Z;Right;Go;64	hit	2	3735	1	4772022	1	1000	1	0	920
+Picture	Feedback	other				4777682	8	5007	8	0	next
+Picture	ITI	other				4782690	1	10001	1	0	next
+Picture	Fixation	other				4792690	1	5000	1	0	next
+Picture	Stim;Main;136;A;Left;Go;64	hit	1	3027	1	4797691	1	1000	1	0	920
+Picture	Feedback	other				4803351	7	5007	7	0	next
+Picture	ITI	other				4808358	1	10001	1	0	next
+Picture	Fixation	other				4818359	1	5000	1	0	next
+Picture	Stim;Main;137;Z;Right;Go;64	hit	2	2879	1	4823359	1	1000	1	0	920
+Picture	Feedback	other				4829193	1	5167	1	0	next
+Picture	ITI	other				4834360	1	10001	1	0	next
+Picture	Fixation	other				4844361	1	5167	1	0	next
+Picture	Stim;Main;138;A;Left;Go;64	hit	1	2950	1	4849528	1	1000	1	0	920
+Picture	Feedback	other				4855188	8	5007	8	0	next
+Picture	ITI	other				4860196	1	10001	1	0	next
+Picture	Fixation	other				4870196	1	5000	1	0	next
+Picture	Stim;Main;139;A;Left;Go;64	hit	1	3442	1	4875197	1	1000	1	0	920
+Picture	Feedback	other				4880857	7	5174	7	0	next
+Picture	ITI	other				4886031	1	10001	1	0	next
+Picture	Fixation	other				4896032	1	5000	1	0	next
+Picture	Stim;Main;140;Z;Right;Stop;64	other				4901032	1	833	1	0	920
+Picture	Stop	other				4901865	1	5000	1	0	next
+Picture	Feedback	other				4906866	1	5000	1	0	next
+Picture	ITI	other				4911866	1	10001	1	0	next
+Picture	Fixation	other				4921867	1	5000	1	0	next
+Picture	Stim;Main;141;A;Left;Go;80	hit	1	4171	1	4926867	1	1000	1	0	920
+Picture	Feedback	other				4932701	1	5000	1	0	next
+Picture	ITI	other				4937701	1	10001	1	0	next
+Picture	Fixation	other				4947702	1	5000	1	0	next
+Picture	Stim;Main;142;A;Left;Go;80	hit	1	3776	1	4952702	1	1000	1	0	920
+Picture	Feedback	other				4958536	1	5000	1	0	next
+Picture	ITI	other				4963537	1	10001	1	0	next
+Picture	Fixation	other				4973537	1	5167	1	0	next
+Picture	Stim;Main;143;A;Left;Go;80	hit	1	4092	1	4978704	1	1000	1	0	920
+Picture	Feedback	other				4984538	1	5000	1	0	next
+Picture	ITI	other				4989538	1	10001	1	0	next
+Picture	Fixation	other				4999539	1	5000	1	0	next
+Picture	Stim;Main;144;Z;Right;Go;80	hit	2	4099	1	5004540	1	1000	1	0	920
+Picture	Feedback	other				5010366	8	5007	8	0	next
+Picture	ITI	other				5015374	1	10001	1	0	next
+Picture	Fixation	other				5025374	1	5167	1	0	next
+Picture	Stim;Main;145;Z;Right;Stop;80	other				5030541	1	827	8	0	920
+Picture	Stop	other				5031368	8	5007	8	0	next
+Picture	Feedback	other				5036375	1	5000	1	0	next
+Picture	ITI	other				5041376	1	10001	1	0	next
+Picture	Fixation	other				5051376	1	5000	1	0	next
+Picture	Stim;Main;146;A;Left;Go;96	hit	1	2742	1	5056377	1	1000	1	0	920
+Picture	Feedback	other				5062377	1	5000	1	0	next
+Picture	ITI	other				5067378	1	10167	1	0	next
+Picture	Fixation	other				5077545	1	5000	1	0	next
+Picture	Stim;Main;147;A;Left;Go;96	hit	1	4173	1	5082545	1	1167	1	0	920
+Picture	Feedback	other				5088546	1	5000	1	0	next
+Picture	ITI	other				5093546	1	10167	1	0	next
+Picture	Fixation	other				5103714	1	5000	1	0	next
+Picture	Stim;Main;148;A;Left;Go;96	hit	1	3765	1	5108714	1	1000	1	0	920
+Picture	Feedback	other				5114714	1	5000	1	0	next
+Picture	ITI	other				5119715	1	10001	1	0	next
+Picture	Fixation	other				5129716	1	5000	1	0	next
+Picture	Stim;Main;149;A;Left;Stop;96	false_alarm	1	2882	1	5134716	1	1000	1	0	920
+Picture	Stop	other				5135716	1	5167	1	0	next
+Picture	Feedback	other				5140883	1	5000	1	0	next
+Picture	ITI	other				5145883	1	10001	1	0	next
+Picture	Fixation	other				5155884	1	5000	1	0	next
+Picture	Stim;Main;150;A;Left;Stop;80	false_alarm	2	5113	1	5160885	1	1000	1	0	920
+Picture	Stop	other				5161885	1	5000	1	0	next
+Picture	Feedback	other				5166885	1	5000	1	0	next
+Picture	ITI	other				5171885	1	10001	1	0	next
+Picture	Fixation	other				5181886	1	5167	1	0	next
+Picture	Stim;Main;151;A;Left;Go;64	hit	1	3185	1	5187053	1	1000	1	0	920
+Picture	Feedback	other				5192713	8	5007	8	0	next
+Picture	ITI	other				5197721	1	10001	1	0	next
+Picture	Fixation	other				5207721	1	5000	1	0	next
+Picture	Stim;Main;152;Z;Right;Stop;64	other				5212722	1	659	8	0	920
+Picture	Stop	other				5213381	8	5008	8	0	next
+Picture	Feedback	other				5218389	1	5000	1	0	next
+Picture	ITI	other				5223389	1	10001	1	0	next
+Picture	Fixation	other				5233390	1	5000	1	0	next
+Picture	Stim;Main;153;Z;Right;Go;80	hit	2	4328	1	5238390	1	1000	1	0	920
+Picture	Feedback	other				5244224	1	5000	1	0	next
+Picture	ITI	other				5249225	1	10167	1	0	next
+Picture	Fixation	other				5259392	1	5167	1	0	next
+Picture	Stim;Main;154;Z;Right;Stop;80	false_alarm	2	3760	1	5264559	1	1000	1	0	920
+Picture	Stop	other				5265559	1	5000	1	0	next
+Picture	Feedback	other				5270559	1	5000	1	0	next
+Picture	ITI	other				5275560	1	10001	1	0	next
+Picture	Fixation	other				5285560	1	5000	1	0	next
+Picture	Stim;Main;155;Z;Right;Go;64	miss				5290561	1	1000	1	0	920
+Picture	Feedback	other				5296221	8	5174	8	0	next
+Picture	ITI	other				5301395	1	10001	1	0	next
+Picture	Fixation	other				5311396	1	5000	1	0	next
+Picture	Stim;Main;156;Z;Right;Go;64	hit	2	4161	1	5316396	1	1167	1	0	920
+Picture	Feedback	other				5322063	1	5000	1	0	next
+Picture	ITI	other				5327064	1	10001	1	0	next
+Picture	Fixation	other				5337064	1	5000	1	0	next
+Picture	Stim;Main;157;A;Left;Go;64	hit	1	2814	1	5342065	1	1000	1	0	920
+Picture	Feedback	other				5347898	1	5167	1	0	next
+Picture	ITI	other				5353066	1	10001	1	0	next
+Picture	Fixation	other				5363066	1	5000	1	0	next
+Picture	Stim;Main;158;A;Left;Go;64	hit	1	4489	1	5368067	1	1000	1	0	920
+Picture	Feedback	other				5373900	1	5000	1	0	next
+Picture	ITI	other				5378901	1	10168	1	0	next
+Picture	Fixation	other				5389068	1	5000	1	0	next
+Picture	Stim;Main;159;A;Left;Go;64	hit	1	4009	1	5394069	1	1000	1	0	920
+Picture	Feedback	other				5399736	1	5000	1	0	next
+Picture	ITI	other				5404736	1	10334	1	0	next
+Picture	Fixation	other				5415070	1	5000	1	0	next
+Picture	Stim;Main;160;A;Left;Go;64	hit	1	3607	1	5420071	1	1000	1	0	920
+Picture	Feedback	other				5425731	8	5007	8	0	next
+Picture	ITI	other				5430738	1	10001	1	0	next
+Picture	Fixation	other				5440739	1	5000	1	0	next
+Picture	Stim;Main;161;Z;Right;Go;64	hit	2	3537	1	5445739	1	1000	1	0	920
+Picture	Feedback	other				5451573	1	5000	1	0	next
+Picture	ITI	other				5456573	1	10001	1	0	next
+Picture	Fixation	other				5466574	1	5000	1	0	next
+Picture	Stim;Main;162;Z;Right;Go;64	hit	2	3862	1	5471574	1	1167	1	0	920
+Picture	Feedback	other				5477235	8	5007	8	0	next
+Picture	ITI	other				5482242	1	10001	1	0	next
+Picture	Fixation	other				5492243	1	5000	1	0	next
+Picture	Stim;Main;163;A;Left;Go;64	hit	1	2593	1	5497243	1	1167	1	0	920
+Picture	Feedback	other				5502910	1	5000	1	0	next
+Picture	ITI	other				5507910	1	10001	1	0	next
+Picture	Fixation	other				5517911	1	5000	1	0	next
+Picture	Stim;Main;164;A;Left;Stop;64	other				5522912	1	833	1	0	920
+Picture	Stop	other				5523745	1	5000	1	0	next
+Picture	Feedback	other				5528745	1	5000	1	0	next
+Picture	ITI	other				5533746	1	10167	1	0	next
+Picture	Fixation	other				5543913	1	5000	1	0	next
+Picture	Stim;Main;165;A;Left;Go;80	hit	1	4125	1	5548913	1	1000	1	0	920
+Picture	Feedback	other				5554747	1	5000	1	0	next
+Picture	ITI	other				5559748	1	10001	1	0	next
+Picture	Fixation	other				5569748	1	5167	1	0	next
+Picture	Stim;Main;166;A;Left;Stop;80	other				5574915	1	1000	1	0	920
+Picture	Stop	other				5575915	1	5000	1	0	next
+Picture	Feedback	other				5580916	1	5167	1	0	next
+Picture	ITI	other				5586083	1	10001	1	0	next
+Picture	Fixation	other				5596084	1	5167	1	0	next
+Picture	Stim;Main;167;A;Left;Go;96	hit	1	4106	1	5601251	1	1000	1	0	920
+Picture	Feedback	other				5607251	1	5000	1	0	next
+Picture	ITI	other				5612251	1	10167	1	0	next
+Picture	Fixation	other				5622419	1	5000	1	0	next
+Picture	Stim;Main;168;A;Left;Go;96	hit	1	3459	1	5627419	1	1000	1	0	920
+Picture	Feedback	other				5633420	1	5000	1	0	next
+Picture	ITI	other				5638420	1	10001	1	0	next
+Picture	Fixation	other				5648421	1	5000	1	0	next
+Picture	Stim;Main;169;Z;Right;Go;96	hit	2	2977	1	5653421	1	1000	1	0	920
+Picture	Feedback	other				5659422	1	5000	1	0	next
+Picture	ITI	other				5664422	1	10001	1	0	next
+Picture	Fixation	other				5674423	1	5167	1	0	next
+Picture	Stim;Main;170;Z;Right;Go;96	hit	2	3047	1	5679590	1	1000	1	0	920
+Picture	Feedback	other				5685590	1	5167	1	0	next
+Picture	ITI	other				5690757	1	10001	1	0	next
+Picture	Fixation	other				5700758	1	5000	1	0	next
+Picture	Stim;Main;171;A;Left;Go;96	hit	1	3199	1	5705759	1	1000	1	0	920
+Picture	Feedback	other				5711759	1	5000	1	0	next
+Picture	ITI	other				5716759	1	10167	1	0	next
+Picture	Fixation	other				5726927	1	5000	1	0	next
+Picture	Stim;Main;172;Z;Right;Go;96	hit	2	3350	1	5731927	1	1167	1	0	920
+Picture	Feedback	other				5737928	1	5000	1	0	next
+Picture	ITI	other				5742928	1	10167	1	0	next
+Picture	Fixation	other				5753095	1	5167	1	0	next
+Picture	Stim;Main;173;A;Left;Go;96	hit	1	3094	1	5758262	1	1000	1	0	920
+Picture	Feedback	other				5764263	1	5167	1	0	next
+Picture	ITI	other				5769430	1	10001	1	0	next
+Picture	Fixation	other				5779431	1	5000	1	0	next
+Picture	Stim;Main;174;A;Left;Go;96	hit	1	3406	1	5784431	1	1000	1	0	920
+Picture	Feedback	other				5790598	1	5000	1	0	next
+Picture	ITI	other				5795599	1	10167	1	0	next
+Picture	Fixation	other				5805766	1	5167	1	0	next
+Picture	Stim;Main;175;A;Left;Stop;96	other				5810933	1	1000	1	0	920
+Picture	Stop	other				5811933	1	5000	1	0	next
+Picture	Feedback	other				5816933	1	5000	1	0	next
+Picture	ITI	other				5821934	1	10001	1	0	next
+Picture	Fixation	other				5831935	1	5000	1	0	next
+Picture	Stim;Main;176;A;Left;Go;112	hit	1	3143	1	5836935	1	1167	1	0	920
+Picture	Feedback	other				5843102	1	5000	1	0	next
+Picture	ITI	other				5848102	1	10001	1	0	next
+Picture	Fixation	other				5858103	1	5000	1	0	next
+Picture	Stim;Main;177;A;Left;Stop;112	false_alarm	1	3055	1	5863104	1	1000	1	0	920
+Picture	Stop	other				5864270	1	5001	1	0	next
+Picture	Feedback	other				5869271	1	5167	1	0	next
+Picture	ITI	other				5874438	1	10334	1	0	next
+Picture	Fixation	other				5884772	1	5000	1	0	next
+Picture	Stim;Main;178;Z;Right;Go;96	incorrect	1	3426	1	5889772	1	1000	1	0	920
+Picture	Feedback	other				5895939	1	5000	1	0	next
+Picture	ITI	other				5900940	1	10167	1	0	next
+Picture	Fixation	other				5911107	1	5000	1	0	next
+Picture	Stim;Main;179;Z;Right;Go;96	hit	2	3970	1	5916108	1	1000	1	0	920
+Picture	Feedback	other				5922275	1	5000	1	0	next
+Picture	ITI	other				5927275	1	10167	1	0	next
+Picture	Fixation	other				5937442	1	5000	1	0	next
+Picture	Stim;Main;180;A;Left;Go;96	hit	1	4115	1	5942443	1	1000	1	0	920
+Picture	Feedback	other				5948443	1	5000	1	0	next
+Picture	ITI	other				5953444	1	10167	1	0	next
+Picture	Fixation	other				5963611	1	5000	1	0	next
+Picture	Stim;Main;181;Z;Right;Go;96	hit	2	3786	1	5968611	1	1000	1	0	920
+Picture	Feedback	other				5974612	1	5000	1	0	next
+Picture	ITI	other				5979612	1	10001	1	0	next
+Picture	Fixation	other				5989613	1	5000	1	0	next
+Picture	Stim;Main;182;Z;Right;Go;96	hit	2	4184	1	5994613	1	1167	1	0	920
+Picture	Feedback	other				6000614	1	5000	1	0	next
+Picture	ITI	other				6005614	1	10167	1	0	next
+Picture	Fixation	other				6015782	1	5000	1	0	next
+Picture	Stim;Main;183;A;Left;Go;96	hit	1	4014	1	6020782	1	1167	1	0	920
+Picture	Feedback	other				6026782	1	5167	1	0	next
+Picture	ITI	other				6031949	1	10167	1	0	next
+Picture	Fixation	other				6042117	1	5000	1	0	next
+Picture	Stim;Main;184;A;Left;Go;96	hit	1	4401	1	6047117	1	1000	1	0	920
+Picture	Feedback	other				6053118	1	5000	1	0	next
+Picture	ITI	other				6058118	1	10001	1	0	next
+Picture	Fixation	other				6068119	1	5000	1	0	next
+Picture	Stim;Main;185;A;Left;Stop;96	other				6073119	1	1000	1	0	920
+Picture	Stop	other				6074119	1	5167	1	0	next
+Picture	Feedback	other				6079286	1	5167	1	0	next
+Picture	ITI	other				6084453	1	10001	1	0	next
+Picture	Fixation	other				6094454	1	5000	1	0	next
+Picture	Stim;Main;186;Z;Right;Go;112	hit	2	4382	1	6099455	1	1000	1	0	920
+Picture	Feedback	other				6105622	1	5000	1	0	next
+Picture	ITI	other				6110622	1	10001	1	0	next
+Picture	Fixation	other				6120623	1	5000	1	0	next
+Picture	Stim;Main;187;A;Left;Go;112	hit	1	3814	1	6125623	1	1000	1	0	920
+Picture	Feedback	other				6131790	1	5167	1	0	next
+Picture	ITI	other				6136957	1	10001	1	0	next
+Picture	Fixation	other				6146958	1	5000	1	0	next
+Picture	Stim;Main;188;A;Left;Go;112	miss				6151958	1	1333	1	0	920
+Picture	Feedback	other				6158126	1	5167	1	0	next
+Picture	ITI	other				6163293	1	10168	1	0	next
+Picture	Fixation	other				6173460	1	5000	1	0	next
+Picture	Stim;Main;189;Z;Right;Go;112	hit	2	4256	1	6178460	1	1000	1	0	920
+Picture	Feedback	other				6184627	1	5000	1	0	next
+Picture	ITI	other				6189628	1	10167	1	0	next
+Picture	Fixation	other				6199795	1	5167	1	0	next
+Picture	Stim;Main;190;A;Left;Go;112	hit	1	3272	1	6204962	1	1000	1	0	920
+Picture	Feedback	other				6211296	1	5000	1	0	next
+Picture	ITI	other				6216297	1	10001	1	0	next
+Picture	Fixation	other				6226297	1	5000	1	0	next
+Picture	Stim;Main;191;A;Left;Go;112	hit	1	3420	1	6231298	1	1167	1	0	920
+Picture	Feedback	other				6237465	1	5000	1	0	next
+Picture	ITI	other				6242465	1	10001	1	0	next
+Picture	Fixation	other				6252466	1	5000	1	0	next
+Picture	Stim;Main;192;Z;Right;Go;112	hit	2	3571	1	6257466	1	1000	1	0	920
+Picture	Feedback	other				6263633	1	5000	1	0	next
+Picture	ITI	other				6268634	1	10001	1	0	next
+Picture	Fixation	other				6278635	1	5000	1	0	next
+Picture	Stim;Main;193;Z;Right;Go;112	hit	2	3323	1	6283635	1	1000	1	0	920
+Picture	Feedback	other				6289802	1	5000	1	0	next
+Picture	ITI	other				6294802	1	10001	1	0	next
+Picture	Fixation	other				6304803	1	5000	1	0	next
+Picture	Stim;Main;194;Z;Right;Go;112	hit	2	3954	1	6309804	1	1000	1	0	920
+Picture	Feedback	other				6315971	1	5000	1	0	next
+Picture	ITI	other				6320971	1	10001	1	0	next
+Picture	Fixation	other				6330972	1	5000	1	0	next
+Picture	Stim;Main;195;Z;Right;Stop;112	false_alarm	2	2905	1	6335972	1	1000	1	0	920
+Picture	Stop	other				6337139	1	5000	1	0	next
+Picture	Feedback	other				6342139	1	5167	1	0	next
+Picture	ITI	other				6347306	1	10001	1	0	next
+Picture	Fixation	other				6357307	1	5000	1	0	next
+Picture	Stim;Main;196;Z;Right;Go;96	hit	2	5128	1	6362307	1	1000	1	0	920
+Picture	Feedback	other				6368308	1	5167	1	0	next
+Picture	ITI	other				6373475	1	10001	1	0	next
+Picture	Fixation	other				6383476	1	5000	1	0	next
+Picture	Stim;Main;197;Z;Right;Go;96	hit	2	3759	1	6388476	1	1000	1	0	920
+Picture	Feedback	other				6394477	1	5000	1	0	next
+Picture	ITI	other				6399477	1	10001	1	0	next
+Picture	Fixation	other				6409478	1	5000	1	0	next
+Picture	Stim;Main;198;Z;Right;Go;96	hit	2	3439	1	6414478	1	1000	1	0	920
+Picture	Feedback	other				6420478	1	5000	1	0	next
+Picture	ITI	other				6425479	1	10167	1	0	next
+Picture	Fixation	other				6435646	1	5000	1	0	next
+Picture	Stim;Main;199;A;Left;Go;96	hit	1	3750	1	6440647	1	1000	1	0	920
+Picture	Feedback	other				6446647	1	5000	1	0	next
+Picture	ITI	other				6451647	1	10001	1	0	next
+Picture	Fixation	other				6461648	1	5000	1	0	next
+Picture	Stim;Main;200;A;Left;Stop;96	other				6466649	1	1167	1	0	920
+Picture	Stop	other				6467815	1	5000	1	0	next
+Picture	Feedback	other				6472816	1	5000	1	0	next
+Picture	ITI	other				6477816	1	10001	1	0	next

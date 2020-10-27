@@ -1,0 +1,63 @@
+Scenario - 
+Logfile written - 09/30/2019 12:04:53
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Response	3	3350	3184	7
+1	Response	3	19971	19805	10
+2	Picture	fix	20167	0	1	5333	6	0	next	other	0
+3	Picture	STIM L I	25500	0	6	333	6	0	200	hit	5
+3	Response	1	30229	4729	10
+4	Picture	correct response	30333	0	5	333	5	0	200	other	0
+5	Picture	fix	30667	0	1	5167	6	0	next	other	0
+6	Picture	STIM R I	35833	0	6	333	6	0	200	hit	9
+6	Response	2	39592	3759	11
+7	Picture	correct response	39667	0	5	333	5	0	200	other	0
+8	Picture	fix	40000	0	1	4333	8	0	next	other	0
+9	Picture	STIM L I	44333	0	8	333	8	0	200	hit	13
+9	Response	1	48311	3978	10
+10	Picture	correct response	48500	0	6	333	7	0	200	other	0
+11	Picture	fix	48834	0	1	4833	6	0	next	other	0
+12	Picture	STIM R I	53667	0	6	333	6	0	200	hit	17
+12	Response	2	57673	4006	10
+13	Picture	correct response	57834	0	7	333	7	0	200	other	0
+14	Picture	fix	58167	0	1	5167	5	0	next	other	0
+15	Picture	STIM L C	63334	0	5	333	5	0	200	hit	21
+15	Response	1	67111	3777	10
+16	Picture	correct response	67167	0	5	333	6	0	200	other	0
+17	Picture	fix	67500	0	1	5500	6	0	next	other	0
+18	Picture	STIM L I	73000	0	6	333	6	0	200	incorrect	25
+18	Response	2	77110	4110	10
+19	Picture	incorrect response	77167	0	5	333	5	0	200	other	0
+20	Picture	fix	77500	0	1	4667	7	0	next	other	0
+21	Picture	STIM L C	82167	0	7	334	7	0	200	incorrect	29
+21	Response	2	86311	4144	12
+22	Picture	incorrect response	86501	0	6	333	6	0	200	other	0
+23	Picture	fix	86834	0	1	5000	6	0	next	other	0
+24	Picture	STIM L C	91834	0	6	333	6	0	200	hit	33
+24	Response	1	96310	4476	7
+25	Picture	correct response	96500	0	6	333	6	0	200	other	0
+26	Picture	fix	96834	0	1	4500	6	0	next	other	0
+27	Picture	STIM L I	101334	0	6	333	6	0	200	hit	37
+27	Response	1	106073	4739	11
+28	Picture	correct response	106167	0	5	333	5	0	200	other	0
+29	Picture	fix	106667	0	1	5500	8	0	next	other	0
+30	Picture	STIM L C	112167	0	8	500	8	0	200	miss	0
+31	Picture	omission	122334	0	1	333	1	0	200	other	0
+32	Picture	fix	122667	0	1	6045	1	0	next	other	0
+32	Quit		123498	830	NA
+
+
+{
+   "app": "Presentation Version 21.0 Build 06.06.19",
+   "device": "Alienware Alienware 15 R3",
+   "experiment": "{4A2AFD06-9C75-486E-92CA-5BDB1E053DD1}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "Flanker_pixel.sce",
+   "subject": "",
+   "timestamp": "2019/09/30 03:04:38 GMT"
+}

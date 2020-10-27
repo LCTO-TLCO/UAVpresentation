@@ -1,0 +1,78 @@
+Scenario - 
+Logfile written - 06/03/2019 18:39:49
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Response	1	14453	14287	0
+2	Picture	fix	14501	0	1	2167	1	0	next	other	0
+3	Picture	STIM R I	16668	0	1	333	1	0	200	incorrect	4
+3	Response	1	19333	2666	0
+4	Picture	incorrect response	19501	0	1	333	1	0	200	other	0
+5	Picture	fix	19835	0	1	2667	1	0	next	other	0
+6	Picture	STIM L I	22501	0	1	333	1	0	200	incorrect	8
+6	Response	2	25333	2831	0
+7	Picture	incorrect response	25668	0	1	333	1	0	200	other	0
+8	Picture	fix	26002	0	1	3000	1	0	next	other	0
+9	Picture	STIM R C	29002	0	1	333	1	0	200	hit	12
+9	Response	2	32933	3931	0
+10	Picture	correct response	33002	0	1	333	1	0	200	other	0
+11	Picture	fix	33336	0	1	2500	1	0	next	other	0
+12	Picture	STIM R C	35836	0	1	333	1	0	200	incorrect	16
+12	Response	1	38853	3018	0
+13	Picture	incorrect response	39003	0	1	333	1	0	200	other	0
+14	Picture	fix	39336	0	1	2834	1	0	next	other	0
+15	Picture	STIM L C	42170	0	1	333	1	0	200	hit	20
+15	Response	1	45173	3004	0
+16	Picture	correct response	45337	0	1	333	1	0	200	other	0
+17	Picture	fix	45670	0	1	2334	1	0	next	other	0
+18	Picture	STIM R C	48004	0	1	333	1	0	200	hit	24
+18	Response	2	50773	2770	0
+19	Picture	correct response	50837	0	1	333	1	0	200	other	0
+20	Picture	fix	51170	0	1	2834	1	0	next	other	0
+21	Picture	STIM R C	54004	0	1	333	1	0	200	incorrect	28
+21	Response	1	56933	2929	0
+22	Picture	incorrect response	57004	0	1	500	1	0	200	other	0
+23	Picture	fix	57504	0	1	2500	1	0	next	other	0
+24	Picture	STIM L C	60004	0	1	333	1	0	200	hit	32
+24	Response	1	62213	2208	0
+25	Picture	correct response	62338	0	1	333	1	0	200	other	0
+26	Picture	fix	62671	0	1	2167	1	0	next	other	0
+27	Picture	STIM R I	64838	0	1	333	1	0	200	hit	36
+27	Response	2	67333	2495	0
+28	Picture	correct response	67505	0	1	333	1	0	200	other	0
+29	Picture	fix	68005	0	1	2667	1	0	next	other	0
+30	Picture	STIM R C	70672	0	1	333	1	0	200	incorrect	40
+30	Response	1	72853	2181	0
+31	Picture	incorrect response	73005	0	1	333	1	0	200	other	0
+32	Picture	fix	73339	0	1	3000	1	0	next	other	0
+33	Picture	STIM L C	76339	0	1	333	1	0	200	hit	44
+33	Response	1	77973	1634	0
+34	Picture	correct response	78006	0	1	500	1	0	200	other	0
+35	Picture	fix	78506	0	1	2500	1	0	next	other	0
+36	Picture	STIM L I	81006	0	1	333	1	0	200	incorrect	48
+36	Response	2	82933	1927	0
+37	Picture	incorrect response	83173	0	1	333	1	0	200	other	0
+38	Picture	fix	83506	0	1	3000	1	0	next	other	0
+39	Picture	STIM L I	86506	0	1	333	1	0	200	incorrect	52
+39	Response	2	88294	1787	0
+40	Picture	incorrect response	88340	0	1	333	1	0	200	other	0
+41	Picture	fix	88673	0	1	2334	1	0	next	other	0
+42	Picture	STIM R C	91007	0	1	333	1	0	200	miss	0
+43	Picture	omission	96174	0	1	333	1	0	200	other	0
+44	Picture	fix	96507	0	1	7305	1	0	next	other	0
+45	Quit		98934	6	NA
+
+
+{
+   "app": "Presentation Version 20.2 Build 07.25.18",
+   "device": "MouseComputer Co.,Ltd. DAIV-DGX750",
+   "experiment": "{4A2AFD06-9C75-486E-92CA-5BDB1E053DD1}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "Flanker_pixel.sce",
+   "subject": "",
+   "timestamp": "2019/06/03 09:39:35 GMT"
+}

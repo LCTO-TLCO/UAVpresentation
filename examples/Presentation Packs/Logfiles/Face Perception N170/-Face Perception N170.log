@@ -1,0 +1,32 @@
+Scenario - Face Perception N170
+Logfile written - 03/06/2019 16:41:09
+
+Subject	Trial	Event Type	Code	event_name(str)	prac_type(str)	trial_number(num)	stim_type(str)	stim_cond(str)	ISI_duration(num)	p_code(num)	stim_file(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+	1	Response	202									105668	105335	0
+	2	Response	202									113988	7980	0
+	5	Picture	ISI	ISI								136002	0	9	12843	9	0	next	other	0
+	6	Picture	Stimulus;Practice;1;Object;Practice;1192;6;back_61.bmp	Stimulus	Practice	1	Object	Practice	1192	6	back_61.bmp	148845	0	1	3000	1	0	next	hit	6
+	7	Picture	ISI	ISI								151845	0	1	12001	1	0	next	other	0
+	7	Response	201									153988	2143	0
+	8	Picture	Stimulus;Practice;2;Scrambled;Practice;1217;102;S_back_V42.bmp	Stimulus	Practice	2	Scrambled	Practice	1217	102	S_back_V42.bmp	163846	0	1	3000	1	0	next	miss	0
+	9	Picture	ISI	ISI								166846	0	1	12168	1	0	next	other	0
+	10	Picture	Stimulus;Practice;3;Object;Practice;1101;4;back_59.bmp	Stimulus	Practice	3	Object	Practice	1101	4	back_59.bmp	179014	0	1	3167	1	0	next	hit	11
+	11	Picture	ISI	ISI								182181	0	1	11167	1	0	next	other	0
+	11	Response	201									185268	3087	0
+	12	Picture	Stimulus;Practice;4;Scrambled;Practice;1264;101;S_back_V41.bmp	Stimulus	Practice	4	Scrambled	Practice	1264	101	S_back_V41.bmp	193348	0	1	3167	1	0	next	miss	0
+	13	Picture	ISI	ISI								196515	0	1	15605	1	0	next	other	0
+	13	Quit										207748	11233	NA
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Picture	ISI	other				136002	9	12843	9	0	next
+Picture	Stimulus;Practice;1;Object;Practice;1192;6;back_61.bmp	hit	1	5144	1	148845	1	3000	1	0	next
+Picture	ISI	other				151845	1	12001	1	0	next
+Picture	Stimulus;Practice;2;Scrambled;Practice;1217;102;S_back_V42.bmp	miss				163846	1	3000	1	0	next
+Picture	ISI	other				166846	1	12168	1	0	next
+Picture	Stimulus;Practice;3;Object;Practice;1101;4;back_59.bmp	hit	1	6254	1	179014	1	3167	1	0	next
+Picture	ISI	other				182181	1	11167	1	0	next
+Picture	Stimulus;Practice;4;Scrambled;Practice;1264;101;S_back_V41.bmp	miss				193348	1	3167	1	0	next
+Picture	ISI	other				196515	1	15605	1	0	next

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="French">
+  <map name="default">
+    <item key="Instructions">Dans cette expérience, vous verrez une série de lettres, une à la fois. Votre tâche sera de déterminer si la 
+lettre que vous voyez est une cible ou une non-cible, et de faire une réponse appropriée.
+
+Dans cette expérience, la lettre cible est: [TARGET_LETTER]. Chaque fois que vous voyez [TARGET_LETTER], NE REPONDEZ PAS. Si une autre lettre est présentée, répondez en cliquant le plus rapidement possible sur le bouton gauche de la souris.
+
+Répondez  aussi rapidement que possible tout en étant précis. Cliquez sur le bouton gauche de la souris lorsque vous êtes prêt à commencer.</item>
+    <item key="No Instructions Caption">Cliquez sur le bouton gauche de la souris pour continuer.</item>
+    <item key="Rest Screen Caption">Cliquez sur le bouton gauche de la souris pour commencer quand vous êtes prêt à passer à la partie suivante.</item>
+    <item key="Progress Bar Caption">Progrès:</item>
+    <item key="Practice Caption">Commençons par quelques essais pour vous enseigner la tâche.</item>
+    <item key="Practice Complete Caption">Essais complets de pratique. Cliquez sur le bouton gauche de la souris pour avancer.</item>
+    <item key="Completion Screen Caption">Vous avez terminé le test. Merci beaucoup pour votre participation. Cliquez sur le bouton gauche de la souris pour quitter le programme.</item>
+    <item key="Block Complete Caption">Vous avez terminé [BLOCK_NUMBER] bloc (s). Il y a un total de [TOTAL_BLOCKS] blocs dans le test. Cliquez sur le bouton gauche de la souris pour quitter le programme.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Instructions">In this experiment, your only task is to identify the location of a visual stimulus on screen and press the appropriate button.
+
+The outlines of four boxes will always remain on screen, appearing in a line from left to right. These four boxes represent the four possible locations in which a visual stimulus can appear. Only one stimulus will appear at a time, and your task is to identify in which box the stimulus is located.
+
+If the visual stimulus appears in the box on the far left, press 1 as quickly as possible. If the visual stimulus appears in the box immediately to the right, then press 2 as quickly as possible. When the visual stimulus appears in the box to the right of that one, press 3. Finally, if the visual stimulus occurs in the box on the far right, press 4 as quickly as possible. 
+
+There are no other tasks to perform. You only need to identify in which box a visual stimulus occurs, and press the corresponding button as quickly as possible.
+
+Press Enter when you are ready to begin.</item>
+    <item key="No Instructions Caption">Press Enter to begin the next part.</item>
+    <item key="Rest Screen Caption">Press Enter to begin when you are ready to move on to the next part.</item>
+    <item key="Progress Bar Caption">Progress:</item>
+    <item key="Practice Caption">You will start by doing a few examples for practice.</item>
+    <item key="Practice Complete Caption">Practice trials complete. Press Enter to move on.</item>
+    <item key="Completion Screen Caption">You have finished the experiment. Thank you very much for participating! Press Enter to exit the program.</item>
+    <item key="Block Complete Caption">You have completed [BLOCK_NUMBER] block(s). There are [TOTAL_BLOCKS] blocks in the experiment. 
+
+Press Enter to move on.</item>
+    <item key="Next Screen Caption">Press 2 to continue.</item>
+    <item key="Previous Screen Caption">Press 1 to go back.</item>
+    <item key="Multi-Screen Start Experiment Caption">Press 1 to start the experiment when you are ready.</item>
+    <item key="Start Experiment Caption">Press Enter to start the experiment when you are ready.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

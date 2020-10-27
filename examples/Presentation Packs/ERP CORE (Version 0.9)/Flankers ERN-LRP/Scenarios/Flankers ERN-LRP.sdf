@@ -1,0 +1,7 @@
+# ERN-LRP
+
+event_pair_table my_rm_table( block_name1, block_number1, trial_number1, cent_char1, flanker_char1, num_flankers1, compatibility1, duration1, isi_duration1, p_code1, code2, rm_type, time_diff )
+good_pairs(rm_all) :: event_name1 == "Target"
+
+print"Block Name\tBlock Number\tTrial Number\tCenter Stim\tFlanker Stim\tNumber Flankers\tCompatibility\tStim Duration\tISI Duration\tPort Code\tResponse Button\tAccuracy\tRT"
+print my_rm_table( good_pairs, "\t", "\n", no_header_row )

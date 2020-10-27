@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Spanish">
+  <map name="default">
+    <item key="Instructions">En este experimento, verá una serie de estímulos (que pueden estar formados por una o varias letras), y que aparecerán de uno en uno. Su tarea consiste en identificar cuál de dos estímulos posibles ha aparecido en la pantalla, y pulsar el botón correspondiente lo más rápidamente posible.
+
+Si ve [LEFT_STIM], pulse el botón IZQUIERDO del ratón tan rápidamente como pueda.
+
+Si ve [RIGHT_STIM], pulse el botón DERECHO del ratón tan rápidamente como pueda.
+
+Esta tarea tiene truco: de vez en cuando, después de que aparezca un estímulo, irá seguido de  [STOP_STIM]. [STOP_STIM] es como una señal de “stop” o de parada: cuando lo vea, no debe responder. ¡No espere a ver si la señal de stop aparece antes de responder! Al contrario, responda lo más rápidamente posible cada vez que se presente un estímulo. Sin embargo, si la señal de stop aparece antes de que haya respondido, entonces no responda, detenga su respuesta. La señal de “stop” a veces aparecerá muy tarde y otras veces aparecerá muy pronto. Por tanto, a veces no podrá evitar cometer errores, pero no pasa nada. Lo importante es que usted responda lo más rápidamente posible y que no frene sus respuestas para no cometer errores.
+
+Recuerde: Si ve [LEFT_STIM], pulse el botón izquierdo del ratón. Si ve [RIGHT_STIM], pulse el botón derecho del ratón. Si la señal de “stop” ([STOP_STIM]) aparece, entonces detenga su respuesta si es posible. 
+
+Pulse uno de los botones del ratón para comenzar cuando esté listo/a.</item>
+    <item key="No Instructions Caption">Presione el botón izquierdo del ratón para comenzar la siguiente parte.</item>
+    <item key="Rest Screen Caption">Presione el botón izquierdo del ratón cuando esté preparado/a.</item>
+    <item key="Progress Bar Caption">Avance:</item>
+    <item key="Practice Caption">Comenzará con unos cuantos ensayos de práctica.</item>
+    <item key="Practice Complete Caption">Ha concluido la práctica. Presione el botón izquierdo del ratón para comenzar.</item>
+    <item key="Block Complete Caption">Ha concluido [BLOCK_NUMBER] bloque(s). Hay un total de [TOTAL_BLOCKS] bloques en el experimento. 
+
+Presione el botón izquierdo del ratón para continuar.</item>
+    <item key="Completion Screen Caption">Ha concluido el experimento. Gracias por su participación. Presione el botón izquierdo del ratón para salir del programa. </item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

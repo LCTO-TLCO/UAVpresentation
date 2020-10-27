@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Instructions">In this task, you will be trying to maximize the amount of money you win. 
+
+In each trial, select a card from one of the [NUMBER_DECKS_LABEL] decks shown on screen. Every card you choose can have both a reward and a penalty. In other words, for each card you pick, you may gain some amount of money as a reward or lose some amount of money as a penalty. 
+
+Use the mouse to highlight one of the [NUMBER_DECKS_LABEL] decks on screen. Click the left mouse button to choose the top card from that deck. When you do, a box will appear and tell you the reward and penalty for that card, as well as your current total. Remember, your goal should be to try and win as much money as possible. 
+
+Click the left mouse button to begin when you are ready.
+</item>
+    <item key="Deck Caption">Choose a deck!</item>
+    <item key="Choice Caption">Your choice</item>
+    <item key="Reward Caption">You gain</item>
+    <item key="Penalty Caption">You lose</item>
+    <item key="Total Caption">Your total</item>
+    <item key="Current Total Caption">Your current total is: [TOTAL]</item>
+    <item key="Practice Caption">You will start by doing a few trials for practice.</item>
+    <item key="Practice Complete Caption">You have completed the practice trials. Click the left mouse button to begin when you are ready.</item>
+    <item key="Block Complete Caption">You have completed [BLOCK_NUMBER] block(s). There are [TOTAL_BLOCKS] blocks in the experiment. 
+
+Click the left mouse button to move on.</item>
+    <item key="Completion Screen Caption">You have finished the experiment. Thank you very much for participating! Click the left mouse button to exit the program.</item>
+    <item key="Next Screen Caption">Click the left mouse button to continue.</item>
+    <item key="Previous Screen Caption">Click the left mouse button to go back.</item>
+    <item key="Multi-Screen Start Experiment Caption">Click the left mouse button to start the experiment when you are ready.</item>
+    <item key="Start Experiment Caption">Click the left mouse button to start the experiment when you are ready.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

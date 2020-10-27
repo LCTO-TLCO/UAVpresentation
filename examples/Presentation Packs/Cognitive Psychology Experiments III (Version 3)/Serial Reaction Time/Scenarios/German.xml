@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="German">
+  <map name="default">
+    <item key="Instructions">Ihre einzige Aufgabe bei diesem Test ist es, die Stelle eines visuellen Stimulus auf dem Schirm zu identifizieren und dann die entsprechende Taste zu drücken.
+
+Der Umriss von vier Boxen auf dem Schirm bleibt gleich und diese erscheinen auf einer Linie von links nach rechts. Diese vier Boxen stellen die vier möglichen Positionen dar, wo ein visueller Stimulus erscheinen kann. Nur ein Stimulus wird erscheinen zu einer bestimmten Zeit. Ihre Aufgabe ist es heraus zu finden, in welcher Box der Stimulus ist.
+
+Wenn der visuelle Stimulus in der Box am linken Rande erscheint, drücken Sie 1 so schnell wie möglich. Wenn der Stimulus in der Box weiter rechts erscheint, dann drücken Sie schnell die 2. Drücken Sie die 3, wenn der Stimulus in der Box weiter rechts sowie die 4 wenn er in der Box ganz rechts erscheint
+
+Andere  Aufgaben sind nicht zu erfüllen. Sie brauchen nur zu sehen, in welcher Box der Stimulus sich befindet, wobei Sie so rasch wie möglich reagieren.
+
+Drücken Sie “enter” um zu beginnen.
+</item>
+    <item key="No Instructions Caption">Drücke Sie “enter”, um den nächsten Teil zu beginnen</item>
+    <item key="Rest Screen Caption">Sobald Sie bereit sind, drücken Sie “enter” um zu beginnen</item>
+    <item key="Progress Bar Caption">Fortfahren:</item>
+    <item key="Practice Caption"> Beginnen Sie mit einigen Übungsversuchen</item>
+    <item key="Practice Complete Caption">Nachdem Sie die Übungsversuche beendet haben, drücken Sie “enter”, um zu beginnen.</item>
+    <item key="Completion Screen Caption">Sie haben das Experiment beendet. Danke für Ihre Teilnahme. Drücken Sie „enter“, um das Programm zu verlassen.</item>
+    <item key="Block Complete Caption"> Sie haben die [BLOCK_NUMBER] Blöcke beendet. Es gibt [TOTAL_NUMBER] Blöcke. Drücken Sie “enter”, um fort zu fahren.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

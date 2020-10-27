@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="German">
+  <map name="default">
+    <item key="Instructions">Bei diesem Experiment sehen Sie nacheinander eine Reihe von Stimuli (ein oder mehrere Buchstaben). Ihre Aufgabe ist es festzustellen, welcher von zwei Stimuli auf dem Bildschirm erscheint, worauf Sie die entsprechende Taste möglichst schnell drücken. 
+
+Wenn Sie [LEFT_STIM] sehen, drücken Sie die LINKE Maus-Taste so schnell wie möglich.
+
+Wenn Sie [RIGHT_STIM] sehen, drücken Sie die RECHTE Maus-Taste so schnell wie möglich.
+
+Hier ist der Haken: Wenn ein Stimulus erscheint, dann folgt gelegentlich [STOP_STIM]. [STOP_STIM] ist wie ein Stopp-Signal. Wenn es auftritt, sollen Sie nicht reagieren. Warten Sie nicht darauf zu sehen ob das Stopp-Signal erscheint bevor Sie antworten! Stattdessen versuchen Sie so schnell wie möglich zu reagieren, sobald der Stimulus erscheint Und wenn das Stop-Signal auftritt bevor Sie reagiert haben, dann stoppen Sie Ihre Antwort. Das Stop-Signal erscheint manchmal sehr spät und gelegentlich sehr schnell. Daher werden Sie manchmal inkorrekt reagieren, aber das ist O.K. Es ist wichtiger, ziemlich schnell zu reagieren anstatt zu verlangsamen, um richtig zu antworten.
+
+Zur Erinnerung: Wenn Sie [LEFT_STIM] sehen, drücken Sie die linke Maus-Taste. Wenn Sie [RIGHT_STIM] sehen, drücken Sie die rechte Maus-Taste. Wenn das Stop-Signal [STOP_STIOM] erscheint, dann vermeiden Sie zu reagieren, wenn Sie noch nicht geantwortet haben.
+
+Drücken Sie einen der Maus-Tasten, wenn Sie soweit sind zu beginnen.
+</item>
+    <item key="No Instructions Caption">Drücken Sie einen der Maus-Tasten, um den nächsten Teil zu beginnen.  </item>
+    <item key="Rest Screen Caption">Machen Sie eine Pause!</item>
+    <item key="Progress Bar Caption">Fortfahren:</item>
+    <item key="Practice Caption"> Beginnen Sie mit einigen Übungsversuchen</item>
+    <item key="Practice Complete Caption">Nachdem Sie die Übungsversuche beendet haben. Drücken Sie einen der Maus-Tasten, um den nächsten Teil zu beginnen.  </item>
+    <item key="Block Complete Caption">Sie haben die [BLOCK_NUMBER] Blöcke beendet. Es gibt [TOTAL_NUMBER] Blöcke.
+Drücken Sie einen der Maus-Tasten, um den nächsten Teil zu beginnen. </item>
+    <item key="Completion Screen Caption">Sie haben das Experiment beendet. Danke für Ihre Teilnahme. Drücken Sie einen der Maus-Tasten, um den nächsten Teil zu beginnen.  </item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

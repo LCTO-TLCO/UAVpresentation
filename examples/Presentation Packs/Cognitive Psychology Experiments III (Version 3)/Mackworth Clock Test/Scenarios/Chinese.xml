@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Chinese">
+  <map name="default">
+    <item key="Instructions">在本实验中，你会在屏幕上看到类似于表盘的图形。但是在这个表盘上，每一个本该是数字的位置都是一个小圆圈（在这个“钟表”上，这样的位置会有12个左右）。
+
+请注意看这只“钟表”：其中有一个目标圆圈以不同于其余圆圈的颜色，像普通钟表的秒针一样在表盘上运动。它会在一个短暂的时间占据表盘的某个位置，然后运动到下一位置。目标会以[DIRECTION]方向运动。
+
+你的任务是在目标跳过某个位置时点击鼠标左键。如果你想象它是一个钟表，“跳过”就像是秒针直接从6移动到8。当目标跳过某个位置时，请点击鼠标左键。请尽量又快又准地作出反应。
+
+任务可能会持续一段时间，所以请尽量注意目标，以免当它跳过某个点时将其遗漏！
+
+如果你准备好了，请按鼠标左键开始！
+</item>
+    <item key="Clockwise">顺时针</item>
+    <item key="Counter-Clockwise">逆时针</item>
+    <item key="No Instructions Caption">按下兩個鼠標按鈕開始下一部分</item>
+    <item key="Rest Screen Caption">按下任一的滑鼠按鈕開始，當你準備移動到下一部分。</item>
+    <item key="Progress Bar Caption">进度：</item>
+    <item key="Practice Caption">首先你要做几个试次的练习。</item>
+    <item key="Practice Complete Caption">實踐試驗完成。按下兩個鼠標按鈕繼續前進。</item>
+    <item key="Completion Screen Caption">你已經完成了實驗。非常感謝您的參與。按下兩個鼠標按鈕來退出程序。</item>
+    <item key="Block Complete Caption">你已经完成了[BLOCK_NUMBER]个组块。本实验共有[TOTAL_BLOCKS]个组块。.
+按下兩個鼠標按鈕繼續前進。</item>
+    <item key="Word Wrap Mode">Character</item>
+  </map>
+</experiment_text>

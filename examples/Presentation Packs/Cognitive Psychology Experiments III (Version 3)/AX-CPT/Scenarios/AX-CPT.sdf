@@ -1,0 +1,7 @@
+# AX-CPT
+
+event_pair_table my_rm_table( block_name1, block_number1, trial_number1, trial_condition1, stim_type1, tgt_type1, stim_number1, stim_caption1, code2, rm_type, time_diff )
+good_pairs(rm_all) :: event_cond1 == "Stim"
+
+print"Block Name\tBlock Number\tTrial Number\tCondition\tStim Type\tTarget Type\tStim Number\tStim Caption\tResponse\tAccuracy\tRT"
+print my_rm_table( good_pairs, "\t", "\n", no_header_row )

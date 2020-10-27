@@ -1,0 +1,113 @@
+Scenario - Rotary Pursuit
+Logfile written - 03/06/2019 16:46:38
+
+Subject	Trial	Event Type	Code	event_cond(str)	block_name(str)	block_number(num)	trial_number(num)	track_width(num)	track_height(num)	circuit_time(num)	axis_setup(str)	tgt_pct(num)	avg_dist(num)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+	1	Response	1											132860	132526	0
+	3	Picture	Wait	Wait										148511	0	1	29994	9	0	next	other	0
+	4	Picture	Stim;Practice;0;1;150;100;12000;Invert Both;0.138888888888889;33.8424708330532	Stim	Practice	0	1	150	100	12000	Invert Both	0.138888888888889	33.8424708330532	178505	0	9	175	9	0	next	other	0
+	5	Picture	Feedback	Feedback										300023	0	1	15001	1	0	next	other	0
+	5	Response	1											310940	10917	0
+	7	Picture	Wait	Wait										330025	0	1	30002	1	0	next	other	0
+	8	Picture	Stim;Practice;0;2;150;100;12000;Invert Both;3.75;11.9732513755037	Stim	Practice	0	2	150	100	12000	Invert Both	3.75	11.9732513755037	360027	0	1	167	1	0	next	other	0
+	9	Picture	Feedback	Feedback										482370	0	1	15001	1	0	next	other	0
+	11	Response	1											526380	13841	0
+	13	Picture	Wait	Wait										541708	0	1	30002	1	0	next	other	0
+	14	Picture	Stim;Main;1;1;150;100;12000;Standard;68.0555555555556;3.70622055242999	Stim	Main	1	1	150	100	12000	Standard	68.0555555555556	3.70622055242999	571710	0	1	167	1	0	next	other	0
+	15	Picture	Feedback	Feedback										693719	0	1	15001	1	0	next	other	0
+	17	Picture	Wait	Wait										723722	0	1	30002	1	0	next	other	0
+	18	Picture	Stim;Main;1;2;150;100;12000;Standard;86.9444444444444;1.95194006643308	Stim	Main	1	2	150	100	12000	Standard	86.9444444444444	1.95194006643308	753724	0	1	167	1	0	next	other	0
+	19	Picture	Feedback	Feedback										875900	0	1	15001	1	0	next	other	0
+	21	Picture	Wait	Wait										906069	0	1	30002	1	0	next	other	0
+	22	Picture	Stim;Main;1;3;150;100;12000;Standard;86.3888888888889;2.28003114069559	Stim	Main	1	3	150	100	12000	Standard	86.3888888888889	2.28003114069559	936071	0	1	167	1	0	next	other	0
+	23	Picture	Feedback	Feedback										1058580	0	1	15001	1	0	next	other	0
+	23	Response	1											1067579	8999	0
+	25	Picture	Wait	Wait										1088750	0	1	30169	1	0	next	other	0
+	26	Picture	Stim;Main;1;4;150;100;12000;Standard;83.4722222222222;2.49452942507592	Stim	Main	1	4	150	100	12000	Standard	83.4722222222222	2.49452942507592	1118918	0	1	167	1	0	next	other	0
+	27	Picture	Feedback	Feedback										1240428	0	1	15001	1	0	next	other	0
+	27	Response	1											1251019	10592	0
+	29	Picture	Wait	Wait										1270430	0	1	30002	1	0	next	other	0
+	30	Picture	Stim;Main;1;5;150;100;12000;Standard;88.3333333333333;1.96450801700433	Stim	Main	1	5	150	100	12000	Standard	88.3333333333333	1.96450801700433	1300432	0	1	167	1	0	next	other	0
+	31	Picture	Feedback	Feedback										1422275	0	1	15168	1	0	next	other	0
+	33	Picture	Wait	Wait										1452444	0	1	30002	1	0	next	other	0
+	34	Picture	Stim;Main;1;6;150;100;12000;Standard;94.0277777777778;1.69372958892702	Stim	Main	1	6	150	100	12000	Standard	94.0277777777778	1.69372958892702	1482446	0	1	167	1	0	next	other	0
+	35	Picture	Feedback	Feedback										1604955	0	1	15168	1	0	next	other	0
+	37	Picture	Wait	Wait										1635124	0	1	29996	7	0	next	other	0
+	38	Picture	Stim;Main;1;7;150;100;12000;Standard;76.5277777777778;2.82538991913336	Stim	Main	1	7	150	100	12000	Standard	76.5277777777778	2.82538991913336	1665120	0	7	173	7	0	next	other	0
+	39	Picture	Feedback	Feedback										1786969	0	1	15001	1	0	next	other	0
+	39	Response	1											1793259	6290	0
+	41	Picture	Wait	Wait										1816972	0	1	30002	1	0	next	other	0
+	42	Picture	Stim;Main;1;8;150;100;12000;Standard;95.5555555555556;2.0168046732881	Stim	Main	1	8	150	100	12000	Standard	95.5555555555556	2.0168046732881	1846974	0	1	167	1	0	next	other	0
+	43	Picture	Feedback	Feedback										1968483	0	1	15001	1	0	next	other	0
+	45	Picture	Wait	Wait										1998486	0	1	30169	1	0	next	other	0
+	46	Picture	Stim;Main;1;9;150;100;12000;Standard;90.8333333333333;1.97387971922847	Stim	Main	1	9	150	100	12000	Standard	90.8333333333333	1.97387971922847	2028654	0	1	167	1	0	next	other	0
+	47	Picture	Feedback	Feedback										2150497	0	1	15001	1	0	next	other	0
+	49	Picture	Wait	Wait										2180499	0	1	30002	1	0	next	other	0
+	50	Picture	Stim;Main;1;10;150;100;12000;Standard;82.3611111111111;2.14456826774431	Stim	Main	1	10	150	100	12000	Standard	82.3611111111111	2.14456826774431	2210502	0	1	167	1	0	next	other	0
+	51	Picture	Feedback	Feedback										2332844	0	1	15168	1	0	next	other	0
+	51	Response	1											2341099	8255	0
+	53	Picture	Wait	Wait										2363013	0	1	30002	1	0	next	other	0
+	54	Picture	Stim;Main;1;11;150;100;12000;Standard;86.9444444444444;2.24177513325149	Stim	Main	1	11	150	100	12000	Standard	86.9444444444444	2.24177513325149	2393016	0	1	167	1	0	next	other	0
+	55	Picture	Feedback	Feedback										2514692	0	1	15001	1	0	next	other	0
+	57	Picture	Wait	Wait										2544861	0	1	30002	1	0	next	other	0
+	58	Picture	Stim;Main;1;12;150;100;12000;Standard;2.08333333333333;65.5374147128385	Stim	Main	1	12	150	100	12000	Standard	2.08333333333333	65.5374147128385	2574863	0	1	167	1	0	next	other	0
+	59	Picture	Feedback	Feedback										2697206	0	1	15001	1	0	next	other	0
+	61	Picture	Wait	Wait										2727374	0	1	30169	1	0	next	other	0
+	62	Picture	Stim;Main;1;13;150;100;12000;Standard;12.3611111111111;81.1385702882319	Stim	Main	1	13	150	100	12000	Standard	12.3611111111111	81.1385702882319	2757543	0	1	167	1	0	next	other	0
+	63	Picture	Feedback	Feedback										2879719	0	1	15001	1	0	next	other	0
+	65	Picture	Wait	Wait										2909722	0	1	30002	1	0	next	other	0
+	66	Picture	Stim;Main;1;14;150;100;12000;Standard;2.36111111111111;85.7085934692907	Stim	Main	1	14	150	100	12000	Standard	2.36111111111111	85.7085934692907	2939724	0	1	167	1	0	next	other	0
+	67	Picture	Feedback	Feedback										3061733	0	1	6957	1	0	next	other	0
+	67	Quit												3064221	2487	NA
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Picture	Wait	other				148511	1	29994	9	0	next
+Picture	Stim;Practice;0;1;150;100;12000;Invert Both;0.138888888888889;33.8424708330532	other				178505	9	175	9	0	next
+Picture	Feedback	other				300023	1	15001	1	0	next
+Picture	Wait	other				330025	1	30002	1	0	next
+Picture	Stim;Practice;0;2;150;100;12000;Invert Both;3.75;11.9732513755037	other				360027	1	167	1	0	next
+Picture	Feedback	other				482370	1	15001	1	0	next
+Picture	Wait	other				541708	1	30002	1	0	next
+Picture	Stim;Main;1;1;150;100;12000;Standard;68.0555555555556;3.70622055242999	other				571710	1	167	1	0	next
+Picture	Feedback	other				693719	1	15001	1	0	next
+Picture	Wait	other				723722	1	30002	1	0	next
+Picture	Stim;Main;1;2;150;100;12000;Standard;86.9444444444444;1.95194006643308	other				753724	1	167	1	0	next
+Picture	Feedback	other				875900	1	15001	1	0	next
+Picture	Wait	other				906069	1	30002	1	0	next
+Picture	Stim;Main;1;3;150;100;12000;Standard;86.3888888888889;2.28003114069559	other				936071	1	167	1	0	next
+Picture	Feedback	other				1058580	1	15001	1	0	next
+Picture	Wait	other				1088750	1	30169	1	0	next
+Picture	Stim;Main;1;4;150;100;12000;Standard;83.4722222222222;2.49452942507592	other				1118918	1	167	1	0	next
+Picture	Feedback	other				1240428	1	15001	1	0	next
+Picture	Wait	other				1270430	1	30002	1	0	next
+Picture	Stim;Main;1;5;150;100;12000;Standard;88.3333333333333;1.96450801700433	other				1300432	1	167	1	0	next
+Picture	Feedback	other				1422275	1	15168	1	0	next
+Picture	Wait	other				1452444	1	30002	1	0	next
+Picture	Stim;Main;1;6;150;100;12000;Standard;94.0277777777778;1.69372958892702	other				1482446	1	167	1	0	next
+Picture	Feedback	other				1604955	1	15168	1	0	next
+Picture	Wait	other				1635124	1	29996	7	0	next
+Picture	Stim;Main;1;7;150;100;12000;Standard;76.5277777777778;2.82538991913336	other				1665120	7	173	7	0	next
+Picture	Feedback	other				1786969	1	15001	1	0	next
+Picture	Wait	other				1816972	1	30002	1	0	next
+Picture	Stim;Main;1;8;150;100;12000;Standard;95.5555555555556;2.0168046732881	other				1846974	1	167	1	0	next
+Picture	Feedback	other				1968483	1	15001	1	0	next
+Picture	Wait	other				1998486	1	30169	1	0	next
+Picture	Stim;Main;1;9;150;100;12000;Standard;90.8333333333333;1.97387971922847	other				2028654	1	167	1	0	next
+Picture	Feedback	other				2150497	1	15001	1	0	next
+Picture	Wait	other				2180499	1	30002	1	0	next
+Picture	Stim;Main;1;10;150;100;12000;Standard;82.3611111111111;2.14456826774431	other				2210502	1	167	1	0	next
+Picture	Feedback	other				2332844	1	15168	1	0	next
+Picture	Wait	other				2363013	1	30002	1	0	next
+Picture	Stim;Main;1;11;150;100;12000;Standard;86.9444444444444;2.24177513325149	other				2393016	1	167	1	0	next
+Picture	Feedback	other				2514692	1	15001	1	0	next
+Picture	Wait	other				2544861	1	30002	1	0	next
+Picture	Stim;Main;1;12;150;100;12000;Standard;2.08333333333333;65.5374147128385	other				2574863	1	167	1	0	next
+Picture	Feedback	other				2697206	1	15001	1	0	next
+Picture	Wait	other				2727374	1	30169	1	0	next
+Picture	Stim;Main;1;13;150;100;12000;Standard;12.3611111111111;81.1385702882319	other				2757543	1	167	1	0	next
+Picture	Feedback	other				2879719	1	15001	1	0	next
+Picture	Wait	other				2909722	1	30002	1	0	next
+Picture	Stim;Main;1;14;150;100;12000;Standard;2.36111111111111;85.7085934692907	other				2939724	1	167	1	0	next
+Picture	Feedback	other				3061733	1	6957	1	0	next

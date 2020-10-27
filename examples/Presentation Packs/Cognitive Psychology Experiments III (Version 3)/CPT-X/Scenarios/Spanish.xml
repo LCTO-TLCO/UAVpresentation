@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Spanish">
+  <map name="default">
+    <item key="Instructions">En este experimento, aparecerá una secuencia de letras, de una en una. Su tarea consiste en decidir si la letra que aparece en la pantalla es la letra diana (=target) o no lo es, y responder correctamente. 
+
+En este experimento, la letra diana (=target) es: [TARGET_LETTER]. Cada vez que vea la [TARGET_LETTER], NO RESPONDA. Si aparece cualquier otra letra, responda pulsando el botón izquierdo del ratón tan rápidamente como pueda.
+
+Intente responder lo más rápidamente posible pero sin cometer errores. Pulse el botón izquierdo del ratón cuando esté listo/a para comenzar.</item>
+    <item key="No Instructions Caption">Presione el botón izquierdo del ratón para comenzar la siguiente parte.</item>
+    <item key="Rest Screen Caption">Presione el botón izquierdo del ratón cuando esté preparado/a.</item>
+    <item key="Progress Bar Caption">Avance:</item>
+    <item key="Practice Caption">Comenzará con unos cuantos ensayos de práctica.</item>
+    <item key="Practice Complete Caption">Ha concluido la práctica. Presione el botón izquierdo del ratón para comenzar.</item>
+    <item key="Completion Screen Caption">Ha concluido el experimento. Gracias por su participación. Presione el botón izquierdo del ratón para salir del programa. </item>
+    <item key="Block Complete Caption">Ha concluido [BLOCK_NUMBER] bloque(s). Hay un total de [TOTAL_BLOCKS] bloques en el experimento. 
+
+Presione el botón izquierdo del ratón para continuar.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

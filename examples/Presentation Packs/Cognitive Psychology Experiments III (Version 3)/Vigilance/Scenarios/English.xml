@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Instructions">In this experiment, your only task is to click the left mouse button whenever a target is presented on screen. 
+
+In each trial, a large colored box will be presented on screen for a brief period of time. Inside of that box will be a smaller box. Pay attention to the position of the smaller box.
+
+If the small box appears on the [TARGET_SIDE] half of the larger box, and ONLY if it appears on the [TARGET_SIDE] half of the larger box, then it is a target and you should respond by clicking the left mouse button. If the smaller box appears in any other position, then it is not a target and you should make no response. The experiment may continue for a while, so do your best to pay attention and make correct responses until it is complete.
+
+Click the left mouse button when you are ready to begin.</item>
+    <item key="No Instructions Caption">Click the mouse to begin the next part.</item>
+    <item key="Rest Screen Caption">Click the mouse to begin when you are ready to move on to the next part.</item>
+    <item key="Progress Bar Caption">Progress:</item>
+    <item key="Practice Caption">You will start by doing a few examples for practice.</item>
+    <item key="Practice Complete Caption">Practice trials complete. Click the left mouse button to move on.</item>
+    <item key="Completion Screen Caption">You have finished the experiment. Thank you very much for participating! Click the mouse to exit the program.</item>
+    <item key="Block Complete Caption">You have completed [BLOCK_NUMBER] block(s). There are [TOTAL_BLOCKS] blocks in the experiment. 
+
+Click the mouse to move on.</item>
+    <item key="Next Screen Caption">Click the left mouse button to continue.</item>
+    <item key="Previous Screen Caption">Click the left mouse button to go back.</item>
+    <item key="Multi-Screen Start Experiment Caption">Click the left mouse button to start the experiment when you are ready.</item>
+    <item key="Start Experiment Caption">Click the left mouse button to start the experiment when you are ready.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

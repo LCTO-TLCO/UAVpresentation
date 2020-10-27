@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="French">
+  <map name="default">
+    <item key="Instructions">Dans cette expérience, vous verrez une série de lettres,  présentées une à la fois. Votre tâche est d’identifier laquelle des deux lettres a été présentée, puis appuyez sur le bouton correspondant aussi vite que possible.
+
+Si vous voyez [LEFT_STIM], appuyez sur le bouton GAUCHE de la souris le plus rapidement possible.
+
+Si vous voyez [RIGHT_STIM], appuyez sur le bouton DROIT de la souris le plus rapidement possible.
+
+Il y a une complication. Parfois, quand un lettre apparaît, elle sera suivie par [STOP_STIM]. [STOP_STIM] est comme un signal "stop" (d’arrêt) : quand vous le voyez, vous ne devrez pas répondre à la lettre précédente. N’attendez pas pour voir si le signal d'arrêt va se produire.  Essayez de répondre aussi rapidement que possible à chaque stimulus. Cependant, si le signal d'arrêt s'affiche avant que vous ayez répondu, alors arrêtez votre réponse. Le signal "stop" apparaît parfois très tard, et d'autres fois très rapidement. Ainsi, vous pouvez parfois faire des réponses erronées, et c'est OK. Il est plus important que vous répondiez rapidement plutôt que de ralentir pour répondre correctement.
+
+Rappelez vous que quand vous voyez [LEFT_STIM], appuyez sur le bouton gauche de la souris. Quand vous voyez [RIGHT_STIM], appuyez sur le bouton droit de la souris. Si le signal "stop" ([STOP_STIM]) s'affiche, arrêtez votre réponse si vous le pouvez.
+
+Appuyez sur un des boutons de la souris pour commencer quand vous êtes prêt.</item>
+    <item key="No Instructions Caption">Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Rest Screen Caption">Appuyez sur un des boutons de la souris pour commencer que lorsque vous êtes prêt à passer à la partie suivante.</item>
+    <item key="Progress Bar Caption">Progrès:</item>
+    <item key="Practice Caption">Commençons par quelques essais pour vous enseigner la tâche.</item>
+    <item key="Practice Complete Caption">Vous avez terminé les essais préliminaires. Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Block Complete Caption">Vous avez terminé [BLOCK_NUMBER] bloc (s). Il y a un total de [TOTAL_BLOCKS] blocs dans le test.
+Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Completion Screen Caption">Vous avez terminé l'expérience. Nous vous remercions de votre participation. Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Instructions">In this experiment, your task will be to sort a series of cards as accurately as possible. Each card will have some number of shapes on it, and you can sort each card based on the number of shapes on the card, the color of the shapes, or the shape types (e.g., squares, triangles).
+
+In each trial, you will draw one card (shown in the center of the screen). Sort the card you drew into one of the four piles by using the mouse to highlight one the four decks at the top of the screen, then clicking the left mouse button to sort the card into that deck. After you sort your card, you will be told whether the you sorted that card correctly or incorrectly. 
+
+You won't be told how to sort the cards, so you will have to start by guessing which feature of the card is relevant. Use the feedback to figure out where to sort the next card.
+
+Click the left mouse button when you are ready to begin.</item>
+    <item key="Select Caption">Use the mouse to select the pile on which the card should be sorted.</item>
+    <item key="No Instructions Caption">Click the left mouse button to begin the next part.</item>
+    <item key="Practice Caption">You will start by doing a few trials for practice.</item>
+    <item key="Practice Complete Caption">Practice trials complete. Click the left mouse button to begin when you are ready.</item>
+    <item key="Completion Screen Caption">You have finished the experiment. Thank you very much for participating! Click the left mouse button to exit the program.</item>
+    <item key="Rest Screen Caption">Take a break!
+
+Click the left mouse button to begin when you are ready to move on to the next part.</item>
+    <item key="Progress Bar Caption">Progress:</item>
+    <item key="Block Complete Caption">You have completed [BLOCK_NUMBER] block(s). There are [TOTAL_BLOCKS] blocks in the experiment. 
+
+Click the left mouse button to move on.</item>
+    <item key="Next Screen Caption">Click the left mouse button to continue.</item>
+    <item key="Previous Screen Caption">Click the left mouse button to go back.</item>
+    <item key="Multi-Screen Start Experiment Caption">Click the left mouse button to start the experiment when you are ready.</item>
+    <item key="Start Experiment Caption">Click the left mouse button to start the experiment when you are ready.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

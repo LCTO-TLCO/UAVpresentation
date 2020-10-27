@@ -1,0 +1,21 @@
+Scenario - 
+Logfile written - 02/19/2019 09:46:46
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Quit		122596	121930	NA
+
+
+{
+   "app": "Presentation Version 20.2 Build 07.25.18",
+   "device": "MouseComputer Co.,Ltd. DAIV-DGX750",
+   "experiment": "{5C18760D-5E33-42FE-A525-92CE837386B5}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "StopSignalRecording.sce",
+   "subject": "",
+   "timestamp": "2019/02/19 00:46:31 GMT"
+}

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="French">
+  <map name="default">
+    <item key="Instructions">Dans cette expérience, votre tâche est de cliquer sur le bouton gauche de la souris chaque fois qu'une cible apparait  à l'écran.
+
+Dans chaque essai, une grande case colorée sera présenté à l'écran brièvement. A l'intérieur de cette case se trouvera un petit rectangle. Faites attention à la position du petit rectangle.
+
+Si le petit rectangle apparaît dans la case au côté [TARGET_SIDE], et seulement si il apparaît au côté [TARGET_SIDE] de la case, il est une cible et vous devez répondre en cliquant sur le bouton gauche de la souris. Si le petit rectangle apparaît à toute autre position, alors il n'est pas une cible, et vous ne devrez faire aucune réponse.
+
+Rappelez vous que vous devez répondre uniquement lorsque la cible (un petit rectangle) apparaît sur le [TARGET_SIDE] de la grande case. L'expérience peut durer un certain temps pour evaluer comment vous pouvez soutenir votre attention, alors faites de votre mieux de maintenir votre attention et répondre correctement jusqu'à la fin.
+
+Cliquez sur le bouton gauche de la souris lorsque vous êtes prêt à commencer.</item>
+    <item key="No Instructions Caption">Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Rest Screen Caption">Appuyez sur un des boutons de la souris pour commencer que lorsque vous êtes prêt à passer à la partie suivante.</item>
+    <item key="Progress Bar Caption">Progrès:</item>
+    <item key="Practice Caption">Commençons par quelques essais pour vous enseigner la tâche.</item>
+    <item key="Practice Complete Caption">Vous avez terminé les essais préliminaires. Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Completion Screen Caption">Vous avez terminé l'expérience. Nous vous remercions de votre participation. Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Block Complete Caption">Vous avez terminé [BLOCK_NUMBER] bloc (s). Il y a un total de [TOTAL_BLOCKS] blocs dans le test.
+Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

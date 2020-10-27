@@ -1,0 +1,7 @@
+# N400
+
+event_pair_table my_rm_table( prac_type1, list_number1, trial_number1, prime_stim1, tgt_stim1, cond_name1, ISI_dur1, ITI_dur1, prime_p_code1, tgt_p_code1, code2, time_diff, rm_type )
+good_pairs(rm_all) :: event_name1 == "Stimulus"
+
+print"Block Name\tList Number\tTrial Number\tPrime Caption\tTarget Caption\tCondition\tISI Duration\tITI Duration\tPrime Port Code\tTarget Port Code\tResponse\tRT\tAccuracy"
+print my_rm_table( good_pairs, "\t", "\n", no_header_row )

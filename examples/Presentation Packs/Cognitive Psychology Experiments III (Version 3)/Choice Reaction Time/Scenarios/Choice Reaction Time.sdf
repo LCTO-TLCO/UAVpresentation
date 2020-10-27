@@ -1,0 +1,7 @@
+# Choice Reaction Time
+
+event_pair_table my_rm_table( block_name1, trial_number1, stim_type1, tgt_number1, ISI_dur1, code2, rm_type, time_diff )
+good_pairs(rm_all) :: event_cond1 == "Target"
+
+print"Block Name\tTrial Number\tStimulus Type\tStimulus Number\tPre-Stimulus ISI\tResponse\tAccuracy\tRT"
+print my_rm_table( good_pairs, "\t", "\n", no_header_row )

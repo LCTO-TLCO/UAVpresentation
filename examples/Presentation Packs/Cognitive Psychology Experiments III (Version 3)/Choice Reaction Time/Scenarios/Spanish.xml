@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Spanish">
+  <map name="default">
+    <item key="Instructions">En este experimento, verá secuencias de dos estímulos, presentados de uno en uno. Su tarea consiste en decidir qué estímulo se presentó, y pulsar el botón apropiado tan rápidamente como pueda.
+
+Si ve [STIM_ONE_DESCRIPTION], pulse el botón izquierdo del ratón lo más rápidamente posible.
+
+Si ve [STIM_TWO_DESCRIPTION], pulse el botón derecho del ratón lo más rápidamente posible.
+
+Intente no anticipar qué estímulo va a aparecer, o cuándo va a aparecer. Sólo responda tan rápidamente como pueda cuando vea un estímulo. Recuerde: Pulse el botón izquierdo del ratón si ve [STIM_ONE_DESCRIPTION]. Pulse el botón derecho del ratón si ve [STIM_TWO_DESCRIPTION].
+
+Pulse cualquier botón del ratón cuando esté listo/a para comenzar.</item>
+    <item key="No Instructions Caption">Presione el botón izquierdo del ratón para comenzar la siguiente parte.</item>
+    <item key="Rest Screen Caption">Presione el botón izquierdo del ratón cuando esté preparado/a.</item>
+    <item key="Progress Bar Caption">Avance:</item>
+    <item key="Practice Caption">Comenzará con unos cuantos ensayos de práctica.</item>
+    <item key="Practice Complete Caption">Ha concluido la práctica. Presione el botón izquierdo del ratón para comenzar.</item>
+    <item key="Completion Screen Caption">Ha concluido el experimento. Gracias por su participación. Presione el botón izquierdo del ratón para salir del programa. </item>
+    <item key="Block Complete Caption">Ha concluido [BLOCK_NUMBER] bloque(s). Hay un total de [TOTAL_BLOCKS] bloques en el experimento. 
+
+Presione el botón izquierdo del ratón para continuar.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+  <map name="Sound">
+    <item key="Instructions">En este experimento, oirá secuencias de dos sonidos, presentados de uno en uno. Su tarea consiste en decidir qué sonido se presentó, y pulsar el botón apropiado tan rápidamente como pueda.
+
+Si oye [STIM_ONE_DESCRIPTION], pulse el botón izquierdo del ratón lo más rápidamente posible.
+
+Si oye [STIM_TWO_DESCRIPTION], pulse el botón derecho del ratón lo más rápidamente posible.
+
+Intente no anticipar qué sonido va a oír, o cuándo lo va a oír. Sólo responda lo más rápidamente posible cuando oiga un sonido. Recuerde: Pulse el botón izquierdo del ratón si oye  [STIM_ONE_DESCRIPTION]. Pulse el botón derecho del ratón si oye [STIM_TWO_DESCRIPTION].
+
+Pulse cualquier botón del ratón cuando esté listo/a para comenzar.</item>
+  </map>
+</experiment_text>

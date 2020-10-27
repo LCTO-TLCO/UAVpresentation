@@ -1,0 +1,7 @@
+# Berg's Card Sorting Tasi
+
+event_pair_table my_rm_table( block_name1, trial_num1, drawn_ct1, drawn_color1, drawn_shape1, sel_ct1, sel_color1, sel_shape1, curr_sort1, corr_inarow1, accuracy1, RT1 )
+good_pairs(rm_all) :: event_cond1 == "Info"
+
+print"Block\tTrial\tDrawn Card Count\tDrawn Card Shape\tDrawn Card Color\tSorted Count\tSorted Shape\tSorted Color\tCorrect Sort\tCorrect In a Row\tAccuracy\tRT"
+print my_rm_table( good_pairs, "\t", "\n", no_header_row )

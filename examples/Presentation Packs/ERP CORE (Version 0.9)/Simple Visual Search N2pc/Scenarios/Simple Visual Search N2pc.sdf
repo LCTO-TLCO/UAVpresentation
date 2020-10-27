@@ -1,0 +1,7 @@
+# N2pc
+
+event_pair_table my_rm_table( block_name1, block_num1, trial_num1, tgt_side1, tgt_color1, tgt_gap1, dist_gap1, p_code1, duration1, isi_dur1, code2, rm_type, time_diff )
+good_pairs(rm_all) :: event_name1 == "Stim"
+
+print"Block Name\tBlock Number\tTrial Number\tTarget Side\tTarget Color\tTarget Gap Position\tDist Gap Position\tPort Code\tStim Duration\tISI Duration\tResponse\tAccuracy\tRT"
+print my_rm_table( good_pairs, "\t", "\n", no_header_row )

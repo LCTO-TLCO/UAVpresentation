@@ -1,0 +1,64 @@
+#variables
+int block_num = 1;
+
+#control array, 1 = standard, 2 = deviant
+array<int> main[1000];
+	main.fill(1,800,1,0);
+	main.fill(801,main.count(),2,0);
+	
+#Block loop
+loop int bl = 1 until bl > block_num begin
+	#Shuffle array
+	main.shuffle(16,main.count());
+	
+	#Check array for repeats
+	loop int a = 1 until a > (main.count()-1) begin
+		if main[a] == 2 then
+			if main[a+1] == 2 then
+				int swap = random(a+2,main.count());
+				main[a+1] = main[swap];
+				main[swap] = main[a+1];
+				a = a-1;
+			end
+		end;
+	a = a + 1;
+	end;
+	
+	#Trial loop
+	loop int t = 1 until t > main.count() begin
+	
+		#Set trial tone
+		tone.unload();
+		if main[t] == 1 then
+			tone.set_filename("standard.wav");
+		elseif main[t] == 2 then
+			tone.set_filename("deviant.wav");
+		end;
+		tone.load();
+		
+		#Set durations
+		int isi_dur = random(450,550);
+		isi_trial.set_duration(isi_dur);
+		tone_trial.set_duration(75);
+		
+		#Set event codes
+		int code;
+		if t < 16 then
+			code = 180;
+		elseif main[t] == 1 then
+			code = 80;
+		elseif main[t] == 2 then
+			code = 70;
+		end;
+		tone_event.set_port_code(code);
+		tone_event.set_event_code(string(code));
+		
+		#Present Trials
+		tone_trial.present();
+		isi_trial.present();
+		
+	t = t + 1;
+	end;
+	
+bl = bl + 1;
+end;

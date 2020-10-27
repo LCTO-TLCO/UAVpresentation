@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><experiment_pack>
+    <name>Cognitive Psychology Experiments III</name>
+    <description>Cognitive Psychology Experiments III</description>
+    <version>3</version>
+    <author>NBS</author>
+    <documentation>Cognitive_Psychology_Experiments_III.chm</documentation>
+    <experiment_group>
+        <experiment>
+            <name>AX-CPT</name>
+            <description>AX-CPT task</description>
+            <location>AX-CPT\AX-CPT.exp</location>
+        </experiment>
+       <experiment>
+            <name>Berg's Card Sorting Task</name>
+            <description>Berg's Card Sorting Task</description>
+            <location>Berg's Card Sorting Task\Berg's Card Sorting Task.exp</location>
+        </experiment>
+        <experiment>
+            <name>Choice Reaction Time</name>
+            <description>Choice Reaction Time experiment</description>
+            <location>Choice Reaction Time\Choice Reaction Time.exp</location>
+        </experiment>
+        <experiment>
+            <name>Corsi Block Tapping</name>
+            <description>Corsi Block Tapping task</description>
+            <location>Corsi Block Tapping\Corsi Block Tapping.exp</location>
+        </experiment>
+        <experiment>
+            <name>CPT-X</name>
+            <description>CPT-X task</description>
+            <location>CPT-X\CPT-X.exp</location>
+        </experiment>
+        <experiment>
+            <name>Digit Span</name>
+            <description>Digit Span task</description>
+            <location>Digit Span\Digit Span.exp</location>
+        </experiment>
+        <experiment>
+            <name>Go-NoGo Task</name>
+            <description>Go-NoGo Task experiment</description>
+            <location>Go-NoGo Task\Go-NoGo Task.exp</location>
+        </experiment>
+        <experiment>
+            <name>Iowa Gambling Task</name>
+            <description>Iowa Gambling Task</description>
+            <location>Iowa Gambling Task\Iowa Gambling Task.exp</location>
+        </experiment>
+        <experiment>
+            <name>IVA-CPT</name>
+            <description>IVA-CPT task</description>
+            <location>IVA-CPT\IVA-CPT.exp</location>
+        </experiment>
+        <experiment>
+            <name>Mackworth Clock Test</name>
+            <description>Mackworth Clock Test</description>
+            <location>Mackworth Clock Test\Mackworth Clock Test.exp</location>
+        </experiment>
+        <experiment>
+            <name>Rotary Pursuit</name>
+            <description>Rotary Pursuit task</description>
+            <location>Rotary Pursuit\Rotary Pursuit.exp</location>
+        </experiment>
+        <experiment>
+            <name>Serial Reaction Time</name>
+            <description>Serial Reaction Time experiment</description>
+            <location>Serial Reaction Time\Serial Reaction Time.exp</location>
+        </experiment>
+        <experiment>
+            <name>Simple Reaction Time</name>
+            <description>Simple Reaction Time experiment.</description>
+            <location>Simple Reaction Time\Simple Reaction Time.exp</location>
+        </experiment>
+        <experiment>
+            <name>Stop Signal Task</name>
+            <description>Stop Signal Task experiment</description>
+            <location>Stop Signal Task\Stop Signal Task.exp</location>
+        </experiment>
+        <experiment>
+            <name>Vigilance</name>
+            <description>Vigilance experiment</description>
+            <location>Vigilance\Vigilance.exp</location>
+        </experiment>
+    </experiment_group>
+</experiment_pack>

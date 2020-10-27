@@ -1,0 +1,7 @@
+# Digit Span
+
+event_pair_table my_rm_table( block_number1, test_type1, trial_number1, current_length1, sequence1, resp1, accuracy1, rt1 )
+good_pairs(rm_all) :: event_cond1 == "Stim"
+
+print "Block Number\tTest Type\tTrial Number\tList Length\tSequence\tResponse\tAccuracy\tRT"
+print my_rm_table( good_pairs, "\t", "\n", no_header_row )

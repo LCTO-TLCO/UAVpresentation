@@ -1,0 +1,222 @@
+Scenario - Berg's Card Sorting Task
+Logfile written - 03/08/2019 16:55:31
+
+Subject	Trial	Event Type	Code	event_cond(str)	block_name(str)	trial_num(num)	drawn_ct(num)	drawn_shape(str)	drawn_color(str)	sel_ct(num)	sel_shape(str)	sel_color(str)	curr_sort(str)	corr_inarow(num)	accuracy(str)	RT(num)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+	1	Response	1														502758	502091	0
+	1	Response	1														541478	540811	0
+	2	Picture	Info;Practice;1;4;Plus;Red;4;Circle;Blue;Count;1;Correct;3867	Info	Practice	1	4	Plus	Red	4	Circle	Blue	Count	1	Correct	3867	541708	0	1	15001	1	0	next	other	0
+	2	Response	1														597797	56090	0
+	3	Picture	Info;Practice;2;3;Circle;Red;4;Circle;Blue;Count;0;Incorrect;4125	Info	Practice	2	3	Circle	Red	4	Circle	Blue	Count	0	Incorrect	4125	598046	0	1	15001	1	0	next	other	0
+	3	Response	1														638117	40072	0
+	4	Picture	Info;Practice;3;1;Plus;Blue;4;Circle;Blue;Count;0;Incorrect;2521	Info	Practice	3	1	Plus	Blue	4	Circle	Blue	Count	0	Incorrect	2521	638382	0	1	15001	1	0	next	other	0
+	4	Response	1														672277	33895	1
+	5	Picture	Info;Practice;4;3;Circle;Green;4;Circle;Blue;Count;0;Incorrect;1908	Info	Practice	4	3	Circle	Green	4	Circle	Blue	Count	0	Incorrect	1908	672551	0	1	15001	1	0	next	other	0
+	5	Response	1														699077	26526	1
+	6	Picture	Info;Practice;5;1;Circle;Yellow;1;Triangle;Red;Count;1;Correct;1175	Info	Practice	5	1	Circle	Yellow	1	Triangle	Red	Count	1	Correct	1175	699386	0	1	15001	1	0	next	other	0
+	7	Response	1														726278	11890	0
+	7	Response	1														755957	41570	1
+	8	Picture	Info;Main;1;4;Plus;Green;4;Circle;Blue;Count;1;Correct;2950	Info	Main	1	4	Plus	Green	4	Circle	Blue	Count	1	Correct	2950	756224	0	1	15001	1	0	next	other	0
+	8	Response	1														784597	28373	0
+	9	Picture	Info;Main;2;3;Circle;Green;3;Plus;Yellow;Count;2;Correct;1358	Info	Main	2	3	Circle	Green	3	Plus	Yellow	Count	2	Correct	1358	784893	0	1	15001	1	0	next	other	0
+	9	Response	1														816277	31384	0
+	10	Picture	Info;Main;3;1;Circle;Yellow;1;Triangle;Red;Count;3;Correct;1658	Info	Main	3	1	Circle	Yellow	1	Triangle	Red	Count	3	Correct	1658	816562	0	1	15001	1	0	next	other	0
+	10	Response	1														855877	39315	1
+	11	Picture	Info;Main;4;1;Circle;Green;1;Triangle;Red;Count;4;Correct;2441	Info	Main	4	1	Circle	Green	1	Triangle	Red	Count	4	Correct	2441	856065	0	1	15001	1	0	next	other	0
+	11	Response	1														880757	24692	0
+	12	Picture	Info;Main;5;4;Triangle;Yellow;4;Circle;Blue;Count;5;Correct;992	Info	Main	5	4	Triangle	Yellow	4	Circle	Blue	Count	5	Correct	992	881067	0	1	15001	1	0	next	other	0
+	12	Response	1														904437	23370	0
+	13	Picture	Info;Main;6;2;Circle;Red;2;Diamond;Green;Shape;0;Incorrect;857	Info	Main	6	2	Circle	Red	2	Diamond	Green	Shape	0	Incorrect	857	904736	0	1	15001	1	0	next	other	0
+	13	Response	1														939797	35062	1
+	14	Picture	Info;Main;7;2;Triangle;Blue;4;Circle;Blue;Shape;0;Incorrect;2024	Info	Main	7	2	Triangle	Blue	4	Circle	Blue	Shape	0	Incorrect	2024	940071	0	1	15001	1	0	next	other	0
+	14	Response	1														978597	38526	1
+	15	Picture	Info;Main;8;3;Diamond;Red;2;Diamond;Green;Shape;1;Correct;2375	Info	Main	8	3	Diamond	Red	2	Diamond	Green	Shape	1	Correct	2375	978908	0	1	15001	1	0	next	other	0
+	15	Response	1														1012917	34009	1
+	16	Picture	Info;Main;9;2;Plus;Blue;3;Plus;Yellow;Shape;2;Correct;1924	Info	Main	9	2	Plus	Blue	3	Plus	Yellow	Shape	2	Correct	1924	1013244	0	1	15001	1	0	next	other	0
+	16	Response	1														1039477	26234	0
+	17	Picture	Info;Main;10;2;Triangle;Yellow;2;Diamond;Green;Shape;0;Incorrect;1141	Info	Main	10	2	Triangle	Yellow	2	Diamond	Green	Shape	0	Incorrect	1141	1039746	0	1	15001	1	0	next	other	0
+	17	Response	1														1064997	25251	1
+	18	Picture	Info;Main;11;4;Plus;Red;3;Plus;Yellow;Shape;1;Correct;1041	Info	Main	11	4	Plus	Red	3	Plus	Yellow	Shape	1	Correct	1041	1065248	0	1	15001	1	0	next	other	0
+	18	Response	1														1095797	30550	1
+	19	Picture	Info;Main;12;2;Plus;Red;3;Plus;Yellow;Shape;2;Correct;1574	Info	Main	12	2	Plus	Red	3	Plus	Yellow	Shape	2	Correct	1574	1096083	0	1	15001	1	0	next	other	0
+	19	Response	1														1123077	26994	1
+	20	Picture	Info;Main;13;3;Diamond;Blue;2;Diamond;Green;Shape;3;Correct;1208	Info	Main	13	3	Diamond	Blue	2	Diamond	Green	Shape	3	Correct	1208	1123252	0	1	15001	1	0	next	other	0
+	20	Response	1														1153397	30145	1
+	21	Picture	Info;Main;14;3;Triangle;Blue;1;Triangle;Red;Shape;4;Correct;1525	Info	Main	14	3	Triangle	Blue	1	Triangle	Red	Shape	4	Correct	1525	1153588	0	1	15001	1	0	next	other	0
+	21	Response	1														1193557	39969	0
+	22	Picture	Info;Main;15;1;Plus;Blue;3;Plus;Yellow;Shape;5;Correct;2508	Info	Main	15	1	Plus	Blue	3	Plus	Yellow	Shape	5	Correct	2508	1193758	0	1	15001	1	0	next	other	0
+	22	Response	1														1224837	31080	1
+	22	Response	1														1227957	34200	0
+	23	Picture	Info;Main;16;1;Diamond;Blue;2;Diamond;Green;Count;0;Incorrect;1941	Info	Main	16	1	Diamond	Blue	2	Diamond	Green	Count	0	Incorrect	1941	1228260	0	1	15001	1	0	next	other	0
+	23	Response	1														1258517	30257	1
+	24	Picture	Info;Main;17;4;Triangle;Green;2;Diamond;Green;Count;0;Incorrect;1541	Info	Main	17	4	Triangle	Green	2	Diamond	Green	Count	0	Incorrect	1541	1258762	0	1	15001	1	0	next	other	0
+	24	Response	1														1285717	26955	1
+	25	Picture	Info;Main;18;1;Plus;Green;1;Triangle;Red;Count;1;Correct;1208	Info	Main	18	1	Plus	Green	1	Triangle	Red	Count	1	Correct	1208	1285931	0	1	15001	1	0	next	other	0
+	25	Response	1														1321397	35466	1
+	26	Picture	Info;Main;19;4;Diamond;Yellow;4;Circle;Blue;Count;2;Correct;2058	Info	Main	19	4	Diamond	Yellow	4	Circle	Blue	Count	2	Correct	2058	1321601	0	1	15001	1	0	next	other	0
+	26	Response	1														1349477	27876	1
+	27	Picture	Info;Main;20;4;Diamond;Red;4;Circle;Blue;Count;3;Correct;1308	Info	Main	20	4	Diamond	Red	4	Circle	Blue	Count	3	Correct	1308	1349769	0	1	15001	1	0	next	other	0
+	27	Response	1														1379877	30108	1
+	28	Picture	Info;Main;21;2;Circle;Yellow;2;Diamond;Green;Count;4;Correct;1524	Info	Main	21	2	Circle	Yellow	2	Diamond	Green	Count	4	Correct	1524	1380105	0	1	15001	1	0	next	other	0
+	28	Response	1														1413717	33612	1
+	29	Picture	Info;Main;22;1;Diamond;Yellow;1;Triangle;Red;Count;5;Correct;1874	Info	Main	22	1	Diamond	Yellow	1	Triangle	Red	Count	5	Correct	1874	1413941	0	1	15001	1	0	next	other	0
+	29	Response	1														1442438	28497	0
+	30	Picture	Info;Main;23;3;Triangle;Green;3;Plus;Yellow;Color;0;Incorrect;1358	Info	Main	23	3	Triangle	Green	3	Plus	Yellow	Color	0	Incorrect	1358	1442610	0	1	15001	1	0	next	other	0
+	30	Response	1														1471157	28547	1
+	31	Picture	Info;Main;24;3;Circle;Red;1;Triangle;Red;Color;1;Correct;1374	Info	Main	24	3	Circle	Red	1	Triangle	Red	Color	1	Correct	1374	1471445	0	1	15001	1	0	next	other	0
+	31	Response	1														1501637	30192	1
+	32	Picture	Info;Main;25;3;Circle;Green;2;Diamond;Green;Color;2;Correct;1541	Info	Main	25	3	Circle	Green	2	Diamond	Green	Color	2	Correct	1541	1501948	0	1	15001	1	0	next	other	0
+	32	Response	1														1539717	37769	0
+	33	Picture	Info;Main;26;1;Circle;Green;2;Diamond;Green;Color;3;Correct;2291	Info	Main	26	1	Circle	Green	2	Diamond	Green	Color	3	Correct	2291	1539951	0	1	15001	1	0	next	other	0
+	33	Response	1														1565717	25767	0
+	34	Picture	Info;Main;27;2;Plus;Red;1;Triangle;Red;Color;4;Correct;1091	Info	Main	27	2	Plus	Red	1	Triangle	Red	Color	4	Correct	1091	1565953	0	1	15001	1	0	next	other	0
+	34	Response	1														1599717	33765	0
+	34	Response	1														1603237	37285	1
+	35	Picture	Info;Main;28;1;Circle;Yellow;3;Plus;Yellow;Color;5;Correct;2241	Info	Main	28	1	Circle	Yellow	3	Plus	Yellow	Color	5	Correct	2241	1603455	0	1	15001	1	0	next	other	0
+	35	Response	1														1640917	37462	1
+	36	Picture	Info;Main;29;2;Triangle;Blue;4;Circle;Blue;Count;0;Incorrect;2257	Info	Main	29	2	Triangle	Blue	4	Circle	Blue	Count	0	Incorrect	2257	1641125	0	1	15001	1	0	next	other	0
+	36	Response	1														1669557	28432	1
+	37	Picture	Info;Main;30;3;Triangle;Green;3;Plus;Yellow;Count;1;Correct;1357	Info	Main	30	3	Triangle	Green	3	Plus	Yellow	Count	1	Correct	1357	1669794	0	1	15001	1	0	next	other	0
+	37	Response	1														1693717	23923	1
+	38	Picture	Info;Main;31;4;Triangle;Yellow;4;Circle;Blue;Count;2;Correct;908	Info	Main	31	4	Triangle	Yellow	4	Circle	Blue	Count	2	Correct	908	1693962	0	1	15001	1	0	next	other	0
+	38	Response	1														1722837	28875	1
+	39	Picture	Info;Main;32;4;Plus;Red;4;Circle;Blue;Count;3;Correct;1408	Info	Main	32	4	Plus	Red	4	Circle	Blue	Count	3	Correct	1408	1723131	0	1	15001	1	0	next	other	0
+	39	Response	1														1752757	29626	0
+	40	Picture	Info;Main;33;3;Circle;Red;3;Plus;Yellow;Count;4;Correct;1475	Info	Main	33	3	Circle	Red	3	Plus	Yellow	Count	4	Correct	1475	1752967	0	1	15001	1	0	next	other	0
+	40	Response	1														1778277	25310	1
+	41	Picture	Info;Main;34;1;Plus;Green;1;Triangle;Red;Count;5;Correct;1041	Info	Main	34	1	Plus	Green	1	Triangle	Red	Count	5	Correct	1041	1778469	0	1	15001	1	0	next	other	0
+	41	Response	1														1807077	28608	1
+	42	Picture	Info;Main;35;4;Triangle;Green;4;Circle;Blue;Color;0;Incorrect;1374	Info	Main	35	4	Triangle	Green	4	Circle	Blue	Color	0	Incorrect	1374	1807304	0	1	15001	1	0	next	other	0
+	42	Response	1														1836597	29292	1
+	43	Picture	Info;Main;36;2;Plus;Blue;4;Circle;Blue;Color;1;Correct;1441	Info	Main	36	2	Plus	Blue	4	Circle	Blue	Color	1	Correct	1441	1836806	0	1	15001	1	0	next	other	0
+	43	Response	1														1864757	27950	1
+	44	Picture	Info;Main;37;1;Diamond;Blue;4;Circle;Blue;Color;2;Correct;1307	Info	Main	37	1	Diamond	Blue	4	Circle	Blue	Color	2	Correct	1307	1864975	0	1	15001	1	0	next	other	0
+	44	Response	1														1889957	24982	0
+	45	Picture	Info;Main;38;3;Triangle;Blue;4;Circle;Blue;Color;3;Correct;1007	Info	Main	38	3	Triangle	Blue	4	Circle	Blue	Color	3	Correct	1007	1890144	0	1	15168	1	0	next	other	0
+	45	Response	1														1920117	29973	1
+	46	Picture	Info;Main;39;4;Plus;Green;2;Diamond;Green;Color;4;Correct;1508	Info	Main	39	4	Plus	Green	2	Diamond	Green	Color	4	Correct	1508	1920313	0	1	15001	1	0	next	other	0
+	46	Response	1														1945797	25484	0
+	47	Picture	Info;Main;40;1;Diamond;Yellow;3;Plus;Yellow;Color;5;Correct;1058	Info	Main	40	1	Diamond	Yellow	3	Plus	Yellow	Color	5	Correct	1058	1945982	0	1	15001	1	0	next	other	0
+	47	Response	1														1969077	23096	0
+	48	Picture	Info;Main;41;2;Circle;Red;1;Triangle;Red;Count;0;Incorrect;825	Info	Main	41	2	Circle	Red	1	Triangle	Red	Count	0	Incorrect	825	1969317	0	1	15001	1	0	next	other	0
+	48	Response	1														2001237	31921	0
+	49	Picture	Info;Main;42;4;Diamond;Red;4;Circle;Blue;Count;1;Correct;1707	Info	Main	42	4	Diamond	Red	4	Circle	Blue	Count	1	Correct	1707	2001486	0	1	15168	1	0	next	other	0
+	49	Response	1														2027637	26151	1
+	50	Picture	Info;Main;43;1;Plus;Blue;1;Triangle;Red;Count;2;Correct;1124	Info	Main	43	1	Plus	Blue	1	Triangle	Red	Count	2	Correct	1124	2027821	0	1	15001	1	0	next	other	0
+	50	Response	1														2054757	26936	0
+	51	Picture	Info;Main;44;2;Circle;Yellow;2;Diamond;Green;Count;3;Correct;1208	Info	Main	44	2	Circle	Yellow	2	Diamond	Green	Count	3	Correct	1208	2054990	0	1	15001	1	0	next	other	0
+	51	Response	1														2083238	28248	1
+	52	Picture	Info;Main;45;3;Diamond;Red;3;Plus;Yellow;Count;4;Correct;1341	Info	Main	45	3	Diamond	Red	3	Plus	Yellow	Count	4	Correct	1341	2083492	0	1	15001	1	0	next	other	0
+	52	Response	1														2106277	22785	1
+	53	Picture	Info;Main;46;3;Diamond;Blue;3;Plus;Yellow;Count;5;Correct;791	Info	Main	46	3	Diamond	Blue	3	Plus	Yellow	Count	5	Correct	791	2106494	0	1	15001	1	0	next	other	0
+	53	Response	1														2132197	25703	0
+	54	Picture	Info;Main;47;4;Diamond;Yellow;4;Circle;Blue;Shape;0;Incorrect;1091	Info	Main	47	4	Diamond	Yellow	4	Circle	Blue	Shape	0	Incorrect	1091	2132496	0	1	15001	1	0	next	other	0
+	54	Response	1														2156517	24021	0
+	55	Picture	Info;Main;48;2;Triangle;Yellow;3;Plus;Yellow;Shape;0;Incorrect;924	Info	Main	48	2	Triangle	Yellow	3	Plus	Yellow	Shape	0	Incorrect	924	2156831	0	1	15001	1	0	next	other	0
+	55	Response	1														2185317	28486	1
+	56	Picture	Info;Main;49;2;Plus;Red;3;Plus;Yellow;Shape;1;Correct;1358	Info	Main	49	2	Plus	Red	3	Plus	Yellow	Shape	1	Correct	1358	2185500	0	1	15001	1	0	next	other	0
+	56	Response	1														2216757	31257	1
+	57	Picture	Info;Main;50;3;Triangle;Blue;1;Triangle;Red;Shape;2;Correct;1641	Info	Main	50	3	Triangle	Blue	1	Triangle	Red	Shape	2	Correct	1641	2217002	0	1	15001	1	0	next	other	0
+	57	Response	1														2256917	39915	1
+	58	Picture	Info;Main;51;1;Circle;Green;4;Circle;Blue;Shape;3;Correct;2508	Info	Main	51	1	Circle	Green	4	Circle	Blue	Shape	3	Correct	2508	2257172	0	1	15001	1	0	next	other	0
+	58	Response	1														2287317	30145	1
+	59	Picture	Info;Main;52;1;Plus;Green;3;Plus;Yellow;Shape;4;Correct;1525	Info	Main	52	1	Plus	Green	3	Plus	Yellow	Shape	4	Correct	1525	2287508	0	1	15001	1	0	next	other	0
+	59	Response	1														2319957	32449	1
+	60	Picture	Info;Main;53;1;Plus;Blue;3;Plus;Yellow;Shape;5;Correct;1758	Info	Main	53	1	Plus	Blue	3	Plus	Yellow	Shape	5	Correct	1758	2320177	0	1	15001	1	0	next	other	0
+	60	Response	1														2355717	35540	1
+	61	Picture	Info;Main;54;4;Diamond;Yellow;2;Diamond;Green;Color;0;Incorrect;2074	Info	Main	54	4	Diamond	Yellow	2	Diamond	Green	Color	0	Incorrect	2074	2356013	0	1	15001	1	0	next	other	0
+	61	Response	1														2383717	27704	1
+	62	Picture	Info;Main;55;4;Plus;Green;2;Diamond;Green;Color;1;Correct;1291	Info	Main	55	4	Plus	Green	2	Diamond	Green	Color	1	Correct	1291	2384015	0	1	15001	1	0	next	other	0
+	62	Response	1														2411317	27302	1
+	63	Picture	Info;Main;56;2;Plus;Blue;4;Circle;Blue;Color;2;Correct;1241	Info	Main	56	2	Plus	Blue	4	Circle	Blue	Color	2	Correct	1241	2411517	0	1	15001	1	0	next	other	0
+	63	Response	1														2435077	23560	1
+	64	Picture	Info;Main;57;3;Circle;Green;2;Diamond;Green;Color;3;Correct;874	Info	Main	57	3	Circle	Green	2	Diamond	Green	Color	3	Correct	874	2435352	0	1	15001	1	0	next	other	0
+	64	Response	1														2472757	37405	1
+	64	Response	1														2475797	40445	0
+	65	Picture	Info;Main;58;4;Triangle;Green;2;Diamond;Green;Color;4;Correct;2558	Info	Main	58	4	Triangle	Green	2	Diamond	Green	Color	4	Correct	2558	2476022	0	1	15001	1	0	next	other	0
+	65	Response	1														2514192	38170	6
+	66	Picture	Info;Main;59;2;Triangle;Yellow;3;Plus;Yellow;Color;5;Correct;2341	Info	Main	59	2	Triangle	Yellow	3	Plus	Yellow	Color	5	Correct	2341	2514525	0	1	15001	1	0	next	other	0
+	66	Response	1														2558517	43992	0
+	67	Picture	Info;Main;60;4;Triangle;Yellow;3;Plus;Yellow;Shape;0;Incorrect;2907	Info	Main	60	4	Triangle	Yellow	3	Plus	Yellow	Shape	0	Incorrect	2907	2558695	0	1	15001	1	0	next	other	0
+	67	Response	1														2586997	28302	1
+	68	Picture	Info;Main;61;2;Circle;Yellow;4;Circle;Blue;Shape;1;Correct;1341	Info	Main	61	2	Circle	Yellow	4	Circle	Blue	Shape	1	Correct	1341	2587197	0	1	15001	1	0	next	other	0
+	68	Response	1														2613237	26040	1
+	69	Picture	Info;Main;62;2;Circle;Red;4;Circle;Blue;Shape;2;Correct;1124	Info	Main	62	2	Circle	Red	4	Circle	Blue	Shape	2	Correct	1124	2613532	0	1	15001	1	0	next	other	0
+	69	Response	1														2644517	30985	0
+	70	Picture	Info;Main;63;1;Diamond;Yellow;2;Diamond;Green;Shape;3;Correct;1608	Info	Main	63	1	Diamond	Yellow	2	Diamond	Green	Shape	3	Correct	1608	2644702	0	1	15001	1	0	next	other	0
+	70	Response	1														2674197	29496	0
+	71	Picture	Info;Main;64;3;Triangle;Green;1;Triangle;Red;Shape;4;Correct;1458	Info	Main	64	3	Triangle	Green	1	Triangle	Red	Shape	4	Correct	1458	2674370	0	1	15001	1	0	next	other	0
+	72	Response	1														2725958	36587	0
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Picture	Info;Practice;1;4;Plus;Red;4;Circle;Blue;Count;1;Correct;3867	other				541708	1	15001	1	0	next
+Picture	Info;Practice;2;3;Circle;Red;4;Circle;Blue;Count;0;Incorrect;4125	other				598046	1	15001	1	0	next
+Picture	Info;Practice;3;1;Plus;Blue;4;Circle;Blue;Count;0;Incorrect;2521	other				638382	1	15001	1	0	next
+Picture	Info;Practice;4;3;Circle;Green;4;Circle;Blue;Count;0;Incorrect;1908	other				672551	1	15001	1	0	next
+Picture	Info;Practice;5;1;Circle;Yellow;1;Triangle;Red;Count;1;Correct;1175	other				699386	1	15001	1	0	next
+Picture	Info;Main;1;4;Plus;Green;4;Circle;Blue;Count;1;Correct;2950	other				756224	1	15001	1	0	next
+Picture	Info;Main;2;3;Circle;Green;3;Plus;Yellow;Count;2;Correct;1358	other				784893	1	15001	1	0	next
+Picture	Info;Main;3;1;Circle;Yellow;1;Triangle;Red;Count;3;Correct;1658	other				816562	1	15001	1	0	next
+Picture	Info;Main;4;1;Circle;Green;1;Triangle;Red;Count;4;Correct;2441	other				856065	1	15001	1	0	next
+Picture	Info;Main;5;4;Triangle;Yellow;4;Circle;Blue;Count;5;Correct;992	other				881067	1	15001	1	0	next
+Picture	Info;Main;6;2;Circle;Red;2;Diamond;Green;Shape;0;Incorrect;857	other				904736	1	15001	1	0	next
+Picture	Info;Main;7;2;Triangle;Blue;4;Circle;Blue;Shape;0;Incorrect;2024	other				940071	1	15001	1	0	next
+Picture	Info;Main;8;3;Diamond;Red;2;Diamond;Green;Shape;1;Correct;2375	other				978908	1	15001	1	0	next
+Picture	Info;Main;9;2;Plus;Blue;3;Plus;Yellow;Shape;2;Correct;1924	other				1013244	1	15001	1	0	next
+Picture	Info;Main;10;2;Triangle;Yellow;2;Diamond;Green;Shape;0;Incorrect;1141	other				1039746	1	15001	1	0	next
+Picture	Info;Main;11;4;Plus;Red;3;Plus;Yellow;Shape;1;Correct;1041	other				1065248	1	15001	1	0	next
+Picture	Info;Main;12;2;Plus;Red;3;Plus;Yellow;Shape;2;Correct;1574	other				1096083	1	15001	1	0	next
+Picture	Info;Main;13;3;Diamond;Blue;2;Diamond;Green;Shape;3;Correct;1208	other				1123252	1	15001	1	0	next
+Picture	Info;Main;14;3;Triangle;Blue;1;Triangle;Red;Shape;4;Correct;1525	other				1153588	1	15001	1	0	next
+Picture	Info;Main;15;1;Plus;Blue;3;Plus;Yellow;Shape;5;Correct;2508	other				1193758	1	15001	1	0	next
+Picture	Info;Main;16;1;Diamond;Blue;2;Diamond;Green;Count;0;Incorrect;1941	other				1228260	1	15001	1	0	next
+Picture	Info;Main;17;4;Triangle;Green;2;Diamond;Green;Count;0;Incorrect;1541	other				1258762	1	15001	1	0	next
+Picture	Info;Main;18;1;Plus;Green;1;Triangle;Red;Count;1;Correct;1208	other				1285931	1	15001	1	0	next
+Picture	Info;Main;19;4;Diamond;Yellow;4;Circle;Blue;Count;2;Correct;2058	other				1321601	1	15001	1	0	next
+Picture	Info;Main;20;4;Diamond;Red;4;Circle;Blue;Count;3;Correct;1308	other				1349769	1	15001	1	0	next
+Picture	Info;Main;21;2;Circle;Yellow;2;Diamond;Green;Count;4;Correct;1524	other				1380105	1	15001	1	0	next
+Picture	Info;Main;22;1;Diamond;Yellow;1;Triangle;Red;Count;5;Correct;1874	other				1413941	1	15001	1	0	next
+Picture	Info;Main;23;3;Triangle;Green;3;Plus;Yellow;Color;0;Incorrect;1358	other				1442610	1	15001	1	0	next
+Picture	Info;Main;24;3;Circle;Red;1;Triangle;Red;Color;1;Correct;1374	other				1471445	1	15001	1	0	next
+Picture	Info;Main;25;3;Circle;Green;2;Diamond;Green;Color;2;Correct;1541	other				1501948	1	15001	1	0	next
+Picture	Info;Main;26;1;Circle;Green;2;Diamond;Green;Color;3;Correct;2291	other				1539951	1	15001	1	0	next
+Picture	Info;Main;27;2;Plus;Red;1;Triangle;Red;Color;4;Correct;1091	other				1565953	1	15001	1	0	next
+Picture	Info;Main;28;1;Circle;Yellow;3;Plus;Yellow;Color;5;Correct;2241	other				1603455	1	15001	1	0	next
+Picture	Info;Main;29;2;Triangle;Blue;4;Circle;Blue;Count;0;Incorrect;2257	other				1641125	1	15001	1	0	next
+Picture	Info;Main;30;3;Triangle;Green;3;Plus;Yellow;Count;1;Correct;1357	other				1669794	1	15001	1	0	next
+Picture	Info;Main;31;4;Triangle;Yellow;4;Circle;Blue;Count;2;Correct;908	other				1693962	1	15001	1	0	next
+Picture	Info;Main;32;4;Plus;Red;4;Circle;Blue;Count;3;Correct;1408	other				1723131	1	15001	1	0	next
+Picture	Info;Main;33;3;Circle;Red;3;Plus;Yellow;Count;4;Correct;1475	other				1752967	1	15001	1	0	next
+Picture	Info;Main;34;1;Plus;Green;1;Triangle;Red;Count;5;Correct;1041	other				1778469	1	15001	1	0	next
+Picture	Info;Main;35;4;Triangle;Green;4;Circle;Blue;Color;0;Incorrect;1374	other				1807304	1	15001	1	0	next
+Picture	Info;Main;36;2;Plus;Blue;4;Circle;Blue;Color;1;Correct;1441	other				1836806	1	15001	1	0	next
+Picture	Info;Main;37;1;Diamond;Blue;4;Circle;Blue;Color;2;Correct;1307	other				1864975	1	15001	1	0	next
+Picture	Info;Main;38;3;Triangle;Blue;4;Circle;Blue;Color;3;Correct;1007	other				1890144	1	15168	1	0	next
+Picture	Info;Main;39;4;Plus;Green;2;Diamond;Green;Color;4;Correct;1508	other				1920313	1	15001	1	0	next
+Picture	Info;Main;40;1;Diamond;Yellow;3;Plus;Yellow;Color;5;Correct;1058	other				1945982	1	15001	1	0	next
+Picture	Info;Main;41;2;Circle;Red;1;Triangle;Red;Count;0;Incorrect;825	other				1969317	1	15001	1	0	next
+Picture	Info;Main;42;4;Diamond;Red;4;Circle;Blue;Count;1;Correct;1707	other				2001486	1	15168	1	0	next
+Picture	Info;Main;43;1;Plus;Blue;1;Triangle;Red;Count;2;Correct;1124	other				2027821	1	15001	1	0	next
+Picture	Info;Main;44;2;Circle;Yellow;2;Diamond;Green;Count;3;Correct;1208	other				2054990	1	15001	1	0	next
+Picture	Info;Main;45;3;Diamond;Red;3;Plus;Yellow;Count;4;Correct;1341	other				2083492	1	15001	1	0	next
+Picture	Info;Main;46;3;Diamond;Blue;3;Plus;Yellow;Count;5;Correct;791	other				2106494	1	15001	1	0	next
+Picture	Info;Main;47;4;Diamond;Yellow;4;Circle;Blue;Shape;0;Incorrect;1091	other				2132496	1	15001	1	0	next
+Picture	Info;Main;48;2;Triangle;Yellow;3;Plus;Yellow;Shape;0;Incorrect;924	other				2156831	1	15001	1	0	next
+Picture	Info;Main;49;2;Plus;Red;3;Plus;Yellow;Shape;1;Correct;1358	other				2185500	1	15001	1	0	next
+Picture	Info;Main;50;3;Triangle;Blue;1;Triangle;Red;Shape;2;Correct;1641	other				2217002	1	15001	1	0	next
+Picture	Info;Main;51;1;Circle;Green;4;Circle;Blue;Shape;3;Correct;2508	other				2257172	1	15001	1	0	next
+Picture	Info;Main;52;1;Plus;Green;3;Plus;Yellow;Shape;4;Correct;1525	other				2287508	1	15001	1	0	next
+Picture	Info;Main;53;1;Plus;Blue;3;Plus;Yellow;Shape;5;Correct;1758	other				2320177	1	15001	1	0	next
+Picture	Info;Main;54;4;Diamond;Yellow;2;Diamond;Green;Color;0;Incorrect;2074	other				2356013	1	15001	1	0	next
+Picture	Info;Main;55;4;Plus;Green;2;Diamond;Green;Color;1;Correct;1291	other				2384015	1	15001	1	0	next
+Picture	Info;Main;56;2;Plus;Blue;4;Circle;Blue;Color;2;Correct;1241	other				2411517	1	15001	1	0	next
+Picture	Info;Main;57;3;Circle;Green;2;Diamond;Green;Color;3;Correct;874	other				2435352	1	15001	1	0	next
+Picture	Info;Main;58;4;Triangle;Green;2;Diamond;Green;Color;4;Correct;2558	other				2476022	1	15001	1	0	next
+Picture	Info;Main;59;2;Triangle;Yellow;3;Plus;Yellow;Color;5;Correct;2341	other				2514525	1	15001	1	0	next
+Picture	Info;Main;60;4;Triangle;Yellow;3;Plus;Yellow;Shape;0;Incorrect;2907	other				2558695	1	15001	1	0	next
+Picture	Info;Main;61;2;Circle;Yellow;4;Circle;Blue;Shape;1;Correct;1341	other				2587197	1	15001	1	0	next
+Picture	Info;Main;62;2;Circle;Red;4;Circle;Blue;Shape;2;Correct;1124	other				2613532	1	15001	1	0	next
+Picture	Info;Main;63;1;Diamond;Yellow;2;Diamond;Green;Shape;3;Correct;1608	other				2644702	1	15001	1	0	next
+Picture	Info;Main;64;3;Triangle;Green;1;Triangle;Red;Shape;4;Correct;1458	other				2674370	1	15001	1	0	next

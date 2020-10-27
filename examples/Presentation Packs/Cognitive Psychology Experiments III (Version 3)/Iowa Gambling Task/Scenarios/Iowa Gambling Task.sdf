@@ -1,0 +1,7 @@
+# Iowa Gambling Task
+
+event_pair_table my_rm_table( trial_number1, deck_select1, RT1, reward1, penalty1, total1 )
+good_pairs(rm_all) :: event_cond1 == "Main"
+
+print "Trial Number\tDeck Selection\tRT\tReward\tPenalty\tCurrent Total"
+print my_rm_table( good_pairs, "\t", "\n", no_header_row )

@@ -1,0 +1,6 @@
+Block Name	Trial Number	Stimulus Type	Condition	Stimulus Duration	ISI Duration	Port Code	Filename	Response Button	Accuracy	RT
+Practice	1	Object	Practice	300	1192	6	back_61.bmp	201	rm_hit	514.3
+Practice	2	Scrambled	Practice	300	1217	102	S_back_V42.bmp		rm_miss	-16385.6
+Practice	3	Object	Practice	316.7	1101	4	back_59.bmp	201	rm_hit	625.4
+Practice	4	Scrambled	Practice	316.7	1264	101	S_back_V41.bmp		rm_miss	-19335.8
+

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="German">
+  <map name="default">
+    <item key="Instructions">Bei diesem Test werden Sie mit der Maus einem beweglichen Target folgen.
+
+Das Target heist [TARGET_DESCRIPTION]. Zu Beginn werden das Target und der Maus-Cursor auf einem bestimmten Platz erscheinen. Nach einer kurzen Zeit beginnt sich das Target zu bewegen. Halten Sie den Cursor mit der Maus auf das Target so gut wie möglich bis es stoppt. Passen Sie auf!  Manchmal bewegt sich das Target in einer anderen Richtung als Sie erwarten. Es kann schwierig sein, den Cursor auf dem Target zu halten, aber tun Sie Ihr Bestes, dem Target zu folgen bis es stehen bleibt.
+
+Klicken Sie die linke Maus-Taste um fort zu fahren.
+</item>
+    <item key="Feedback Caption">auf dem Ziel</item>
+    <item key="No Instructions Caption">Klicken die linke Maustaste, um den nächsten Teil zu beginnen. </item>
+    <item key="Rest Screen Caption">Sobald Sie bereit sind, klicken die linke Maustaste.</item>
+    <item key="Progress Bar Caption">Fortfahren:</item>
+    <item key="Practice Caption"> Beginnen Sie mit einigen Übungsversuchen</item>
+    <item key="Practice Complete Caption">Nachdem Sie die Übungsversuche beendet haben. Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Completion Screen Caption">Sie haben das Experiment beendet. Danke für Ihre Teilnahme. Klicken  die linke Maustaste, um das Programm zu verlassen.</item>
+    <item key="Block Complete Caption">Sie haben die [BLOCK_NUMBER] Blöcke beendet. Es gibt [TOTAL_NUMBER] Blöcke.
+Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

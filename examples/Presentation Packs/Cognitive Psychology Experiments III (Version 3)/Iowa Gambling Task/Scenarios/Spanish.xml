@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Spanish">
+  <map name="default">
+    <item key="Instructions">En esta tarea, tendrá que intentar ganar la máxima cantidad de dinero posible.
+
+En cada ensayo, seleccione una carta de uno de los [NUMBER_DECKS_LABEL] mazos de cartas que aparecen en la pantalla. Cada carta que elija tendrá un premio Y TAMBIÉN una penalización. Es decir, por cada carta que elija, puede ganar algo de dinero (premio) y perder algo de dinero (penalización).
+
+Utilice el ratón para seleccionar uno de los [NUMBER_DECKS_LABEL] mazos que hay en la pantalla. Pulse el botón izquierdo del ratón para elegir una carta de ese mazo. Cuando lo haga, aparecerá un recuadro que le dirá el premio y la penalización correspondiente a esa carta, así como la suma total de dinero que tiene. Recuerde: su objetivo debe ser intentar ganar tanto dinero como le sea posible.
+
+Pulse el botón izquierdo del ratón para empezar cuando esté listo/a.</item>
+    <item key="Deck Caption">¡Elija un mazo de cartas!</item>
+    <item key="Choice Caption">Su elección es</item>
+    <item key="Reward Caption">Ha ganado</item>
+    <item key="Penalty Caption">Ha perdido</item>
+    <item key="Total Caption">Su total es</item>
+    <item key="Current Total Caption">Su total actual es: [TOTAL]</item>
+    <item key="Practice Caption">Comenzará con unos cuantos ensayos de práctica.</item>
+    <item key="Practice Complete Caption">Ha concluido la práctica. Presione el botón izquierdo del ratón para comenzar.</item>
+    <item key="Block Complete Caption">Ha concluido [BLOCK_NUMBER] bloque(s). Hay un total de [TOTAL_BLOCKS] bloques en el experimento. 
+
+Presione el botón izquierdo del ratón para continuar.</item>
+    <item key="Completion Screen Caption">Ha concluido el experimento. Gracias por su participación. Presione el botón izquierdo del ratón para salir del programa. </item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

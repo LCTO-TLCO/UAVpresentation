@@ -1,0 +1,100 @@
+Scenario - 
+Logfile written - 09/30/2019 11:42:30
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Response	3	16527	16360	11
+2	Picture	fix	16667	0	1	4500	6	0	next	other	0
+3	Picture	STIM R I	21167	0	6	333	6	0	200	incorrect	4
+3	Response	1	24331	3165	11
+4	Picture	incorrect response	24500	0	5	333	5	0	200	other	0
+5	Picture	fix	24833	0	1	5333	5	0	next	other	0
+6	Picture	STIM L I	30167	0	5	333	5	0	200	incorrect	8
+6	Response	2	33452	3286	10
+7	Picture	incorrect response	33500	0	5	333	5	0	200	other	0
+8	Picture	fix	33833	0	1	5000	5	0	next	other	0
+9	Picture	STIM L I	38833	0	5	333	5	0	200	hit	12
+9	Response	1	42570	3737	8
+10	Picture	correct response	42833	0	5	333	5	0	200	other	0
+11	Picture	fix	43167	0	1	4333	8	0	next	other	0
+12	Picture	STIM L I	47500	0	8	333	8	0	200	incorrect	16
+12	Response	2	51052	3551	9
+13	Picture	incorrect response	51167	0	6	333	6	0	200	other	0
+14	Picture	fix	51500	0	1	4333	6	0	next	other	0
+15	Picture	STIM R I	55834	0	6	333	6	0	200	hit	20
+15	Response	2	60492	4659	11
+16	Picture	correct response	60667	0	5	333	6	0	200	other	0
+17	Picture	fix	61000	0	1	4333	6	0	next	other	0
+18	Picture	STIM L C	65334	0	6	333	6	0	200	hit	24
+18	Response	1	69132	3798	10
+19	Picture	correct response	69334	0	8	333	8	0	200	other	0
+20	Picture	fix	69667	0	1	4500	8	0	next	other	0
+21	Picture	STIM R I	74167	0	7	333	8	0	200	hit	28
+21	Response	2	78332	4165	8
+22	Picture	correct response	78500	0	5	333	5	0	200	other	0
+23	Picture	fix	79000	0	1	6000	5	0	next	other	0
+24	Picture	STIM L C	85000	0	5	333	5	0	200	hit	32
+24	Response	1	88333	3332	8
+25	Picture	correct response	88500	0	5	333	5	0	200	other	0
+26	Picture	fix	88834	0	1	4333	5	0	next	other	0
+27	Picture	STIM L I	93167	0	5	333	5	0	200	incorrect	36
+27	Response	2	96971	3803	8
+28	Picture	incorrect response	97167	0	5	333	5	0	200	other	0
+29	Picture	fix	97501	0	1	5500	5	0	next	other	0
+30	Picture	STIM R I	103001	0	5	333	5	0	200	hit	40
+30	Response	2	106412	3412	10
+31	Picture	correct response	106501	0	5	333	5	0	200	other	0
+32	Picture	fix	106834	0	1	4667	5	0	next	other	0
+33	Picture	STIM R C	111501	0	5	333	5	0	200	incorrect	44
+33	Response	1	114331	2830	11
+34	Picture	incorrect response	114501	0	8	333	8	0	200	other	0
+35	Picture	fix	114834	0	1	4500	8	0	next	other	0
+36	Picture	STIM R I	119334	0	7	333	8	0	200	hit	48
+36	Response	2	122493	3159	11
+37	Picture	correct response	122667	0	8	333	8	0	200	other	0
+38	Picture	fix	123001	0	1	4500	8	0	next	other	0
+39	Picture	STIM L C	127501	0	8	333	8	0	200	hit	52
+39	Response	1	130492	2991	10
+40	Picture	correct response	130667	0	8	333	8	0	200	other	0
+41	Picture	fix	131001	0	1	4500	5	0	next	other	0
+42	Picture	STIM R I	135501	0	5	333	5	0	200	hit	56
+42	Response	2	139852	4351	10
+43	Picture	correct response	140001	0	6	333	6	0	200	other	0
+44	Picture	fix	140334	0	1	4333	6	0	next	other	0
+45	Picture	STIM R C	144668	0	6	281	59	0	200	hit	60
+45	Response	2	148652	3985	8
+46	Picture	correct response	148834	0	5	333	5	0	200	other	0
+47	Picture	fix	149168	0	1	5000	8	0	next	other	0
+48	Picture	STIM L C	154168	0	8	333	8	0	200	hit	64
+48	Response	1	157772	3604	11
+49	Picture	correct response	158001	0	7	333	7	0	200	other	0
+50	Picture	fix	158334	0	1	6000	8	0	next	other	0
+51	Picture	STIM L I	164334	0	8	333	8	0	200	incorrect	68
+51	Response	2	167212	2877	11
+52	Picture	incorrect response	167334	0	8	333	8	0	200	other	0
+53	Picture	fix	167834	0	1	5667	8	0	next	other	0
+54	Picture	STIM L C	173501	0	8	333	8	0	200	incorrect	72
+54	Response	2	176892	3391	13
+55	Picture	incorrect response	177001	0	8	333	8	0	200	other	0
+56	Picture	fix	177334	0	1	5667	8	0	next	other	0
+57	Picture	STIM R C	183001	0	8	333	8	0	200	incorrect	76
+57	Response	1	185852	2851	10
+58	Picture	incorrect response	186001	0	6	333	6	0	200	other	0
+59	Picture	fix	186501	0	1	4667	6	0	next	other	0
+60	Picture	STIM R I	191168	0	6	333	6	0	200	miss	0
+60	Quit		198357	7189	NA
+
+
+{
+   "app": "Presentation Version 21.0 Build 06.06.19",
+   "device": "Alienware Alienware 15 R3",
+   "experiment": "{4A2AFD06-9C75-486E-92CA-5BDB1E053DD1}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "Flanker_pixel.sce",
+   "subject": "",
+   "timestamp": "2019/09/30 02:42:08 GMT"
+}

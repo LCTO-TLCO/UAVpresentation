@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="French">
+  <map name="default">
+    <item key="Instructions">Dans cette expérience, votre tâche est de répondre aussi rapidement que possible quand un stimulus apparaît à l'écran.
+
+Chaque fois que [STIM_DESCRIPTION] apparaît, appuyez sur le bouton gauche de la souris le plus rapidement possible. N’essayez pas de prévoir quand un stimulus peut apparaître - il suffit de répondre aussi rapidement que possible lorsque vous voyez [STIM_DESCRIPTION].
+
+Cliquez sur le bouton gauche de la souris lorsque vous êtes prêt à commencer.</item>
+    <item key="No Instructions Caption">Cliquez sur le bouton gauche de la souris pour continuer.</item>
+    <item key="Rest Screen Caption">Cliquez sur le bouton gauche de la souris pour commencer quand vous êtes prêt à passer à la partie suivante.</item>
+    <item key="Progress Bar Caption">Progrès:</item>
+    <item key="Practice Caption">Commençons par quelques essais pour vous enseigner la tâche.</item>
+    <item key="Practice Complete Caption">Essais complets de pratique. Cliquez sur le bouton gauche de la souris pour avancer.</item>
+    <item key="Completion Screen Caption">Vous avez terminé le test. Merci beaucoup pour votre participation. Cliquez sur le bouton gauche de la souris pour quitter le programme.</item>
+    <item key="Block Complete Caption">Vous avez terminé [BLOCK_NUMBER] bloc (s). Il y a un total de [TOTAL_BLOCKS] blocs dans le test. Cliquez sur le bouton gauche de la souris pour quitter le programme.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+  <map name="Sound">
+    <item key="Instructions">Dans cette expérience, votre tâche est de répondre aussi rapidement que possible quand vous entendez un son.
+
+Chaque fois que vous entendez [STIM_DESCRIPTION], appuyez sur le bouton gauche de la souris le plus rapidement possible. N’essayez pas de prévoir quand un stimulus pourrait apparaître - il suffit de répondre aussi rapidement que possible lorsque vous entendez [STIM_DESCRIPTION].
+
+Cliquez sur le bouton gauche de la souris lorsque vous êtes prêt à commencer.</item>
+  </map>
+</experiment_text>

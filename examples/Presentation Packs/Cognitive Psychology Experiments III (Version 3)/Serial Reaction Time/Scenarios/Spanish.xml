@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Spanish">
+  <map name="default">
+    <item key="Instructions">En este experimento, la única tarea consiste en idenficar la posición de un estímulo visual en la pantalla, y pulsar el botón correspondiente.
+
+La pantalla siempre contendrá los contornos de cuatro rectángulos, en una misma fila de izquierda a derecha. Estos cuatro rectángulos representan las cuatro posiciones posibles en las que puede aparecer un estímulo visual. Se presentará un solo estímulo visual a la vez y su tarea es identificar la posición en la que el estímulo está situado.
+
+Si el estímulo visual aparece en el rectángulo que se encuentra más a la izquierda, pulse el 1 lo más rápidamente posible. Si el estímulo visual aparece en el segundo rectángulo de la izquierda, pulse el 2 tan rápidamente como pueda. Cuando el estímulo visual aparece en el rectángulo que está a la derecha de éste último, pulse el 3. Por último, si el estímulo visual aparece en el rectángulo que está más a la derecha, pulse el 4 lo más rápidamente posible. 
+
+No tiene ninguna otra tarea. Sólo tiene que identificar el lugar en el que aparece un estímulo visual (es decir, en qué rectángulo aparece el estímulo) y pulsar el botón correspondiente tan rápidamente como pueda.
+
+Pulse “Intro” cuando esté listo/a para comenzar.</item>
+    <item key="No Instructions Caption">Presione “Entrar” para comenzar la parte siguiente.</item>
+    <item key="Rest Screen Caption">Presione “Enter” cuando esté preparado/a.</item>
+    <item key="Progress Bar Caption">Avance:</item>
+    <item key="Practice Caption">Comenzará con unos cuantos ensayos de práctica.</item>
+    <item key="Practice Complete Caption">Ha concluido la práctica. Presione “Enter” para comenzar.</item>
+    <item key="Completion Screen Caption">Ha concluido el experimento. Gracias por su participación. Presione “Enter” para salir del programa. </item>
+    <item key="Block Complete Caption">Ha concluido [BLOCK_NUMBER] bloque(s). Hay un total de [TOTAL_BLOCKS] bloques en el experimento. 
+
+Presione “Enter” para continuar.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

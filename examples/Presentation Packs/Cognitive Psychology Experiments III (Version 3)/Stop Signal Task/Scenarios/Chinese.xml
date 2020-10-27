@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Chinese">
+  <map name="default">
+    <item key="Instructions">在本实验中，你会看到一系列的刺激（可能包含一个或几个字母）一次一个地呈现。你的任务是判断两个刺激中的哪一个出现在了屏幕上，并尽快按下相应的按键。
+
+如果你看到[LEFT_STIM]，请尽快按下鼠标左键。
+
+如果你看到[RIGHT_STIM]，请尽快按下鼠标右键。
+
+请注意：有时在某个刺激之后会跟随着[STOP_STIM]。[STOP_STIM]就像是一个“停止”信号：如果你看到它，就不要反应。也不要在你作出反应之前一直等待，看“停止”信号是否出现！你需要在刺激出现时尽快作出反应。如果“停止”信号在你反应之前出现了，那么就请停止反应。“停止”信号有时会出现得非常晚，另一些时候它会很快出现。因此，有时你可能会做出错误反应，那也没有关系。进行较快的反应比慢下来以求反应正确要更重要。
+
+需要提醒你的是：如果你看到[LEFT_STIM]，请按鼠标左键。如果你看到[RIGHT_STIM]，请按鼠标右键。如果“停止”信号([STOP_STIM])出现，在你还未反应时要避免反应。
+
+如果你准备好了，请按鼠标左键或右键开始。
+</item>
+    <item key="No Instructions Caption">按下兩個鼠標按鈕開始下一部分</item>
+    <item key="Rest Screen Caption">歇. 按下任一的滑鼠按鈕開始，當你準備移動到下一部分。</item>
+    <item key="Progress Bar Caption">进度：</item>
+    <item key="Practice Caption">首先你要做几个试次的练习。</item>
+    <item key="Practice Complete Caption">實踐試驗完成。按下兩個鼠標按鈕繼續前進。</item>
+    <item key="Block Complete Caption">你已经完成了[BLOCK_NUMBER]个组块。本实验共有[TOTAL_BLOCKS]个组块。.
+按下兩個鼠標按鈕繼續前進。</item>
+    <item key="Completion Screen Caption">你已經完成了實驗。非常感謝您的參與。按下兩個鼠標按鈕來退出程序。</item>
+    <item key="Word Wrap Mode">Character</item>
+  </map>
+</experiment_text>

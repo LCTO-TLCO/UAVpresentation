@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="German">
+  <map name="default">
+    <item key="Forward Instructions">Bei diesem Experiment wird Ihr Erinnrungsvermögen bei einer Folge von Ortungen getestet.
+
+Bei jedem Versuch werden Sie einen Satz von Quadraten auf dem Bildschirm sehen. Nacheinander werden diese Quadrate in verschiedenen Farben aufleuchten. Geben Sie acht und versuchen Sie sich die Reihenfolge zu merken mit der die Quadrate aufleuchten (stellen Sie sich diese wie  Knöpfe vor die gedrückt werden). Wenn die Abfolge beendet ist, werden Sie auf dem Schirm aufgefordert werden, sich der Reihenfolge zu erinnern.
+
+Wenn die Befehlszeile erscheint, sollen Sie mit der Maus das erste Quadrat in der Reihenfolge hervorheben; klicken Sie die linke Maus-Taste um es auszuwählen. Fahren Sie damit fort bis Sie die ganze Sequenz beendet haben.Wenn Sie unsicher über die Reihenfolge sind, treffen Sie die beste Wahl.
+
+Sobald Sie die Quadrate in der Reihenfolge, in der sie vorher präsentiert wurden,  hervorgehoben und ausgewählt haben, klicken Sie die rechte Maus-Taste und gehen zum nächsten Versuch.
+</item>
+    <item key="Backward Instructions">Bei diesem Experiment wollen wir Ihr Erinnerungsvermögen für eine Reihenfolge von Positionen testen.
+
+Bei jedem Test werden Sie einen Satz von Quadraten auf dem Bildschirm sehen. Diese Quadrate werden eins nach dem anderen in verschiedenen Farben aufleuchten. Passen Sie auf und versuchen Sie sich die Reihenfolge, in der die Quadrate aufleuchten, zu merken (stellen Sie diese wie gedrückte Knöpfe vor). Wenn die Reihe zu Ende ist, werden Sie auf dem Bildschirm aufgefordert die Reihenfolge in umgekehrter Richtung wiederzugeben. Mit anderen Worten, das letzte Quadrat kommt zuerst.
+
+Wenn die Befehlszeile erscheint, heben Sie mit der Maus das letzte Quadrat in der Reihenfolge hervor und klicken dann mit der linken Maus-Taste, um diese auszuwählen. Fahren Sie damit fort, bis Sie die ganze Sequenz vollendet haben. Wenn Sie unsicher sind, können Sie schätzen.
+
+Sobald Sie die Quadrate in umgekehrter Reihenfolge von der ursprünglichen hervor gehoben und ausgewählt haben, klicken Sie die rechte Maustaste und gehen zu dem nächsten Versuch.
+
+</item>
+    <item key="Practice Caption"> Beginnen Sie mit einigen Übungsversuchen</item>
+    <item key="Ready Caption">Auf die Plätze</item>
+    <item key="Set Caption">fertig</item>
+    <item key="Go Caption">los</item>
+    <item key="Practice Complete Caption">Nachdem Sie die Übungsversuche beendet haben. Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Completion Screen Caption">Sie haben das Experiment beendet. Danke für Ihre Teilnahme. Klicken  die linke Maustaste, um das Programm zu verlassen.</item>
+    <item key="Block Complete Caption">Sie haben die [BLOCK_NUMBER] Blöcke beendet. Es gibt [TOTAL_NUMBER] Blöcke.
+Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

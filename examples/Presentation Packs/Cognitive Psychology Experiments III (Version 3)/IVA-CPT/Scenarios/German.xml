@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="German">
+  <map name="default">
+    <item key="Instructions">Bei diesem Experiment wird Ihnen nacheinander eine Reihe von Zahlen gezeigt. Einige der Zahlen werden laut angesagt und andere werden visuell gezeigt als Ziffern auf dem Schirm. Ihre Aufgabe ist es zu bestimmen, ob die gezeigte Nummer ein Target (gehört oder gesehen), worauf Sie responieren wenn es so ist.
+
+In diesem Teil des Experiments ist die Target-Nummer [TARGET_NUMBER]. Jedes Mal wenn Sie die Nummer [TARGET_NUMBER] sehen oder hören, klicken Sie die  linke Maus-Taste. Wenn irgendeine andere Nummer erscheint, respondieren Sie nicht. 
+
+Versuchen Sie möglichts schnell und akkurat zu antworten. Denken Sie daran, dass Sie die linke Mau-Taste nur zu klicken brauchen, wenn Sie die Nummer [TARGET_NUMBER] sehen oder hören.
+
+Wenn Sie bereit sind zu beginnen, drücken Sie die linke Maus-Taste.
+</item>
+    <item key="Simple Instructions">In diesem Teil des Experiments ist die Target-Nummer [TARGET_NUMBER]. Jedes Mal wenn Sie die Nummer [TARGET_NUMBER] sehen oder hören, klicken Sie die  linke Maus-Taste. Wenn irgendeine andere Nummer erscheint, respondieren Sie nicht. 
+
+Versuchen Sie möglichts schnell und akkurat zu antworten. Denken Sie daran, dass Sie die linke Mau-Taste nur zu klicken brauchen, wenn Sie die Nummer [TARGET_NUMBER] sehen oder hören.
+
+Wenn Sie bereit sind zu beginnen, drücken Sie die linke Maus-Taste.
+</item>
+    <item key="No Instructions Caption">Klicken die linke Maustaste, um den nächsten Teil zu beginnen. </item>
+    <item key="Rest Screen Caption">Sobald Sie bereit sind, Klicken die linke Maustaste.</item>
+    <item key="Progress Bar Caption">Fortfahren:</item>
+    <item key="Practice Caption"> Beginnen Sie mit einigen Übungsversuchen</item>
+    <item key="Practice Complete Caption">Nachdem Sie die Übungsversuche beendet haben. Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Completion Screen Caption">Sie haben das Experiment beendet. Danke für Ihre Teilnahme. Klicken  die linke Maustaste, um das Programm zu verlassen.</item>
+    <item key="Block Complete Caption">Sie haben die [BLOCK_NUMBER] Blöcke beendet. Es gibt [TOTAL_NUMBER] Blöcke.
+Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

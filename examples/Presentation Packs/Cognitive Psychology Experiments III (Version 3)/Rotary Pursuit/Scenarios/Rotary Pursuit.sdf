@@ -1,0 +1,7 @@
+# Rotary Pursuit
+
+event_pair_table my_rm_table( block_name1, block_number1, trial_number1, track_width1, track_height1, circuit_time1, axis_setup1, tgt_pct1, avg_dist1 )
+good_pairs(rm_all) :: event_cond1 == "Stim"
+
+print"Block Name\tBlock Number\tTrial Number\tTrack Width\tTrack Height\tCircuit Time\tAxis Setup\tOn-Target Percent\tAverage Distance"
+print my_rm_table( good_pairs, "\t", "\n", no_header_row )

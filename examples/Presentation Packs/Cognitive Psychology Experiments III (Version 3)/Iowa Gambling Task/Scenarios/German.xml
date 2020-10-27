@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="German">
+  <map name="default">
+    <item key="Instructions">Bei diesem Test werden Sie versuchen die Geldmenge beim Gewinnspiel zu maximieren.
+
+Bei jedem Versuch wählen Sie auf dem Bildschirm eine Karte aus einem Pack von [NUMBER_DECKS_LABEL] Karten. Jede auf dem Schirm gezeigte Karte repräsentiert einen Gewinn UND einen Verlust. Mit anderen Worten, jede Karte, die Sie auswählen, bringt Ihnen einen Geld-Gewinn und einen Geld-Verlust.
+
+Benutzen Sie die Maus um eine Karte aus dem [NUMBER_DECKS_LABEL] Pack hervor zu heben. Klicken Sie die linke Maus-Taste um eine Karte aus diesem Pack auszuwählen. Danach erscheint eine Box  und zeigt Ihnen den Gewinn und den Verlust für diese Karte sowie die gegenwärte Menge Geld. Denken Sie daran, dass das Ziel die Maximierung der Geldmenge ist.
+
+Wenn Sie bereit sind zu beginnen, drücken Sie die linke Maus-Taste.
+</item>
+    <item key="Deck Caption">Wähle ein Pack aus</item>
+    <item key="Choice Caption">Ihre Auswahl</item>
+    <item key="Reward Caption">Sie gewinnen</item>
+    <item key="Penalty Caption">Sie verloren</item>
+    <item key="Total Caption">Ihre Gesamtsumme</item>
+    <item key="Current Total Caption">Ihre derzeit Gesamtsumme: [TOTAL]</item>
+    <item key="Practice Caption"> Beginnen Sie mit einigen Übungsversuchen</item>
+    <item key="Practice Complete Caption">Nachdem Sie die Übungsversuche beendet haben. Drücken Sie die linke Maus-Taste um fort zu fahren.</item>
+    <item key="Block Complete Caption">Sie haben die [BLOCK_NUMBER] Blöcke beendet. Es gibt [TOTAL_NUMBER] Blöcke.
+
+Drücken Sie die linke Maus-Taste um fort zu fahren.</item>
+    <item key="Completion Screen Caption">Sie haben das Experiment beendet. Danke für Ihre Teilnahme. Drücken Sie die linke Maus-Taste, um das Programm zu verlassen.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

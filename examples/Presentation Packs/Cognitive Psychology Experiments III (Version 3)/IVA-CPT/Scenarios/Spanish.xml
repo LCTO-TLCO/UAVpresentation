@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Spanish">
+  <map name="default">
+    <item key="Instructions">En este experimento, aparecerá una secuencia de números, presentados de uno en uno. Algunos números los escuchará (es decir, se presentarán auditivamente) y otros aparecerán en forma de dígitos en la pantalla (es decir, se presentarán visualmente). Su tarea consistirá en decidir si el número presentado es una diana (=target) o no, tanto si el número aparece auditivamente como si aparece visualmente. Si el número es una diana, tendrá que dar una respuesta.
+
+Para esta parte del experimento, la diana (=target) es el número [TARGET_NUMBER]. Cada vez que oiga o vea el número [TARGET_NUMBER], pulse el botón izquierdo del ratón. Si aparece cualquier otro número, no responda.
+
+Intente responder tan rápidamente como pueda, procurando no cometer errores. Recuerde, sólo debe responder, pulsando el botón izquierdo del ratón, cuando oiga o vea el número [TARGET_NUMBER].
+
+Pulse el botón izquierdo del ratón cuando esté listo/a para comenzar.</item>
+    <item key="Simple Instructions">Para esta parte del experimento, la diana (=target) es el número [TARGET_NUMBER]. Cada vez que oiga o vea el número [TARGET_NUMBER], pulse el botón izquierdo del ratón. Si aparece cualquier otro número, no responda.
+
+Pulse el botón izquierdo del ratón cuando esté listo/a para comenzar.</item>
+    <item key="No Instructions Caption">Presione el botón izquierdo del ratón para comenzar la siguiente parte.</item>
+    <item key="Rest Screen Caption">Presione el botón izquierdo del ratón cuando esté preparado/a.</item>
+    <item key="Progress Bar Caption">Avance:</item>
+    <item key="Practice Caption">Comenzará con unos cuantos ensayos de práctica.</item>
+    <item key="Practice Complete Caption">Ha concluido la práctica. Presione el botón izquierdo del ratón para comenzar.</item>
+    <item key="Completion Screen Caption">Ha concluido el experimento. Gracias por su participación. Presione el botón izquierdo del ratón para salir del programa. </item>
+    <item key="Block Complete Caption">Ha concluido [BLOCK_NUMBER] bloque(s). Hay un total de [TOTAL_BLOCKS] bloques en el experimento. 
+
+Presione el botón izquierdo del ratón para continuar.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

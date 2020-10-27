@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Instructions">In this experiment, you will see two words presented one after another in each trial. The first word will be [PRIME_COLOR], and the second word will be [TARGET_COLOR]. When the second word of the pair is presented your task is to determine whether the two words are related to one another or unrelated, and press the appropriate button.
+
+If the two words are related to one another, press [RELATED_BUTTON].
+
+If the two words are not related to one another, press [UNRELATED_BUTTON].
+
+Try to respond as quickly and accurately as possible.
+
+Press either button to begin.</item>
+    <item key="Reminder Caption">Related Pair = press [RELATED_BUTTON]
+Unrelated Pair = press [UNRELATED_BUTTON]
+
+
+Press either button to continue.</item>
+    <item key="Practice Caption">You will start by doing a few trials for practice.
+
+Press either button to begin when you are ready.</item>
+    <item key="Practice Complete Caption">Practice trials complete! 
+
+Please wait for instructions from the experimenter.</item>
+    <item key="Timed Rest Caption">Take a rest! 
+
+The next set will begin soon.</item>
+    <item key="Untimed Rest Caption">Take a rest!
+
+Press either button to move on when you are ready.</item>
+    <item key="Ready Caption">Ready</item>
+    <item key="Set Caption">Set</item>
+    <item key="Go Caption">Go</item>
+    <item key="Completion Screen Caption">You have completed the experiment. Thank you for participating. Press [RELATED_BUTTON] or [UNRELATED_BUTTON] to exit the program.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

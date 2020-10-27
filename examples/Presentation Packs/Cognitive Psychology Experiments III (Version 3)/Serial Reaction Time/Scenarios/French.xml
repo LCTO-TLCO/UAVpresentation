@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Instructions">Dans cette expérience, votre tâche est de répondre à un stimulus visuel en fonction de sa position à l’écran. 
+
+Les contours de quatre cases resteront toujours à l'écran dans une ligne de gauche à droite. Ces quatre cases représentent les quatre emplacements possibles ou un stimulus visuel peut apparaître. Un seul stimulus apparaitra à la fois, et votre tâche est d'identifier quelle case contient le stimulus.
+
+Si le stimulus apparaît dans la première case à l'extrême gauche, appuyez sur 1 aussi rapidement que possible. Si le stimulus visuel apparaît dans la seconde case, appuyez sur 2 le plus rapidement possible. Lorsque le stimulus visuel apparaît dans la troisième case, appuyez sur 3. Enfin, si le stimulus visuel se produit dans la quatrième boîte à l'extrême droite, appuyez sur 4 le plus rapidement possible. 
+
+Vous avez seulement besoin d'identifier le case où un stimulus visuel se produit, et appuyez sur le bouton correspondant aussi vite que possible
+
+Appuyez sur Entrée lorsque vous êtes prêt à commencer.</item>
+    <item key="No Instructions Caption">Appuyez sur Entrée pour commencer</item>
+    <item key="Rest Screen Caption">Appuyez sur Entrée pour commencer que lorsque vous êtes prêt à passer à la partie suivante.</item>
+    <item key="Progress Bar Caption">Progrès:</item>
+    <item key="Practice Caption">Commençons par quelques essais pour vous enseigner la tâche.</item>
+    <item key="Practice Complete Caption">Vous avez terminé les essais préliminaires. Appuyez sur Entrer pour commencer l’expérience. </item>
+    <item key="Completion Screen Caption">Vous avez terminé l'expérience. Nous vous remercions de votre participation. Appuyez sur Entrer pour terminer.</item>
+    <item key="Block Complete Caption">Vous avez terminé [BLOCK_NUMBER] bloc (s). Il y a un total de [TOTAL_BLOCKS] blocs dans l'expérience.
+
+Appuyez sur Entrer pour continuer.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

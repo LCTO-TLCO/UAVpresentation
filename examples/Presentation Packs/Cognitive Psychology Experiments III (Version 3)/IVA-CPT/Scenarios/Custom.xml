@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Instructions">In this experiment, a series of numbers will be presented to you, one at a time. Some of the numbers will be spoken aloud, and others will be presented visually, as digits on the screen. Your task will be to determine whether the number that is presented is a target (whether you see it or hear it), and respond if it is.
+
+For this part of the experiment, the target number is [TARGET_NUMBER]. Anytime you hear or see the number [TARGET_NUMBER], click the left mouse button. If any other number is presented, you do not need to respond.
+
+Try to answer as quickly as possible while still being accurate. Remember, you need only respond by clicking the left mouse button whenever you see or hear the number [TARGET_NUMBER]. 
+
+Click the left mouse button when you are ready to begin.</item>
+    <item key="Simple Instructions">For this part of the experiment, the target number is [TARGET_NUMBER]. Anytime you hear or see the target number "[TARGET_NUMBER]", click the left mouse button. If any other number is presented, you do not need to respond.
+
+Click the left mouse button when you are ready to begin.</item>
+    <item key="No Instructions Caption">Click the left mouse button to begin the next part.</item>
+    <item key="Rest Screen Caption">Click the left mouse button to begin when you are ready to move on to the next part.</item>
+    <item key="Progress Bar Caption">Progress:</item>
+    <item key="Practice Caption">You will start by doing a few examples for practice.</item>
+    <item key="Practice Complete Caption">Practice trials complete. Click the left mouse button to move on.</item>
+    <item key="Completion Screen Caption">You have finished the experiment. Thank you very much for participating! Click the left mouse button to exit the program.</item>
+    <item key="Block Complete Caption">You have completed [BLOCK_NUMBER] block(s). There are [TOTAL_BLOCKS] blocks in the experiment. 
+
+Click the left mouse button to move on.</item>
+    <item key="Next Screen Caption">Click the left mouse button to continue.</item>
+    <item key="Previous Screen Caption">Click the left mouse button to go back.</item>
+    <item key="Multi-Screen Start Experiment Caption">Click the left mouse button to start the experiment when you are ready.</item>
+    <item key="Start Experiment Caption">Click the left mouse button to start the experiment when you are ready.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

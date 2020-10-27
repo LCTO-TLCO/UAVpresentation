@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Spanish">
+  <map name="default">
+    <item key="Forward Instructions">En este experimento, nos interesa comprobar su capacidad para recordar una secuencia de números. 
+
+En cada ensayo, se escuchará una secuencia de números, leídos de uno en uno. Su objetivo es recordar los números en el orden en el que se leyeron. Cuando oiga el último número, verá un aviso en la pantalla y se le pedirá que recuerde los números que oyó. Cuando aparezca el aviso, utilice el teclado para teclear los números en el orden en el que aparecieron. No necesita incluir espacios u otros caracteres para separar los números. Puede utilizar la tecla de retroceso para borrar números si se equivoca. Si no está seguro/a de la secuencia correcta, intente adivinarla lo mejor que pueda. 
+
+Una vez haya acabado de teclear todos los números de esa secuencia, pulse “Intro” para continuar. La siguiente secuencia de números aparecerá poco después.
+
+Pulse “Intro” para empezar cuando esté listo/a.</item>
+    <item key="Backward Instructions">En este experimento, nos interesa comprobar su capacidad para recordar una secuencia de números.
+
+En cada ensayo, se escuchará una secuencia de números, leídos de uno en uno. Su objetivo es recordar los números en el orden INVERSO al orden en que se leyeron. Es decir, si oye la secuencia: “1,2,3”, tendría que recordar “3,2,1”.
+
+Cuando oiga el último número de la secuencia, verá un aviso en la pantalla y se le pedirá que recuerde los números que oyó. Cuando aparezca el aviso, utilice el teclado para teclear los números en el orden inverso al orden en el que aparecieron: empiece por el último número que oyó. No necesita incluir espacios u otros caracteres para separar los números. Puede utilizar la tecla de retroceso para borrar números si se equivoca. Si no está seguro/a de la secuencia correcta, intente adivinarla lo mejor que pueda.
+
+Una vez haya acabado de teclear todos los números de esa secuencia, pulse “Intro” para continuar. La siguiente secuencia de números aparecerá poco después.
+
+Pulse “Intro” para empezar cuando esté listo/a.</item>
+    <item key="Response Prompt">Teclee su respuesta y pulse “Intro”:</item>
+    <item key="Practice Caption">Comenzará con unos cuantos ensayos de práctica.</item>
+    <item key="Ready Caption">Preparado/a</item>
+    <item key="Set Caption">Listo/a</item>
+    <item key="Go Caption">Ya!</item>
+    <item key="Practice Complete Caption">Ha concluido la práctica. Presione “Enter” para comenzar.</item>
+    <item key="Completion Screen Caption">Ha concluido el experimento. Gracias por su participación. Presione “Enter” para salir del programa. </item>
+    <item key="Block Complete Caption">Ha concluido [BLOCK_NUMBER] bloque(s). Hay un total de [TOTAL_BLOCKS] bloques en el experimento. 
+
+Presione “Enter” para continuar.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+  <map name="Visual">
+    <item key="Forward Instructions">En este experimento, nos interesa comprobar su capacidad para recordar una secuencia de números. 
+
+En cada ensayo, verá una secuencia de números en la pantalla, que aparecerán de uno en uno. Su objetivo es recordar los números en el orden en el que se leyeron. Cuando oiga el último número, verá un aviso en la pantalla y se le pedirá que recuerde los números que oyó. Cuando aparezca el aviso, utilice el teclado para teclear los números en el orden en el que aparecieron. No necesita incluir espacios u otros caracteres para separar los números. Puede utilizar la tecla de retroceso para borrar números si se equivoca. Si no está seguro/a de la secuencia correcta, intente adivinarla lo mejor que pueda. 
+
+Una vez haya acabado de teclear todos los números de esa secuencia, pulse “Intro” para continuar. La siguiente secuencia de números aparecerá poco después.
+
+Pulse “Intro” para empezar cuando esté listo/a.</item>
+    <item key="Backward Instructions">En este experimento, nos interesa comprobar su capacidad para recordar una secuencia de números.
+
+En cada ensayo, verá una secuencia de números en la pantalla, que aparecerán de uno en uno. Su objetivo es recordar los números en el orden INVERSO al orden en que se leyeron. Es decir, si oye la secuencia: “1,2,3”, tendría que recordar “3,2,1”.
+
+Cuando oiga el último número de la secuencia, verá un aviso en la pantalla y se le pedirá que recuerde los números que oyó. Cuando aparezca el aviso, utilice el teclado para teclear los números en el orden inverso al orden en el que aparecieron: empiece por el último número que oyó. No necesita incluir espacios u otros caracteres para separar los números. Puede utilizar la tecla de retroceso para borrar números si se equivoca. Si no está seguro/a de la secuencia correcta, intente adivinarla lo mejor que pueda.
+
+Una vez haya acabado de teclear todos los números de esa secuencia, pulse “Intro” para continuar. La siguiente secuencia de números aparecerá poco después.
+
+Pulse “Intro” para empezar cuando esté listo/a.</item>
+  </map>
+</experiment_text>

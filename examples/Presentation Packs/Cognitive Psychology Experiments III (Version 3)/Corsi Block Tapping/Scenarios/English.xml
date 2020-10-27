@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Forward Instructions">In this experiment, we are interested in testing your memory for a sequence of locations. 
+
+In each trial, you will see a set of squares presented on screen. One at a time, these squares will flash in a different color. Pay attention and try to remember the order in which the squares flash (imagine them like buttons being pressed). When the sequence is finished you will be prompted to recall the sequence.
+
+When that prompt appears, use the mouse to highlight the first square in the sequence, and click the left mouse button to select that square. Then, highlight the next square in the sequence and click the left mouse button to select it. Continue doing so until you have completed the entire sequence. If you are unsure about a sequence, make your best guess.
+
+Once you have highlighted and selected the squares in the order they were presented earlier, click the right mouse button to move on to the next trial.
+
+Click the left mouse button to begin when you are ready.</item>
+    <item key="Backward Instructions">In this experiment, we are interested in testing your memory for a sequence of locations. 
+
+In each trial, you will see a set of squares presented on screen. One at a time, these squares will flash in a different color. Pay attention and try to remember the order in which the squares flash (imagine them like buttons being pressed). When the sequence is finished you will be prompted on screen to recall the sequence.  However, in this condition you must recall the sequence in the REVERSE order from which it was presented. In other words, recall the last square first, then the next-to-last square, and so on.
+
+When the prompt appears, use the mouse to highlight the last square in the sequence, and click the left mouse button to select that square. Then, highlight the next-to-last square in the sequence and click the left mouse button to select it. Continue doing so until you have completed the entire sequence. If you are unsure about a square, make your best guess.
+
+Once you have highlighted and selected the squares in the REVERSE order they were presented earlier, click the right mouse button to move on to the next trial.
+
+Click the left mouse button when you are ready to begin.</item>
+    <item key="Practice Caption">You will start by doing a few trials for practice.</item>
+    <item key="Ready Caption">Ready</item>
+    <item key="Set Caption">Set</item>
+    <item key="Go Caption">Go</item>
+    <item key="Practice Complete Caption">Practice trials complete. Click the left mouse button to begin when you are ready to move on to the next part.</item>
+    <item key="Completion Screen Caption">You have finished the experiment. Thank you very much for participating! Click the left mouse button to exit the program.</item>
+    <item key="Block Complete Caption">You have completed [BLOCK_NUMBER] block(s). There are [TOTAL_BLOCKS] blocks in the experiment. 
+
+Click the left mouse button to move on.</item>
+    <item key="Next Screen Caption">Click the right mouse button to continue.</item>
+    <item key="Previous Screen Caption">Click the left mouse button to go back.</item>
+    <item key="Multi-Screen Start Experiment Caption">Click the right mouse button to start the experiment when you are ready.</item>
+    <item key="Start Experiment Caption">Click the left mouse button to start the experiment when you are ready.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

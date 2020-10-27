@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="German">
+  <map name="default">
+    <item key="Instructions">Bei diesem Experiment sollen Sie eine Serie von Karten so akkurat wie möglich sortieren.
+
+Bei jedem Test ziehen Sie eine Karte (in der Mitte des Bildschirms). Jede Karte kann verschiedenlich gefärbt und nummeriert sein. Mit der Maus wählen Sie eine der vier Packs, die oben auf dem Schirm zu sehen sind, und klicken Sie die linke Maus-Taste, um Ihre Karte in das Pack zu sortieren. 
+
+Nachdem Sie Ihre Karte sortiert haben, sehen Sie einen Feed-Back, der Ihnen anzeigt, ob Sie die Karte richtig sortiert haben. Es wird Ihnen nicht gesagt, wie Sie die Karten sortieren, sodass Sie schätzen müssen, in welches Pack Sie die Karte sortieren sollen. Benutzen Sie den Feed-Back, um heraus zu finden, wohin die nächste Karte zu sortieren.
+
+Klicken Sie die linke Maus-Taste, wenn Sie soweit sind zu beginnen..
+</item>
+    <item key="Select Caption">Mit der Maus wählen Sie eine der vier Packs, die oben auf dem Schirm zu sehen sind, und klicken Sie die linke Maus-Taste, um Ihre Karte in das Pack zu sortieren. </item>
+    <item key="No Instructions Caption">Klicken die linke Maustaste, um den nächsten Teil zu beginnen. </item>
+    <item key="Practice Caption"> Beginnen Sie mit einigen Übungsversuchen</item>
+    <item key="Practice Complete Caption">Nachdem Sie die Übungsversuche beendet haben. Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Completion Screen Caption">Sie haben das Experiment beendet. Danke für Ihre Teilnahme. Klicken  die linke Maustaste, um das Programm zu verlassen.</item>
+    <item key="Rest Screen Caption">Machen Sie eine Pause! Sobald Sie bereit sind, klicken die linke Maustaste, um den nächsten Teil zu beginnen.</item>
+    <item key="Progress Bar Caption">Fortfahren:</item>
+    <item key="Block Complete Caption">Sie haben die [BLOCK_NUMBER] Blöcke beendet. Es gibt [TOTAL_NUMBER] Blöcke.
+Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

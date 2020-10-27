@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="French">
+  <map name="default">
+    <item key="Instructions">Dans cette expérience, vous verrez une série de stimuli présentés un à la fois. Votre tâche est de déterminer lequel des deux stimuli possibles a été présenté, et appuyez sur le bouton approprié aussi rapidement que possible.
+
+Si vous voyez [STIM_ONE_DESCRIPTION], appuyez sur le bouton gauche de la souris le plus rapidement possible.
+
+Si vous voyez [STIM_TWO_DESCRIPTION], appuyez sur le bouton droit de la souris le plus rapidement possible.
+
+Essayez de ne pas anticiper le stimulus qui va apparaître, ni quand il apparaitra. Il suffit de répondre aussi rapidement quand vous voyez un stimulus. Rappelez-vous que vous devez appuyer sur le bouton gauche de la souris si vous voyez [STIM_ONE_DESCRIPTION]. Appuyez sur le bouton droit de la souris si vous voyez [STIM_TWO_DESCRIPTION].
+
+Appuyez sur un des boutons de la souris lorsque vous êtes prêt à commencer.</item>
+    <item key="No Instructions Caption">Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Rest Screen Caption">Appuyez sur un des boutons de la souris pour commencer que lorsque vous êtes prêt à passer à la partie suivante.</item>
+    <item key="Progress Bar Caption">Progrès:</item>
+    <item key="Practice Caption">Commençons par quelques essais pour vous enseigner la tâche.</item>
+    <item key="Practice Complete Caption">Vous avez terminé les essais préliminaires. Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Completion Screen Caption">Vous avez terminé l'expérience. Nous vous remercions de votre participation. Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Block Complete Caption">Vous avez terminé [BLOCK_NUMBER] bloc (s). Il y a un total de [TOTAL_BLOCKS] blocs dans l'expérience.
+Appuyez sur un des boutons de la souris pour passer à la partie suivante</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+  <map name="Sound">
+    <item key="Instructions">Dans cette expérience, vous entendrez une série de sons présentés successivement. Votre tâche est de déterminer lequel des deux sons possibles a été présenté, et appuyez sur le bouton approprié aussi rapidement que possible.
+
+Si vous entendez [STIM_ONE_DESCRIPTION], appuyez sur le bouton gauche de la souris le plus rapidement possible.
+
+Si vous entendez [STIM_TWO_DESCRIPTION], appuyez sur le bouton droit de la souris le plus rapidement possible.
+
+Essayez de ne pas anticiper le son que vous allez entendre, ni quand il apparaitra. Il suffit de répondre aussi rapidement quand vous entendez un son. Rappelez-vous que vous devez appuyer sur le bouton gauche de la souris si vous entendez [STIM_ONE_DESCRIPTION]. Appuyez sur le bouton droit de la souris si vous entendez [STIM_TWO_DESCRIPTION].
+
+Appuyez sur un des boutons de la souris lorsque vous êtes prêt à commencer.</item>
+  </map>
+</experiment_text>

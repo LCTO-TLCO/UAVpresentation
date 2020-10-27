@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="French">
+  <map name="default">
+    <item key="Instructions">Dans cette expérience, on vous présente une série de chiffres, un à la fois. Certains de ces chiffres seront lus à voix haute, et d'autres seront présentés visuellement à l'écran. Votre tâche sera de déterminer si le chiffre qui est présenté est une cible (si vous voyez ou entendez) et de répondre seulement aux cibles.
+
+Pour cette partie de l'expérience, le chiffre cible est [TARGET_NUMBER]. Chaque fois que vous entendez ou voyez le chiffre [TARGET_NUMBER], cliquez sur le bouton gauche de la souris. Si un autre chiffre est présenté, ne répondez pas.
+
+Essayez de répondre aussi rapidement que possible tout en étant précis. Rappelez-vous, répondez en cliquant sur le bouton gauche de la souris exclusivement quand vous voyez ou entendez le chiffre [TARGET_NUMBER].
+
+Cliquez sur le bouton gauche de la souris lorsque vous êtes prêt à commencer.</item>
+    <item key="Simple Instructions">Pour cette partie de l'expérience, le chiffre cible est [TARGET_NUMBER]. Chaque fois que vous entendez ou voyez le chiffre [TARGET_NUMBER], cliquez sur le bouton gauche de la souris. Si un autre chiffre est présenté, ne répondez pas.
+
+Cliquez sur le bouton gauche de la souris lorsque vous êtes prêt à commencer.</item>
+    <item key="No Instructions Caption">Cliquez sur le bouton gauche de la souris pour continuer.</item>
+    <item key="Rest Screen Caption">Cliquez sur le bouton gauche de la souris pour commencer quand vous êtes prêt à passer à la partie suivante.</item>
+    <item key="Progress Bar Caption">Progrès:</item>
+    <item key="Practice Caption">Commençons par quelques essais pour vous enseigner la tâche.</item>
+    <item key="Practice Complete Caption">Essais complets de pratique. Cliquez sur le bouton gauche de la souris pour avancer.</item>
+    <item key="Completion Screen Caption">Vous avez terminé le test. Merci beaucoup pour votre participation. Cliquez sur le bouton gauche de la souris pour quitter le programme.</item>
+    <item key="Block Complete Caption">Vous avez terminé [BLOCK_NUMBER] bloc (s). Il y a un total de [TOTAL_BLOCKS] blocs dans le test. Cliquez sur le bouton gauche de la souris pour quitter le programme.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

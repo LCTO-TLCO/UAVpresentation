@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Chinese">
+  <map name="default">
+    <item key="Instructions">在这项任务中，你要用鼠标去跟随（或“追踪”）一个运动的目标。
+
+这个目标是[TARGET_DESCRIPTION]。在每个试次开始时，目标和你的鼠标指针会出现在一个特定的位置。在一个短暂的延迟之后，目标开始移动。请使用鼠标来尽量将指针保持在目标之上，直到它停止移动。请注意！有时鼠标并不与你所预测的方向一致。将指针保持在目标上会比较困难，但请尽量跟踪目标直到它停止运动。
+
+如果你准备好了，请按鼠标左键开始。
+</item>
+    <item key="Feedback Caption">正确:</item>
+    <item key="No Instructions Caption">按下兩個鼠標按鈕開始下一部分</item>
+    <item key="Rest Screen Caption">按下任一的滑鼠按鈕開始，當你準備移動到下一部分。</item>
+    <item key="Progress Bar Caption">进度：</item>
+    <item key="Practice Caption">首先你要做几个试次的练习。</item>
+    <item key="Practice Complete Caption">實踐試驗完成。按下兩個鼠標按鈕繼續前進。</item>
+    <item key="Completion Screen Caption">你已經完成了實驗。非常感謝您的參與。按下兩個鼠標按鈕來退出程序。</item>
+    <item key="Block Complete Caption">你已经完成了[BLOCK_NUMBER]个组块。本实验共有[TOTAL_BLOCKS]个组块。.
+按下兩個鼠標按鈕繼續前進。</item>
+    <item key="Word Wrap Mode">Character</item>
+  </map>
+</experiment_text>

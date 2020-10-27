@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Spanish">
+  <map name="default">
+    <item key="Instructions">En este experimento, su única tarea consiste en responder tan rápidamente como pueda cuando aparezca un estímulo en la pantalla. 
+
+Cada vez que aparece [STIM_DESCRIPTION], pulse el botón izquierdo del ratón lo más rápidamente posible. No intente anticipar cuándo se va a presentar un estímulo; simplemente, responda tan rápidamente como pueda cuando vea [STIM_DESCRIPTION].
+
+Pulse el botón izquierdo del ratón cuando esté listo/a para comenzar.</item>
+    <item key="No Instructions Caption">Presione el botón izquierdo del ratón para comenzar la siguiente parte.</item>
+    <item key="Rest Screen Caption">Presione el botón izquierdo del ratón cuando esté preparado/a.</item>
+    <item key="Progress Bar Caption">Avance:</item>
+    <item key="Practice Caption">Comenzará con unos cuantos ensayos de práctica.</item>
+    <item key="Practice Complete Caption">Ha concluido la práctica. Presione el botón izquierdo del ratón para comenzar.</item>
+    <item key="Completion Screen Caption">Ha concluido el experimento. Gracias por su participación. Presione el botón izquierdo del ratón para salir del programa. </item>
+    <item key="Block Complete Caption">Ha concluido [BLOCK_NUMBER] bloque(s). Hay un total de [TOTAL_BLOCKS] bloques en el experimento. 
+
+Presione el botón izquierdo del ratón para continuar.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+  <map name="Sound">
+    <item key="Instructions">En este experimento, su única tarea consiste en responder tan rápidamente como pueda cuando oiga un sonido.
+
+Cada vez que oiga [STIM_DESCRIPTION], pulse el botón izquierdo del ratón lo más rápidamente posible. No intente anticipar cuándo va a escuchar un sonido; simplemente, responda tan rápidamente como pueda cuando oiga [STIM_DESCRIPTION].
+
+Pulse el botón izquierdo del ratón cuando esté listo/a para comenzar.</item>
+  </map>
+</experiment_text>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Instructions">In this task, a letter will be presented in the center of the screen. 
+
+For each block of trials, you will be given a target letter. Your task is to respond whether or not the letter presented matches your target letter.
+
+If the letter matches your target letter, touch [TARGET_BUTTON] with your dominant hand. 
+
+If the letter does not match your target letter, touch [NONTARGET_BUTTON] with your dominant hand.
+
+Please respond as quickly and accurately as possible.
+
+Touch the screen to continue.</item>
+    <item key="Target Reminder Top Caption">For this block of trials, your target is:</item>
+    <item key="Target Reminder Bottom Caption">As a reminder, touch [TARGET_BUTTON] if you see the target letter. Press [NONTARGET_BUTTON] if you see any other letter. 
+
+Touch the screen to begin.</item>
+    <item key="Timed Rest Caption">Take a rest! 
+
+The next part will begin soon.</item>
+    <item key="Untimed Rest Caption">Take a rest! 
+
+Touch the screen to move on when you are ready.</item>
+    <item key="Ready Caption">Ready</item>
+    <item key="Set Caption">Set</item>
+    <item key="Go Caption">Go</item>
+    <item key="Practice Caption">You will start by doing a few trials for practice.</item>
+    <item key="Practice Complete Caption">Practice trials complete! 
+
+Please wait for instructions from the experimenter.</item>
+    <item key="Completion Screen Caption">You have completed the experiment. Thank you for participating. Touch the screen to exit the program.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+  <map name="Sounds">
+    <item key="Instructions">In this task, you will hear a series of sounds. 
+
+For each block of trials, you will be given a target sound. Your task is to respond whether or not the sound presented matches your target sound.
+
+If the sound matches your target sound, touch [TARGET_BUTTON] with your dominant hand. 
+
+If the sound does not match your target sound, touch [NONTARGET_BUTTON] with your dominant hand.
+
+Please respond as quickly and accurately as possible.
+
+Touch the screen to continue.</item>
+    <item key="Target Reminder Top Caption">To hear the target sound for this block of trials, touch [TARGET_BUTTON].</item>
+    <item key="Target Reminder Bottom Caption">As a reminder, touch [TARGET_BUTTON] if you hear the target sound. Press [NONTARGET_BUTTON] if you hear any other sound. 
+
+Press [NONTARGET_BUTTON] to begin when you are ready.</item>
+  </map>
+  <map name="Pictures">
+    <item key="Instructions">In this task, an image will be presented in the center of the screen. 
+
+For each block of trials, you will be given a target image. Your task is to respond whether or not the image presented matches your target image.
+
+If the image matches your target image, touch [TARGET_BUTTON] with your dominant hand. 
+
+If the image does not match your target image, touch [NONTARGET_BUTTON] with your dominant hand.
+
+Please respond as quickly and accurately as possible.
+
+Touch the screen to continue.</item>
+    <item key="Target Reminder Bottom Caption">As a reminder, touch [TARGET_BUTTON] if you see the target image. Press [NONTARGET_BUTTON] if you see any other image. 
+
+Touch the screen to begin.</item>
+  </map>
+</experiment_text>

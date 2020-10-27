@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="French">
+  <map name="default">
+    <item key="Instructions">Dans cette tâche, vous devez essayer de maximiser la quantité d'argent que vous gagnez.
+
+Dans chaque essai, sélectionnez une carte dans l'un des [NUMBER_DECKS_LABEL] jeux de cartes à l'écran. Chaque carte que vous choisissez peut avoir un gain ou une perte. En d'autres termes, pour chaque carte que vous choisissez, vous pouvez gagner une certaine somme d'argent en guise de récompense ou perdre une somme d'argent à titre de pénauté.
+
+Choisissez un des [NUMBER_DECKS_LABEL] jeux de cartes à l'écran. Cliquez sur le bouton gauche de la souris pour choisir une carte dans ce jeu. Une fois que vous avez fait votre choix, on vous indiquera la récompense ou la peine pour cette carte, ainsi que votre total actuel. Rappelez-vous, votre objectif est de gagner autant d'argent que possible.
+
+Cliquez sur le bouton gauche de la souris pour commencer quand vous êtes prêt. </item>
+    <item key="Deck Caption">Choisissez un jeu de cartes.</item>
+    <item key="Choice Caption">Votre choix:</item>
+    <item key="Reward Caption">Vous avez gagné:</item>
+    <item key="Penalty Caption">Vous avez perdu:</item>
+    <item key="Total Caption">Votre total actuel est:</item>
+    <item key="Current Total Caption">Votre total actuel: [TOTAL]</item>
+    <item key="Practice Caption">Commençons par quelques essais pour vous enseigner la tâche.</item>
+    <item key="Practice Complete Caption">Essais complets de pratique. Cliquez sur le bouton gauche de la souris pour avancer.</item>
+    <item key="Block Complete Caption">Vous avez terminé [BLOCK_NUMBER] bloc (s). Il y a un total de [TOTAL_BLOCKS] blocs dans le test. Cliquez sur le bouton gauche de la souris pour quitter le programme.</item>
+    <item key="Completion Screen Caption">Vous avez terminé le test. Merci beaucoup pour votre participation. Cliquez sur le bouton gauche de la souris pour quitter le programme.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

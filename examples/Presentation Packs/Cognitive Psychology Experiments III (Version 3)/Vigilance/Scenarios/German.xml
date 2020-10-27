@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="German">
+  <map name="default">
+    <item key="Instructions">Ihre einzige Aufgabe bei diesem Experiment ist es, die linke Maus-Taste zu drücken, wenn ein Target auf dem Schirm erscheint. 
+
+Das Experiment läuft wie folgt ab: Bei jedem Versuch erscheint für eine kurze Zeit eine grosse, farbige Box auf dem Schirm. Innerhalb der Box befindet sich ein kleineres Rechteck. Passen Sie auf die Position des kleinen Rechtecks auf. 
+
+Wenn die kleine rechteckige Box auf der [TARGET_SIDE] Seite der grösseren Box erscheint und zwar nur auf der [TARGET_SIDE]- Seite der grösseren Box, sollen Sie respondieren, indem Sie die linke Maus-Taste klicken. Wenn das kleinere Rechteck an einer anderen Stelle erscheint, dann ist es nicht das Target und Sie sollen nicht reagieren.
+
+Zur Erinnerung: Sie sollen mit der linken Maus-Taste nur respondieren, wenn ein Target erscheint (ein kleines Rechteck an der [TARGET_SIDE] Seite der grösseren Box). Das Experiment wird einige Zeit in Anspruch nehmen, d.h. Sie sollten möglichst aufmerksam bleiben und richtig zu reagieren bis der Test zu Ende ist.
+
+Klicken Sie die linke Maus-Taste, wenn Sie soweit sind zu beginnen.
+</item>
+    <item key="No Instructions Caption">Klicken die linke Maustaste, um den nächsten Teil zu beginnen. </item>
+    <item key="Rest Screen Caption">Sobald Sie bereit sind, Klicken die linke Maustaste.</item>
+    <item key="Progress Bar Caption">Fortfahren:</item>
+    <item key="Practice Caption"> Beginnen Sie mit einigen Übungsversuchen</item>
+    <item key="Practice Complete Caption">Nachdem Sie die Übungsversuche beendet haben. Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Completion Screen Caption">Sie haben das Experiment beendet. Danke für Ihre Teilnahme. Klicken  die linke Maustaste, um das Programm zu verlassen.</item>
+    <item key="Block Complete Caption">Sie haben die [BLOCK_NUMBER] Blöcke beendet. Es gibt [TOTAL_NUMBER] Blöcke.
+Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

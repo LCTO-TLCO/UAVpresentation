@@ -1,0 +1,181 @@
+Scenario - Vigilance
+Logfile written - 03/06/2019 16:40:00
+
+Subject	Trial	Event Type	Code	event_cond(str)	block_name(str)	block_number(num)	trial_number(num)	tgt_location(str)	stim_type(str)	ISI_dur(num)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+	1	Response	1								543082	542749	0
+	2	Picture	ISI	ISI							543541	0	1	17501	1	0	next	other	0
+	3	Picture	Stim;Practice;0;1;Top;Non-target;1742	Stim	Practice	0	1	Top	Non-target	1742	561043	0	1	2500	1	0	next	other	0
+	4	Picture	ISI	ISI							563543	0	1	17501	1	0	next	other	0
+	5	Picture	Stim;Practice;0;2;Top;Target;1742	Stim	Practice	0	2	Top	Target	1742	581044	0	1	2500	1	0	next	hit	7
+	6	Picture	ISI	ISI							583544	0	1	17668	1	0	next	other	0
+	6	Response	1								583722	178	0
+	7	Picture	Stim;Practice;0;3;Top;Non-target;1742	Stim	Practice	0	3	Top	Non-target	1742	601212	0	1	2500	1	0	next	other	0
+	8	Picture	ISI	ISI							603713	0	1	17501	1	0	next	other	0
+	9	Picture	Stim;Practice;0;4;Top;Non-target;1742	Stim	Practice	0	4	Top	Non-target	1742	621214	0	1	2500	1	0	next	other	0
+	10	Picture	ISI	ISI							623714	0	1	17501	1	0	next	other	0
+	11	Picture	Stim;Practice;0;5;Top;Non-target;1742	Stim	Practice	0	5	Top	Non-target	1742	641215	0	1	2667	1	0	next	other	0
+	12	Picture	ISI	ISI							643882	0	1	17501	1	0	next	other	0
+	13	Picture	Stim;Practice;0;6;Top;Target;1742	Stim	Practice	0	6	Top	Target	1742	661384	0	1	2667	1	0	next	hit	15
+	13	Response	1								663562	2179	0
+	14	Picture	ISI	ISI							664050	0	1	17668	1	0	next	other	0
+	15	Picture	Stim;Practice;0;7;Top;Non-target;1742	Stim	Practice	0	7	Top	Non-target	1742	681718	0	1	2500	1	0	next	other	0
+	16	Picture	ISI	ISI							684219	0	1	17501	1	0	next	other	0
+	17	Picture	Stim;Practice;0;8;Top;Non-target;1742	Stim	Practice	0	8	Top	Non-target	1742	701720	0	1	2500	1	0	next	other	0
+	18	Picture	ISI	ISI							704220	0	1	17668	1	0	next	other	0
+	19	Picture	Stim;Practice;0;9;Top;Non-target;1742	Stim	Practice	0	9	Top	Non-target	1742	721888	0	1	2500	1	0	next	other	0
+	20	Picture	ISI	ISI							724388	0	1	17668	1	0	next	other	0
+	21	Picture	Stim;Practice;0;10;Top;Target;1742	Stim	Practice	0	10	Top	Target	1742	742056	0	1	2667	1	0	next	hit	24
+	21	Response	1								744203	2147	0
+	22	Picture	ISI	ISI							744723	0	1	17501	1	0	next	other	0
+	23	Picture	Stim;Practice;0;11;Top;Non-target;1742	Stim	Practice	0	11	Top	Non-target	1742	762225	0	1	2667	1	0	next	other	0
+	24	Picture	ISI	ISI							764892	0	1	17668	1	0	next	other	0
+	25	Picture	Stim;Practice;0;12;Top;Target;1742	Stim	Practice	0	12	Top	Target	1742	782559	0	1	2500	1	0	next	hit	29
+	25	Response	1								784842	2282	0
+	26	Picture	ISI	ISI							785060	0	1	17501	1	0	next	other	0
+	27	Picture	Stim;Practice;0;13;Top;Non-target;1742	Stim	Practice	0	13	Top	Non-target	1742	802561	0	1	2500	1	0	next	other	0
+	28	Picture	ISI	ISI							805061	0	1	17668	1	0	next	other	0
+	29	Picture	Stim;Practice;0;14;Top;Target;1742	Stim	Practice	0	14	Top	Target	1742	822729	0	1	2667	1	0	next	hit	34
+	29	Response	1								824762	2033	0
+	30	Picture	ISI	ISI							825396	0	1	17501	1	0	next	other	0
+	31	Picture	Stim;Practice;0;15;Top;Non-target;1742	Stim	Practice	0	15	Top	Non-target	1742	842897	0	1	2667	1	0	next	other	0
+	32	Picture	ISI	ISI							845564	0	1	17501	1	0	next	other	0
+	33	Picture	Stim;Practice;0;16;Top;Non-target;1742	Stim	Practice	0	16	Top	Non-target	1742	863066	0	1	2667	1	0	next	other	0
+	34	Picture	ISI	ISI							865733	0	1	17501	1	0	next	other	0
+	35	Picture	Stim;Practice;0;17;Top;Non-target;1742	Stim	Practice	0	17	Top	Non-target	1742	883234	0	1	2667	1	0	next	other	0
+	36	Picture	ISI	ISI							885901	0	1	17501	1	0	next	other	0
+	37	Picture	Stim;Practice;0;18;Top;Target;1742	Stim	Practice	0	18	Top	Target	1742	903402	0	1	2500	1	0	next	hit	43
+	37	Response	1								905643	2241	0
+	38	Picture	ISI	ISI							905902	0	1	17501	1	0	next	other	0
+	39	Picture	Stim;Practice;0;19;Top;Target;1742	Stim	Practice	0	19	Top	Target	1742	923404	0	1	2500	1	0	next	hit	46
+	39	Response	1								925643	2239	0
+	40	Picture	ISI	ISI							925904	0	1	17501	1	0	next	other	0
+	41	Picture	Stim;Practice;0;20;Top;Non-target;1742	Stim	Practice	0	20	Top	Non-target	1742	943405	0	1	2500	1	0	next	other	0
+	42	Picture	ISI	ISI							945905	0	1	17668	1	0	next	other	0
+	43	Response	1								986522	22948	0
+	44	Picture	ISI	ISI							986908	0	1	17501	1	0	next	other	0
+	45	Picture	Stim;Main;1;1;Top;Non-target;1742	Stim	Main	1	1	Top	Non-target	1742	1004410	0	1	2667	1	0	next	other	0
+	46	Picture	ISI	ISI							1007077	0	1	17501	1	0	next	other	0
+	47	Picture	Stim;Main;1;2;Top;Non-target;1742	Stim	Main	1	2	Top	Non-target	1742	1024578	0	1	2500	1	0	next	other	0
+	48	Picture	ISI	ISI							1027078	0	1	17501	1	0	next	other	0
+	49	Picture	Stim;Main;1;3;Top;Non-target;1742	Stim	Main	1	3	Top	Non-target	1742	1044579	0	1	2500	1	0	next	other	0
+	50	Picture	ISI	ISI							1047080	0	1	17668	1	0	next	other	0
+	51	Picture	Stim;Main;1;4;Top;Non-target;1742	Stim	Main	1	4	Top	Non-target	1742	1064748	0	1	2500	1	0	next	other	0
+	52	Picture	ISI	ISI							1067248	0	1	17668	1	0	next	other	0
+	53	Picture	Stim;Main;1;5;Top;Non-target;1742	Stim	Main	1	5	Top	Non-target	1742	1084916	0	1	2500	1	0	next	other	0
+	54	Picture	ISI	ISI							1087416	0	1	17501	1	0	next	other	0
+	55	Picture	Stim;Main;1;6;Top;Non-target;1742	Stim	Main	1	6	Top	Non-target	1742	1104917	0	1	2500	1	0	next	other	0
+	56	Picture	ISI	ISI							1107418	0	1	17668	1	0	next	other	0
+	57	Picture	Stim;Main;1;7;Top;Target;1742	Stim	Main	1	7	Top	Target	1742	1125086	0	1	2667	1	0	next	hit	65
+	57	Response	1								1127242	2156	0
+	58	Picture	ISI	ISI							1127752	0	1	17501	1	0	next	other	0
+	59	Picture	Stim;Main;1;8;Top;Non-target;1742	Stim	Main	1	8	Top	Non-target	1742	1145254	0	1	2500	1	0	next	other	0
+	60	Picture	ISI	ISI							1147754	0	1	17668	1	0	next	other	0
+	61	Picture	Stim;Main;1;9;Top;Non-target;1742	Stim	Main	1	9	Top	Non-target	1742	1165422	0	1	2500	1	0	next	other	0
+	62	Picture	ISI	ISI							1167922	0	1	17501	1	0	next	other	0
+	63	Picture	Stim;Main;1;10;Top;Non-target;1742	Stim	Main	1	10	Top	Non-target	1742	1185424	0	1	2500	1	0	next	other	0
+	64	Picture	ISI	ISI							1187924	0	1	17501	1	0	next	other	0
+	65	Picture	Stim;Main;1;11;Top;Non-target;1742	Stim	Main	1	11	Top	Non-target	1742	1205425	0	1	2500	1	0	next	other	0
+	66	Picture	ISI	ISI							1207925	0	1	17501	1	0	next	other	0
+	67	Picture	Stim;Main;1;12;Top;Non-target;1742	Stim	Main	1	12	Top	Non-target	1742	1225427	0	1	2500	1	0	next	other	0
+	68	Picture	ISI	ISI							1227927	0	1	17501	1	0	next	other	0
+	69	Picture	Stim;Main;1;13;Top;Non-target;1742	Stim	Main	1	13	Top	Non-target	1742	1245428	0	1	2500	1	0	next	other	0
+	70	Picture	ISI	ISI							1247928	0	1	17501	1	0	next	other	0
+	71	Picture	Stim;Main;1;14;Top;Non-target;1742	Stim	Main	1	14	Top	Non-target	1742	1265430	0	1	2500	1	0	next	other	0
+	72	Picture	ISI	ISI							1267930	0	1	17668	1	0	next	other	0
+	73	Picture	Stim;Main;1;15;Top;Non-target;1742	Stim	Main	1	15	Top	Non-target	1742	1285598	0	1	2500	1	0	next	other	0
+	74	Picture	ISI	ISI							1288098	0	1	17668	1	0	next	other	0
+	75	Picture	Stim;Main;1;16;Top;Non-target;1742	Stim	Main	1	16	Top	Non-target	1742	1305766	0	1	2667	1	0	next	other	0
+	76	Picture	ISI	ISI							1308433	0	1	17501	1	0	next	other	0
+	77	Picture	Stim;Main;1;17;Top;Non-target;1742	Stim	Main	1	17	Top	Non-target	1742	1325934	0	1	2500	1	0	next	other	0
+	78	Picture	ISI	ISI							1328434	0	1	17501	1	0	next	other	0
+	79	Picture	Stim;Main;1;18;Top;Target;1742	Stim	Main	1	18	Top	Target	1742	1345936	0	1	2500	1	0	next	hit	89
+	80	Picture	ISI	ISI							1348436	0	1	17501	1	0	next	other	0
+	80	Response	1								1349721	1285	0
+	81	Picture	Stim;Main;1;19;Top;Non-target;1742	Stim	Main	1	19	Top	Non-target	1742	1365937	0	1	2500	1	0	next	other	0
+	82	Picture	ISI	ISI							1368437	0	1	13286	1	0	next	other	0
+	82	Quit									1377243	8805	NA
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Picture	ISI	other				543541	1	17501	1	0	next
+Picture	Stim;Practice;0;1;Top;Non-target;1742	other				561043	1	2500	1	0	next
+Picture	ISI	other				563543	1	17501	1	0	next
+Picture	Stim;Practice;0;2;Top;Target;1742	hit	1	2678	1	581044	1	2500	1	0	next
+Picture	ISI	other				583544	1	17668	1	0	next
+Picture	Stim;Practice;0;3;Top;Non-target;1742	other				601212	1	2500	1	0	next
+Picture	ISI	other				603713	1	17501	1	0	next
+Picture	Stim;Practice;0;4;Top;Non-target;1742	other				621214	1	2500	1	0	next
+Picture	ISI	other				623714	1	17501	1	0	next
+Picture	Stim;Practice;0;5;Top;Non-target;1742	other				641215	1	2667	1	0	next
+Picture	ISI	other				643882	1	17501	1	0	next
+Picture	Stim;Practice;0;6;Top;Target;1742	hit	1	2179	1	661384	1	2667	1	0	next
+Picture	ISI	other				664050	1	17668	1	0	next
+Picture	Stim;Practice;0;7;Top;Non-target;1742	other				681718	1	2500	1	0	next
+Picture	ISI	other				684219	1	17501	1	0	next
+Picture	Stim;Practice;0;8;Top;Non-target;1742	other				701720	1	2500	1	0	next
+Picture	ISI	other				704220	1	17668	1	0	next
+Picture	Stim;Practice;0;9;Top;Non-target;1742	other				721888	1	2500	1	0	next
+Picture	ISI	other				724388	1	17668	1	0	next
+Picture	Stim;Practice;0;10;Top;Target;1742	hit	1	2147	1	742056	1	2667	1	0	next
+Picture	ISI	other				744723	1	17501	1	0	next
+Picture	Stim;Practice;0;11;Top;Non-target;1742	other				762225	1	2667	1	0	next
+Picture	ISI	other				764892	1	17668	1	0	next
+Picture	Stim;Practice;0;12;Top;Target;1742	hit	1	2282	1	782559	1	2500	1	0	next
+Picture	ISI	other				785060	1	17501	1	0	next
+Picture	Stim;Practice;0;13;Top;Non-target;1742	other				802561	1	2500	1	0	next
+Picture	ISI	other				805061	1	17668	1	0	next
+Picture	Stim;Practice;0;14;Top;Target;1742	hit	1	2033	1	822729	1	2667	1	0	next
+Picture	ISI	other				825396	1	17501	1	0	next
+Picture	Stim;Practice;0;15;Top;Non-target;1742	other				842897	1	2667	1	0	next
+Picture	ISI	other				845564	1	17501	1	0	next
+Picture	Stim;Practice;0;16;Top;Non-target;1742	other				863066	1	2667	1	0	next
+Picture	ISI	other				865733	1	17501	1	0	next
+Picture	Stim;Practice;0;17;Top;Non-target;1742	other				883234	1	2667	1	0	next
+Picture	ISI	other				885901	1	17501	1	0	next
+Picture	Stim;Practice;0;18;Top;Target;1742	hit	1	2241	1	903402	1	2500	1	0	next
+Picture	ISI	other				905902	1	17501	1	0	next
+Picture	Stim;Practice;0;19;Top;Target;1742	hit	1	2239	1	923404	1	2500	1	0	next
+Picture	ISI	other				925904	1	17501	1	0	next
+Picture	Stim;Practice;0;20;Top;Non-target;1742	other				943405	1	2500	1	0	next
+Picture	ISI	other				945905	1	17668	1	0	next
+Picture	ISI	other				986908	1	17501	1	0	next
+Picture	Stim;Main;1;1;Top;Non-target;1742	other				1004410	1	2667	1	0	next
+Picture	ISI	other				1007077	1	17501	1	0	next
+Picture	Stim;Main;1;2;Top;Non-target;1742	other				1024578	1	2500	1	0	next
+Picture	ISI	other				1027078	1	17501	1	0	next
+Picture	Stim;Main;1;3;Top;Non-target;1742	other				1044579	1	2500	1	0	next
+Picture	ISI	other				1047080	1	17668	1	0	next
+Picture	Stim;Main;1;4;Top;Non-target;1742	other				1064748	1	2500	1	0	next
+Picture	ISI	other				1067248	1	17668	1	0	next
+Picture	Stim;Main;1;5;Top;Non-target;1742	other				1084916	1	2500	1	0	next
+Picture	ISI	other				1087416	1	17501	1	0	next
+Picture	Stim;Main;1;6;Top;Non-target;1742	other				1104917	1	2500	1	0	next
+Picture	ISI	other				1107418	1	17668	1	0	next
+Picture	Stim;Main;1;7;Top;Target;1742	hit	1	2156	1	1125086	1	2667	1	0	next
+Picture	ISI	other				1127752	1	17501	1	0	next
+Picture	Stim;Main;1;8;Top;Non-target;1742	other				1145254	1	2500	1	0	next
+Picture	ISI	other				1147754	1	17668	1	0	next
+Picture	Stim;Main;1;9;Top;Non-target;1742	other				1165422	1	2500	1	0	next
+Picture	ISI	other				1167922	1	17501	1	0	next
+Picture	Stim;Main;1;10;Top;Non-target;1742	other				1185424	1	2500	1	0	next
+Picture	ISI	other				1187924	1	17501	1	0	next
+Picture	Stim;Main;1;11;Top;Non-target;1742	other				1205425	1	2500	1	0	next
+Picture	ISI	other				1207925	1	17501	1	0	next
+Picture	Stim;Main;1;12;Top;Non-target;1742	other				1225427	1	2500	1	0	next
+Picture	ISI	other				1227927	1	17501	1	0	next
+Picture	Stim;Main;1;13;Top;Non-target;1742	other				1245428	1	2500	1	0	next
+Picture	ISI	other				1247928	1	17501	1	0	next
+Picture	Stim;Main;1;14;Top;Non-target;1742	other				1265430	1	2500	1	0	next
+Picture	ISI	other				1267930	1	17668	1	0	next
+Picture	Stim;Main;1;15;Top;Non-target;1742	other				1285598	1	2500	1	0	next
+Picture	ISI	other				1288098	1	17668	1	0	next
+Picture	Stim;Main;1;16;Top;Non-target;1742	other				1305766	1	2667	1	0	next
+Picture	ISI	other				1308433	1	17501	1	0	next
+Picture	Stim;Main;1;17;Top;Non-target;1742	other				1325934	1	2500	1	0	next
+Picture	ISI	other				1328434	1	17501	1	0	next
+Picture	Stim;Main;1;18;Top;Target;1742	hit	1	3786	1	1345936	1	2500	1	0	next
+Picture	ISI	other				1348436	1	17501	1	0	next
+Picture	Stim;Main;1;19;Top;Non-target;1742	other				1365937	1	2500	1	0	next
+Picture	ISI	other				1368437	1	13286	1	0	next

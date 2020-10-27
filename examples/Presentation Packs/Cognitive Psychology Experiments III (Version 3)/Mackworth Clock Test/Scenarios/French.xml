@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="French">
+  <map name="default">
+    <item key="Instructions">Dans cette expérience, vous verrez un cadran d'horloge sur l'écran. Cependant, au lieu de chiffres sur l'horloge, il y aura de petits cercles sur chaque position (il peut y avoir plus ou moins de 12 positions sur cette "horloge"). 
+
+Faites attention à l '«horloge»: il y aura un cercle cible qui est d’une couleur différente de celle des autres cercles. Le cercle cible se déplacera autour de l'horloge comme une aiguille se déplace autour d'une horloge standard, ou dans la direction opposée. Il occupera une position sur le cadran de l'horloge pour un bref instant, puis passera à la position suivante. La cible se déplacera dans une direction [DIRECTION].
+
+Votre tâche consiste à cliquer avec le bouton gauche de la souris quand le cercle cible saute une position. Si vous imaginez cela comme une horloge, "sauter" serait, par exemple, si l'aiguille d'une horloge se déplaçant directement de 6 à 8. Chaque fois que la cible saute une position, cliquez sur le bouton gauche de la souris. Essayez de répondre aussi rapidement que possible tout en étant précis.
+
+La tâche peut durer un certain temps.  Alors essayez de faire attention à la cible et à ne pas manquer quand elle saute une position!
+
+Cliquez sur le bouton gauche de la souris lorsque vous êtes prêt à commencer.</item>
+    <item key="Clockwise">dans le sens horaire</item>
+    <item key="Counter-Clockwise">le sens horaire inverse</item>
+    <item key="No Instructions Caption">Cliquez sur le bouton gauche de la souris pour continuer.</item>
+    <item key="Rest Screen Caption">Cliquez sur le bouton gauche de la souris pour commencer quand vous êtes prêt à passer à la partie suivante.</item>
+    <item key="Progress Bar Caption">Progrès:</item>
+    <item key="Practice Caption">Commençons par quelques essais pour vous enseigner la tâche.</item>
+    <item key="Practice Complete Caption">Essais complets de pratique. Cliquez sur le bouton gauche de la souris pour avancer.</item>
+    <item key="Completion Screen Caption">Vous avez terminé le test. Merci beaucoup pour votre participation. Cliquez sur le bouton gauche de la souris pour quitter le programme.</item>
+    <item key="Block Complete Caption">Vous avez terminé [BLOCK_NUMBER] bloc (s). Il y a un total de [TOTAL_BLOCKS] blocs dans le test. Cliquez sur le bouton gauche de la souris pour quitter le programme.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

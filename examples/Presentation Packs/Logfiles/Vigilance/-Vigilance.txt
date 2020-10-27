@@ -1,0 +1,41 @@
+Block Name	Block Number	Trial Number	Target Location	Stim Type	Requested ISI	Response	Accuracy	RT
+Practice	0	1	Top	Non-target	1742		rm_other	-56105.3
+Practice	0	2	Top	Target	1742	1	rm_hit	267.8
+Practice	0	3	Top	Non-target	1742		rm_other	-60122.2
+Practice	0	4	Top	Non-target	1742		rm_other	-62122.4
+Practice	0	5	Top	Non-target	1742		rm_other	-64122.5
+Practice	0	6	Top	Target	1742	1	rm_hit	217.8
+Practice	0	7	Top	Non-target	1742		rm_other	-68172.8
+Practice	0	8	Top	Non-target	1742		rm_other	-70173
+Practice	0	9	Top	Non-target	1742		rm_other	-72189.8
+Practice	0	10	Top	Target	1742	1	rm_hit	214.7
+Practice	0	11	Top	Non-target	1742		rm_other	-76223.5
+Practice	0	12	Top	Target	1742	1	rm_hit	228.3
+Practice	0	13	Top	Non-target	1742		rm_other	-80257.1
+Practice	0	14	Top	Target	1742	1	rm_hit	203.3
+Practice	0	15	Top	Non-target	1742		rm_other	-84290.7
+Practice	0	16	Top	Non-target	1742		rm_other	-86307.6
+Practice	0	17	Top	Non-target	1742		rm_other	-88324.4
+Practice	0	18	Top	Target	1742	1	rm_hit	224.1
+Practice	0	19	Top	Target	1742	1	rm_hit	223.9
+Practice	0	20	Top	Non-target	1742		rm_other	-94341.5
+Main	1	1	Top	Non-target	1742		rm_other	-100442
+Main	1	2	Top	Non-target	1742		rm_other	-102458.8
+Main	1	3	Top	Non-target	1742		rm_other	-104458.9
+Main	1	4	Top	Non-target	1742		rm_other	-106475.8
+Main	1	5	Top	Non-target	1742		rm_other	-108492.6
+Main	1	6	Top	Non-target	1742		rm_other	-110492.7
+Main	1	7	Top	Target	1742	1	rm_hit	215.6
+Main	1	8	Top	Non-target	1742		rm_other	-114526.4
+Main	1	9	Top	Non-target	1742		rm_other	-116543.2
+Main	1	10	Top	Non-target	1742		rm_other	-118543.4
+Main	1	11	Top	Non-target	1742		rm_other	-120543.5
+Main	1	12	Top	Non-target	1742		rm_other	-122543.7
+Main	1	13	Top	Non-target	1742		rm_other	-124543.8
+Main	1	14	Top	Non-target	1742		rm_other	-126544
+Main	1	15	Top	Non-target	1742		rm_other	-128560.8
+Main	1	16	Top	Non-target	1742		rm_other	-130577.6
+Main	1	17	Top	Non-target	1742		rm_other	-132594.4
+Main	1	18	Top	Target	1742	1	rm_hit	378.5
+Main	1	19	Top	Non-target	1742		rm_other	-136594.7
+

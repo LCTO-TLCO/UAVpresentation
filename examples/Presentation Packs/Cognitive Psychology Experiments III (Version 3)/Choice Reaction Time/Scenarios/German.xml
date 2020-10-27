@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Instructions">Bei diesem Experiment sehen Sie eine Serie von Stimuli nacheinander. Ihre Aufgabe ist es zu bestimmen, welcher von zwei möglichen Stimuli auftritt; danach drücken Sie die entsprechende Taste so rasch wie möglich.
+
+Wenn [STIM_ONE_DESCRIPTION] erscheint, drücken Sie die linke Maus-Taste so schnell wie möglich. 
+
+Wenn [STIM_TWO_DESCRIPTION] erscheint, drücken Sie die rechte Maus-Taste so schnell wie möglich
+
+Versuchen Sie nicht voraus zu sehen, welcher Stimulus erscheint bzw. wann der Stimulus auftritt.  Reagieren Sie einfach so rasch wie möglich, sobald der Stimulus erscheint. Denken Sie daran, die linke Maus-Taste zu drücken, wenn [STIM_ONE_DESCRIPTION] erscheint und die rechte Masut-Taste zu drücken, wenn [STIM_TWO_DESCRIPTION] erscheint
+
+Drücken Sie eine der beiden Maus-Tasten, wenn Sie bereit sind zu beginnen
+</item>
+    <item key="No Instructions Caption">Drücke Sie “enter”, um den nächsten Teil zu beginnen</item>
+    <item key="Rest Screen Caption">Sobald Sie bereit sind, drücken Sie “enter” um zu beginnen</item>
+    <item key="Progress Bar Caption">Fortfahren:</item>
+    <item key="Practice Caption"> Beginnen Sie mit einigen Übungsversuchen</item>
+    <item key="Practice Complete Caption">Nachdem Sie die Übungsversuche beendet haben, Klicken Sie einen der beiden Maus-Tasten um zu beginnen</item>
+    <item key="Completion Screen Caption">Sie haben das Experiment beendet. Danke für Ihre Teilnahme. Klicken Sie einen der beiden Maus-Tasten, um das Programm zu verlassen.</item>
+    <item key="Block Complete Caption">Sie haben die [BLOCK_NUMBER] Blöcke beendet. Es gibt [TOTAL_NUMBER] Blöcke.  Klicken Sie einen der beiden Maus-Tasten. , um fort zu fahren</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+  <map name="Sound">
+    <item key="Instructions">Bei diesem Experiment hören Sie nacheinander eine Reihe von Stimuli. Ihre Aufgabe ist es nun zu bestimmen, welcher von zwei möglichen Stimuli auftritt; dann drücken Sie die entsprechende Taste so schnell wie möglich.
+
+Wenn Sie [STIM_ONE_DESCRIPTION] hören, drücken Sie möglichst schnell die linke Maus-Taste.
+
+Wenn Sie  [STIM_TWO_DESCRIPTION] hören, drücken Sie so schnell wie möglich die rechte Maus-Taste.
+Versuchen Sie nicht voraus zu sehen, welchen Stimulus Sie hören oder wenn er erscheint. Respondieren Sie einfach möglichst schnell, wenn Sie den Stimulus wahrnehmen. Denken Sie daran, die linke Maus-Taste zu drücken, wenn [STIM_ONE_DESCRIPTION] hören. Drücken Sie die rechte Maus-Taste, wenn Sie [STIM_TWO_DESCRIPTION] hören.
+
+Drücken Sie eine der beiden Maus-Tasten, wenn Sie bereit sind zu beginnen.
+</item>
+  </map>
+</experiment_text>

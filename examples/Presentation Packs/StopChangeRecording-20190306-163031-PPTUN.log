@@ -1,0 +1,21 @@
+Scenario - 
+Logfile written - 03/06/2019 16:30:36
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Quit		37014	29847	NA
+
+
+{
+   "app": "Presentation Version 20.2 Build 07.25.18",
+   "device": "MouseComputer Co.,Ltd. DAIV-DGX750",
+   "experiment": "{7B88EECE-C4A8-42D5-9E0D-A57C17000193}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "StopChangeRecording.sce",
+   "subject": "",
+   "timestamp": "2019/03/06 07:30:31 GMT"
+}

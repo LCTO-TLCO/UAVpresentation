@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Instructions">In this task, you will be presented with an image of an object or of a texture. Your task is to respond whether the image is an object or a texture.
+
+If the image is an object, touch [OBJECT_BUTTON] with your dominant hand. 
+
+If the image is a texture, touch [SCRAMBLED_BUTTON] with your dominant hand. 
+
+Please respond as quickly and accurately as possible. 
+
+Touch the screen to begin when you are ready.</item>
+    <item key="Reminder Caption">Object = press [OBJECT_BUTTON] 
+Texture = touch [SCRAMBLED_BUTTON] 
+
+
+Touch the screen to continue</item>
+    <item key="Timed Rest Caption">Take a rest! The next set will begin soon.</item>
+    <item key="Untimed Rest Caption">Take a rest! 
+
+Touch the screen to move on to the next part.</item>
+    <item key="Practice Caption">You will start by doing a few trials for practice.</item>
+    <item key="Practice Complete Caption">Practice trials complete! 
+
+Please wait for instructions from the experimenter.</item>
+    <item key="Ready Caption">Ready</item>
+    <item key="Set Caption">Set</item>
+    <item key="Go Caption">Go</item>
+    <item key="Get Ready Caption">Get ready to begin!</item>
+    <item key="Completion Screen Caption">You have completed the experiment. Thank you for participating. Touch the screen to exit.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

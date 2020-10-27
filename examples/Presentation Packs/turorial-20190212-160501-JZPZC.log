@@ -1,0 +1,704 @@
+Scenario - 
+Logfile written - 02/12/2019 16:06:54
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Picture	fix	666	0	1	4167	1	0	next	other	0
+2	Picture	SC trial GO stim left index	4833	0	1	334	1	0	200	other	0
+3	Picture	SC trial CHANGE stim right idx	6333	0	1	1333	1	0	200	miss	0
+3	Sound	hc ssd 140	6363	29	1208			0		other	0
+3	Port Input	3	8222	1889	9
+3	Response	2	8222	1889	9
+4	Picture	feedback	8333	0	1	3167	1	0	3000	other	0
+5	Picture	inhibition error	11500	0	1	333	1	0	200	other	0
+6	Picture	fix	11834	0	1	4167	1	0	next	other	0
+7	Picture	SC trial GO stim right middle	16001	0	1	333	1	0	200	other	0
+8	Picture	SC trial CHANGE stim right idx	17501	0	1	333	1	0	200	miss	0
+8	Sound	fc ssd 140	17507	5	4			0		other	0
+8	Port Input	1	18896	1395	9
+8	Response	4	18896	1395	9
+9	Picture	feedback	19001	0	1	3167	1	0	3000	other	0
+10	Picture	inhibition error	22168	0	1	333	1	0	200	other	0
+11	Picture	fix	22501	0	1	4167	1	0	next	other	0
+12	Picture	SC trial GO stim right middle	26668	0	1	333	1	0	200	other	0
+13	Picture	SC trial CHANGE stim right idx	28168	0	1	333	1	0	200	miss	0
+13	Sound	fc ssd 130	28175	7	10			0		other	0
+13	Port Input	1	29342	1174	9
+13	Response	4	29342	1174	9
+14	Picture	feedback	29502	0	1	3167	1	0	3000	other	0
+15	Picture	inhibition error	32669	0	1	333	1	0	200	other	0
+16	Picture	fix	33002	0	1	4167	1	0	next	other	0
+17	Picture	GO trial GO stim left idx	37169	0	1	333	1	0	200	hit	28
+17	Port Input	3	40724	3555	9
+17	Response	2	40724	3555	9
+18	Picture	feedback	40836	0	1	3167	1	0	3000	other	0
+19	Picture	correct response	44003	0	1	333	1	0	200	other	0
+20	Picture	fix	44336	0	1	4167	1	0	next	other	0
+21	Picture	GO trial GO stim right middle	48503	0	1	333	1	0	200	hit	34
+21	Port Input	1	51316	2813	8
+21	Response	4	51316	2813	8
+22	Picture	feedback	51504	0	1	3167	1	0	3000	other	0
+23	Picture	correct response	54671	0	1	333	1	0	200	other	0
+24	Picture	fix	55004	0	1	4167	1	0	next	other	0
+25	Picture	GO trial GO stim right middle	59171	0	1	333	1	0	200	hit	40
+25	Port Input	1	62042	2871	8
+25	Response	4	62042	2871	8
+26	Picture	feedback	62164	0	7	3174	8	0	3000	other	0
+27	Picture	correct response	65338	0	1	333	1	0	200	other	0
+28	Picture	fix	65671	0	1	4167	1	0	next	other	0
+29	Picture	SC trial GO stim right index	69838	0	1	333	1	0	200	other	0
+30	Picture	SC trial CHANGE stim right middle	71172	0	1	333	1	0	200	miss	0
+30	Sound	fc ssd 120	71180	8	7			0		other	0
+30	Port Input	4	72445	1273	9
+30	Response	3	72445	1273	9
+31	Picture	feedback	72672	0	1	3167	1	0	3000	other	0
+32	Picture	inhibition error	75839	0	1	333	1	0	200	other	0
+33	Picture	fix	76172	0	1	4167	1	0	next	other	0
+34	Picture	SC trial GO stim left index	80339	0	1	333	1	0	200	other	0
+35	Picture	SC trial CHANGE stim right idx	81839	0	1	334	1	0	200	miss	0
+35	Sound	hc ssd 130	81846	7	6			0		other	0
+35	Port Input	2	83343	1504	9
+35	Response	1	83343	1504	9
+36	Picture	feedback	83506	0	1	3167	2	0	3000	other	0
+37	Picture	incorrect response	86673	0	1	333	1	0	200	other	0
+38	Picture	fix	87006	0	1	4167	1	0	next	other	0
+39	Picture	GO trial GO stim left idx	91173	0	1	333	1	0	200	hit	62
+39	Port Input	3	94322	3149	9
+39	Response	2	94322	3149	9
+40	Picture	feedback	94507	0	1	3167	1	0	3000	other	0
+41	Picture	correct response	97674	0	1	333	2	0	200	other	0
+42	Picture	fix	98007	0	1	4167	1	0	next	other	0
+43	Picture	GO trial GO stim left idx	102174	0	1	333	1	0	200	hit	68
+43	Port Input	3	105019	2845	9
+43	Response	2	105019	2845	9
+44	Picture	feedback	105174	0	1	3167	1	0	3000	other	0
+45	Picture	correct response	108341	0	1	333	1	0	200	other	0
+46	Picture	fix	108674	0	1	4167	1	0	next	other	0
+47	Picture	SC trial GO stim left middle	112841	0	1	333	1	0	200	other	0
+48	Picture	SC trial CHANGE stim right middle	114175	0	1	334	1	0	200	miss	0
+48	Sound	hc ssd 120	114185	10	7			0		other	0
+48	Port Input	1	117279	3104	9
+48	Response	4	117279	3104	9
+49	Picture	feedback	117342	0	1	3167	1	0	3000	other	0
+50	Picture	correct response	120509	0	1	333	1	0	200	other	0
+51	Picture	fix	120842	0	1	4167	1	0	next	other	0
+52	Picture	SC trial GO stim left middle	125009	0	1	333	1	0	200	other	0
+53	Picture	SC trial CHANGE stim right middle	126509	0	1	333	1	0	200	miss	0
+53	Sound	hc ssd 130	126515	6	7			0		other	0
+53	Port Input	1	128837	2328	9
+53	Response	4	128837	2328	9
+54	Picture	feedback	129009	0	1	3167	1	0	3000	other	0
+55	Picture	correct response	132176	0	1	333	1	0	200	other	0
+56	Picture	fix	132510	0	1	4167	1	0	next	other	0
+57	Picture	GO trial GO stim left idx	136677	0	1	333	1	0	200	miss	0
+58	Picture	omission	141844	0	1	3167	1	0	3000	other	0
+58	Port Input	3	142017	174	8
+58	Response	2	142017	174	8
+59	Picture	fix	145011	0	1	4167	1	0	next	other	0
+60	Picture	SC trial GO stim right middle	149178	0	1	333	1	0	200	other	0
+61	Picture	SC trial CHANGE stim right idx	150511	0	1	333	1	0	200	miss	0
+61	Sound	fc ssd 110	150518	7	10			0		other	0
+61	Port Input	4	152835	2324	9
+61	Response	3	152835	2324	9
+62	Picture	omission	153011	0	1	3167	1	0	3000	other	0
+63	Picture	correct response	156178	0	1	333	1	0	200	other	0
+64	Picture	fix	156511	0	1	4167	1	0	next	other	0
+65	Picture	SC trial GO stim right index	160678	0	1	333	1	0	200	other	0
+66	Picture	SC trial CHANGE stim right middle	162012	0	1	333	1	0	200	miss	0
+66	Sound	fc ssd 120	162019	7	10			0		other	0
+66	Port Input	1	165316	3305	8
+66	Response	4	165316	3305	8
+67	Picture	omission	165512	0	1	3167	1	0	3000	other	0
+68	Picture	correct response	168679	0	1	333	1	0	200	other	0
+69	Picture	fix	169012	0	1	4167	1	0	next	other	0
+70	Picture	SC trial GO stim left middle	173179	0	1	333	1	0	200	other	0
+71	Picture	SC trial CHANGE stim right middle	174679	0	1	333	1	0	200	miss	0
+71	Sound	hc ssd 140	174685	6	10			0		other	0
+71	Port Input	1	177302	2622	9
+71	Response	4	177302	2622	9
+72	Picture	omission	177513	0	1	3167	1	0	3000	other	0
+73	Picture	correct response	180680	0	1	334	1	0	200	other	0
+74	Picture	fix	181013	0	1	4167	1	0	next	other	0
+75	Picture	SC trial GO stim left index	185180	0	1	334	1	0	200	other	0
+76	Picture	SC trial CHANGE stim right idx	186847	0	1	333	1	0	200	miss	0
+76	Sound	hc ssd 150	186853	6	5			0		other	0
+76	Port Input	4	189567	2720	9
+76	Response	3	189567	2720	9
+77	Picture	omission	189681	0	1	3167	1	0	3000	other	0
+78	Picture	correct response	192847	0	1	334	1	0	200	other	0
+79	Picture	fix	193181	0	1	4167	1	0	next	other	0
+80	Picture	GO trial GO stim right idx	197348	0	1	333	1	0	200	hit	127
+80	Port Input	4	200603	3255	9
+80	Response	3	200603	3255	9
+81	Picture	omission	200681	0	1	3167	1	0	3000	other	0
+82	Picture	correct response	203848	0	1	333	1	0	200	other	0
+83	Picture	fix	204182	0	1	4167	1	0	next	other	0
+84	Picture	GO trial GO stim right idx	208349	0	1	334	1	0	200	hit	133
+84	Port Input	4	211723	3374	9
+84	Response	3	211723	3374	9
+85	Picture	omission	211849	0	1	3167	1	0	3000	other	0
+86	Picture	correct response	215016	0	1	333	1	0	200	other	0
+87	Picture	fix	215349	0	1	4167	1	0	next	other	0
+88	Picture	SC trial GO stim right index	219516	0	1	333	1	0	200	other	0
+89	Picture	SC trial CHANGE stim right middle	221016	0	1	333	1	0	200	miss	0
+89	Sound	fc ssd 130	221022	6	5			0		other	0
+89	Port Input	1	224202	3186	8
+89	Response	4	224202	3186	8
+90	Picture	omission	224350	0	1	3167	1	0	3000	other	0
+91	Picture	correct response	227517	0	1	333	1	0	200	other	0
+92	Picture	fix	227850	0	1	4167	1	0	next	other	0
+93	Picture	GO trial GO stim left middle	232017	0	1	334	1	0	200	hit	147
+93	Port Input	2	234985	2968	9
+93	Response	1	234985	2968	9
+94	Picture	omission	235184	0	1	3167	1	0	3000	other	0
+95	Picture	correct response	238351	0	1	334	1	0	200	other	0
+96	Picture	fix	238684	0	1	4167	1	0	next	other	0
+97	Picture	SC trial GO stim right middle	242851	0	1	333	1	0	200	other	0
+98	Picture	SC trial CHANGE stim right idx	244351	0	1	333	1	0	200	miss	0
+98	Sound	fc ssd 140	244358	6	4			0		other	0
+98	Port Input	1	245745	1393	7
+98	Response	4	245745	1393	7
+99	Picture	omission	245851	0	1	3167	1	0	3000	other	0
+100	Picture	inhibition error	249018	0	1	333	1	0	200	other	0
+101	Picture	fix	249352	0	1	4167	1	0	next	other	0
+102	Picture	GO trial GO stim right middle	253519	0	1	333	1	0	200	hit	161
+102	Port Input	1	257165	3646	7
+102	Response	4	257165	3646	7
+103	Picture	omission	257352	0	1	3167	1	0	3000	other	0
+104	Picture	correct response	260519	0	1	334	1	0	200	other	0
+105	Picture	fix	260853	0	1	4167	1	0	next	other	0
+106	Picture	SC trial GO stim right middle	265020	0	1	333	1	0	200	other	0
+107	Picture	SC trial CHANGE stim right idx	266520	0	1	333	1	0	200	miss	0
+107	Sound	fc ssd 130	266528	8	5			0		other	0
+107	Port Input	1	267915	1395	9
+107	Response	4	267915	1395	9
+108	Picture	omission	268020	0	1	3167	1	0	3000	other	0
+108	Port Input	4	269526	1506	9
+108	Response	3	269526	1506	9
+109	Picture	inhibition error	271187	0	1	334	1	0	200	other	0
+110	Picture	fix	271520	0	1	4167	1	0	next	other	0
+111	Picture	GO trial GO stim right idx	275687	0	1	333	1	0	200	hit	177
+111	Port Input	4	278410	2723	9
+111	Response	3	278410	2723	9
+112	Picture	omission	278521	0	1	3167	1	0	3000	other	0
+113	Picture	correct response	281687	0	1	333	1	0	200	other	0
+114	Picture	fix	282021	0	1	4167	1	0	next	other	0
+115	Picture	SC trial GO stim left index	286188	0	1	333	1	0	200	other	0
+116	Picture	SC trial CHANGE stim right idx	288021	0	1	333	1	0	200	miss	0
+116	Sound	hc ssd 160	288031	10	8			0		other	0
+116	Port Input	4	291441	3419	9
+116	Response	3	291441	3419	9
+117	Picture	omission	291522	0	1	3167	1	0	3000	other	0
+118	Picture	correct response	294688	0	1	333	1	0	200	other	0
+119	Picture	fix	295022	0	1	4167	1	0	next	other	0
+120	Picture	GO trial GO stim left middle	299189	0	1	333	1	0	200	hit	191
+120	Port Input	2	302931	3742	9
+120	Response	1	302931	3742	9
+121	Picture	omission	303022	0	1	3167	1	0	3000	other	0
+122	Picture	correct response	306190	0	1	333	1	0	200	other	0
+123	Picture	fix	306523	0	1	4167	1	0	next	other	0
+124	Picture	GO trial GO stim left middle	310690	0	1	333	1	0	200	hit	197
+124	Port Input	2	313727	3037	9
+124	Response	1	313727	3037	9
+125	Picture	omission	313856	0	2	3168	2	0	3000	other	0
+126	Picture	correct response	317024	0	1	333	1	0	200	other	0
+127	Picture	fix	317357	0	1	4167	1	0	next	other	0
+128	Picture	SC trial GO stim left index	321524	0	1	333	1	0	200	other	0
+129	Picture	SC trial CHANGE stim right idx	323357	0	1	333	1	0	200	miss	0
+129	Sound	hc ssd 170	323365	8	10			0		other	0
+129	Port Input	4	326142	2785	9
+129	Response	3	326142	2785	9
+130	Picture	omission	326357	0	1	3167	1	0	3000	other	0
+131	Picture	correct response	329524	0	1	333	1	0	200	other	0
+132	Picture	fix	329858	0	1	4167	1	0	next	other	0
+133	Picture	GO trial GO stim right idx	334025	0	1	333	2	0	200	hit	211
+133	Port Input	4	336604	2579	8
+133	Response	3	336604	2579	8
+134	Picture	omission	336692	0	1	3167	1	0	3000	other	0
+135	Picture	correct response	339859	0	1	333	1	0	200	other	0
+136	Picture	fix	340192	0	1	4167	1	0	next	other	0
+137	Picture	GO trial GO stim right idx	344359	0	1	333	1	0	200	hit	217
+137	Port Input	4	347009	2650	9
+137	Response	3	347009	2650	9
+138	Picture	omission	347192	0	1	3167	1	0	3000	other	0
+139	Picture	correct response	350359	0	1	333	1	0	200	other	0
+140	Picture	fix	350693	0	1	4167	1	0	next	other	0
+141	Picture	SC trial GO stim left index	354860	0	1	333	1	0	200	other	0
+142	Picture	SC trial CHANGE stim right idx	356860	0	1	333	1	0	200	miss	0
+142	Sound	hc ssd 180	356868	8	5			0		other	0
+142	Port Input	3	359690	2830	9
+142	Response	2	359690	2830	9
+143	Picture	omission	359860	0	1	3167	1	0	3000	other	0
+143	Port Input	4	360470	610	9
+143	Response	3	360470	610	9
+144	Picture	inhibition error	363027	0	1	333	1	0	200	other	0
+145	Picture	fix	363360	0	1	4167	1	0	next	other	0
+146	Picture	SC trial GO stim right middle	367527	0	1	333	1	0	200	other	0
+147	Picture	SC trial CHANGE stim right idx	368861	0	1	333	1	0	200	miss	0
+147	Sound	fc ssd 120	368868	7	4			0		other	0
+147	Port Input	1	370072	1212	9
+147	Response	4	370072	1212	9
+148	Picture	omission	370194	0	1	3167	1	0	3000	other	0
+149	Picture	inhibition error	373361	0	1	333	1	0	200	other	0
+150	Picture	fix	373694	0	1	4167	1	0	next	other	0
+151	Picture	SC trial GO stim right index	377862	0	1	333	1	0	200	other	0
+152	Picture	SC trial CHANGE stim right middle	379195	0	1	333	1	0	200	miss	0
+152	Sound	fc ssd 110	379203	8	8			0		other	0
+152	Port Input	4	380645	1450	9
+152	Response	3	380645	1450	9
+153	Picture	omission	380862	0	1	3167	1	0	3000	other	0
+154	Picture	inhibition error	384029	0	1	333	1	0	200	other	0
+155	Picture	fix	384362	0	1	4167	1	0	next	other	0
+156	Picture	SC trial GO stim left middle	388529	0	1	333	1	0	200	other	0
+157	Picture	SC trial CHANGE stim right middle	390362	0	1	334	1	0	200	miss	0
+157	Sound	hc ssd 170	390372	9	6			0		other	0
+157	Port Input	3	391570	1208	9
+157	Response	2	391570	1208	9
+158	Picture	omission	391696	0	1	3167	1	0	3000	other	0
+159	Picture	incorrect response	394863	0	1	333	1	0	200	other	0
+160	Picture	fix	395196	0	1	4167	1	0	next	other	0
+161	Picture	SC trial GO stim right index	399363	0	1	333	1	0	200	other	0
+162	Picture	SC trial CHANGE stim right middle	400530	0	1	334	1	0	200	miss	0
+162	Sound	fc ssd 100	400538	8	5			0		other	0
+162	Port Input	4	402089	1559	9
+162	Response	3	402089	1559	9
+163	Picture	omission	402197	0	1	3167	1	0	3000	other	0
+164	Picture	inhibition error	405363	0	1	334	1	0	200	other	0
+165	Picture	fix	405697	0	1	4167	1	0	next	other	0
+166	Picture	SC trial GO stim left middle	409864	0	1	333	1	0	200	other	0
+167	Picture	SC trial CHANGE stim right middle	411697	0	1	334	1	0	200	miss	0
+167	Sound	hc ssd 160	411705	8	10			0		other	0
+167	Port Input	4	414729	3032	9
+167	Response	3	414729	3032	9
+168	Picture	omission	414859	0	6	3172	6	0	3000	other	0
+168	Port Input	1	415652	792	9
+168	Response	4	415652	792	9
+169	Picture	incorrect response	418031	0	1	333	1	0	200	other	0
+170	Picture	fix	418364	0	1	4167	1	0	next	other	0
+171	Picture	SC trial GO stim right index	422531	0	1	333	1	0	200	other	0
+172	Picture	SC trial CHANGE stim right middle	423531	0	1	333	1	0	200	miss	0
+172	Sound	fc ssd 90	423540	9	8			0		other	0
+172	Port Input	4	425445	1914	9
+172	Response	3	425445	1914	9
+173	Picture	omission	425532	0	1	3167	1	0	3000	other	0
+174	Picture	inhibition error	428699	0	1	333	1	0	200	other	0
+175	Picture	fix	429032	0	1	4167	1	0	next	other	0
+176	Picture	SC trial GO stim left middle	433199	0	1	333	1	0	200	other	0
+177	Picture	SC trial CHANGE stim right middle	434866	0	1	334	1	0	200	miss	0
+177	Sound	hc ssd 150	434873	8	7			0		other	0
+177	Port Input	1	437700	2834	9
+177	Response	4	437700	2834	9
+178	Picture	omission	437866	0	1	3167	1	0	3000	other	0
+179	Picture	correct response	441033	0	1	333	1	0	200	other	0
+180	Picture	fix	441366	0	1	4167	1	0	next	other	0
+181	Picture	GO trial GO stim right middle	445533	0	1	333	1	0	200	incorrect	291
+181	Port Input	4	448690	3157	10
+181	Response	3	448690	3157	10
+182	Picture	omission	448867	0	1	3167	1	0	3000	other	0
+183	Picture	incorrect response	452034	0	1	334	1	0	200	other	0
+184	Picture	fix	452367	0	1	4167	1	0	next	other	0
+185	Picture	GO trial GO stim right idx	456534	0	1	333	1	0	200	hit	297
+185	Port Input	4	459737	3203	9
+185	Response	3	459737	3203	9
+186	Picture	omission	459863	0	5	3171	6	0	3000	other	0
+187	Picture	correct response	463034	0	1	333	1	0	200	other	0
+188	Picture	fix	463368	0	1	4167	1	0	next	other	0
+189	Picture	GO trial GO stim left middle	467535	0	1	333	1	0	200	hit	303
+189	Port Input	2	471989	4454	9
+189	Response	1	471989	4454	9
+190	Picture	omission	472202	0	1	3167	1	0	3000	other	0
+191	Picture	correct response	475369	0	1	333	1	0	200	other	0
+192	Picture	fix	475702	0	1	4167	1	0	next	other	0
+193	Picture	GO trial GO stim right middle	479869	0	1	333	1	0	200	hit	309
+193	Port Input	1	484236	4367	9
+193	Response	4	484236	4367	9
+194	Picture	omission	484362	0	8	3174	8	0	3000	other	0
+195	Picture	correct response	487536	0	1	333	1	0	200	other	0
+196	Picture	fix	487870	0	1	4167	1	0	next	other	0
+197	Picture	GO trial GO stim left middle	492037	0	1	334	1	0	200	hit	315
+197	Port Input	2	496225	4188	8
+197	Response	1	496225	4188	8
+198	Picture	omission	496370	0	1	3167	1	0	3000	other	0
+199	Picture	correct response	499537	0	1	333	1	0	200	other	0
+200	Picture	fix	499871	0	1	4167	1	0	next	other	0
+201	Picture	GO trial GO stim left idx	504038	0	1	334	1	0	200	hit	321
+201	Port Input	3	508680	4642	8
+201	Response	2	508680	4642	8
+202	Picture	omission	508871	0	1	3167	1	0	3000	other	0
+203	Picture	correct response	512038	0	1	334	1	0	200	other	0
+204	Picture	fix	512372	0	1	4167	1	0	next	other	0
+205	Picture	SC trial GO stim right middle	516539	0	1	333	1	0	200	other	0
+206	Picture	SC trial CHANGE stim right idx	517539	0	1	333	1	0	200	miss	0
+206	Sound	fc ssd 80	517543	4	5			0		other	0
+206	Port Input	4	520805	3266	8
+206	Response	3	520805	3266	8
+207	Picture	omission	520872	0	1	3167	1	0	3000	other	0
+208	Picture	correct response	524039	0	1	333	1	0	200	other	0
+209	Picture	fix	524372	0	1	4167	1	0	next	other	0
+210	Picture	SC trial GO stim left middle	528539	0	1	334	1	0	200	other	0
+211	Picture	SC trial CHANGE stim right middle	530373	0	1	334	1	0	200	miss	0
+211	Sound	hc ssd 160	530381	8	7			0		other	0
+211	Port Input	1	532809	2436	9
+211	Response	4	532809	2436	9
+212	Picture	omission	532873	0	1	3167	1	0	3000	other	0
+213	Picture	correct response	536040	0	1	333	1	0	200	other	0
+214	Picture	fix	536373	0	1	4167	1	0	next	other	0
+215	Picture	GO trial GO stim left idx	540540	0	1	333	1	0	200	hit	343
+215	Port Input	3	544517	3977	10
+215	Response	2	544517	3977	10
+216	Picture	omission	544707	0	1	3167	1	0	3000	other	0
+217	Picture	correct response	547874	0	1	334	1	0	200	other	0
+218	Picture	fix	548208	0	1	4167	1	0	next	other	0
+219	Picture	GO trial GO stim left middle	552375	0	1	333	1	0	200	hit	349
+219	Port Input	2	556626	4251	9
+219	Response	1	556626	4251	9
+220	Picture	omission	556708	0	1	3167	1	0	3000	other	0
+221	Picture	correct response	559875	0	1	333	1	0	200	other	0
+222	Picture	fix	560208	0	1	4167	1	0	next	other	0
+223	Picture	GO trial GO stim right idx	564375	0	1	333	1	0	200	hit	355
+223	Port Input	4	567605	3229	7
+223	Response	3	567605	3229	7
+224	Picture	omission	567709	0	1	3167	1	0	3000	other	0
+225	Picture	correct response	570876	0	1	333	1	0	200	other	0
+226	Picture	fix	571209	0	1	4167	1	0	next	other	0
+227	Picture	SC trial GO stim right middle	575376	0	1	333	1	0	200	other	0
+228	Picture	SC trial CHANGE stim right idx	576376	0	1	333	1	0	200	miss	0
+228	Sound	fc ssd 90	576385	8	4			0		other	0
+228	Port Input	4	579695	3318	9
+228	Response	3	579695	3318	9
+229	Picture	omission	579877	0	1	3167	1	0	3000	other	0
+230	Picture	correct response	583044	0	1	333	1	0	200	other	0
+231	Picture	fix	583377	0	1	4167	1	0	next	other	0
+232	Picture	SC trial GO stim left index	587544	0	1	333	1	0	200	other	0
+233	Picture	SC trial CHANGE stim right idx	589377	0	1	333	1	0	200	miss	0
+233	Sound	hc ssd 170	589384	6	5			0		other	0
+233	Port Input	4	592556	3178	9
+233	Response	3	592556	3178	9
+234	Picture	omission	592711	0	1	3167	1	0	3000	other	0
+235	Picture	correct response	595878	0	1	333	1	0	200	other	0
+236	Picture	fix	596211	0	1	4167	1	0	next	other	0
+237	Picture	GO trial GO stim right middle	600378	0	1	333	1	0	200	incorrect	377
+237	Port Input	4	604132	3754	9
+237	Response	3	604132	3754	9
+238	Picture	omission	604212	0	1	3167	1	0	3000	other	0
+238	Port Input	1	605083	871	8
+238	Response	4	605083	871	8
+239	Picture	incorrect response	607379	0	1	334	1	0	200	other	0
+240	Picture	fix	607712	0	1	4167	1	0	next	other	0
+241	Picture	SC trial GO stim right index	611879	0	1	333	1	0	200	other	0
+242	Picture	SC trial CHANGE stim right middle	613046	0	1	333	1	0	200	miss	0
+242	Sound	fc ssd 100	613056	10	5			0		other	0
+242	Port Input	4	614942	1896	9
+242	Response	3	614942	1896	9
+243	Picture	omission	615046	0	1	3167	1	0	3000	other	0
+244	Picture	inhibition error	618213	0	1	333	1	0	200	other	0
+245	Picture	fix	618546	0	1	4167	1	0	next	other	0
+246	Picture	GO trial GO stim right middle	622713	0	1	333	1	0	200	hit	393
+246	Port Input	1	625712	2999	9
+246	Response	4	625712	2999	9
+247	Picture	omission	625880	0	1	3167	1	0	3000	other	0
+248	Picture	correct response	629047	0	1	333	1	0	200	other	0
+249	Picture	fix	629380	0	1	4167	1	0	next	other	0
+250	Picture	GO trial GO stim right idx	633547	0	1	333	1	0	200	hit	399
+250	Port Input	4	636473	2926	9
+250	Response	3	636473	2926	9
+251	Picture	omission	636548	0	1	3167	1	0	3000	other	0
+252	Picture	correct response	639714	0	1	333	1	0	200	other	0
+253	Picture	fix	640048	0	1	4167	1	0	next	other	0
+254	Picture	SC trial GO stim left middle	644215	0	1	333	1	0	200	other	0
+255	Picture	SC trial CHANGE stim right middle	646215	0	1	333	1	0	200	miss	0
+255	Sound	hc ssd 180	646221	5	4			0		other	0
+255	Port Input	1	649400	3185	9
+255	Response	4	649400	3185	9
+256	Picture	omission	649549	0	1	3167	1	0	3000	other	0
+257	Picture	correct response	652716	0	1	333	1	0	200	other	0
+258	Picture	fix	653049	0	1	4167	1	0	next	other	0
+259	Picture	GO trial GO stim left middle	657216	0	1	333	1	0	200	hit	413
+259	Port Input	2	661432	4216	9
+259	Response	1	661432	4216	9
+260	Picture	omission	661549	0	1	3167	1	0	3000	other	0
+261	Picture	correct response	664716	0	1	333	1	0	200	other	0
+262	Picture	fix	665050	0	1	4167	1	0	next	other	0
+263	Picture	SC trial GO stim right index	669217	0	1	333	1	0	200	other	0
+264	Picture	SC trial CHANGE stim right middle	670217	0	1	333	1	0	200	miss	0
+264	Sound	fc ssd 90	670225	8	7			0		other	0
+264	Port Input	1	673819	3602	9
+264	Response	4	673819	3602	9
+265	Picture	omission	673884	0	1	3167	1	0	3000	other	0
+266	Picture	correct response	677051	0	1	333	1	0	200	other	0
+267	Picture	fix	677384	0	1	4167	1	0	next	other	0
+268	Picture	SC trial GO stim left middle	681551	0	1	333	1	0	200	other	0
+269	Picture	SC trial CHANGE stim right middle	683551	0	1	333	1	0	200	miss	0
+269	Sound	hc ssd 190	683561	9	9			0		other	0
+269	Port Input	1	686795	3244	7
+269	Response	4	686795	3244	7
+270	Picture	omission	686885	0	1	3167	1	0	3000	other	0
+271	Picture	correct response	690052	0	1	333	1	0	200	other	0
+272	Picture	fix	690385	0	1	4167	1	0	next	other	0
+273	Picture	GO trial GO stim left idx	694552	0	1	333	1	0	200	miss	0
+273	Port Input	3	699626	5074	9
+273	Response	2	699626	5074	9
+274	Picture	omission	699719	0	1	3167	1	0	3000	other	0
+275	Picture	fix	702886	0	1	4167	1	0	next	other	0
+276	Picture	GO trial GO stim left middle	707053	0	1	333	1	0	200	hit	440
+276	Port Input	2	711311	4258	9
+276	Response	1	711311	4258	9
+277	Picture	omission	711387	0	1	3167	1	0	3000	other	0
+278	Picture	correct response	714554	0	1	333	1	0	200	other	0
+279	Picture	fix	714887	0	1	4167	1	0	next	other	0
+280	Picture	GO trial GO stim left idx	719054	0	1	333	1	0	200	hit	446
+280	Port Input	3	722488	3434	9
+280	Response	2	722488	3434	9
+281	Picture	omission	722554	0	1	3167	1	0	3000	other	0
+282	Picture	correct response	725721	0	1	333	1	0	200	other	0
+283	Picture	fix	726054	0	1	4167	1	0	next	other	0
+284	Picture	SC trial GO stim right middle	730221	0	1	333	1	0	200	other	0
+285	Picture	SC trial CHANGE stim right idx	731388	0	1	333	1	0	200	miss	0
+285	Sound	fc ssd 100	731395	6	5			0		other	0
+285	Port Input	4	734216	2828	9
+285	Response	3	734216	2828	9
+286	Picture	omission	734388	0	1	3167	1	0	3000	other	0
+287	Picture	correct response	737555	0	1	333	1	0	200	other	0
+288	Picture	fix	737889	0	1	4167	1	0	next	other	0
+289	Picture	GO trial GO stim right idx	742055	0	1	334	1	0	200	hit	460
+289	Port Input	4	744972	2917	9
+289	Response	3	744972	2917	9
+290	Picture	omission	745056	0	1	3167	1	0	3000	other	0
+291	Picture	correct response	748223	0	1	334	1	0	200	other	0
+292	Picture	fix	748556	0	1	4167	1	0	next	other	0
+293	Picture	GO trial GO stim left idx	752723	0	1	333	1	0	200	hit	466
+293	Port Input	3	756666	3943	9
+293	Response	2	756666	3943	9
+294	Picture	omission	756890	0	1	3167	1	0	3000	other	0
+295	Picture	correct response	760057	0	1	333	1	0	200	other	0
+296	Picture	fix	760390	0	1	4167	1	0	next	other	0
+297	Picture	GO trial GO stim left middle	764557	0	1	333	1	0	200	hit	472
+297	Port Input	2	768209	3652	9
+297	Response	1	768209	3652	9
+298	Picture	omission	768391	0	1	3167	1	0	3000	other	0
+299	Picture	correct response	771558	0	1	333	1	0	200	other	0
+300	Picture	fix	771891	0	1	4167	1	0	next	other	0
+301	Picture	GO trial GO stim right idx	776058	0	1	333	1	0	200	hit	478
+301	Port Input	4	778846	2788	9
+301	Response	3	778846	2788	9
+302	Picture	omission	779058	0	1	3167	1	0	3000	other	0
+303	Picture	correct response	782225	0	1	333	1	0	200	other	0
+304	Picture	fix	782559	0	1	4167	1	0	next	other	0
+305	Picture	SC trial GO stim right index	786726	0	1	334	1	0	200	other	0
+306	Picture	SC trial CHANGE stim right middle	788059	0	1	334	1	0	200	miss	0
+306	Sound	fc ssd 110	788067	9	4			0		other	0
+306	Port Input	4	789923	1864	9
+306	Response	3	789923	1864	9
+307	Picture	omission	790052	0	8	3174	8	0	3000	other	0
+308	Picture	inhibition error	793226	0	1	334	1	0	200	other	0
+309	Picture	fix	793560	0	1	4167	1	0	next	other	0
+310	Picture	GO trial GO stim left middle	797726	0	1	333	1	0	200	hit	492
+310	Port Input	2	801775	4048	9
+310	Response	1	801775	4048	9
+311	Picture	omission	801893	0	1	3167	1	0	3000	other	0
+312	Picture	correct response	805060	0	1	333	1	0	200	other	0
+313	Picture	fix	805394	0	1	4167	1	0	next	other	0
+314	Picture	GO trial GO stim right idx	809561	0	1	333	1	0	200	hit	498
+314	Port Input	4	812765	3204	9
+314	Response	3	812765	3204	9
+315	Picture	omission	812888	0	7	3173	7	0	3000	other	0
+316	Picture	correct response	816061	0	1	334	1	0	200	other	0
+317	Picture	fix	816395	0	1	4167	1	0	next	other	0
+318	Picture	SC trial GO stim right index	820561	0	1	333	2	0	200	other	0
+319	Picture	SC trial CHANGE stim right middle	821728	0	1	333	1	0	200	miss	0
+319	Sound	fc ssd 100	821735	7	5			0		other	0
+319	Port Input	1	825170	3442	9
+319	Response	4	825170	3442	9
+320	Picture	omission	825395	0	1	3167	1	0	3000	other	0
+321	Picture	correct response	828562	0	1	333	1	0	200	other	0
+322	Picture	fix	828895	0	1	4167	1	0	next	other	0
+323	Picture	SC trial GO stim left index	833062	0	1	334	1	0	200	other	0
+324	Picture	SC trial CHANGE stim right idx	835229	0	1	333	1	0	200	miss	0
+324	Sound	hc ssd 200	835235	5	4			0		other	0
+324	Port Input	2	837982	2753	9
+324	Response	1	837982	2753	9
+325	Picture	omission	838063	0	1	3167	1	0	3000	other	0
+325	Port Input	4	839610	1548	9
+325	Response	3	839610	1548	9
+326	Picture	incorrect response	841230	0	1	333	1	0	200	other	0
+327	Picture	fix	841563	0	1	4167	1	0	next	other	0
+328	Picture	SC trial GO stim left middle	845730	0	1	333	1	0	200	other	0
+329	Picture	SC trial CHANGE stim right middle	847730	0	1	333	1	0	200	miss	0
+329	Sound	hc ssd 190	847735	5	6			0		other	0
+329	Port Input	1	850045	2315	9
+329	Response	4	850045	2315	9
+330	Picture	omission	850230	0	1	3167	1	0	3000	other	0
+331	Picture	correct response	853397	0	1	333	1	0	200	other	0
+332	Picture	fix	853731	0	1	4167	1	0	next	other	0
+333	Picture	GO trial GO stim left middle	857897	0	1	333	1	0	200	hit	530
+333	Port Input	2	862881	4984	8
+333	Response	1	862881	4984	8
+334	Picture	omission	863065	0	1	3167	1	0	3000	other	0
+335	Picture	correct response	866232	0	1	333	1	0	200	other	0
+336	Picture	fix	866565	0	1	4167	1	0	next	other	0
+337	Picture	SC trial GO stim right middle	870732	0	1	333	1	0	200	other	0
+338	Picture	SC trial CHANGE stim right idx	872065	0	1	334	1	0	200	miss	0
+338	Sound	fc ssd 110	872075	10	5			0		other	0
+338	Port Input	4	875475	3410	8
+338	Response	3	875475	3410	8
+339	Picture	omission	875566	0	1	3167	1	0	3000	other	0
+340	Picture	correct response	878732	0	1	333	1	0	200	other	0
+341	Picture	fix	879066	0	1	4167	1	0	next	other	0
+342	Picture	GO trial GO stim right middle	883233	0	1	334	1	0	200	hit	544
+342	Port Input	1	886402	3169	9
+342	Response	4	886402	3169	9
+343	Picture	omission	886566	0	1	3167	1	0	3000	other	0
+344	Picture	correct response	889733	0	1	334	1	0	200	other	0
+345	Picture	fix	890067	0	1	4167	1	0	next	other	0
+346	Picture	SC trial GO stim right index	894234	0	1	334	1	0	200	other	0
+347	Picture	SC trial CHANGE stim right middle	895567	0	1	333	1	0	200	miss	0
+347	Sound	fc ssd 120	895578	11	10			0		other	0
+347	Port Input	1	899035	3468	9
+347	Response	4	899035	3468	9
+348	Picture	omission	899234	0	1	3167	1	0	3000	other	0
+349	Picture	correct response	902401	0	1	333	1	0	200	other	0
+350	Picture	fix	902734	0	1	4167	1	0	next	other	0
+351	Picture	GO trial GO stim right middle	906901	0	1	333	1	0	200	hit	558
+351	Port Input	1	909973	3071	7
+351	Response	4	909973	3071	7
+352	Picture	omission	910068	0	1	3167	1	0	3000	other	0
+353	Picture	correct response	913235	0	1	333	1	0	200	other	0
+354	Picture	fix	913569	0	1	4167	1	0	next	other	0
+355	Picture	SC trial GO stim left middle	917735	0	1	333	1	0	200	other	0
+356	Picture	SC trial CHANGE stim right middle	919902	0	1	333	1	0	200	miss	0
+356	Sound	hc ssd 200	919912	10	8			0		other	0
+356	Port Input	1	923245	3342	9
+356	Response	4	923245	3342	9
+357	Picture	omission	923403	0	1	3167	1	0	3000	other	0
+358	Picture	correct response	926569	0	1	333	1	0	200	other	0
+359	Picture	fix	926903	0	1	4167	1	0	next	other	0
+360	Picture	SC trial GO stim right middle	931070	0	1	334	1	0	200	other	0
+361	Picture	SC trial CHANGE stim right idx	932570	0	1	333	1	0	200	miss	0
+361	Sound	fc ssd 130	932578	8	5			0		other	0
+361	Port Input	1	934209	1639	8
+361	Response	4	934209	1639	8
+362	Picture	omission	934404	0	1	3167	1	0	3000	other	0
+363	Picture	inhibition error	937570	0	1	333	1	0	200	other	0
+364	Picture	fix	937904	0	1	4167	1	0	next	other	0
+365	Picture	GO trial GO stim right middle	942071	0	1	333	1	0	200	hit	580
+365	Port Input	1	945328	3257	9
+365	Response	4	945328	3257	9
+366	Picture	omission	945404	0	1	3167	1	0	3000	other	0
+367	Picture	correct response	948571	0	1	500	1	0	200	other	0
+368	Picture	fix	949071	0	1	4167	1	0	next	other	0
+369	Picture	SC trial GO stim right middle	953238	0	1	333	1	0	200	other	0
+370	Picture	SC trial CHANGE stim right idx	954571	0	1	333	1	0	200	miss	0
+370	Sound	fc ssd 120	954580	9	7			0		other	0
+370	Port Input	4	957645	3073	9
+370	Response	3	957645	3073	9
+371	Picture	omission	957738	0	1	3167	1	0	3000	other	0
+372	Picture	correct response	960905	0	1	333	1	0	200	other	0
+373	Picture	fix	961239	0	1	4167	1	0	next	other	0
+374	Picture	SC trial GO stim left index	965406	0	1	333	1	0	200	other	0
+375	Picture	SC trial CHANGE stim right idx	967573	0	1	333	1	0	200	miss	0
+375	Sound	hc ssd 210	967577	4	4			0		other	0
+375	Port Input	4	970717	3144	9
+375	Response	3	970717	3144	9
+376	Picture	omission	970906	0	1	3167	1	0	3000	other	0
+377	Picture	correct response	974073	0	1	333	1	0	200	other	0
+378	Picture	fix	974406	0	1	4167	1	0	next	other	0
+379	Picture	GO trial GO stim left idx	978573	0	1	333	1	0	200	hit	602
+379	Port Input	3	982957	4384	9
+379	Response	2	982957	4384	9
+380	Picture	omission	983074	0	1	3167	1	0	3000	other	0
+381	Picture	correct response	986241	0	1	333	1	0	200	other	0
+382	Picture	fix	986574	0	1	4167	1	0	next	other	0
+383	Picture	SC trial GO stim left index	990741	0	1	333	1	0	200	other	0
+384	Picture	SC trial CHANGE stim right idx	993074	0	1	333	1	0	200	miss	0
+384	Sound	hc ssd 220	993083	8	7			0		other	0
+384	Port Input	4	996547	3473	9
+384	Response	3	996547	3473	9
+385	Picture	omission	996742	0	1	3167	1	0	3000	other	0
+386	Picture	correct response	999908	0	1	333	1	0	200	other	0
+387	Picture	fix	1000242	0	1	4167	1	0	next	other	0
+388	Picture	GO trial GO stim right middle	1004409	0	1	333	1	0	200	incorrect	616
+388	Port Input	4	1008123	3715	9
+388	Response	3	1008123	3715	9
+389	Picture	omission	1008242	0	1	3167	1	0	3000	other	0
+390	Picture	incorrect response	1011409	0	1	333	1	0	200	other	0
+391	Picture	fix	1011742	0	1	4167	1	0	next	other	0
+392	Picture	SC trial GO stim left index	1015909	0	1	333	1	0	200	other	0
+393	Picture	SC trial CHANGE stim right idx	1018410	0	1	333	1	0	200	miss	0
+393	Sound	hc ssd 230	1018415	5	6			0		other	0
+393	Port Input	3	1021467	3057	9
+393	Response	2	1021467	3057	9
+394	Picture	omission	1021577	0	1	3167	1	0	3000	other	0
+394	Port Input	4	1022647	1071	9
+394	Response	3	1022647	1071	9
+395	Picture	inhibition error	1024743	0	1	333	1	0	200	other	0
+396	Picture	fix	1025077	0	1	4167	1	0	next	other	0
+397	Picture	GO trial GO stim right middle	1029244	0	1	333	1	0	200	hit	632
+397	Port Input	1	1033003	3759	9
+397	Response	4	1033003	3759	9
+398	Picture	omission	1033077	0	1	3167	1	0	3000	other	0
+399	Picture	correct response	1036244	0	1	334	1	0	200	other	0
+400	Picture	fix	1036578	0	1	4167	1	0	next	other	0
+401	Picture	GO trial GO stim right idx	1040745	0	1	333	1	0	200	hit	638
+401	Port Input	4	1044063	3318	9
+401	Response	3	1044063	3318	9
+402	Picture	omission	1044245	0	1	3167	1	0	3000	other	0
+403	Picture	correct response	1047412	0	1	333	1	0	200	other	0
+404	Picture	fix	1047745	0	1	4167	1	0	next	other	0
+405	Picture	SC trial GO stim right index	1051912	0	1	333	1	0	200	other	0
+406	Picture	SC trial CHANGE stim right middle	1053412	0	1	333	1	0	200	miss	0
+406	Sound	fc ssd 130	1053420	7	5			0		other	0
+406	Port Input	1	1056696	3284	7
+406	Response	4	1056696	3284	7
+407	Picture	omission	1056913	0	1	3167	1	0	3000	other	0
+408	Picture	correct response	1060080	0	1	333	1	0	200	other	0
+409	Picture	fix	1060413	0	1	4167	1	0	next	other	0
+410	Picture	GO trial GO stim left idx	1064580	0	1	334	1	0	200	hit	652
+410	Port Input	3	1069016	4436	9
+410	Response	2	1069016	4436	9
+411	Picture	omission	1069080	0	1	3167	1	0	3000	other	0
+412	Picture	correct response	1072247	0	1	333	1	0	200	other	0
+413	Picture	fix	1072581	0	1	4167	1	0	next	other	0
+414	Picture	GO trial GO stim left idx	1076748	0	1	333	1	0	200	incorrect	658
+414	Port Input	4	1080936	4188	10
+414	Response	3	1080936	4188	10
+415	Picture	omission	1081081	0	1	3167	1	0	3000	other	0
+415	Port Input	3	1081308	227	9
+415	Response	2	1081308	227	9
+416	Picture	incorrect response	1084248	0	1	333	1	0	200	other	0
+417	Picture	fix	1084581	0	1	4167	1	0	next	other	0
+418	Picture	SC trial GO stim left index	1088748	0	1	333	1	0	200	other	0
+419	Picture	SC trial CHANGE stim right idx	1091082	0	1	333	1	0	200	miss	0
+419	Sound	hc ssd 220	1091089	7	5			0		other	0
+419	Port Input	4	1094296	3214	9
+419	Response	3	1094296	3214	9
+420	Picture	omission	1094415	0	1	3167	1	0	3000	other	0
+421	Picture	correct response	1097582	0	1	333	1	0	200	other	0
+422	Picture	fix	1097916	0	1	4167	1	0	next	other	0
+423	Picture	SC trial GO stim left middle	1102083	0	1	334	1	0	200	other	0
+424	Picture	SC trial CHANGE stim right middle	1104583	0	1	333	1	0	200	miss	0
+424	Sound	hc ssd 230	1104593	10	7			0		other	0
+424	Port Input	2	1106711	2129	8
+424	Response	1	1106711	2129	8
+425	Picture	omission	1106916	0	1	3167	1	0	3000	other	0
+426	Picture	inhibition error	1110083	0	1	333	1	0	200	other	0
+427	Picture	fix	1110417	0	1	4167	1	0	next	other	0
+428	Picture	GO trial GO stim left middle	1114584	0	1	333	1	0	200	hit	682
+428	Port Input	2	1119285	4701	8
+428	Response	1	1119285	4701	8
+429	Picture	omission	1119411	0	7	3173	7	0	3000	other	0
+430	Picture	correct response	1122584	0	1	4782	1	0	200	other	0
+
+
+{
+   "app": "Presentation Version 20.2 Build 07.25.18",
+   "device": "MouseComputer Co.,Ltd. DAIV-DGX750",
+   "experiment": "{BB8C4D9D-AEF0-42C4-8CC0-B7BFFFFA607C}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "turorial.sce",
+   "subject": "",
+   "timestamp": "2019/02/12 07:05:01 GMT"
+}

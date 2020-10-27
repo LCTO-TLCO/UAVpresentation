@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="German">
+  <map name="default">
+    <item key="Instructions">Bei diesem Experiment brauchen Sie nur möglichst schnell zu reagieren, wenn ein Stimulus auf dem Schirm erscheint.
+
+Sobald [STIM_DESCRIPTION] erscheint drücken Sie die linke Maus-Taste so schnell wie möglich. Versuchen Sie nicht voraus zu sehen, wann ein Stimulus erscheinen könnte – reagieren Sie einfach möglichst schnell, sobald Sie [STIM_DESCRIPTION] sehen.
+
+Klicken Sie die linke Maus-Taste um fort zu fahren.
+</item>
+    <item key="No Instructions Caption">Klicken die linke Maustaste, um den nächsten Teil zu beginnen. </item>
+    <item key="Rest Screen Caption">Sobald Sie bereit sind, Klicken die linke Maustaste.</item>
+    <item key="Progress Bar Caption">Fortfahren:</item>
+    <item key="Practice Caption"> Beginnen Sie mit einigen Übungsversuchen</item>
+    <item key="Practice Complete Caption">Nachdem Sie die Übungsversuche beendet haben. Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Completion Screen Caption">Sie haben das Experiment beendet. Danke für Ihre Teilnahme. Klicken  die linke Maustaste, um das Programm zu verlassen.</item>
+    <item key="Block Complete Caption">Sie haben die [BLOCK_NUMBER] Blöcke beendet. Es gibt [TOTAL_NUMBER] Blöcke.
+Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+  <map name="Sound">
+    <item key="Instructions">Bei diesem Experiment sollen Sie schnellst möglich antworten, wenn Sie einen Stimulus hören.
+
+Sobald Sie (STIM_DESCRIPTION) hören, drücken Sie die linke Maus-Taste so schnell Sie können.. Versuchen Sie nicht voraus zu sehen, wann ein Stimulus auftritt – antworten Sie einfach so schnell Sie können, wenn Sie (STIM_DESCRIPTION) hören.
+
+Klicken Sie die linke Maus-Taste um fort zu fahren.
+</item>
+  </map>
+</experiment_text>

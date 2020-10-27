@@ -1,0 +1,840 @@
+Scenario - 
+Logfile written - 11/22/2019 10:47:23
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Response	3	18144	17978	9
+2	Picture	fix	18333	0	1	5333	6	0	next	other	0
+3	Picture	STIM L I	23667	0	6	333	6	0	200	miss	0
+4	Picture	omission	28833	0	1	3167	1	0	3000	other	0
+4	Response	1	30544	1711	10
+5	Picture	omission	32167	0	1	333	1	0	200	other	0
+6	Picture	fix	32500	0	1	5833	5	0	next	other	0
+7	Picture	STIM L I	38333	0	5	333	5	0	200	hit	9
+7	Response	1	42783	4450	9
+8	Picture	correct response	42833	0	5	333	5	0	200	other	0
+9	Picture	fix	43167	0	1	4333	5	0	next	other	0
+10	Picture	STIM R C	47500	0	5	333	5	0	200	hit	13
+10	Response	2	51984	4484	8
+11	Picture	correct response	52167	0	5	333	5	0	200	other	0
+12	Picture	fix	52500	0	1	5333	5	0	next	other	0
+13	Picture	STIM L I	57834	0	5	333	5	0	200	hit	17
+13	Response	1	62624	4790	9
+14	Picture	correct response	62667	0	5	333	5	0	200	other	0
+15	Picture	fix	63000	0	1	6000	6	0	next	other	0
+16	Picture	STIM L C	69000	0	6	333	6	0	200	hit	21
+16	Response	1	72701	3701	6
+17	Picture	correct response	72834	0	5	333	5	0	200	other	0
+18	Picture	fix	73167	0	1	4833	7	0	next	other	0
+19	Picture	STIM R I	78000	0	7	333	7	0	200	hit	25
+19	Response	2	82225	4225	11
+20	Picture	correct response	82334	0	6	333	6	0	200	other	0
+21	Picture	fix	82667	0	1	5667	6	0	next	other	0
+22	Picture	STIM L C	88334	0	6	333	6	0	200	hit	29
+22	Response	1	91824	3490	10
+23	Picture	correct response	92000	0	5	333	5	0	200	other	0
+24	Picture	fix	92500	0	1	6000	6	0	next	other	0
+25	Picture	STIM L C	98501	0	6	333	6	0	200	hit	33
+25	Response	1	101903	3402	9
+26	Picture	correct response	102001	0	5	333	5	0	200	other	0
+27	Picture	fix	102334	0	1	5333	6	0	next	other	0
+28	Picture	STIM L C	107667	0	6	333	6	0	200	hit	37
+28	Response	1	110945	3277	10
+29	Picture	correct response	111001	0	8	333	8	0	200	other	0
+30	Picture	fix	111334	0	1	4500	6	0	next	other	0
+31	Picture	STIM R C	115834	0	6	333	6	0	200	hit	41
+31	Response	2	119184	3350	9
+32	Picture	correct response	119334	0	6	333	6	0	200	other	0
+33	Picture	fix	119667	0	1	5000	5	0	next	other	0
+34	Picture	STIM R I	124667	0	5	333	5	0	200	incorrect	45
+34	Response	1	128224	3556	8
+35	Picture	incorrect response	128334	0	5	333	5	0	200	other	0
+36	Picture	fix	128667	0	1	5500	5	0	next	other	0
+37	Picture	STIM L I	134167	0	5	500	5	0	200	hit	49
+37	Response	1	137904	3736	7
+38	Picture	correct response	138001	0	5	333	5	0	200	other	0
+39	Picture	fix	138334	0	1	4500	6	0	next	other	0
+40	Picture	STIM L I	142834	0	6	333	6	0	200	hit	53
+40	Response	1	146305	3471	11
+41	Picture	correct response	146501	0	5	333	5	0	200	other	0
+42	Picture	fix	147001	0	1	4667	6	0	next	other	0
+43	Picture	STIM L I	151668	0	6	333	6	0	200	hit	57
+43	Response	1	155024	3356	8
+44	Picture	correct response	155168	0	5	333	5	0	200	other	0
+45	Picture	fix	155501	0	1	4667	6	0	next	other	0
+46	Picture	STIM R I	160168	0	6	333	6	0	200	incorrect	61
+46	Response	1	163902	3734	6
+47	Picture	incorrect response	164001	0	5	333	5	0	200	other	0
+48	Picture	fix	164334	0	1	5500	7	0	next	other	0
+49	Picture	STIM R I	169834	0	7	333	7	0	200	incorrect	65
+49	Response	1	172785	2950	11
+50	Picture	incorrect response	173001	0	5	333	5	0	200	other	0
+51	Picture	fix	173334	0	1	4833	6	0	next	other	0
+52	Picture	STIM R I	178168	0	6	333	6	0	200	miss	0
+53	Picture	omission	183334	0	1	3167	1	0	3000	other	0
+53	Response	2	184464	1129	10
+54	Picture	omission	186501	0	1	333	1	0	200	other	0
+55	Picture	fix	186835	0	1	5167	6	0	next	other	0
+56	Picture	STIM R C	192001	0	6	333	6	0	200	hit	74
+56	Response	2	195104	3103	9
+57	Picture	correct response	195168	0	5	333	5	0	200	other	0
+58	Picture	fix	195501	0	1	4667	6	0	next	other	0
+59	Picture	STIM R C	200168	0	6	333	6	0	200	hit	78
+59	Response	2	203986	3818	11
+60	Picture	correct response	204168	0	6	333	6	0	200	other	0
+61	Picture	fix	204501	0	1	5333	7	0	next	other	0
+62	Picture	STIM L I	209834	0	7	333	7	0	200	hit	82
+62	Response	1	213664	3830	9
+63	Picture	correct response	213835	0	5	333	6	0	200	other	0
+64	Picture	fix	214168	0	1	5667	6	0	next	other	0
+65	Picture	STIM R C	219835	0	5	333	5	0	200	incorrect	86
+65	Response	1	223024	3189	8
+66	Picture	incorrect response	223168	0	5	333	5	0	200	other	0
+67	Picture	fix	223501	0	1	5833	6	0	next	other	0
+68	Picture	STIM L C	229335	0	6	333	6	0	200	hit	90
+68	Response	1	232223	2889	6
+69	Picture	correct response	232335	0	5	333	5	0	200	other	0
+70	Picture	fix	232668	0	1	4167	5	0	next	other	0
+71	Picture	STIM R C	236835	0	5	333	5	0	200	hit	94
+71	Response	2	240386	3551	10
+72	Picture	correct response	240502	0	6	333	7	0	200	other	0
+73	Picture	fix	240835	0	1	5333	6	0	next	other	0
+74	Picture	STIM R C	246168	0	6	333	6	0	200	hit	98
+74	Response	2	249666	3498	9
+75	Picture	correct response	249835	0	7	333	7	0	200	other	0
+76	Picture	fix	250168	0	1	5833	6	0	next	other	0
+77	Picture	STIM R I	256002	0	5	333	6	0	200	hit	102
+77	Response	2	259343	3342	8
+78	Picture	correct response	259502	0	5	333	5	0	200	other	0
+79	Picture	fix	259835	0	1	5500	6	0	next	other	0
+80	Picture	STIM R C	265335	0	6	333	6	0	200	hit	106
+80	Response	2	268225	2890	10
+81	Picture	correct response	268335	0	6	333	6	0	200	other	0
+82	Picture	fix	268835	0	1	4833	6	0	next	other	0
+83	Picture	STIM R C	273668	0	6	333	6	0	200	hit	110
+83	Response	2	276705	3037	6
+84	Picture	correct response	276835	0	6	333	6	0	200	other	0
+85	Picture	fix	277168	0	1	5333	7	0	next	other	0
+86	Picture	STIM R I	282502	0	7	334	7	0	200	incorrect	114
+86	Response	1	285825	3323	12
+87	Picture	incorrect response	286002	0	8	333	8	0	200	other	0
+88	Picture	fix	286502	0	1	4333	5	0	next	other	0
+89	Picture	STIM L C	290835	0	5	333	5	0	200	hit	118
+89	Response	1	294224	3389	9
+90	Picture	correct response	294335	0	5	333	5	0	200	other	0
+91	Picture	fix	294669	0	1	4167	6	0	next	other	0
+92	Picture	STIM R C	298835	0	6	500	6	0	200	hit	122
+92	Response	2	302865	4029	10
+93	Picture	correct response	303002	0	5	333	5	0	200	other	0
+94	Picture	fix	303502	0	1	4833	5	0	next	other	0
+95	Picture	STIM L C	308335	0	5	333	5	0	200	hit	126
+95	Response	1	311586	3250	7
+96	Picture	correct response	311669	0	6	333	6	0	200	other	0
+97	Picture	fix	312002	0	1	6000	6	0	next	other	0
+98	Picture	STIM L I	318002	0	6	333	6	0	200	hit	130
+98	Response	1	322145	4143	11
+99	Picture	correct response	322335	0	5	333	5	0	200	other	0
+100	Picture	fix	322669	0	1	4667	6	0	next	other	0
+101	Picture	STIM L I	327336	0	6	333	6	0	200	hit	134
+101	Response	1	330704	3369	10
+102	Picture	correct response	330836	0	6	333	6	0	200	other	0
+103	Picture	fix	331169	0	1	5000	6	0	next	other	0
+104	Picture	STIM L C	336169	0	5	500	6	0	200	hit	138
+104	Response	1	339184	3015	9
+105	Picture	correct response	339336	0	6	333	6	0	200	other	0
+106	Picture	fix	339669	0	1	4333	6	0	next	other	0
+107	Picture	STIM L C	344002	0	6	333	6	0	200	incorrect	142
+107	Response	2	347344	3341	10
+108	Picture	incorrect response	347502	0	6	333	6	0	200	other	0
+109	Picture	fix	347836	0	1	5333	7	0	next	other	0
+110	Picture	STIM R C	353169	0	6	333	6	0	200	hit	146
+110	Response	2	356144	2975	10
+111	Picture	correct response	356336	0	7	333	7	0	200	other	0
+112	Picture	fix	356669	0	1	4667	6	0	next	other	0
+113	Picture	STIM L C	361336	0	6	333	6	0	200	hit	150
+113	Response	1	365186	3850	9
+114	Picture	correct response	365336	0	7	333	7	0	200	other	0
+115	Picture	fix	365669	0	1	5167	5	0	next	other	0
+116	Picture	STIM L I	370836	0	5	333	5	0	200	incorrect	154
+116	Response	2	373344	2508	9
+117	Picture	incorrect response	373503	0	6	333	6	0	200	other	0
+118	Picture	fix	373836	0	1	4667	6	0	next	other	0
+119	Picture	STIM L I	378503	0	6	333	6	0	200	hit	158
+119	Response	1	381506	3003	11
+120	Picture	correct response	381669	0	5	333	5	0	200	other	0
+121	Picture	fix	382003	0	1	4667	5	0	next	other	0
+122	Picture	STIM L C	386669	0	5	333	5	0	200	hit	162
+122	Response	1	389824	3155	9
+123	Picture	correct response	390003	0	5	333	5	0	200	other	0
+124	Picture	fix	390336	0	1	6000	5	0	next	other	0
+125	Picture	STIM L C	396336	0	5	333	5	0	200	hit	166
+125	Response	1	398943	2607	8
+126	Picture	correct response	399166	0	11	337	11	0	200	other	0
+127	Picture	fix	399503	0	1	5333	6	0	next	other	0
+128	Picture	STIM R I	404836	0	5	333	6	0	200	incorrect	170
+128	Response	1	407904	3068	11
+129	Picture	incorrect response	408003	0	5	333	5	0	200	other	0
+130	Picture	fix	408336	0	1	5833	7	0	next	other	0
+131	Picture	STIM R C	414170	0	6	333	7	0	200	incorrect	174
+131	Response	1	416784	2614	10
+132	Picture	incorrect response	416836	0	5	333	6	0	200	other	0
+133	Picture	fix	417169	0	1	4500	7	0	next	other	0
+134	Picture	STIM L I	421670	0	7	333	7	0	200	hit	178
+134	Response	1	425744	4074	6
+135	Picture	correct response	425836	0	5	333	6	0	200	other	0
+136	Picture	fix	426169	0	1	5500	5	0	next	other	0
+137	Picture	STIM L I	431670	0	5	333	5	0	200	incorrect	182
+137	Response	2	434145	2475	10
+138	Picture	incorrect response	434336	0	7	333	7	0	200	other	0
+139	Picture	fix	434670	0	1	5500	6	0	next	other	0
+140	Picture	STIM R I	440170	0	5	333	6	0	200	incorrect	186
+140	Response	1	442704	2535	11
+141	Picture	incorrect response	442836	0	6	333	6	0	200	other	0
+142	Picture	fix	443170	0	1	6000	5	0	next	other	0
+143	Picture	STIM L C	449170	0	5	333	5	0	200	hit	190
+143	Response	1	451985	2815	10
+144	Picture	correct response	452170	0	6	333	7	0	200	other	0
+145	Picture	fix	452503	0	1	5833	5	0	next	other	0
+146	Picture	STIM R I	458337	0	5	333	5	0	200	hit	194
+146	Response	2	461345	3008	10
+147	Picture	correct response	461503	0	6	333	6	0	200	other	0
+148	Picture	fix	461837	0	1	4667	5	0	next	other	0
+149	Picture	STIM R C	466503	0	5	500	5	0	200	hit	198
+149	Response	2	470144	3641	10
+150	Picture	correct response	470337	0	6	333	6	0	200	other	0
+151	Picture	fix	470670	0	1	4167	5	0	next	other	0
+152	Picture	STIM L C	474837	0	5	333	5	0	200	hit	202
+152	Response	1	478384	3547	7
+153	Picture	correct response	478503	0	6	500	6	0	200	other	0
+154	Picture	fix	479003	0	1	4667	5	0	next	other	0
+155	Picture	STIM L I	483670	0	5	333	5	0	200	hit	206
+155	Response	1	487025	3355	9
+156	Picture	correct response	487170	0	6	333	6	0	200	other	0
+157	Picture	fix	487503	0	1	5333	7	0	next	other	0
+158	Picture	STIM R I	492837	0	7	333	7	0	200	hit	210
+158	Response	2	496705	3868	6
+159	Picture	correct response	496837	0	5	333	5	0	200	other	0
+160	Picture	fix	497337	0	1	5834	5	0	next	other	0
+161	Picture	STIM R I	503170	0	5	333	5	0	200	incorrect	214
+161	Response	1	505585	2415	11
+162	Picture	incorrect response	505670	0	7	333	7	0	200	other	0
+163	Picture	fix	506004	0	1	4167	5	0	next	other	0
+164	Picture	STIM L C	510170	0	5	333	5	0	200	hit	218
+164	Response	1	513426	3256	9
+165	Picture	correct response	513504	0	7	333	7	0	200	other	0
+166	Picture	fix	513837	0	1	5500	7	0	next	other	0
+167	Picture	STIM R C	519337	0	6	333	7	0	200	incorrect	222
+167	Response	1	522465	3128	11
+168	Picture	incorrect response	522670	0	6	329	10	0	200	other	0
+169	Picture	fix	523000	0	4	4171	9	0	next	other	0
+170	Picture	STIM R I	527170	0	5	333	5	0	200	hit	226
+170	Response	2	531344	4173	10
+171	Picture	correct response	531504	0	6	333	6	0	200	other	0
+172	Picture	fix	531837	0	1	5333	6	0	next	other	0
+173	Picture	STIM R C	537170	0	6	333	6	0	200	hit	230
+173	Response	2	541104	3933	10
+174	Picture	correct response	541170	0	6	333	6	0	200	other	0
+175	Picture	fix	541504	0	1	5333	6	0	next	other	0
+176	Picture	STIM R I	546837	0	6	333	6	0	200	incorrect	234
+176	Response	1	550224	3387	8
+177	Picture	incorrect response	550337	0	5	333	5	0	200	other	0
+178	Picture	fix	550837	0	1	5000	6	0	next	other	0
+179	Picture	STIM R I	555837	0	5	333	6	0	200	incorrect	238
+179	Response	1	558704	2866	10
+180	Picture	incorrect response	558837	0	7	333	7	0	200	other	0
+181	Picture	fix	559171	0	1	5167	6	0	next	other	0
+182	Picture	STIM R C	564337	0	6	333	6	0	200	hit	242
+182	Response	2	568142	3805	7
+183	Picture	correct response	568337	0	6	333	6	0	200	other	0
+184	Picture	fix	568671	0	1	5000	7	0	next	other	0
+185	Picture	STIM L C	573671	0	7	333	7	0	200	hit	246
+185	Response	1	576864	3194	9
+186	Picture	correct response	577004	0	5	333	5	0	200	other	0
+187	Picture	fix	577337	0	1	6000	6	0	next	other	0
+188	Picture	STIM L I	583337	0	6	333	7	0	200	hit	250
+188	Response	1	587024	3687	11
+189	Picture	correct response	587171	0	7	333	7	0	200	other	0
+190	Picture	fix	587504	0	1	5667	7	0	next	other	0
+191	Picture	STIM R C	593171	0	7	333	7	0	200	hit	254
+191	Response	2	596625	3454	9
+192	Picture	correct response	596838	0	6	333	6	0	200	other	0
+193	Picture	fix	597171	0	1	5833	6	0	next	other	0
+194	Picture	STIM L I	603004	0	6	333	6	0	200	hit	258
+194	Response	1	606784	3780	9
+195	Picture	correct response	606838	0	6	333	6	0	200	other	0
+196	Picture	fix	607171	0	1	5833	6	0	next	other	0
+197	Picture	STIM L C	613004	0	6	333	6	0	200	hit	262
+197	Response	1	617745	4741	9
+198	Picture	correct response	617838	0	6	333	6	0	200	other	0
+199	Picture	fix	618171	0	1	4500	5	0	next	other	0
+200	Picture	STIM L I	622671	0	5	333	5	0	200	hit	266
+200	Response	1	626626	3955	11
+201	Picture	correct response	626838	0	5	333	5	0	200	other	0
+202	Picture	fix	627338	0	1	5500	6	0	next	other	0
+203	Picture	STIM R C	632838	0	6	333	6	0	200	hit	270
+203	Response	2	635984	3147	9
+204	Picture	correct response	636171	0	5	333	5	0	200	other	0
+205	Picture	fix	636504	0	1	5500	5	0	next	other	0
+206	Picture	STIM R C	642005	0	5	333	5	0	200	hit	274
+206	Response	2	644865	2860	11
+207	Picture	correct response	645005	0	7	333	7	0	200	other	0
+208	Picture	fix	645338	0	1	5000	7	0	next	other	0
+209	Picture	STIM R C	650338	0	6	333	7	0	200	incorrect	278
+209	Response	1	653826	3488	10
+210	Picture	incorrect response	654005	0	6	333	6	0	200	other	0
+211	Picture	fix	654505	0	1	6000	7	0	next	other	0
+212	Picture	STIM R C	660505	0	7	333	7	0	200	hit	282
+212	Response	2	663905	3401	10
+213	Picture	correct response	664171	0	7	333	7	0	200	other	0
+214	Picture	fix	664505	0	1	4500	7	0	next	other	0
+215	Picture	STIM L C	669005	0	7	333	7	0	200	hit	286
+215	Response	1	672704	3699	10
+216	Picture	correct response	672838	0	6	333	6	0	200	other	0
+217	Picture	fix	673338	0	1	4333	7	0	next	other	0
+218	Picture	STIM L C	677672	0	7	333	7	0	200	hit	290
+218	Response	1	681104	3433	10
+219	Picture	correct response	681171	0	6	333	6	0	200	other	0
+220	Picture	fix	681505	0	1	5667	7	0	next	other	0
+221	Picture	STIM L C	687172	0	7	333	7	0	200	hit	294
+221	Response	1	690305	3133	8
+222	Picture	correct response	690505	0	6	333	6	0	200	other	0
+223	Picture	fix	690838	0	1	5000	6	0	next	other	0
+224	Picture	STIM R I	695838	0	6	333	6	0	200	hit	298
+224	Response	2	699744	3906	8
+225	Picture	correct response	699838	0	5	333	6	0	200	other	0
+226	Picture	fix	700172	0	1	4333	5	0	next	other	0
+227	Picture	STIM R C	704505	0	5	333	5	0	200	hit	302
+227	Response	2	707665	3160	11
+228	Picture	correct response	707838	0	5	333	5	0	200	other	0
+229	Picture	fix	708172	0	1	5167	6	0	next	other	0
+230	Picture	STIM R I	713338	0	6	333	6	0	200	hit	306
+230	Response	2	716544	3206	9
+231	Picture	correct response	716672	0	7	333	7	0	200	other	0
+232	Picture	fix	717005	0	1	6000	5	0	next	other	0
+233	Picture	STIM R I	723005	0	5	333	5	0	200	hit	310
+233	Response	2	725666	2660	9
+234	Picture	correct response	725838	0	6	333	6	0	200	other	0
+235	Picture	fix	726172	0	1	4667	7	0	next	other	0
+236	Picture	STIM L I	730839	0	7	333	7	0	200	hit	314
+236	Response	1	734543	3705	10
+237	Picture	correct response	734672	0	6	333	6	0	200	other	0
+238	Picture	fix	735005	0	1	4500	5	0	next	other	0
+239	Picture	STIM L I	739505	0	5	333	5	0	200	hit	318
+239	Response	1	743584	4079	9
+240	Picture	correct response	743672	0	7	333	7	0	200	other	0
+241	Picture	fix	744005	0	1	4667	6	0	next	other	0
+242	Picture	STIM L C	748672	0	6	500	6	0	200	hit	322
+242	Response	1	752223	3551	10
+243	Picture	correct response	752339	0	6	333	6	0	200	other	0
+244	Picture	fix	752672	0	1	6000	7	0	next	other	0
+245	Picture	STIM R C	758672	0	7	333	7	0	200	hit	326
+245	Response	2	761825	3153	11
+246	Picture	correct response	762005	0	5	333	6	0	200	other	0
+247	Picture	fix	762339	0	1	5667	6	0	next	other	0
+248	Picture	STIM R I	768005	0	5	333	5	0	200	hit	330
+248	Response	2	771345	3339	8
+249	Picture	correct response	771505	0	5	333	5	0	200	other	0
+250	Picture	fix	771839	0	1	6000	7	0	next	other	0
+251	Picture	STIM R I	777839	0	7	333	7	0	200	incorrect	334
+251	Response	1	781265	3426	11
+252	Picture	incorrect response	781339	0	5	333	5	0	200	other	0
+253	Picture	fix	781672	0	1	4667	6	0	next	other	0
+253	Response	2	781823	151	11
+254	Picture	STIM L I	786339	0	6	333	6	0	200	hit	339
+254	Response	1	790784	4445	9
+255	Picture	correct response	790839	0	6	333	6	0	200	other	0
+256	Picture	fix	791172	0	1	5167	6	0	next	other	0
+257	Picture	STIM R I	796339	0	6	333	6	0	200	hit	343
+257	Response	2	800143	3804	8
+258	Picture	correct response	800339	0	6	333	6	0	200	other	0
+259	Picture	fix	800672	0	1	6000	6	0	next	other	0
+260	Picture	STIM L I	806672	0	6	333	6	0	200	incorrect	347
+260	Response	2	809343	2671	10
+261	Picture	incorrect response	809506	0	6	333	6	0	200	other	0
+262	Picture	fix	809839	0	1	5500	5	0	next	other	0
+263	Picture	STIM L C	815339	0	5	333	5	0	200	hit	351
+263	Response	1	818703	3364	11
+264	Picture	correct response	818839	0	5	333	5	0	200	other	0
+265	Picture	fix	819173	0	1	5167	6	0	next	other	0
+266	Picture	STIM R I	824339	0	6	333	6	0	200	hit	355
+266	Response	2	828224	3885	10
+267	Picture	correct response	828339	0	6	333	6	0	200	other	0
+268	Picture	fix	828673	0	1	5833	5	0	next	other	0
+269	Picture	STIM L I	834506	0	5	333	5	0	200	hit	359
+269	Response	1	838545	4039	10
+270	Picture	correct response	838673	0	5	333	5	0	200	other	0
+271	Picture	fix	839006	0	1	5167	5	0	next	other	0
+272	Picture	STIM R I	844173	0	5	333	5	0	200	hit	363
+272	Response	2	847905	3732	10
+273	Picture	correct response	848006	0	6	333	6	0	200	other	0
+274	Picture	fix	848339	0	1	4333	7	0	next	other	0
+275	Picture	STIM L I	852673	0	7	333	7	0	200	hit	367
+275	Response	1	856465	3792	10
+276	Picture	correct response	856673	0	6	333	6	0	200	other	0
+277	Picture	fix	857006	0	1	5833	7	0	next	other	0
+278	Picture	STIM L C	862840	0	7	333	7	0	200	hit	371
+278	Response	1	866464	3624	7
+279	Picture	correct response	866673	0	6	333	7	0	200	other	0
+280	Picture	fix	867006	0	1	5501	6	0	next	other	0
+281	Picture	STIM L C	872506	0	5	333	5	0	200	hit	375
+281	Response	1	875824	3318	9
+282	Picture	correct response	876006	0	6	333	6	0	200	other	0
+283	Picture	fix	876340	0	1	5000	5	0	next	other	0
+284	Picture	STIM L I	881340	0	5	333	5	0	200	hit	379
+284	Response	1	885024	3685	10
+285	Picture	correct response	885173	0	7	333	7	0	200	other	0
+286	Picture	fix	885506	0	1	4500	6	0	next	other	0
+287	Picture	STIM L C	890006	0	6	333	6	0	200	hit	383
+287	Response	1	893345	3338	9
+288	Picture	correct response	893506	0	5	333	5	0	200	other	0
+289	Picture	fix	894006	0	1	5333	5	0	next	other	0
+290	Picture	STIM R C	899340	0	5	334	5	0	200	hit	387
+290	Response	2	903104	3764	9
+291	Picture	correct response	903340	0	6	333	6	0	200	other	0
+292	Picture	fix	903673	0	1	4833	6	0	next	other	0
+293	Picture	STIM L I	908507	0	6	333	6	0	200	incorrect	391
+293	Response	2	911424	2917	7
+294	Picture	incorrect response	911507	0	5	333	5	0	200	other	0
+295	Picture	fix	911840	0	1	5000	6	0	next	other	0
+296	Picture	STIM R I	916840	0	6	333	6	0	200	hit	395
+296	Response	2	920222	3382	6
+297	Picture	correct response	920340	0	5	333	5	0	200	other	0
+298	Picture	fix	920673	0	1	5167	6	0	next	other	0
+299	Picture	STIM R C	925840	0	6	333	6	0	200	hit	399
+299	Response	2	929583	3743	10
+300	Picture	correct response	929673	0	6	333	6	0	200	other	0
+301	Picture	fix	930007	0	1	6167	6	0	next	other	0
+302	Picture	STIM R I	936173	0	6	333	6	0	200	hit	403
+302	Response	2	939984	3811	8
+303	Picture	correct response	940173	0	6	333	6	0	200	other	0
+304	Picture	fix	940507	0	1	6167	1	0	next	other	0
+305	Response	3	1012865	66192	10
+306	Response	3	1029743	16736	8
+307	Picture	fix	1029841	0	1	5333	5	0	next	other	0
+308	Picture	STIM L I	1035174	0	5	333	5	0	200	hit	410
+308	Response	1	1039342	4167	10
+309	Picture	correct response	1039508	0	6	333	6	0	200	other	0
+310	Picture	fix	1039841	0	1	5000	5	0	next	other	0
+311	Picture	STIM L I	1044841	0	5	333	5	0	200	hit	414
+311	Response	1	1048304	3463	9
+312	Picture	correct response	1048508	0	6	333	6	0	200	other	0
+313	Picture	fix	1048841	0	1	5996	11	0	next	other	0
+314	Picture	STIM R C	1054837	0	11	337	11	0	200	hit	418
+314	Response	2	1058783	3946	9
+315	Picture	correct response	1058841	0	5	333	5	0	200	other	0
+316	Picture	fix	1059341	0	1	6000	6	0	next	other	0
+317	Picture	STIM L I	1065341	0	6	333	6	0	200	hit	422
+317	Response	1	1069104	3763	10
+318	Picture	correct response	1069174	0	6	333	6	0	200	other	0
+319	Picture	fix	1069508	0	1	5000	6	0	next	other	0
+320	Picture	STIM L C	1074508	0	6	333	6	0	200	hit	426
+320	Response	1	1077744	3237	9
+321	Picture	correct response	1077841	0	6	333	6	0	200	other	0
+322	Picture	fix	1078174	0	1	6000	5	0	next	other	0
+323	Picture	STIM R I	1084175	0	5	333	5	0	200	hit	430
+323	Response	2	1088865	4690	9
+324	Picture	correct response	1089008	0	6	333	6	0	200	other	0
+325	Picture	fix	1089341	0	1	5000	7	0	next	other	0
+326	Picture	STIM L C	1094341	0	7	333	7	0	200	hit	434
+326	Response	1	1098704	4363	10
+327	Picture	correct response	1098841	0	7	333	7	0	200	other	0
+328	Picture	fix	1099341	0	1	4333	7	0	next	other	0
+329	Picture	STIM L C	1103675	0	7	333	7	0	200	hit	438
+329	Response	1	1107343	3668	10
+330	Picture	correct response	1107508	0	6	333	6	0	200	other	0
+331	Picture	fix	1107841	0	1	5667	6	0	next	other	0
+332	Picture	STIM L C	1113508	0	6	333	6	0	200	hit	442
+332	Response	1	1116704	3196	10
+333	Picture	correct response	1116841	0	6	500	6	0	200	other	0
+334	Picture	fix	1117341	0	1	5833	6	0	next	other	0
+335	Picture	STIM R C	1123175	0	6	333	6	0	200	hit	446
+335	Response	2	1126065	2890	6
+336	Picture	correct response	1126175	0	5	333	5	0	200	other	0
+337	Picture	fix	1126508	0	1	6167	6	0	next	other	0
+338	Picture	STIM R I	1132675	0	6	333	6	0	200	hit	450
+338	Response	2	1137023	4348	10
+339	Picture	correct response	1137175	0	5	333	6	0	200	other	0
+340	Picture	fix	1137508	0	1	4833	7	0	next	other	0
+341	Picture	STIM L I	1142342	0	7	333	7	0	200	hit	454
+341	Response	1	1145824	3482	10
+342	Picture	correct response	1146008	0	6	333	6	0	200	other	0
+343	Picture	fix	1146342	0	1	5333	6	0	next	other	0
+344	Picture	STIM L I	1151675	0	6	333	6	0	200	miss	0
+345	Picture	omission	1156842	0	1	3167	1	0	3000	other	0
+345	Response	1	1156944	103	9
+346	Picture	omission	1160008	0	1	333	1	0	200	other	0
+347	Picture	fix	1160342	0	1	4333	6	0	next	other	0
+348	Picture	STIM L I	1164675	0	6	333	6	0	200	hit	463
+348	Response	1	1168623	3947	9
+349	Picture	correct response	1168675	0	5	333	6	0	200	other	0
+350	Picture	fix	1169008	0	1	5667	6	0	next	other	0
+351	Picture	STIM R I	1174675	0	6	333	6	0	200	hit	467
+351	Response	2	1178146	3471	9
+352	Picture	correct response	1178342	0	7	333	7	0	200	other	0
+353	Picture	fix	1178675	0	1	4333	5	0	next	other	0
+354	Picture	STIM R I	1183009	0	5	333	5	0	200	hit	471
+354	Response	2	1187265	4256	11
+355	Picture	correct response	1187509	0	5	333	5	0	200	other	0
+356	Picture	fix	1187842	0	1	4667	6	0	next	other	0
+357	Picture	STIM R I	1192509	0	6	333	6	0	200	hit	475
+357	Response	2	1196463	3954	11
+358	Picture	correct response	1196675	0	5	333	5	0	200	other	0
+359	Picture	fix	1197009	0	1	5000	5	0	next	other	0
+360	Picture	STIM R C	1202009	0	5	333	5	0	200	hit	479
+360	Response	2	1205582	3573	12
+361	Picture	correct response	1205675	0	7	333	7	0	200	other	0
+362	Picture	fix	1206009	0	1	5667	6	0	next	other	0
+363	Picture	STIM R C	1211675	0	6	333	6	0	200	hit	483
+363	Response	2	1215905	4230	10
+364	Picture	correct response	1216009	0	6	333	6	0	200	other	0
+365	Picture	fix	1216342	0	1	4833	5	0	next	other	0
+366	Picture	STIM L I	1221176	0	5	333	5	0	200	hit	487
+366	Response	1	1225744	4569	9
+367	Picture	correct response	1225842	0	5	333	5	0	200	other	0
+368	Picture	fix	1226176	0	1	4500	6	0	next	other	0
+369	Picture	STIM R C	1230676	0	6	333	6	0	200	hit	491
+369	Response	2	1234545	3870	8
+370	Picture	correct response	1234676	0	5	333	5	0	200	other	0
+371	Picture	fix	1235009	0	1	5667	6	0	next	other	0
+372	Picture	STIM L C	1240676	0	6	333	6	0	200	hit	495
+372	Response	1	1244385	3710	10
+373	Picture	correct response	1244509	0	6	333	6	0	200	other	0
+374	Picture	fix	1244842	0	1	5167	6	0	next	other	0
+375	Picture	STIM R C	1250009	0	6	333	6	0	200	hit	499
+375	Response	2	1253263	3254	5
+376	Picture	correct response	1253343	0	5	333	5	0	200	other	0
+377	Picture	fix	1253676	0	1	5000	5	0	next	other	0
+378	Picture	STIM R C	1258676	0	5	333	5	0	200	hit	503
+378	Response	2	1261743	3067	7
+379	Picture	correct response	1261842	0	5	333	5	0	200	other	0
+380	Picture	fix	1262176	0	1	4167	6	0	next	other	0
+381	Picture	STIM R I	1266343	0	6	333	6	0	200	hit	507
+381	Response	2	1270145	3803	9
+382	Picture	correct response	1270343	0	6	333	7	0	200	other	0
+383	Picture	fix	1270676	0	1	5500	7	0	next	other	0
+384	Picture	STIM R C	1276176	0	7	333	7	0	200	hit	511
+384	Response	2	1279503	3327	8
+385	Picture	correct response	1279676	0	6	333	6	0	200	other	0
+386	Picture	fix	1280009	0	1	5333	5	0	next	other	0
+387	Picture	STIM R C	1285343	0	5	333	5	0	200	hit	515
+387	Response	2	1288226	2883	9
+388	Picture	correct response	1288343	0	7	333	7	0	200	other	0
+389	Picture	fix	1288843	0	1	4667	6	0	next	other	0
+390	Picture	STIM R I	1293509	0	6	333	6	0	200	hit	519
+390	Response	2	1296624	3115	10
+391	Picture	correct response	1296843	0	6	333	6	0	200	other	0
+392	Picture	fix	1297176	0	1	5333	6	0	next	other	0
+393	Picture	STIM L C	1302509	0	5	332	7	0	200	incorrect	523
+393	Response	2	1305505	2995	9
+394	Picture	incorrect response	1305676	0	6	333	6	0	200	other	0
+395	Picture	fix	1306010	0	1	4333	5	0	next	other	0
+396	Picture	STIM R C	1310343	0	5	333	5	0	200	hit	527
+396	Response	2	1313345	3002	11
+397	Picture	correct response	1313510	0	7	333	7	0	200	other	0
+398	Picture	fix	1313843	0	1	4500	7	0	next	other	0
+399	Picture	STIM L C	1318343	0	7	333	7	0	200	hit	531
+399	Response	1	1321744	3401	11
+400	Picture	correct response	1321843	0	6	333	6	0	200	other	0
+401	Picture	fix	1322176	0	1	5667	6	0	next	other	0
+402	Picture	STIM L I	1327843	0	6	333	6	0	200	hit	535
+402	Response	1	1331104	3261	10
+403	Picture	correct response	1331176	0	5	333	5	0	200	other	0
+404	Picture	fix	1331510	0	1	4167	5	0	next	other	0
+405	Picture	STIM L I	1335676	0	5	333	5	0	200	miss	0
+405	Response	1	1340704	5028	9
+406	Picture	omission	1340843	0	1	3167	1	0	3000	other	0
+407	Picture	omission	1344010	0	1	333	1	0	200	other	0
+408	Picture	fix	1344343	0	1	5333	7	0	next	other	0
+409	Picture	STIM L C	1349677	0	7	333	7	0	200	hit	544
+409	Response	1	1353422	3746	11
+410	Picture	correct response	1353510	0	6	333	6	0	200	other	0
+411	Picture	fix	1353843	0	1	5167	6	0	next	other	0
+412	Picture	STIM L C	1359010	0	5	333	6	0	200	hit	548
+412	Response	1	1362383	3373	9
+413	Picture	correct response	1362510	0	5	333	5	0	200	other	0
+414	Picture	fix	1362843	0	1	5167	7	0	next	other	0
+415	Picture	STIM R C	1368010	0	7	333	7	0	200	hit	552
+415	Response	2	1371424	3414	10
+416	Picture	correct response	1371510	0	5	333	5	0	200	other	0
+417	Picture	fix	1372010	0	1	5167	7	0	next	other	0
+418	Picture	STIM L C	1377177	0	6	333	7	0	200	hit	556
+418	Response	1	1380385	3209	8
+419	Picture	correct response	1380510	0	5	333	6	0	200	other	0
+420	Picture	fix	1380843	0	1	4667	6	0	next	other	0
+421	Picture	STIM L I	1385510	0	6	333	6	0	200	hit	560
+421	Response	1	1389743	4233	8
+422	Picture	correct response	1389843	0	5	333	6	0	200	other	0
+423	Picture	fix	1390177	0	1	4833	6	0	next	other	0
+424	Picture	STIM L I	1395010	0	5	333	6	0	200	hit	564
+424	Response	1	1398784	3774	9
+425	Picture	correct response	1398844	0	5	333	5	0	200	other	0
+426	Picture	fix	1399177	0	1	6000	6	0	next	other	0
+427	Picture	STIM L C	1405177	0	6	333	6	0	200	hit	568
+427	Response	1	1408141	2964	6
+428	Picture	correct response	1408344	0	5	333	5	0	200	other	0
+429	Picture	fix	1408677	0	1	5333	6	0	next	other	0
+430	Picture	STIM L C	1414010	0	6	333	6	0	200	hit	572
+430	Response	1	1417346	3335	9
+431	Picture	correct response	1417510	0	5	333	5	0	200	other	0
+432	Picture	fix	1417844	0	1	5000	6	0	next	other	0
+433	Picture	STIM R I	1422844	0	6	333	6	0	200	incorrect	576
+433	Response	1	1426305	3461	10
+434	Picture	incorrect response	1426511	0	6	333	6	0	200	other	0
+434	Response	2	1426784	273	7
+435	Picture	fix	1426844	0	1	4667	6	0	next	other	0
+436	Picture	STIM R C	1431511	0	6	333	6	0	200	hit	581
+436	Response	2	1434945	3434	9
+437	Picture	correct response	1435011	0	6	333	6	0	200	other	0
+438	Picture	fix	1435344	0	1	5167	6	0	next	other	0
+439	Picture	STIM L I	1440511	0	6	333	6	0	200	hit	585
+439	Response	1	1443745	3235	10
+440	Picture	correct response	1443844	0	5	333	5	0	200	other	0
+441	Picture	fix	1444177	0	1	5833	7	0	next	other	0
+442	Picture	STIM L I	1450011	0	7	333	7	0	200	hit	589
+442	Response	1	1453261	3250	6
+443	Picture	correct response	1453344	0	6	333	6	0	200	other	0
+444	Picture	fix	1453677	0	1	4667	6	0	next	other	0
+445	Picture	STIM R I	1458344	0	6	333	6	0	200	hit	593
+445	Response	2	1462224	3880	12
+446	Picture	correct response	1462344	0	6	333	6	0	200	other	0
+447	Picture	fix	1462844	0	1	4167	5	0	next	other	0
+448	Picture	STIM L C	1467011	0	5	333	5	0	200	hit	597
+448	Response	1	1470223	3212	11
+449	Picture	correct response	1470344	0	6	500	6	0	200	other	0
+450	Picture	fix	1470844	0	1	5833	7	0	next	other	0
+451	Picture	STIM R I	1476678	0	7	333	7	0	200	hit	601
+451	Response	2	1480625	3947	10
+452	Picture	correct response	1480678	0	6	333	6	0	200	other	0
+453	Picture	fix	1481178	0	1	4833	6	0	next	other	0
+454	Picture	STIM R C	1486011	0	6	333	6	0	200	hit	605
+454	Response	2	1489506	3495	10
+455	Picture	correct response	1489678	0	6	333	6	0	200	other	0
+456	Picture	fix	1490011	0	1	4500	6	0	next	other	0
+457	Picture	STIM L C	1494511	0	6	333	6	0	200	hit	609
+457	Response	1	1497904	3393	10
+458	Picture	correct response	1498011	0	6	333	6	0	200	other	0
+459	Picture	fix	1498344	0	1	5833	6	0	next	other	0
+460	Picture	STIM L I	1504178	0	6	333	6	0	200	hit	613
+460	Response	1	1507264	3087	10
+461	Picture	correct response	1507344	0	6	333	6	0	200	other	0
+462	Picture	fix	1507678	0	1	5333	6	0	next	other	0
+463	Picture	STIM R I	1513011	0	6	333	6	0	200	incorrect	617
+463	Response	1	1516145	3133	7
+464	Picture	incorrect response	1516345	0	6	333	6	0	200	other	0
+465	Picture	fix	1516678	0	1	5500	6	0	next	other	0
+465	Response	2	1517104	426	9
+466	Picture	STIM R I	1522178	0	6	333	6	0	200	incorrect	622
+466	Response	1	1525665	3488	10
+467	Picture	incorrect response	1525845	0	7	333	7	0	200	other	0
+468	Picture	fix	1526178	0	1	5667	6	0	next	other	0
+468	Response	2	1528385	2207	11
+469	Picture	STIM L C	1531845	0	6	333	6	0	200	hit	627
+469	Response	1	1535823	3978	6
+470	Picture	correct response	1536011	0	5	333	5	0	200	other	0
+471	Picture	fix	1536345	0	1	4667	7	0	next	other	0
+472	Picture	STIM R C	1541011	0	7	333	7	0	200	hit	631
+472	Response	2	1543904	2893	10
+473	Picture	correct response	1544011	0	6	333	6	0	200	other	0
+474	Picture	fix	1544345	0	1	4833	7	0	next	other	0
+475	Picture	STIM R I	1549178	0	7	333	7	0	200	incorrect	635
+475	Response	1	1553265	4087	9
+476	Picture	incorrect response	1553345	0	6	333	6	0	200	other	0
+477	Picture	fix	1553678	0	1	4667	6	0	next	other	0
+478	Picture	STIM R C	1558345	0	6	333	6	0	200	hit	639
+478	Response	2	1561904	3560	11
+479	Picture	correct response	1562012	0	6	333	6	0	200	other	0
+480	Picture	fix	1562345	0	1	5333	5	0	next	other	0
+481	Picture	STIM R I	1567678	0	5	333	5	0	200	incorrect	643
+481	Response	1	1571345	3667	10
+482	Picture	incorrect response	1571512	0	5	333	5	0	200	other	0
+483	Picture	fix	1571845	0	1	4167	5	0	next	other	0
+484	Picture	STIM R I	1576012	0	5	333	5	0	200	hit	647
+484	Response	2	1579745	3733	8
+485	Picture	correct response	1579845	0	6	333	6	0	200	other	0
+486	Picture	fix	1580178	0	1	5833	6	0	next	other	0
+487	Picture	STIM R C	1586012	0	6	333	6	0	200	hit	651
+487	Response	2	1589344	3333	9
+488	Picture	correct response	1589512	0	5	333	5	0	200	other	0
+489	Picture	fix	1589845	0	1	4667	7	0	next	other	0
+490	Picture	STIM L C	1594512	0	6	333	7	0	200	hit	655
+490	Response	1	1598065	3553	10
+491	Picture	correct response	1598179	0	7	333	7	0	200	other	0
+492	Picture	fix	1598679	0	1	5167	6	0	next	other	0
+493	Picture	STIM L I	1603845	0	6	333	6	0	200	incorrect	659
+493	Response	2	1607503	3658	10
+494	Picture	incorrect response	1607679	0	6	333	6	0	200	other	0
+495	Picture	fix	1608012	0	1	5333	6	0	next	other	0
+496	Picture	STIM R C	1613345	0	5	333	6	0	200	hit	663
+496	Response	2	1617344	3999	9
+497	Picture	correct response	1617512	0	7	333	7	0	200	other	0
+498	Picture	fix	1617845	0	1	4667	7	0	next	other	0
+499	Picture	STIM L I	1622512	0	7	333	7	0	200	incorrect	667
+499	Response	2	1625984	3472	9
+500	Picture	incorrect response	1626179	0	6	333	6	0	200	other	0
+501	Picture	fix	1626512	0	1	4500	7	0	next	other	0
+502	Picture	STIM L C	1631012	0	7	333	7	0	200	hit	671
+502	Response	1	1635344	4332	9
+503	Picture	correct response	1635512	0	6	333	6	0	200	other	0
+504	Picture	fix	1636012	0	1	4667	7	0	next	other	0
+505	Picture	STIM L I	1640679	0	7	333	7	0	200	miss	0
+506	Picture	omission	1645845	0	1	3167	1	0	3000	other	0
+506	Response	1	1646786	941	9
+507	Picture	omission	1649012	0	1	333	1	0	200	other	0
+508	Picture	fix	1649346	0	1	5167	6	0	next	other	0
+509	Picture	STIM R C	1654512	0	6	334	6	0	200	hit	680
+509	Response	2	1657904	3392	8
+510	Picture	correct response	1658012	0	5	333	5	0	200	other	0
+511	Picture	fix	1658346	0	1	4500	5	0	next	other	0
+512	Picture	STIM R C	1662846	0	5	333	5	0	200	hit	684
+512	Response	2	1666145	3299	10
+513	Picture	correct response	1666346	0	6	333	7	0	200	other	0
+514	Picture	fix	1666846	0	1	5667	7	0	next	other	0
+515	Picture	STIM R C	1672512	0	7	333	7	0	200	hit	688
+515	Response	2	1675664	3152	11
+516	Picture	correct response	1675846	0	6	333	7	0	200	other	0
+517	Picture	fix	1676179	0	1	6000	6	0	next	other	0
+518	Picture	STIM R C	1682179	0	6	333	6	0	200	hit	692
+518	Response	2	1685506	3326	10
+519	Picture	correct response	1685679	0	6	333	6	0	200	other	0
+520	Picture	fix	1686013	0	1	4833	5	0	next	other	0
+521	Picture	STIM L C	1690846	0	5	333	5	0	200	hit	696
+521	Response	1	1695104	4258	8
+522	Picture	correct response	1695179	0	5	333	5	0	200	other	0
+523	Picture	fix	1695513	0	1	5000	6	0	next	other	0
+524	Picture	STIM L C	1700513	0	6	333	6	0	200	hit	700
+524	Response	1	1704782	4269	6
+525	Picture	correct response	1704846	0	5	333	5	0	200	other	0
+526	Picture	fix	1705179	0	1	4500	6	0	next	other	0
+527	Picture	STIM L C	1709679	0	6	333	6	0	200	hit	704
+527	Response	1	1712871	3191	13
+528	Picture	correct response	1713013	0	6	333	6	0	200	other	0
+529	Picture	fix	1713346	0	1	5000	5	0	next	other	0
+530	Picture	STIM R I	1718346	0	5	333	5	0	200	incorrect	708
+530	Response	1	1722306	3960	11
+531	Picture	incorrect response	1722513	0	6	333	6	0	200	other	0
+532	Picture	fix	1722846	0	1	4833	5	0	next	other	0
+533	Picture	STIM R C	1727679	0	5	333	5	0	200	hit	712
+533	Response	2	1731023	3344	6
+534	Picture	correct response	1731179	0	5	333	5	0	200	other	0
+535	Picture	fix	1731513	0	1	4500	5	0	next	other	0
+536	Picture	STIM R I	1736013	0	5	333	5	0	200	hit	716
+536	Response	2	1740625	4612	10
+537	Picture	correct response	1740680	0	6	333	6	0	200	other	0
+538	Picture	fix	1741180	0	1	4667	5	0	next	other	0
+539	Picture	STIM R I	1745846	0	5	333	5	0	200	hit	720
+539	Response	2	1749665	3819	10
+540	Picture	correct response	1749846	0	6	333	6	0	200	other	0
+541	Picture	fix	1750179	0	1	6000	6	0	next	other	0
+542	Picture	STIM L I	1756180	0	6	333	6	0	200	hit	724
+542	Response	1	1760544	4365	10
+543	Picture	correct response	1760680	0	5	333	5	0	200	other	0
+544	Picture	fix	1761180	0	1	6000	5	0	next	other	0
+545	Picture	STIM L I	1767180	0	5	333	5	0	200	hit	728
+545	Response	1	1770786	3606	9
+546	Picture	correct response	1770846	0	7	333	7	0	200	other	0
+547	Picture	fix	1771180	0	1	6000	6	0	next	other	0
+548	Picture	STIM L C	1777180	0	6	333	6	0	200	hit	732
+548	Response	1	1780224	3045	9
+549	Picture	correct response	1780347	0	6	333	6	0	200	other	0
+550	Picture	fix	1780680	0	1	5167	5	0	next	other	0
+551	Picture	STIM R C	1785847	0	5	333	5	0	200	hit	736
+551	Response	2	1789666	3819	9
+552	Picture	correct response	1789847	0	5	333	5	0	200	other	0
+553	Picture	fix	1790347	0	1	5833	6	0	next	other	0
+554	Picture	STIM R I	1796180	0	6	333	6	0	200	hit	740
+554	Response	2	1800624	4444	6
+555	Picture	correct response	1800680	0	6	333	7	0	200	other	0
+556	Picture	fix	1801180	0	1	4833	5	0	next	other	0
+557	Picture	STIM R I	1806013	0	5	500	5	0	200	hit	744
+557	Response	2	1810222	4208	6
+558	Picture	correct response	1810347	0	6	333	6	0	200	other	0
+559	Picture	fix	1810680	0	1	6000	5	0	next	other	0
+560	Picture	STIM L I	1816680	0	5	333	5	0	200	hit	748
+560	Response	1	1820943	4263	9
+561	Picture	correct response	1821014	0	6	333	7	0	200	other	0
+562	Picture	fix	1821347	0	1	4833	6	0	next	other	0
+563	Picture	STIM R I	1826180	0	6	333	6	0	200	hit	752
+563	Response	2	1830221	4041	6
+564	Picture	correct response	1830347	0	5	333	5	0	200	other	0
+565	Picture	fix	1830680	0	1	4333	6	0	next	other	0
+566	Picture	STIM L I	1835014	0	6	333	6	0	200	hit	756
+566	Response	1	1839745	4732	11
+567	Picture	correct response	1839847	0	6	333	6	0	200	other	0
+568	Picture	fix	1840180	0	1	6000	6	0	next	other	0
+569	Picture	STIM L C	1846180	0	6	333	6	0	200	hit	760
+569	Response	1	1849904	3724	9
+570	Picture	correct response	1850014	0	6	333	6	0	200	other	0
+571	Picture	fix	1850347	0	1	5167	5	0	next	other	0
+572	Picture	STIM R I	1855514	0	5	333	5	0	200	hit	764
+572	Response	2	1859345	3831	11
+573	Picture	correct response	1859514	0	6	333	6	0	200	other	0
+574	Picture	fix	1860014	0	1	5167	6	0	next	other	0
+575	Picture	STIM L I	1865181	0	6	333	6	0	200	hit	768
+575	Response	1	1868704	3524	7
+576	Picture	correct response	1868847	0	5	333	5	0	200	other	0
+577	Picture	fix	1869181	0	1	5667	6	0	next	other	0
+578	Picture	STIM R I	1874847	0	6	333	6	0	200	hit	772
+578	Response	2	1879664	4816	10
+579	Picture	correct response	1879847	0	5	333	6	0	200	other	0
+580	Picture	fix	1880180	0	1	5667	7	0	next	other	0
+581	Picture	STIM L I	1885847	0	7	333	7	0	200	hit	776
+581	Response	1	1889583	3736	10
+582	Picture	correct response	1889681	0	6	333	6	0	200	other	0
+583	Picture	fix	1890014	0	1	4833	6	0	next	other	0
+584	Picture	STIM L C	1894847	0	5	333	6	0	200	hit	780
+584	Response	1	1898305	3458	10
+585	Picture	correct response	1898514	0	8	333	8	0	200	other	0
+586	Picture	fix	1898847	0	1	5333	6	0	next	other	0
+587	Picture	STIM L C	1904181	0	6	333	6	0	200	hit	784
+587	Response	1	1907425	3244	10
+588	Picture	correct response	1907514	0	7	333	7	0	200	other	0
+589	Picture	fix	1907848	0	1	4833	5	0	next	other	0
+590	Picture	STIM L I	1912681	0	5	333	5	0	200	incorrect	788
+590	Response	2	1915826	3145	10
+591	Picture	incorrect response	1916014	0	6	333	6	0	200	other	0
+592	Picture	fix	1916348	0	1	4333	5	0	next	other	0
+593	Picture	STIM L C	1920681	0	5	333	5	0	200	hit	792
+593	Response	1	1924144	3463	10
+594	Picture	correct response	1924348	0	6	333	6	0	200	other	0
+595	Picture	fix	1924848	0	1	4667	6	0	next	other	0
+596	Picture	STIM R C	1929514	0	6	333	6	0	200	hit	796
+596	Response	2	1933025	3511	10
+597	Picture	correct response	1933181	0	6	333	6	0	200	other	0
+598	Picture	fix	1933514	0	1	5667	5	0	next	other	0
+599	Picture	STIM L I	1939181	0	5	333	5	0	200	hit	800
+599	Response	1	1944066	4884	10
+600	Picture	correct response	1944181	0	6	333	6	0	200	other	0
+601	Picture	fix	1944514	0	1	4500	5	0	next	other	0
+602	Picture	STIM R I	1949015	0	5	333	5	0	200	hit	804
+602	Response	2	1952943	3929	7
+603	Picture	correct response	1953015	0	6	333	7	0	200	other	0
+604	Picture	fix	1953348	0	1	5000	6	0	next	other	0
+605	Picture	STIM R C	1958348	0	6	333	6	0	200	hit	808
+605	Response	2	1962467	4119	10
+606	Picture	correct response	1962681	0	7	333	7	0	200	other	0
+607	Picture	fix	1963015	0	1	5833	5	0	next	other	0
+608	Picture	STIM R I	1968848	0	5	333	5	0	200	hit	812
+608	Response	2	1972944	4096	10
+609	Picture	correct response	1973015	0	6	333	6	0	200	other	0
+610	Picture	fix	1973348	0	1	5833	1	0	next	other	0
+611	Response	3	1991744	12563	10
+612	Response	3	2000705	8857	12
+612	Response	2	2009427	17579	10
+612	Response	3	2017665	25817	10
+612	Response	3	2041345	49497	9
+612	Quit		2180576	188728	NA
+
+
+{
+   "app": "Presentation Version 21.0 Build 06.06.19",
+   "device": "Alienware Alienware 15 R3",
+   "experiment": "{4A2AFD06-9C75-486E-92CA-5BDB1E053DD1}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "Flanker_pixel.sce",
+   "subject": "",
+   "timestamp": "2019/11/22 01:43:42 GMT"
+}

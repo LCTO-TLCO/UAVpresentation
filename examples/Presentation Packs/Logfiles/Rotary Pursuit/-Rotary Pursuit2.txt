@@ -1,0 +1,8 @@
+Block Name	Block Number	Trial Number	Track Width	Track Height	Circuit Time	Axis Setup	On-Target Percent	Average Distance
+Practice	0	1	150	100	12000	Standard	87.3611111	2.16356309
+Practice	0	2	150	100	12000	Standard	80.8333333	2.29477358
+Main	1	1	150	100	12000	Standard	87.7777778	2.02137173
+Main	1	2	150	100	12000	Standard	91.25	1.8020822
+Main	1	3	150	100	12000	Standard	92.9166667	1.78907541
+Main	1	4	150	100	12000	Standard	95.5555556	1.75767787
+

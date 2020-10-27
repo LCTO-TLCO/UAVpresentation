@@ -1,0 +1,311 @@
+Scenario - Iowa Gambling Task
+Logfile written - 03/07/2019 16:42:31
+
+Subject	Trial	Event Type	Code	event_cond(str)	trial_number(num)	deck_select(num)	RT(num)	reward(num)	penalty(num)	total(num)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+	1	Response	1								6403	5903	0
+	1	Response	1								22323	21823	0
+	2	Picture	Feedback	Feedback							22502	0	1	25002	1	0	next	other	0
+	3	Nothing	Main;1;1;1584;100;0;100	Main	1	1	1584	100	0	100	47422	0	1			0		other	0
+	3	Response	1								56323	8901	1
+	4	Picture	Feedback	Feedback							56504	0	1	25002	1	0	next	other	0
+	5	Nothing	Main;2;2;894;50;0;150	Main	2	2	894	50	0	150	81424	0	0			0		other	0
+	5	Response	1								88643	7218	1
+	6	Picture	Feedback	Feedback							88840	0	1	25002	1	0	next	other	0
+	7	Nothing	Main;3;3;727;100;0;250	Main	3	3	727	100	0	250	113760	0	1			0		other	0
+	7	Response	1								120563	6803	0
+	8	Picture	Feedback	Feedback							120842	0	1	25002	1	0	next	other	0
+	9	Nothing	Main;4;4;693;50;0;300	Main	4	4	693	50	0	300	145763	0	0			0		other	0
+	9	Response	1								154723	8960	1
+	10	Picture	Feedback	Feedback							155012	0	1	25002	1	0	next	other	0
+	11	Nothing	Main;5;5;910;75;0;375	Main	5	5	910	75	0	375	179932	0	1			0		other	0
+	11	Response	1								186883	6951	0
+	12	Picture	Feedback	Feedback							187181	0	1	25002	1	0	next	other	0
+	13	Nothing	Main;6;1;710;100;0;475	Main	6	1	710	100	0	475	212101	0	0			0		other	0
+	13	Response	1								217923	5822	1
+	14	Picture	Feedback	Feedback							218183	0	1	25002	1	0	next	other	0
+	15	Nothing	Main;7;2;594;50;0;525	Main	7	2	594	50	0	525	243104	0	1			0		other	0
+	15	Response	1								248243	5139	0
+	16	Picture	Feedback	Feedback							248519	0	1	25002	1	0	next	other	0
+	17	Nothing	Main;8;3;527;100;0;625	Main	8	3	527	100	0	625	273439	0	1			0		other	0
+	17	Response	1								281283	7844	0
+	18	Picture	Feedback	Feedback							281521	0	1	25002	1	0	next	other	0
+	19	Nothing	Main;9;4;794;50;0;675	Main	9	4	794	50	0	675	306442	0	0			0		other	0
+	19	Response	1								316083	9641	0
+	20	Picture	Feedback	Feedback							316357	0	1	25002	1	0	next	other	0
+	21	Nothing	Main;10;5;977;75;-100;650	Main	10	5	977	75	-100	650	341278	0	0			0		other	0
+	21	Response	1								352003	10725	1
+	22	Picture	Feedback	Feedback							352193	0	1	25002	1	0	next	other	0
+	23	Nothing	Main;11;5;1078;75;-150;575	Main	11	5	1078	75	-150	575	377114	0	1			0		other	0
+	23	Response	1								385683	8569	0
+	24	Picture	Feedback	Feedback							385863	0	1	25002	1	0	next	other	0
+	25	Nothing	Main;12;5;861;75;-50;600	Main	12	5	861	75	-50	600	410783	0	0			0		other	0
+	25	Response	1								421603	10820	1
+	26	Picture	Feedback	Feedback							421865	0	1	25169	1	0	next	other	0
+	27	Nothing	Main;13;5;1094;75;-150;525	Main	13	5	1094	75	-150	525	446786	0	1			0		other	0
+	27	Response	1								453683	6897	0
+	28	Picture	Feedback	Feedback							453868	0	1	25002	1	0	next	other	0
+	29	Nothing	Main;14;5;694;75;0;600	Main	14	5	694	75	0	600	478788	0	0			0		other	0
+	29	Response	1								486163	7375	1
+	30	Picture	Feedback	Feedback							486370	0	1	25002	1	0	next	other	0
+	31	Nothing	Main;15;1;744;100;-150;550	Main	15	1	744	100	-150	550	511291	0	1			0		other	0
+	31	Response	1								518483	7192	1
+	32	Picture	Feedback	Feedback							518706	0	1	25002	1	0	next	other	0
+	33	Nothing	Main;16;1;727;100;0;650	Main	16	1	727	100	0	650	543626	0	0			0		other	0
+	33	Response	1								548879	5253	4
+	34	Picture	Feedback	Feedback							549042	0	1	25002	1	0	next	other	0
+	35	Nothing	Main;17;2;528;50;-50;650	Main	17	2	528	50	-50	650	573962	0	1			0		other	0
+	35	Response	1								580403	6441	1
+	36	Picture	Feedback	Feedback							580711	0	1	25002	1	0	next	other	0
+	37	Nothing	Main;18;2;660;50;0;700	Main	18	2	660	50	0	700	605631	0	0			0		other	0
+	37	Response	1								610803	5172	0
+	38	Picture	Feedback	Feedback							611047	0	1	25002	1	0	next	other	0
+	39	Nothing	Main;19;3;527;100;0;800	Main	19	3	527	100	0	800	635967	0	1			0		other	0
+	39	Response	1								642558	6591	5
+	40	Picture	Feedback	Feedback							642716	0	1	25002	1	0	next	other	0
+	41	Nothing	Main;20;4;661;50;0;850	Main	20	4	661	50	0	850	667636	0	0			0		other	0
+	41	Response	1								675843	8207	1
+	42	Picture	Feedback	Feedback							676051	0	1	25002	1	0	next	other	0
+	43	Nothing	Main;21;5;827;75;-50;875	Main	21	5	827	75	-50	875	700972	0	1			0		other	0
+	43	Response	1								711123	10151	0
+	44	Picture	Feedback	Feedback							711387	0	1	25002	1	0	next	other	0
+	45	Nothing	Main;22;5;1027;75;-150;800	Main	22	5	1027	75	-150	800	736308	0	0			0		other	0
+	45	Response	1								744003	7695	1
+	46	Picture	Feedback	Feedback							744223	0	1	25002	1	0	next	other	0
+	47	Nothing	Main;23;5;778;75;0;875	Main	23	5	778	75	0	875	769144	0	0			0		other	0
+	47	Response	1								774963	5819	0
+	48	Picture	Feedback	Feedback							775226	0	1	25002	1	0	next	other	0
+	49	Nothing	Main;24;1;594;100;-300;675	Main	24	1	594	100	-300	675	800146	0	0			0		other	0
+	49	Response	1								807363	7217	1
+	50	Picture	Feedback	Feedback							807561	0	1	25002	1	0	next	other	0
+	51	Nothing	Main;25;1;727;100;0;775	Main	25	1	727	100	0	775	832482	0	0			0		other	0
+	51	Response	1								838643	6161	0
+	52	Picture	Feedback	Feedback							838897	0	1	25002	1	0	next	other	0
+	53	Nothing	Main;26;2;627;50;-50;775	Main	26	2	627	50	-50	775	863817	0	1			0		other	0
+	53	Response	1								870803	6985	0
+	54	Picture	Feedback	Feedback							871066	0	1	25002	1	0	next	other	0
+	55	Nothing	Main;27;2;711;50;0;825	Main	27	2	711	50	0	825	895987	0	1			0		other	0
+	55	Response	1								902883	6896	1
+	56	Picture	Feedback	Feedback							903069	0	1	25002	1	0	next	other	0
+	57	Nothing	Main;28;3;694;100;0;925	Main	28	3	694	100	0	925	927989	0	0			0		other	0
+	57	Response	1								937123	9134	1
+	58	Picture	Feedback	Feedback							937405	0	1	25002	1	0	next	other	0
+	59	Nothing	Main;29;4;928;50;0;975	Main	29	4	928	50	0	975	962325	0	0			0		other	0
+	59	Response	1								975203	12877	1
+	60	Picture	Feedback	Feedback							975408	0	1	25002	1	0	next	other	0
+	61	Nothing	Main;30;5;1294;75;-100;950	Main	30	5	1294	75	-100	950	1000328	0	0			0		other	0
+	61	Response	1								1008963	8635	1
+	62	Picture	Feedback	Feedback							1009243	0	1	25002	1	0	next	other	0
+	63	Nothing	Main;31;5;878;75;-150;875	Main	31	5	878	75	-150	875	1034164	0	0			0		other	0
+	63	Response	1								1044563	10399	1
+	64	Picture	Feedback	Feedback							1044746	0	1	25002	1	0	next	other	0
+	65	Nothing	Main;32;5;1044;75;-100;850	Main	32	5	1044	75	-100	850	1069667	0	1			0		other	0
+	65	Response	1								1075758	6091	5
+	66	Picture	Feedback	Feedback							1075915	0	1	25002	1	0	next	other	0
+	67	Nothing	Main;33;5;611;75;-150;775	Main	33	5	611	75	-150	775	1100836	0	0			0		other	0
+	67	Response	1								1110723	9887	1
+	68	Picture	Feedback	Feedback							1110918	0	1	25002	1	0	next	other	0
+	69	Nothing	Main;34;5;994;75;0;850	Main	34	5	994	75	0	850	1135838	0	0			0		other	0
+	69	Response	1								1142243	6404	1
+	70	Picture	Feedback	Feedback							1142420	0	1	25002	1	0	next	other	0
+	71	Nothing	Main;35;1;644;100;-200;750	Main	35	1	644	100	-200	750	1167341	0	1			0		other	0
+	71	Response	1								1177682	10342	1
+	72	Picture	Feedback	Feedback							1177923	0	1	25002	1	0	next	other	0
+	73	Nothing	Main;36;1;1044;100;0;850	Main	36	1	1044	100	0	850	1202843	0	0			0		other	0
+	73	Response	1								1224403	21559	1
+	74	Picture	Feedback	Feedback							1224593	0	1	25002	1	0	next	other	0
+	75	Nothing	Main;37;2;2161;50;-50;850	Main	37	2	2161	50	-50	850	1249514	0	0			0		other	0
+	75	Response	1								1255842	6329	1
+	76	Picture	Feedback	Feedback							1256096	0	1	25002	1	0	next	other	0
+	77	Nothing	Main;38;2;644;50;0;900	Main	38	2	644	50	0	900	1281016	0	1			0		other	0
+	77	Response	1								1285842	4827	1
+	78	Picture	Feedback	Feedback							1286098	0	1	25002	1	0	next	other	0
+	79	Nothing	Main;39;3;494;100;0;1000	Main	39	3	494	100	0	1000	1311018	0	1			0		other	0
+	79	Response	1								1318403	7384	0
+	80	Picture	Feedback	Feedback							1318600	0	1	25002	1	0	next	other	0
+	81	Nothing	Main;40;4;744;50;0;1050	Main	40	4	744	50	0	1050	1343521	0	0			0		other	0
+	81	Response	1								1351923	8402	0
+	82	Picture	Feedback	Feedback							1352103	0	1	25169	1	0	next	other	0
+	83	Nothing	Main;41;5;844;75;-50;1075	Main	41	5	844	75	-50	1075	1377023	0	0			0		other	0
+	83	Response	1								1385363	8339	0
+	84	Picture	Feedback	Feedback							1385605	0	1	25002	1	0	next	other	0
+	85	Nothing	Main;42;5;844;75;0;1150	Main	42	5	844	75	0	1150	1410526	0	0			0		other	0
+	85	Response	1								1419682	9157	1
+	86	Picture	Feedback	Feedback							1419941	0	1	25002	1	0	next	other	0
+	87	Nothing	Main;43;1;928;100;-250;1000	Main	43	1	928	100	-250	1000	1444862	0	1			0		other	0
+	87	Response	1								1454082	9221	1
+	88	Picture	Feedback	Feedback							1454278	0	1	25002	1	0	next	other	0
+	89	Nothing	Main;44;1;927;100;-350;750	Main	44	1	927	100	-350	750	1479198	0	0			0		other	0
+	89	Response	1								1487202	8005	1
+	90	Picture	Feedback	Feedback							1487447	0	1	25002	1	0	next	other	0
+	91	Nothing	Main;45;1;811;100;0;850	Main	45	1	811	100	0	850	1512367	0	0			0		other	0
+	91	Response	1								1521202	8835	1
+	92	Picture	Feedback	Feedback							1521449	0	1	25002	1	0	next	other	0
+	93	Nothing	Main;46;2;894;50;-50;850	Main	46	2	894	50	-50	850	1546370	0	0			0		other	0
+	93	Response	1								1552082	5713	1
+	94	Picture	Feedback	Feedback							1552285	0	1	25002	1	0	next	other	0
+	95	Nothing	Main;47;2;578;50;-50;850	Main	47	2	578	50	-50	850	1577205	0	0			0		other	0
+	95	Response	1								1584242	7037	0
+	96	Picture	Feedback	Feedback							1584454	0	1	25169	1	0	next	other	0
+	97	Nothing	Main;48;2;711;50;0;900	Main	48	2	711	50	0	900	1609374	0	0			0		other	0
+	97	Response	1								1619362	9988	1
+	98	Picture	Feedback	Feedback							1619623	0	1	25002	1	0	next	other	0
+	99	Nothing	Main;49;3;1011;100;0;1000	Main	49	3	1011	100	0	1000	1644544	0	1			0		other	0
+	99	Response	1								1652242	7699	1
+	100	Picture	Feedback	Feedback							1652459	0	1	25002	1	0	next	other	0
+	101	Nothing	Main;50;4;777;50;0;1050	Main	50	4	777	50	0	1050	1677380	0	0			0		other	0
+	101	Response	1								1684638	7258	5
+	102	Picture	Feedback	Feedback							1684795	0	1	25002	1	0	next	other	0
+	103	Nothing	Main;51;5;728;75;-150;975	Main	51	5	728	75	-150	975	1709715	0	1			0		other	0
+	103	Response	1								1718402	8687	1
+	104	Picture	Feedback	Feedback							1718631	0	1	25002	1	0	next	other	0
+	105	Nothing	Main;52;5;877;75;-50;1000	Main	52	5	877	75	-50	1000	1743551	0	1			0		other	0
+	105	Response	1								1749602	6051	0
+	106	Picture	Feedback	Feedback							1749800	0	1	25169	1	0	next	other	0
+	107	Nothing	Main;53;5;610;75;-100;975	Main	53	5	610	75	-100	975	1774720	0	1			0		other	0
+	107	Response	1								1782002	7282	1
+	108	Picture	Feedback	Feedback							1782303	0	1	25002	1	0	next	other	0
+	109	Nothing	Main;54;5;743;75;0;1050	Main	54	5	743	75	0	1050	1807223	0	0			0		other	0
+	109	Response	1								1814722	7499	0
+	110	Picture	Feedback	Feedback							1814972	0	1	25002	1	0	next	other	0
+	111	Nothing	Main;55;1;760;100;-350;800	Main	55	1	760	100	-350	800	1839892	0	0			0		other	0
+	111	Response	1								1847922	8030	0
+	112	Picture	Feedback	Feedback							1848141	0	1	25002	1	0	next	other	0
+	113	Nothing	Main;56;1;810;100;0;900	Main	56	1	810	100	0	900	1873061	0	0			0		other	0
+	113	Response	1								1878002	4941	1
+	114	Picture	Feedback	Feedback							1878310	0	1	25002	1	0	next	other	0
+	115	Nothing	Main;57;2;510;50;-25;925	Main	57	2	510	50	-25	925	1903230	0	1			0		other	0
+	115	Response	1								1909842	6612	1
+	116	Picture	Feedback	Feedback							1910145	0	1	25002	1	0	next	other	0
+	117	Nothing	Main;58;2;677;50;-75;900	Main	58	2	677	50	-75	900	1935066	0	0			0		other	0
+	117	Response	1								1940482	5416	1
+	118	Picture	Feedback	Feedback							1940648	0	1	25002	1	0	next	other	0
+	119	Nothing	Main;59;2;544;50;0;950	Main	59	2	544	50	0	950	1965568	0	0			0		other	0
+	119	Response	1								1970962	5394	1
+	120	Picture	Feedback	Feedback							1971150	0	1	25002	1	0	next	other	0
+	121	Nothing	Main;60;3;544;100;0;1050	Main	60	3	544	100	0	1050	1996070	0	0			0		other	0
+	122	Response	1								2013763	17610	0
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Picture	Feedback	other				22502	1	25002	1	0	next
+Nothing	Main;1;1;1584;100;0;100	other				47422	1			0
+Picture	Feedback	other				56504	1	25002	1	0	next
+Nothing	Main;2;2;894;50;0;150	other				81424	0			0
+Picture	Feedback	other				88840	1	25002	1	0	next
+Nothing	Main;3;3;727;100;0;250	other				113760	1			0
+Picture	Feedback	other				120842	1	25002	1	0	next
+Nothing	Main;4;4;693;50;0;300	other				145763	0			0
+Picture	Feedback	other				155012	1	25002	1	0	next
+Nothing	Main;5;5;910;75;0;375	other				179932	1			0
+Picture	Feedback	other				187181	1	25002	1	0	next
+Nothing	Main;6;1;710;100;0;475	other				212101	0			0
+Picture	Feedback	other				218183	1	25002	1	0	next
+Nothing	Main;7;2;594;50;0;525	other				243104	1			0
+Picture	Feedback	other				248519	1	25002	1	0	next
+Nothing	Main;8;3;527;100;0;625	other				273439	1			0
+Picture	Feedback	other				281521	1	25002	1	0	next
+Nothing	Main;9;4;794;50;0;675	other				306442	0			0
+Picture	Feedback	other				316357	1	25002	1	0	next
+Nothing	Main;10;5;977;75;-100;650	other				341278	0			0
+Picture	Feedback	other				352193	1	25002	1	0	next
+Nothing	Main;11;5;1078;75;-150;575	other				377114	1			0
+Picture	Feedback	other				385863	1	25002	1	0	next
+Nothing	Main;12;5;861;75;-50;600	other				410783	0			0
+Picture	Feedback	other				421865	1	25169	1	0	next
+Nothing	Main;13;5;1094;75;-150;525	other				446786	1			0
+Picture	Feedback	other				453868	1	25002	1	0	next
+Nothing	Main;14;5;694;75;0;600	other				478788	0			0
+Picture	Feedback	other				486370	1	25002	1	0	next
+Nothing	Main;15;1;744;100;-150;550	other				511291	1			0
+Picture	Feedback	other				518706	1	25002	1	0	next
+Nothing	Main;16;1;727;100;0;650	other				543626	0			0
+Picture	Feedback	other				549042	1	25002	1	0	next
+Nothing	Main;17;2;528;50;-50;650	other				573962	1			0
+Picture	Feedback	other				580711	1	25002	1	0	next
+Nothing	Main;18;2;660;50;0;700	other				605631	0			0
+Picture	Feedback	other				611047	1	25002	1	0	next
+Nothing	Main;19;3;527;100;0;800	other				635967	1			0
+Picture	Feedback	other				642716	1	25002	1	0	next
+Nothing	Main;20;4;661;50;0;850	other				667636	0			0
+Picture	Feedback	other				676051	1	25002	1	0	next
+Nothing	Main;21;5;827;75;-50;875	other				700972	1			0
+Picture	Feedback	other				711387	1	25002	1	0	next
+Nothing	Main;22;5;1027;75;-150;800	other				736308	0			0
+Picture	Feedback	other				744223	1	25002	1	0	next
+Nothing	Main;23;5;778;75;0;875	other				769144	0			0
+Picture	Feedback	other				775226	1	25002	1	0	next
+Nothing	Main;24;1;594;100;-300;675	other				800146	0			0
+Picture	Feedback	other				807561	1	25002	1	0	next
+Nothing	Main;25;1;727;100;0;775	other				832482	0			0
+Picture	Feedback	other				838897	1	25002	1	0	next
+Nothing	Main;26;2;627;50;-50;775	other				863817	1			0
+Picture	Feedback	other				871066	1	25002	1	0	next
+Nothing	Main;27;2;711;50;0;825	other				895987	1			0
+Picture	Feedback	other				903069	1	25002	1	0	next
+Nothing	Main;28;3;694;100;0;925	other				927989	0			0
+Picture	Feedback	other				937405	1	25002	1	0	next
+Nothing	Main;29;4;928;50;0;975	other				962325	0			0
+Picture	Feedback	other				975408	1	25002	1	0	next
+Nothing	Main;30;5;1294;75;-100;950	other				1000328	0			0
+Picture	Feedback	other				1009243	1	25002	1	0	next
+Nothing	Main;31;5;878;75;-150;875	other				1034164	0			0
+Picture	Feedback	other				1044746	1	25002	1	0	next
+Nothing	Main;32;5;1044;75;-100;850	other				1069667	1			0
+Picture	Feedback	other				1075915	1	25002	1	0	next
+Nothing	Main;33;5;611;75;-150;775	other				1100836	0			0
+Picture	Feedback	other				1110918	1	25002	1	0	next
+Nothing	Main;34;5;994;75;0;850	other				1135838	0			0
+Picture	Feedback	other				1142420	1	25002	1	0	next
+Nothing	Main;35;1;644;100;-200;750	other				1167341	1			0
+Picture	Feedback	other				1177923	1	25002	1	0	next
+Nothing	Main;36;1;1044;100;0;850	other				1202843	0			0
+Picture	Feedback	other				1224593	1	25002	1	0	next
+Nothing	Main;37;2;2161;50;-50;850	other				1249514	0			0
+Picture	Feedback	other				1256096	1	25002	1	0	next
+Nothing	Main;38;2;644;50;0;900	other				1281016	1			0
+Picture	Feedback	other				1286098	1	25002	1	0	next
+Nothing	Main;39;3;494;100;0;1000	other				1311018	1			0
+Picture	Feedback	other				1318600	1	25002	1	0	next
+Nothing	Main;40;4;744;50;0;1050	other				1343521	0			0
+Picture	Feedback	other				1352103	1	25169	1	0	next
+Nothing	Main;41;5;844;75;-50;1075	other				1377023	0			0
+Picture	Feedback	other				1385605	1	25002	1	0	next
+Nothing	Main;42;5;844;75;0;1150	other				1410526	0			0
+Picture	Feedback	other				1419941	1	25002	1	0	next
+Nothing	Main;43;1;928;100;-250;1000	other				1444862	1			0
+Picture	Feedback	other				1454278	1	25002	1	0	next
+Nothing	Main;44;1;927;100;-350;750	other				1479198	0			0
+Picture	Feedback	other				1487447	1	25002	1	0	next
+Nothing	Main;45;1;811;100;0;850	other				1512367	0			0
+Picture	Feedback	other				1521449	1	25002	1	0	next
+Nothing	Main;46;2;894;50;-50;850	other				1546370	0			0
+Picture	Feedback	other				1552285	1	25002	1	0	next
+Nothing	Main;47;2;578;50;-50;850	other				1577205	0			0
+Picture	Feedback	other				1584454	1	25169	1	0	next
+Nothing	Main;48;2;711;50;0;900	other				1609374	0			0
+Picture	Feedback	other				1619623	1	25002	1	0	next
+Nothing	Main;49;3;1011;100;0;1000	other				1644544	1			0
+Picture	Feedback	other				1652459	1	25002	1	0	next
+Nothing	Main;50;4;777;50;0;1050	other				1677380	0			0
+Picture	Feedback	other				1684795	1	25002	1	0	next
+Nothing	Main;51;5;728;75;-150;975	other				1709715	1			0
+Picture	Feedback	other				1718631	1	25002	1	0	next
+Nothing	Main;52;5;877;75;-50;1000	other				1743551	1			0
+Picture	Feedback	other				1749800	1	25169	1	0	next
+Nothing	Main;53;5;610;75;-100;975	other				1774720	1			0
+Picture	Feedback	other				1782303	1	25002	1	0	next
+Nothing	Main;54;5;743;75;0;1050	other				1807223	0			0
+Picture	Feedback	other				1814972	1	25002	1	0	next
+Nothing	Main;55;1;760;100;-350;800	other				1839892	0			0
+Picture	Feedback	other				1848141	1	25002	1	0	next
+Nothing	Main;56;1;810;100;0;900	other				1873061	0			0
+Picture	Feedback	other				1878310	1	25002	1	0	next
+Nothing	Main;57;2;510;50;-25;925	other				1903230	1			0
+Picture	Feedback	other				1910145	1	25002	1	0	next
+Nothing	Main;58;2;677;50;-75;900	other				1935066	0			0
+Picture	Feedback	other				1940648	1	25002	1	0	next
+Nothing	Main;59;2;544;50;0;950	other				1965568	0			0
+Picture	Feedback	other				1971150	1	25002	1	0	next
+Nothing	Main;60;3;544;100;0;1050	other				1996070	0			0

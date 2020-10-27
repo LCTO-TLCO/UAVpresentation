@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Instructions">In this experiment, you will be shown a series of visual stimuli, presented one at a time. Your only task is to respond as quickly as possible to all stimuli EXCEPT for the target stimulus. 
+
+In this part of the experiment, the target stimulus is [NOGO_STIMULUS_LABEL]. Anytime [NOGO_STIMULUS_LABEL] appears, you should make no response.
+
+If any other stimulus besides [NOGO_STIMULUS_LABEL] appears, respond by clicking the left mouse button as quickly as possible. Try to respond as quickly as possible while still being accurate.
+
+Click the left mouse button when you are ready to begin. 
+</item>
+    <item key="No Instructions Caption">Click the left mouse button to begin the next part.</item>
+    <item key="Rest Screen Caption">Click the left mouse button to begin when you are ready to move on to the next part.</item>
+    <item key="Progress Bar Caption">Progress:</item>
+    <item key="Practice Caption">You will start by doing a few examples for practice.</item>
+    <item key="Practice Complete Caption">Practice trials complete. Click the left mouse button to move on.</item>
+    <item key="Completion Screen Caption">You have finished the experiment. Thank you very much for participating! Click the left mouse button to exit the program.</item>
+    <item key="Block Complete Caption">You have completed [BLOCK_NUMBER] block(s). There are [TOTAL_BLOCKS] blocks in the experiment. 
+
+Click the left mouse button to move on.</item>
+    <item key="Next Screen Caption">Click the left mouse button to continue.</item>
+    <item key="Previous Screen Caption">Click the left mouse button to go back.</item>
+    <item key="Multi-Screen Start Experiment Caption">Click the left mouse button to start the experiment when you are ready.</item>
+    <item key="Start Experiment Caption">Click the left mouse button to start the experiment when you are ready.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+  <map name="Sound">
+    <item key="Instructions">In this experiment, you will hear a series of sounds, presented one at a time. Your only task is to respond as quickly as possible to all sounds EXCEPT for the target sound. 
+
+In this part of the experiment, the target sound is [NOGO_STIMULUS_LABEL]. Anytime you hear  [NOGO_STIMULUS_LABEL], you should make no response.
+
+If you hear any other sound besides [NOGO_STIMULUS_LABEL], respond by clicking the left mouse button as quickly as possible. 
+
+When you are ready to begin, click the left mouse button to move on. Try to respond as quickly as possible while still being accurate.</item>
+  </map>
+</experiment_text>

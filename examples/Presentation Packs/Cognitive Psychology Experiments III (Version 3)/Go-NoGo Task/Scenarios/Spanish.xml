@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Spanish">
+  <map name="default">
+    <item key="Instructions">En este experimento, verá una secuencia de estímulos visuales, que aparecerán de uno en uno. Su única tarea consiste en responder lo más rápidamente posible a todos los estímulos EXCEPTO a los estímulos diana (=targets). 
+
+En esta parte del experimento, el estímulo diana (=target) es [NOGO_STIMULUS_LABEL]. Cada vez que aparezca [NOGO_STIMULUS_LABEL], no debe responder.
+
+Si aparece cualquier otro estímulo que no sea [NOGO_STIMULUS_LABEL], responda pulsando el botón izquierdo del ratón lo más rápidamente posible. 
+
+Cuando esté listo/a para comenzar, pulse el botón izquierdo del ratón. Intente responder tan rápidamente como pueda, procurando no cometer errores. </item>
+    <item key="No Instructions Caption">Presione el botón izquierdo del ratón para comenzar la siguiente parte.</item>
+    <item key="Rest Screen Caption">Presione el botón izquierdo del ratón cuando esté preparado/a.</item>
+    <item key="Progress Bar Caption">Avance:</item>
+    <item key="Practice Caption">Comenzará con unos cuantos ensayos de práctica.</item>
+    <item key="Practice Complete Caption">Ha concluido la práctica. Presione el botón izquierdo del ratón para comenzar.</item>
+    <item key="Completion Screen Caption">Ha concluido el experimento. Gracias por su participación. Presione el botón izquierdo del ratón para salir del programa. </item>
+    <item key="Block Complete Caption">Ha concluido [BLOCK_NUMBER] bloque(s). Hay un total de [TOTAL_BLOCKS] bloques en el experimento. 
+
+Presione el botón izquierdo del ratón para continuar.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+  <map name="Sound">
+    <item key="Instructions">En este experimento, oirá una secuencia de sonidos, presentados de uno en uno. Su única tarea consiste en responder lo más rápidamente posible a todos los sonidos EXCEPTO al sonido diana (=target). 
+
+En esta parte del experimento, el sonido diana (=target) es [NOGO_STIMULUS_LABEL]. Cuando escuche [NOGO_STIMULUS_LABEL], no debe responder. 
+
+Si escucha cualquier otro sonido que no sea [NOGO_STIMULUS_LABEL], responda pulsando el botón izquierdo del ratón lo más rápidamente posible.
+
+Cuando esté listo/a para comenzar, pulse el botón izquierdo del ratón. Intente responder tan rápidamente como pueda, procurando no cometer errores. </item>
+  </map>
+</experiment_text>

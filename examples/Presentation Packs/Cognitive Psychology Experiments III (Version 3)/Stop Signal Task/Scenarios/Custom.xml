@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Instructions">In this experiment, you will see a series of stimuli presented one at a time (each stimulus may consist of one or several letters). Your task is to identify which of two possible stimuli is presented on screen, and press the corresponding button as quickly as possible.
+
+If you see [LEFT_STIM], press the LEFT mouse button as quickly as possible.
+
+If you see [RIGHT_STIM], press the RIGHT mouse button as quickly as possible.
+
+Here is the catch: occasionally, when a stimulus appears, it will be followed by [STOP_STIM]. [STOP_STIM] is like a stop sign: when you see it, you should not respond. Do not wait to see whether [STOP_STIM] appears before you respond! Instead, try to respond as quickly as possible whenever a stimulus is shown to you. However, if the stop signal appears before you have responded, then stop your response. The stop signal will sometimes appear very late, and other times very quickly. Thus, you may sometimes make incorrect responses, and that is OK. It is more important that you respond somewhat quickly rather than slowing down to respond correctly.
+
+As a reminder: if you see [LEFT_STIM], press the left mouse button. If you see [RIGHT_STIM], press the right mouse button. If [STOP_STIM] appears, then stop your response if you can. 
+
+Press either mouse button to begin when you are ready.</item>
+    <item key="No Instructions Caption">Press either mouse button to begin the next part.</item>
+    <item key="Rest Screen Caption">Take a break!
+
+Press either mouse button to begin when you are ready to move on to the next part.</item>
+    <item key="Progress Bar Caption">Progress:</item>
+    <item key="Practice Caption">You will start by completing a few practice trials.</item>
+    <item key="Practice Complete Caption">Practice trials complete. Press either mouse button when you are ready to begin.</item>
+    <item key="Block Complete Caption">You have completed [BLOCK_NUMBER] block(s). There are [TOTAL_BLOCKS] blocks in the experiment. 
+
+Press either mouse button to move on.</item>
+    <item key="Completion Screen Caption">You have finished the experiment. Thank you very much for participating! Press either mouse button to exit.</item>
+    <item key="Next Screen Caption">Click the right mouse button to continue.</item>
+    <item key="Previous Screen Caption">Click the left mouse button to go back.</item>
+    <item key="Multi-Screen Start Experiment Caption">Click the right mouse button to start the experiment when you are ready.</item>
+    <item key="Start Experiment Caption">Click either mouse button to start the experiment when you are ready.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>

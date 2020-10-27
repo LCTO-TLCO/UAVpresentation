@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="English">
+  <map name="default">
+    <item key="Forward Instructions">In this experiment, we are interested in how well you can remember a sequence of numbers.
+
+In each trial, you will hear a sequence of digits read aloud, one at a time. Your goal is to remember the digits in the order they were presented. After the last digit is presented, you will see a prompt on screen to recall the numbers you heard. When that prompt appears, use the keyboard to type in the numbers, in the order in which they appeared. You do not need to include spaces or any other characters between the numbers. You may use the backspace key to delete numbers if you make a mistake. If you are unsure about the sequence, make your best guess.
+
+Once you have completed entering all the numbers for that sequence, press Enter to move on. The next sequence of numbers will be presented shortly.
+
+Press Enter to begin when you are ready. </item>
+    <item key="Backward Instructions">In this experiment, we are interested in how well you can remember a sequence of numbers that is presented to you.
+
+In each trial, you will hear a sequence of digits read aloud, one at a time. Your goal is to remember the digits in the REVERSE order they were presented. In other words, if you hear the sequence "1,2,3", you should recall "3,2,1". 
+
+When the last digit is presented, you will see a prompt on screen to recall the numbers you heard. When that prompt appears, use the keyboard to type in the numbers, in the opposite order which they appeared - start with the last number that was presented. You do not need to include spaces or any other characters between the numbers. You may use the backspace key to delete numbers if you made a mistake. If you are unsure about the sequence, make your best guess.
+
+Once you have completed entering all the numbers for that sequence, press Enter to move on. The next sequence of numbers will be presented shortly.
+
+Press Enter to begin when you are ready. </item>
+    <item key="Response Prompt">Type your response and press Enter:</item>
+    <item key="Practice Caption">You will start by doing a few trials for practice.</item>
+    <item key="Ready Caption">Ready</item>
+    <item key="Set Caption">Set</item>
+    <item key="Go Caption">Go</item>
+    <item key="Practice Complete Caption">Practice trials complete. Press Enter to begin when you are ready to move on to the next part.</item>
+    <item key="Completion Screen Caption">You have finished the experiment. Thank you very much for participating! Press Enter to exit the program.</item>
+    <item key="Block Complete Caption">You have completed [BLOCK_NUMBER] block(s). There are [TOTAL_BLOCKS] blocks in the experiment. 
+
+Press Enter to move on.</item>
+    <item key="Next Screen Caption">Press Enter to continue.</item>
+    <item key="Previous Screen Caption">Press Enter to go back.</item>
+    <item key="Multi-Screen Start Experiment Caption">Press Enter to start the experiment when you are ready.</item>
+    <item key="Start Experiment Caption">Press Enter to start the experiment when you are ready.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+  <map name="Visual">
+    <item key="Forward Instructions">In this experiment, we are interested in how well you can remember a sequence of numbers that is presented to you.
+
+In each trial, you will see a sequence of digits presented on screen, one at a time. Your goal is to remember the digits in the order they were presented. When the last digit is presented, you will see a prompt on screen to recall the numbers you heard. When that prompt appears, use the keyboard to type in the numbers, in the order they appeared. You do not need to include spaces or any other characters between the numbers. You may use the backspace key to delete numbers if you made a mistake. If you are unsure about the sequence, make your best guess.
+
+Once you have completed entering all the numbers for that sequence, press Enter to move on. The next sequence of numbers will appear shortly.
+
+Press Enter to begin when you are ready. </item>
+    <item key="Backward Instructions">In this experiment, we are interested in how well you can remember a sequence of numbers that is presented to you.
+
+In each trial, you will see a sequence of digits presented on screen, one at a time. Your goal is to remember the digits in the REVERSE order they were presented. In other words, if you hear the sequence "1,2,3", you should recall "3,2,1". 
+
+When the last digit is presented, you will see a prompt on screen to recall the numbers you heard. When that prompt appears, use the keyboard to type in the numbers, in the opposite order which they appeared - start with the last number that was presented. You do not need to include spaces or any other characters between the numbers. You may use the backspace key to delete numbers if you made a mistake. If you are unsure about the sequence, make your best guess.
+
+Once you have completed entering all the numbers for that sequence, press Enter to move on. The next sequence of numbers will appear shortly.
+
+Press Enter to begin when you are ready. </item>
+  </map>
+</experiment_text>

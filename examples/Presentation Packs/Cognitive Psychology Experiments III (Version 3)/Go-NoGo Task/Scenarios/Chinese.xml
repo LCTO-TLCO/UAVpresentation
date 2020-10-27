@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Chinese">
+  <map name="default">
+    <item key="Instructions">在本实验中，你会看到一系列的视觉刺激一次一个地呈现。你唯一的任务是尽快地对除了目标刺激之外的其它刺激进行反应。
+
+这部分实验的目标刺激是[NOGO_STIMULUS_LABEL]。当[NOGO_STIMULUS_LABEL]出现时，你不应当作出反应。
+
+如果除了[NOGO_STIMULUS_LABEL]之外的刺激出现，请尽快按下鼠标左键。
+
+如果你准备好了，请按鼠标左键开始。请尽量又快又准地作出反应。
+</item>
+    <item key="No Instructions Caption">按下兩個鼠標按鈕開始下一部分</item>
+    <item key="Rest Screen Caption">按下任一的滑鼠按鈕開始，當你準備移動到下一部分。</item>
+    <item key="Progress Bar Caption">进度：</item>
+    <item key="Practice Caption">首先你要做几个试次的练习。</item>
+    <item key="Practice Complete Caption">實踐試驗完成。按下兩個鼠標按鈕繼續前進。</item>
+    <item key="Completion Screen Caption">你已經完成了實驗。非常感謝您的參與。按下兩個鼠標按鈕來退出程序。</item>
+    <item key="Block Complete Caption">你已经完成了[BLOCK_NUMBER]个组块。本实验共有[TOTAL_BLOCKS]个组块。.
+按下兩個鼠標按鈕繼續前進。</item>
+    <item key="Word Wrap Mode">Character</item>
+  </map>
+  <map name="Sound">
+    <item key="Instructions">在本实验中，你会听到一系列的听觉刺激一次一个地呈现。你唯一的任务是尽快地对除了目标刺激之外的其它刺激进行反应。
+
+这部分实验的目标刺激是[NOGO_STIMULUS_LABEL]。当你听到[NOGO_STIMULUS_LABEL]时，不应当作出反应。
+
+如果你听到除了[NOGO_STIMULUS_LABEL]之外的刺激，请尽快按下鼠标左键
+
+如果你准备好了，请按鼠标左键开始。请尽量又快又准地作出反应。
+</item>
+  </map>
+</experiment_text>

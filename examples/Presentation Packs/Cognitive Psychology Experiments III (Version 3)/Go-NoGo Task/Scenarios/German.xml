@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="German">
+  <map name="default">
+    <item key="Instructions">Bei diesem Experiment wird Ihnen nacheinamder eine Serie von visuellen Stimuli gezeigt. Ihre Aufgabe ist es möglichst schnell auf alle Stimuli zu reagieren AUSSER dem Target Stimulus.
+
+Bei diesem Teil des Experiments erscheint der Target Stimulus [NOGO_STIMULUS_LABEL]. Jedes Mal, wenn [NOGO_STIMULUS_LABEL] erscheint, sollen Sie nicht respondieren.
+
+Wenn irgendein Stimulus ausser [NOGO_STIMULUS_LABEL] auftritt, klicken Sie die linke Maus-Taste so schnell wie möglich. 
+
+Wenn Sie bereit sind zu beginnen, drücken Sie die linke Maus-Taste.
+</item>
+    <item key="No Instructions Caption">Klicken die linke Maustaste, um den nächsten Teil zu beginnen. </item>
+    <item key="Rest Screen Caption">Sobald Sie bereit sind, Klicken die linke Maustaste.</item>
+    <item key="Progress Bar Caption">Fortfahren:</item>
+    <item key="Practice Caption"> Beginnen Sie mit einigen Übungsversuchen</item>
+    <item key="Practice Complete Caption">Nachdem Sie die Übungsversuche beendet haben. Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Completion Screen Caption">Sie haben das Experiment beendet. Danke für Ihre Teilnahme. Klicken  die linke Maustaste, um das Programm zu verlassen.</item>
+    <item key="Block Complete Caption">Sie haben die [BLOCK_NUMBER] Blöcke beendet. Es gibt [TOTAL_NUMBER] Blöcke.
+Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+  <map name="Sound">
+    <item key="Instructions">Bei diesem Experiment werden Sie nacheinander eine Serie von Laut-Stimuli hören. Ihre einzige Aufgabe ist es, möglichst schnell auf alle Stimuli zu repondieren AUSSER dem Target-Stimulus.
+
+Der Target Stimulus in diesem Teil des Experiments heist [NOGO_STIMULUS_LABEL]. Jedesmal wenn Sie [NOGO_STMULUS_LABEL] hören, sollen Sie nicht reagieren.
+
+Wenn Sie irgendeinen anderen Stimulus ausser [NOGO_STIMULUS_LABEL] hören, antworten Sie indem Sie die linke Maus-Taste möglichts schnell klicken.
+
+Wenn Sie bereit sind zu beginnen, drücken Sie die linke Maus-Taste um weiter zu gehen. Respondieren Sie möglichts schnell und genau
+</item>
+  </map>
+</experiment_text>

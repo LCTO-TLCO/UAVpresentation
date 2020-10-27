@@ -1,0 +1,29 @@
+Scenario - 
+Logfile written - 11/05/2019 15:02:33
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Response	1	90945	90779	9
+1	Response	2	92460	92294	9
+1	Response	1	94058	93891	8
+1	Response	2	95178	95012	9
+1	Response	1	105660	105494	10
+1	Response	2	108058	107892	9
+1	Response	1	108941	108774	9
+1	Response	2	110380	110213	10
+1	Quit		132339	132172	NA
+
+
+{
+   "app": "Presentation Version 21.0 Build 06.06.19",
+   "device": "Alienware Alienware 15 R3",
+   "experiment": "{4A2AFD06-9C75-486E-92CA-5BDB1E053DD1}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "Flanker_pixel.sce",
+   "subject": "",
+   "timestamp": "2019/11/05 06:02:16 GMT"
+}

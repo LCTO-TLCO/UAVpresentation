@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><experiment_pack>
+    <name>ERP CORE</name>
+    <description>ERP CORE</description>
+    <version>0.9</version>
+    <author>NBS</author>
+    <documentation>ERP_CORE.chm</documentation>
+    <experiment_group>
+        <experiment>
+            <name>Active Visual Oddball P3</name>
+            <description>Active Visual Oddball P3 task</description>
+            <location>Active Visual Oddball P3\Active Visual Oddball P3.exp</location>
+        </experiment>
+        <experiment>
+            <name>Face Perception N170</name>
+            <description>Face Perception N170 task</description>
+            <location>Face Perception N170\Face Perception N170.exp</location>
+        </experiment>
+        <experiment>
+            <name>Flankers ERN-LRP</name>
+            <description>Flankers ERN-LRP task</description>
+            <location>Flankers ERN-LRP\Flankers ERN-LRP.exp</location>
+        </experiment>
+        <experiment>
+            <name>Passive Auditory Oddball MMN</name>
+            <description>Passive Auditory Oddball MMN task</description>
+            <location>Passive Auditory Oddball MMN\Passive Auditory Oddball MMN.exp</location>
+        </experiment>
+        <experiment>
+            <name>Simple Visual Search N2pc</name>
+            <description>Simple Visual Search N2pc task</description>
+            <location>Simple Visual Search N2pc\Simple Visual Search N2pc.exp</location>
+        </experiment>
+        <experiment>
+            <name>Word Pair Judgment N400</name>
+            <description>Word Pair Judgment N400 task</description>
+            <location>Word Pair Judgment N400\Word Pair Judgment N400.exp</location>
+        </experiment>
+    </experiment_group>
+</experiment_pack>

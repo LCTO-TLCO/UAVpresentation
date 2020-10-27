@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="Chinese">
+  <map name="default">
+    <item key="Instructions">在本实验中，你将会看到一系列的字母一次一个地呈现。你的任务是判断你所看到的每一个字母是不是目标字母，并且按下相应的按键。
+
+本实验的目标字母是：[TARGET_LETTER]。有一点你需要注意。只有当“[TARGET_LETTER]”跟随在字母[VALID_CUE_LETTER]之后时才被认为是目标。如果[TARGET_LETTER]跟在任何其它字母之后，你就不应该将其看做目标。
+
+例如，你看到以下序列：
+[VALID_CUE_LETTER], [TARGET_LETTER], [INVALID_CUE_LETTER], [TARGET_LETTER]
+
+只有序列中第二个字母是目标。所有其它字母，包括最后一个字母，都不是目标。
+
+如果呈现的字母是目标，请按鼠标左键。
+
+如果呈现的字母不是目标，请按鼠标右键。
+
+请尽量又快又准地作出反应，如果你准备好了，请按鼠标左键或右键开始。
+</item>
+    <item key="No Instructions Caption">按下兩個鼠標按鈕開始下一部分</item>
+    <item key="Rest Screen Caption">按下任一的滑鼠按鈕開始，當你準備移動到下一部分。</item>
+    <item key="Progress Bar Caption">进度：</item>
+    <item key="Practice Caption">首先你要做几个试次的练习。</item>
+    <item key="Practice Complete Caption">實踐試驗完成。按下兩個鼠標按鈕繼續前進。</item>
+    <item key="Completion Screen Caption">你已經完成了實驗。非常感謝您的參與。按下兩個鼠標按鈕來退出程序。</item>
+    <item key="Block Complete Caption">你已经完成了[BLOCK_NUMBER]个组块。本实验共有[TOTAL_BLOCKS]个组块。.
+按下兩個鼠標按鈕繼續前進。</item>
+    <item key="Word Wrap Mode">Character</item>
+  </map>
+</experiment_text>

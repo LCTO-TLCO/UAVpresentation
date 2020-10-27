@@ -1,0 +1,89 @@
+Scenario - 
+Logfile written - 01/28/2020 10:03:10
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Response	3	28970	28804	7
+2	Picture	fix	29167	0	1	5333	8	0	next	other	0
+3	Picture	STIM L C	34500	0	8	333	8	0	200	hit	4
+3	Response	1	38359	3859	6
+4	Picture	correct response	38500	0	6	333	6	0	200	other	0
+5	Picture	fix	38833	0	1	4500	8	0	next	other	0
+6	Picture	STIM L C	43334	0	8	333	8	0	200	hit	8
+6	Response	1	46038	2704	7
+7	Picture	correct response	46167	0	5	333	5	0	200	other	0
+8	Picture	fix	46500	0	1	6000	6	0	next	other	0
+9	Picture	STIM L I	52500	0	5	333	6	0	200	incorrect	12
+9	Response	2	55881	3381	8
+10	Picture	incorrect response	56000	0	5	333	5	0	200	other	0
+11	Picture	fix	56334	0	1	4667	6	0	next	other	0
+12	Picture	STIM L I	61000	0	6	333	6	0	200	hit	16
+12	Response	1	64841	3840	7
+13	Picture	correct response	65000	0	5	333	6	0	200	other	0
+14	Picture	fix	65333	0	1	5500	6	0	next	other	0
+15	Picture	STIM L I	70834	0	5	333	5	0	200	hit	20
+15	Response	1	74199	3365	9
+16	Picture	correct response	74334	0	6	334	6	0	200	other	0
+17	Picture	fix	74667	0	1	5167	5	0	next	other	0
+18	Picture	STIM L C	79834	0	5	333	5	0	200	hit	24
+18	Response	1	82838	3005	8
+19	Picture	correct response	83000	0	5	333	5	0	200	other	0
+20	Picture	fix	83334	0	1	4667	5	0	next	other	0
+21	Picture	STIM R I	88000	0	5	333	5	0	200	incorrect	28
+21	Response	1	91641	3641	7
+22	Picture	incorrect response	91834	0	5	333	5	0	200	other	0
+23	Picture	fix	92167	0	1	5500	6	0	next	other	0
+23	Response	2	92358	190	6
+24	Picture	STIM R I	97667	0	6	333	6	0	200	hit	33
+24	Response	2	102518	4851	9
+25	Picture	correct response	102667	0	6	333	6	0	200	other	0
+26	Picture	fix	103001	0	1	5833	5	0	next	other	0
+27	Picture	STIM L I	108834	0	5	333	5	0	200	hit	37
+27	Response	1	113719	4886	7
+28	Picture	correct response	113834	0	5	333	5	0	200	other	0
+29	Picture	fix	114167	0	1	4167	5	0	next	other	0
+30	Picture	STIM R C	118334	0	5	333	5	0	200	hit	41
+30	Response	2	122039	3705	6
+31	Picture	correct response	122167	0	5	333	5	0	200	other	0
+32	Picture	fix	122500	0	1	5667	8	0	next	other	0
+33	Picture	STIM R C	128167	0	8	333	8	0	200	hit	45
+33	Response	2	131799	3632	9
+34	Picture	correct response	131834	0	5	333	5	0	200	other	0
+35	Picture	fix	132167	0	1	5667	8	0	next	other	0
+36	Picture	STIM R I	137834	0	8	333	8	0	200	miss	0
+36	Response	2	142834	5000	25
+37	Picture	omission	143001	0	1	3167	1	0	3000	other	0
+38	Picture	omission	146168	0	1	333	1	0	200	other	0
+39	Picture	fix	146501	0	1	4667	5	0	next	other	0
+40	Picture	STIM R I	151168	0	5	333	5	0	200	hit	54
+40	Response	2	154839	3671	8
+41	Picture	correct response	155001	0	6	333	6	0	200	other	0
+42	Picture	fix	155334	0	1	4500	5	0	next	other	0
+43	Picture	STIM R I	159834	0	5	333	5	0	200	hit	58
+43	Response	2	164440	4605	6
+44	Picture	correct response	164668	0	6	333	6	0	200	other	0
+45	Picture	fix	165001	0	1	5333	5	0	next	other	0
+46	Picture	STIM L C	170334	0	5	333	5	0	200	hit	62
+46	Response	1	175158	4824	6
+47	Picture	correct response	175334	0	5	333	5	0	200	other	0
+48	Picture	fix	175834	0	1	5667	5	0	next	other	0
+49	Picture	STIM R I	181501	0	5	333	5	0	200	hit	66
+49	Response	2	184518	3017	9
+50	Picture	correct response	184668	0	6	333	6	0	200	other	0
+51	Picture	fix	185001	0	1	7128	1	0	next	other	0
+51	Quit		187104	2102	NA
+
+
+{
+   "app": "Presentation Version 21.0 Build 06.06.19",
+   "device": "Alienware Alienware 15 R3",
+   "experiment": "{4A2AFD06-9C75-486E-92CA-5BDB1E053DD1}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "Flanker_pixel.sce",
+   "subject": "",
+   "timestamp": "2020/01/28 01:02:50 GMT"
+}

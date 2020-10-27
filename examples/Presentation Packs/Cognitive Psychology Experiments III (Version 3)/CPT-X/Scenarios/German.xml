@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<experiment_text language="German">
+  <map name="default">
+    <item key="Instructions">Bei diesem Experiment wird Ihnen eine Serie von Buchstaben nacheinander gezeigt. Ihre Aufgabe ist es zu bestimmen, ob der Buchstabe den Sie sehen ein Target-Buchstabe ist, worauf Sie eine entsprechende Antwort geben.  
+
+Bei diesem Experiment ist der Target-Buchstabe (TARGET_LETTER). Jedesmal wenn Sie (TARGET_LETTER) sehen, reagieren Sie nicht. Wenn irgendein anderer Buchstabe erscheint, respondieren Sie, indem Sie die linke Maus-Taste so schnell wie möglich drücken.
+
+Versuchen Sie so rasch wie möglich und genau zu antworten. Klicken Sie die linke Maus-Taste, wenn Sie bereit sind zu beginnen.
+</item>
+    <item key="No Instructions Caption">Klicken die linke Maustaste, um den nächsten Teil zu beginnen. </item>
+    <item key="Rest Screen Caption">Sobald Sie bereit sind, Klicken die linke Maustaste.</item>
+    <item key="Progress Bar Caption">Fortfahren:</item>
+    <item key="Practice Caption"> Beginnen Sie mit einigen Übungsversuchen</item>
+    <item key="Practice Complete Caption">Nachdem Sie die Übungsversuche beendet haben. Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Completion Screen Caption">Sie haben das Experiment beendet. Danke für Ihre Teilnahme. Klicken  die linke Maustaste, um das Programm zu verlassen.</item>
+    <item key="Block Complete Caption">Sie haben die [BLOCK_NUMBER] Blöcke beendet. Es gibt [TOTAL_NUMBER] Blöcke.
+Klicken die linke Maustaste um fort zu fahren.</item>
+    <item key="Word Wrap Mode">Word</item>
+  </map>
+</experiment_text>
