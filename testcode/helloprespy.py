@@ -25,7 +25,7 @@ ste.set_stimulus_time_out(1000)
 ## PCL
 
 for i in range(100):
-    # trial.set_part_y(1, 50 - i)
+    pic1.set_part_y(1, 50 - i)
     trial.present()
 
 del scen
