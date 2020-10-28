@@ -13,7 +13,8 @@ pc.set_header_parameter("button_codes", "1, 2, 3")  # left, right, space
 
 pc.open_experiment(os.path.abspath("./examples/test presentation/Flanker_pixel.exp"))
 
-scen = pc.run(pc.PRESCONTROL1_USER_CONTROL | pc.PRESCONTROL1_WRITE_OUTPUT, 0)
+scen = pc.run(pc.PRESCONTROL1_USER_CONTROL | pc.PRESCONTROL1_WRITE_OUTPUT, 0, os.path.abspath("./log/log1.log"),
+              os.path.abspath("./log/log1.txt"))
 
 # SDL
 ## coller Trigger
