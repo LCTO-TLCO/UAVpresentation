@@ -1,7 +1,5 @@
-import sys
-
-sys.path.append('C:\\Users\\spike\\PycharmProjects\\UAVpresentation\\packages')
-import PresPy
+import os
+from packages import PresPy
 import random
 
 pc = PresPy.Presentation_control()
@@ -13,7 +11,7 @@ pc.set_header_parameter("active_buttons", 3)
 pc.set_header_parameter("button_codes", "1, 2, 3")  # left, right, space
 # pc.set_header_parameter("write_codes", True)
 
-pc.open_experiment("C:\\Users\\spike\\PycharmProjects\\UAVpresentation\\examples\\test presentation\\Flanker_pixel.exp")
+pc.open_experiment(os.path.abspath("./examples/test presentation/Flanker_pixel.exp"))
 
 scen = pc.run(pc.PRESCONTROL1_USER_CONTROL | pc.PRESCONTROL1_WRITE_OUTPUT, 0)
 
@@ -382,9 +380,7 @@ for blk in range(max_block):
         # lc,rc,li,ri
         selected_trial[selection].present()
         stimulus_manager = scen.get_var("stimulus_manager")
-        help(stimulus_manager)
         last = stimulus_manager.last_stimulus_data()
-        print(last.type())
         if last.type() == pc.stimulus_data.INCORRECT:
             trial_t_incorrect.present()
         elif last.type() == pc.stimulus_data.MISS:
