@@ -15,7 +15,7 @@ pc.set_header_parameter("button_codes", "1, 2, 3")  # left, right, space
 
 pc.open_experiment("C:\\Users\\spike\\PycharmProjects\\UAVpresentation\\examples\\test presentation\\Flanker_pixel.exp")
 
-scen = pc.run(0)
+scen = pc.run(pc.PRESCONTROL1_USER_CONTROL | pc.PRESCONTROL1_WRITE_OUTPUT, 0)
 
 # SDL
 ## coller Trigger
@@ -157,10 +157,10 @@ text_task_tail_wait.set_font_size(24)
 text_task_tail_wait.set_caption("しばらくお待ちください", redraw=True)
 text_task_tail_wait.load()
 pic_task_tail.add_part(text_task_tail_wait, origin_x=0, origin_y=-200)
-event_block_tail = trial_task_tail.add_stimulus_event(pic_task_tail)
-event_block_tail.set_target_button([1, 2])
-event_block_tail.set_stimulus_time_in(500)
-event_block_tail.set_stimulus_time_out(event_block_tail.TIME_OUT_NEVER)
+event_task_tail = trial_task_tail.add_stimulus_event(pic_task_tail)
+event_task_tail.set_target_button([1, 2])
+event_task_tail.set_stimulus_time_in(500)
+event_task_tail.set_stimulus_time_out(event_task_tail.TIME_OUT_NEVER)
 
 # ---------------------------------------------------------------------- FIX
 
@@ -192,7 +192,8 @@ event_lc_t.set_event_code("STIM L C")
 pic_l_c = scen.picture()
 pic_l_c.add_part(text_l_c, origin_x=0, origin_y=0)
 event_lc = trial_lc.add_stimulus_event(pic_l_c)
-event_lc.set_time(stim_duration)
+event_lc.set_time(stim_onset)
+event_lc.set_duration(stim_duration)
 
 # ---------------------------------------------------------------------- RC
 
@@ -216,7 +217,8 @@ event_rc_t.set_event_code("STIM R C")
 pic_r_c = scen.picture()
 pic_r_c.add_part(text_r_c, origin_x=0, origin_y=0)
 event_rc = trial_rc.add_stimulus_event(pic_r_c)
-event_rc.set_time(stim_duration)
+event_rc.set_time(stim_onset)
+event_rc.set_duration(stim_duration)
 
 # ---------------------------------------------------------------------- LI
 
@@ -240,7 +242,8 @@ event_li_t.set_event_code("STIM L I")
 pic_l_i = scen.picture()
 pic_l_i.add_part(text_l_i, origin_x=0, origin_y=0)
 event_li = trial_li.add_stimulus_event(pic_l_i)
-event_li.set_time(stim_duration)
+event_li.set_time(stim_onset)
+event_li.set_duration(stim_duration)
 
 # ---------------------------------------------------------------------- RI
 
@@ -263,8 +266,9 @@ event_ri_t.set_event_code("STIM R I")
 # stim
 pic_r_i = scen.picture()
 pic_r_i.add_part(text_l_i, origin_x=0, origin_y=0)
-event_ri = trial_ri.add_stimulus_event(pic_l_i)
-event_ri.set_time(stim_duration)
+event_ri = trial_ri.add_stimulus_event(pic_r_i)
+event_ri.set_time(stim_onset)
+event_ri.set_duration(stim_duration)
 
 # --------------------------------------------------------- RESPONSE TRIGGER
 # Correct
@@ -371,19 +375,23 @@ for blk in range(max_block):
     pic_block_head.set_part(1, block_letters[blk + 1])
     trial_block_head.present()
     for selection in select_trial:
-        fix_jitter = random.uniform(fix_min, fix_max)
+        fix_jitter = random.randint(fix_min, fix_max)
         trial_fix.set_duration(fix_jitter)
         # fix
         trial_fix.present()
         # lc,rc,li,ri
         selected_trial[selection].present()
-        last = pc.program_stimulus_manager.last_stimulus_data()
+        stimulus_manager = scen.get_var("stimulus_manager")
+        help(stimulus_manager)
+        last = stimulus_manager.last_stimulus_data()
+        print(last.type())
         if last.type() == pc.stimulus_data.INCORRECT:
             trial_t_incorrect.present()
         elif last.type() == pc.stimulus_data.MISS:
             feedback_pic.set_part(1, missed)
             event_feedback.set_event_code("omission")
             feedback_trial.present()
+            trial_t_omission.present()
             num_omission += 1
         elif last.type() == pc.stimulus_data.HIT:
             trial_t_correct.present()
@@ -394,7 +402,6 @@ for blk in range(max_block):
     pic_block_tail.set_part(1, block_tale_letters[blk + 1])
     trial_block_tail.present()
 trial_task_tail.present()
-
 
 # TODO exporting log
 
