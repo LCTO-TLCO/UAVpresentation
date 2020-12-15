@@ -50,7 +50,7 @@ for i in range(10):
     tmp_tale = scen.text()
     tmp_tale.set_font_size(36)
     tmp_tale.set_caption(str(i + 1) + "/10ブロック目終了", redraw=True)
-    block_tale_letters.append(tmp)
+    block_tale_letters.append(tmp_tale)
 
 block_letters = dict(zip(range(1, 11), block_letters))
 
@@ -94,6 +94,16 @@ pic_fix = scen.picture()
 pic_fix.add_part(fix_text, origin_x=0, origin_y=0)
 pic_fix.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
 pic_fix.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
+
+pic_fix_left = scen.picture()
+pic_fix_left.add_part(fix_text, origin_x=0, origin_y=0)
+pic_fix_left.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
+pic_fix_left.add_part(text_left_arrow_on, origin_x=-300, origin_y=-300)
+
+pic_fix_right = scen.picture()
+pic_fix_right.add_part(fix_text, origin_x=0, origin_y=0)
+pic_fix_right.add_part(text_right_arrow_on, origin_x=300, origin_y=-300)
+pic_fix_right.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
 
 ## Target_button left congruent
 stim_fontsize = 96
@@ -190,9 +200,11 @@ event_task_tail.set_stimulus_time_out(event_task_tail.TIME_OUT_NEVER)
 # ---------------------------------------------------------------------- FIX
 
 trial_fix = pc.trial(scen)
-trial_fix.set_duration(600)
+trial_fix.set_duration(500)
 event_fix = trial_fix.add_stimulus_event(pic_fix)
 event_fix.set_time(0)
+event_fix.set_stimulus_time_in(0)
+event_fix.set_stimulus_time_out(500)
 event_fix.set_event_code("fix")
 
 # ---------------------------------------------------------------------- LC
@@ -309,10 +321,10 @@ pic_t_correct.add_part(text_fix, origin_x=0, origin_y=0)
 pic_t_correct.add_part(box[208], origin_x=trigger_x, origin_y=trigger_y)
 pic_t_correct.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
 pic_t_correct.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
-event_t_correct = trial_t_correct.add_stimulus_event(pic_t_correct)
-event_t_correct.set_time(0)
-event_t_correct.set_duration(20)
-event_t_correct.set_event_code("correct response")
+# event_t_correct = trial_t_correct.add_stimulus_event(pic_t_correct)
+# event_t_correct.set_time(0)
+# event_t_correct.set_duration(20)
+# event_t_correct.set_event_code("correct response")
 # event_t_correct.set_port_code(100)
 # Incorrect
 trial_t_incorrect = pc.trial(scen)
@@ -323,10 +335,10 @@ pic_t_incorrect.add_part(text_fix, origin_x=0, origin_y=0)
 pic_t_incorrect.add_part(box[224], origin_x=trigger_x, origin_y=trigger_y)
 pic_t_incorrect.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
 pic_t_incorrect.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
-event_t_incorrect = trial_t_incorrect.add_stimulus_event(pic_t_incorrect)
-event_t_incorrect.set_time(0)
-event_t_incorrect.set_duration(20)
-event_t_incorrect.set_event_code("incorrect response")
+# event_t_incorrect = trial_t_incorrect.add_stimulus_event(pic_t_incorrect)
+# event_t_incorrect.set_time(0)
+# event_t_incorrect.set_duration(20)
+# event_t_incorrect.set_event_code("incorrect response")
 # event_t_incorrect.set_port_code(200)
 # Omission
 trial_t_omission = pc.trial(scen)
@@ -337,10 +349,36 @@ pic_t_omission.add_part(text_fix, origin_x=0, origin_y=0)
 pic_t_omission.add_part(box[240], origin_x=trigger_x, origin_y=trigger_y)
 pic_t_omission.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
 pic_t_omission.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
-event_t_omission = trial_t_omission.add_stimulus_event(pic_t_omission)
-event_t_omission.set_time(0)
-event_t_omission.set_duration(20)
-event_t_omission.set_event_code("omission")
+# event_t_omission = trial_t_omission.add_stimulus_event(pic_t_omission)
+# event_t_omission.set_time(0)
+# event_t_omission.set_duration(20)
+# event_t_omission.set_event_code("omission")
+
+# --------------------------------------------------------- RESPONSE TRIGGER PIC
+# correct left
+pic_t_correct_left = scen.picture()
+pic_t_correct_left.add_part(text_fix, origin_x=0, origin_y=0)
+pic_t_correct_left.add_part(box[208], origin_x=trigger_x, origin_y=trigger_y)
+pic_t_correct_left.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
+pic_t_correct_left.add_part(text_left_arrow_on, origin_x=-300, origin_y=-300)
+# correct right
+pic_t_correct_right = scen.picture()
+pic_t_correct_right.add_part(text_fix, origin_x=0, origin_y=0)
+pic_t_correct_right.add_part(box[208], origin_x=trigger_x, origin_y=trigger_y)
+pic_t_correct_right.add_part(text_right_arrow_on, origin_x=300, origin_y=-300)
+pic_t_correct_right.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
+# incorrect left
+pic_t_incorrect_left = scen.picture()
+pic_t_incorrect_left.add_part(text_fix, origin_x=0, origin_y=0)
+pic_t_incorrect_left.add_part(box[224], origin_x=trigger_x, origin_y=trigger_y)
+pic_t_incorrect_left.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
+pic_t_incorrect_left.add_part(text_left_arrow_on, origin_x=-300, origin_y=-300)
+# incorrect right
+pic_t_incorrect_right = scen.picture()
+pic_t_incorrect_right.add_part(text_fix, origin_x=0, origin_y=0)
+pic_t_incorrect_right.add_part(box[224], origin_x=trigger_x, origin_y=trigger_y)
+pic_t_incorrect_right.add_part(text_right_arrow_on, origin_x=300, origin_y=-300)
+pic_t_incorrect_right.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
 
 # ---------------------------------------------------------        feedback
 
@@ -418,12 +456,8 @@ for blk in range(max_block):
     num_omission = 0
     pic_block_head.set_part(1, block_letters[blk + 1])
     trial_block_head.present()
+    trial_fix.present()
     for idx, selection in enumerate(select_trial):
-        fix_jitter = random.randint(fix_min, fix_max)
-        trial_fix.set_duration(fix_jitter)
-        # fix
-        trial_fix.present()
-        # TODO remove light pic
         # lc,rc,li,ri
         selected_trial[selection].present()
         answer = agent_answer[idx]
@@ -431,30 +465,65 @@ for blk in range(max_block):
         if answer:
             # left
             if correct_answer[selection] == "left":
-                # pic_fix.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
-                # pic_fix.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
-                # TODO set left light on to top
-                pic_t_correct.add_part(text_left_arrow_on, origin_x=-300, origin_y=-300)
-                pic_fix.add_part(text_left_arrow_on, origin_x=-300, origin_y=-300)
+                # correct trigger
+                event_t_correct = trial_t_correct.add_stimulus_event(pic_t_correct_left)
+                event_t_correct.set_time(0)
+                event_t_correct.set_duration(100)
+                event_t_correct.set_event_code("correct response")
+                # event_t_correct.set_port_code(100)
+                # trial_fix
+                # event_fix_left = trial_fix.add_stimulus_event(pic_fix_left, 2)
+                # event_fix_left.set_time(80)
+                # event_fix_left.set_stimulus_time_in(0)
+                # event_fix_left.set_stimulus_time_out(80)
+                # event_fix_left.set_duration(80)
             elif correct_answer[selection] == "right":
-                pic_t_correct.add_part(text_right_arrow_on, origin_x=300, origin_y=-300)
-                pic_fix.add_part(text_right_arrow_on, origin_x=300, origin_y=-300)
+                event_t_correct = trial_t_correct.add_stimulus_event(pic_t_correct_right)
+                event_t_correct.set_time(0)
+                event_t_correct.set_duration(100)
+                event_t_correct.set_event_code("correct response")
+                # event_t_correct.set_port_code(100)
+                # event_fix_right = trial_fix.add_stimulus_event(pic_fix_right, 2)
+                # event_fix_right.set_time(80)
+                # event_fix_right.set_stimulus_time_in(0)
+                # event_fix_right.set_stimulus_time_out(80)
+                # event_fix_right.set_duration(80)
             trial_t_correct.present()
-            # TODO reset
+            trial_t_correct.remove_stimulus_event(1)
             num_correct += 1
         # incorrect
         elif not answer:
             if correct_answer[selection] == "left":
-                pic_t_correct.add_part(text_right_arrow_on, origin_x=300, origin_y=-300)
-                pic_fix.add_part(text_right_arrow_on, origin_x=300, origin_y=-300)
+                event_t_incorrect = trial_t_incorrect.add_stimulus_event(pic_t_incorrect_right)
+                event_t_incorrect.set_time(0)
+                event_t_incorrect.set_duration(100)
+                event_t_incorrect.set_event_code("incorrect response")
+                # event_t_incorrect.set_port_code(200)
+                # event_fix_right = trial_fix.add_stimulus_event(pic_fix_right, 2)
+                # event_fix_right.set_time(80)
+                # event_fix_right.set_stimulus_time_in(0)
+                # event_fix_right.set_stimulus_time_out(80)
+                # event_fix_right.set_duration(80)
             elif correct_answer[selection] == "right":
-                pic_t_correct.add_part(text_left_arrow_on, origin_x=-300, origin_y=-300)
-                pic_fix.add_part(text_left_arrow_on, origin_x=-300, origin_y=-300)
+                event_t_incorrect = trial_t_incorrect.add_stimulus_event(pic_t_incorrect_left)
+                event_t_incorrect.set_time(0)
+                event_t_incorrect.set_duration(100)
+                event_t_incorrect.set_event_code("incorrect response")
+                # event_t_incorrect.set_port_code(200)
+                # event_fix_left = trial_fix.add_stimulus_event(pic_fix_left, 2)
+                # event_fix_left.set_time(80)
+                # event_fix_left.set_stimulus_time_in(0)
+                # event_fix_left.set_stimulus_time_out(80)
+                # event_fix_left.set_duration(80)
             trial_t_incorrect.present()
-            # TODO reset
+            trial_t_incorrect.remove_stimulus_event(1)
         else:
             pass
-    trial_fix.present()
+        fix_jitter = random.randint(fix_min, fix_max)
+        trial_fix.set_duration(fix_jitter - 100)
+        # fix
+        trial_fix.present()
+        # trial_fix.remove_stimulus_event(2)
     pic_block_tail.set_part(1, block_tale_letters[blk + 1])
     trial_block_tail.present()
 trial_task_tail.present()
@@ -463,11 +532,10 @@ trial_task_tail.present()
 # TODO exporting log
 # TODO check** remove user input
 # TODO check** agent correct/incorrect
-# TODO agent button block(on)
+# TODO check**　agent button block(on)
 # TODO check** agent button block(off)
 ## to trial_fix
 ## no_stim, left_stim, right_stim
 # TODO if correct
-##
 
 del scen
