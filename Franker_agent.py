@@ -200,11 +200,11 @@ event_task_tail.set_stimulus_time_out(event_task_tail.TIME_OUT_NEVER)
 # ---------------------------------------------------------------------- FIX
 
 trial_fix = pc.trial(scen)
-trial_fix.set_duration(500)
+trial_fix.set_duration(600)
 event_fix = trial_fix.add_stimulus_event(pic_fix)
-event_fix.set_time(0)
+# event_fix.set_time(0)
 event_fix.set_stimulus_time_in(0)
-event_fix.set_stimulus_time_out(500)
+# event_fix.set_stimulus_time_out(600)
 event_fix.set_event_code("fix")
 
 # ---------------------------------------------------------------------- LC
@@ -468,23 +468,23 @@ for blk in range(max_block):
                 # correct trigger
                 event_t_correct = trial_t_correct.add_stimulus_event(pic_t_correct_left)
                 event_t_correct.set_time(0)
-                event_t_correct.set_duration(100)
+                event_t_correct.set_duration(20)
                 event_t_correct.set_event_code("correct response")
                 # event_t_correct.set_port_code(100)
-                # trial_fix
-                # event_fix_left = trial_fix.add_stimulus_event(pic_fix_left, 2)
-                # event_fix_left.set_time(80)
+                # trial_fix light on
+                event_fix_left = trial_fix.add_stimulus_event(pic_fix_left, 1)
+                event_fix_left.set_time(80)
                 # event_fix_left.set_stimulus_time_in(0)
                 # event_fix_left.set_stimulus_time_out(80)
-                # event_fix_left.set_duration(80)
+                # event_fix_left.set_duration(0)
             elif correct_answer[selection] == "right":
                 event_t_correct = trial_t_correct.add_stimulus_event(pic_t_correct_right)
                 event_t_correct.set_time(0)
-                event_t_correct.set_duration(100)
+                event_t_correct.set_duration(20)
                 event_t_correct.set_event_code("correct response")
                 # event_t_correct.set_port_code(100)
-                # event_fix_right = trial_fix.add_stimulus_event(pic_fix_right, 2)
-                # event_fix_right.set_time(80)
+                event_fix_right = trial_fix.add_stimulus_event(pic_fix_right, 1)
+                event_fix_right.set_time(80)
                 # event_fix_right.set_stimulus_time_in(0)
                 # event_fix_right.set_stimulus_time_out(80)
                 # event_fix_right.set_duration(80)
@@ -496,22 +496,22 @@ for blk in range(max_block):
             if correct_answer[selection] == "left":
                 event_t_incorrect = trial_t_incorrect.add_stimulus_event(pic_t_incorrect_right)
                 event_t_incorrect.set_time(0)
-                event_t_incorrect.set_duration(100)
+                event_t_incorrect.set_duration(20)
                 event_t_incorrect.set_event_code("incorrect response")
                 # event_t_incorrect.set_port_code(200)
-                # event_fix_right = trial_fix.add_stimulus_event(pic_fix_right, 2)
-                # event_fix_right.set_time(80)
+                event_fix_right = trial_fix.add_stimulus_event(pic_fix_right, 1)
+                event_fix_right.set_time(80)
                 # event_fix_right.set_stimulus_time_in(0)
                 # event_fix_right.set_stimulus_time_out(80)
                 # event_fix_right.set_duration(80)
             elif correct_answer[selection] == "right":
                 event_t_incorrect = trial_t_incorrect.add_stimulus_event(pic_t_incorrect_left)
                 event_t_incorrect.set_time(0)
-                event_t_incorrect.set_duration(100)
+                event_t_incorrect.set_duration(20)
                 event_t_incorrect.set_event_code("incorrect response")
                 # event_t_incorrect.set_port_code(200)
-                # event_fix_left = trial_fix.add_stimulus_event(pic_fix_left, 2)
-                # event_fix_left.set_time(80)
+                event_fix_left = trial_fix.add_stimulus_event(pic_fix_left, 1)
+                event_fix_left.set_time(80)
                 # event_fix_left.set_stimulus_time_in(0)
                 # event_fix_left.set_stimulus_time_out(80)
                 # event_fix_left.set_duration(80)
@@ -523,19 +523,11 @@ for blk in range(max_block):
         trial_fix.set_duration(fix_jitter - 100)
         # fix
         trial_fix.present()
-        # trial_fix.remove_stimulus_event(2)
+        trial_fix.remove_stimulus_event(1)
     pic_block_tail.set_part(1, block_tale_letters[blk + 1])
     trial_block_tail.present()
 trial_task_tail.present()
-
-########### TODO ##############
+# TODO add box trial
 # TODO exporting log
-# TODO check** remove user input
-# TODO check** agent correct/incorrect
-# TODO check**　agent button block(on)
-# TODO check** agent button block(off)
-## to trial_fix
-## no_stim, left_stim, right_stim
-# TODO if correct
 
 del scen
