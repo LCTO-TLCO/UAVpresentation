@@ -4,8 +4,11 @@
 import os
 from packages import PresPy
 import random
+import datetime
 
 pc = PresPy.Presentation_control()
+
+today = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 
 # header
 pc.set_header_parameter("response_matching", "simple_matching")
@@ -16,8 +19,8 @@ pc.set_header_parameter("button_codes", "1, 2, 3")  # left, right, space
 
 pc.open_experiment(os.path.abspath("./examples/test presentation/Flanker_pixel.exp"))
 
-scen = pc.run(pc.PRESCONTROL1_USER_CONTROL | pc.PRESCONTROL1_WRITE_OUTPUT, 0, os.path.abspath("./log/log1.log"),
-              os.path.abspath("./log/log1.txt"))
+scen = pc.run(pc.PRESCONTROL1_USER_CONTROL | pc.PRESCONTROL1_WRITE_OUTPUT, 0, os.path.abspath(f"./log/{today}.log"),
+              os.path.abspath(f"./log/{today}.txt"))
 
 # SDL
 ## coller Trigger
@@ -412,7 +415,7 @@ event_feedback.set_event_code("feedback")
 ###########################################################################
 # ------------------------------------------------------------------- PARAMS
 
-max_block = 10
+max_block = 1
 max_trial = 100
 select_trial = []
 agent_answer = []
