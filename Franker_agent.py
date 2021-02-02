@@ -96,20 +96,30 @@ text_right_arrow_on.set_background_color(255, 255, 0)
 text_right_arrow_on.set_font_color(0, 0, 0)
 text_right_arrow_on.set_caption("→", redraw=True)
 
+# agent control
+text_agent_box = scen.text()
+text_agent_box.set_font_size(200)
+text_agent_box.set_background_color(0, 0, 0, 0)
+text_agent_box.set_font_color(255, 0, 0)
+text_agent_box.set_caption("□", redraw=True)
+
 pic_fix = scen.picture()
 pic_fix.add_part(fix_text, origin_x=0, origin_y=0)
-pic_fix.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
-pic_fix.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
+pic_fix.add_part(text_right_arrow_off, origin_x=150, origin_y=-100)
+pic_fix.add_part(text_left_arrow_off, origin_x=-150, origin_y=-100)
+pic_fix.add_part(text_agent_box, origin_x=0, origin_y=-70)
 
 pic_fix_left = scen.picture()
 pic_fix_left.add_part(fix_text, origin_x=0, origin_y=0)
-pic_fix_left.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
-pic_fix_left.add_part(text_left_arrow_on, origin_x=-300, origin_y=-300)
+pic_fix_left.add_part(text_right_arrow_off, origin_x=150, origin_y=-100)
+pic_fix_left.add_part(text_left_arrow_on, origin_x=-150, origin_y=-100)
+pic_fix_left.add_part(text_agent_box, origin_x=-150, origin_y=-70)
 
 pic_fix_right = scen.picture()
 pic_fix_right.add_part(fix_text, origin_x=0, origin_y=0)
-pic_fix_right.add_part(text_right_arrow_on, origin_x=300, origin_y=-300)
-pic_fix_right.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
+pic_fix_right.add_part(text_right_arrow_on, origin_x=150, origin_y=-100)
+pic_fix_right.add_part(text_left_arrow_off, origin_x=-150, origin_y=-100)
+pic_fix_right.add_part(text_agent_box, origin_x=150, origin_y=-70)
 
 ## Target_button left congruent
 stim_fontsize = 96
@@ -132,7 +142,7 @@ text_r_i.set_caption("<<><<", redraw=True)
 ## time
 trigger_duration = 20
 trial_duration = 500
-agent_button_duration = 100
+agent_button_duration = 750
 stim_onset = 20  # just after trigger (=$trigger_duration)
 stim_duration = 480  # $trigger_duration分を引く
 block_count = 1
@@ -208,9 +218,9 @@ event_task_tail.set_stimulus_time_out(event_task_tail.TIME_OUT_NEVER)
 trial_fix = pc.trial(scen)
 trial_fix.set_duration(600)
 event_fix = trial_fix.add_stimulus_event(pic_fix)
-# event_fix.set_time(0)
+event_fix.set_time(0)
 event_fix.set_stimulus_time_in(0)
-# event_fix.set_stimulus_time_out(600)
+event_fix.set_stimulus_time_out(600)
 event_fix.set_event_code("fix")
 
 # ---------------------------------------------------------------------- LC
@@ -233,11 +243,45 @@ event_lc_t.set_event_code("STIM L C")
 # stim
 pic_l_c = scen.picture()
 pic_l_c.add_part(text_l_c, origin_x=0, origin_y=0)
-pic_l_c.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
-pic_l_c.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
+pic_l_c.add_part(text_right_arrow_off, origin_x=150, origin_y=-100)
+pic_l_c.add_part(text_left_arrow_off, origin_x=-150, origin_y=-100)
+pic_l_c.add_part(text_agent_box, origin_x=0, origin_y=-70)
 event_lc = trial_lc.add_stimulus_event(pic_l_c)
 event_lc.set_time(stim_onset)
 event_lc.set_duration(stim_duration)
+# agent answer
+## left
+trial_lc_left = pc.trial(scen)
+trial_lc_left.set_type(trial_lc_left.FIXED)
+trial_lc_left.set_all_responses(False)
+trial_lc_left.set_duration(agent_button_duration)
+pic_l_c_left = scen.picture()
+pic_l_c_left.add_part(text_l_c, origin_x=0, origin_y=0)
+pic_l_c_left.add_part(text_right_arrow_off, origin_x=150, origin_y=-100)
+pic_l_c_left.add_part(text_left_arrow_on, origin_x=-150, origin_y=-100)
+pic_l_c_left.add_part(text_agent_box, origin_x=-150, origin_y=-70)
+event_lc_left = trial_lc_left.add_stimulus_event(pic_l_c_left)
+event_lc_left.set_time(0)
+event_lc_left.set_duration(agent_button_duration)
+event_lc_left.set_stimulus_time_in(0)
+event_lc_left.set_stimulus_time_out(agent_button_duration)
+event_lc_left.set_event_code("ANS L C L")
+# right
+trial_lc_right = pc.trial(scen)
+trial_lc_right.set_type(trial_lc_right.FIXED)
+trial_lc_right.set_all_responses(False)
+trial_lc_right.set_duration(agent_button_duration)
+pic_l_c_right = scen.picture()
+pic_l_c_right.add_part(text_l_c, origin_x=0, origin_y=0)
+pic_l_c_right.add_part(text_right_arrow_on, origin_x=150, origin_y=-100)
+pic_l_c_right.add_part(text_left_arrow_off, origin_x=-150, origin_y=-100)
+pic_l_c_right.add_part(text_agent_box, origin_x=150, origin_y=-70)
+event_lc_right = trial_lc_right.add_stimulus_event(pic_l_c_right)
+event_lc_right.set_time(0)
+event_lc_right.set_duration(agent_button_duration)
+event_lc_right.set_stimulus_time_in(0)
+event_lc_right.set_stimulus_time_out(agent_button_duration)
+event_lc_right.set_event_code("ANS L C R")
 
 # ---------------------------------------------------------------------- RC
 
@@ -259,11 +303,45 @@ event_rc_t.set_event_code("STIM R C")
 # stim
 pic_r_c = scen.picture()
 pic_r_c.add_part(text_r_c, origin_x=0, origin_y=0)
-pic_r_c.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
-pic_r_c.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
+pic_r_c.add_part(text_right_arrow_off, origin_x=150, origin_y=-100)
+pic_r_c.add_part(text_left_arrow_off, origin_x=-150, origin_y=-100)
+pic_r_c.add_part(text_agent_box, origin_x=0, origin_y=-70)
 event_rc = trial_rc.add_stimulus_event(pic_r_c)
 event_rc.set_time(stim_onset)
 event_rc.set_duration(stim_duration)
+# agent answer
+## left
+trial_rc_left = pc.trial(scen)
+trial_rc_left.set_type(trial_rc_left.FIXED)
+trial_rc_left.set_all_responses(False)
+trial_rc_left.set_duration(agent_button_duration)
+pic_r_c_left = scen.picture()
+pic_r_c_left.add_part(text_r_c, origin_x=0, origin_y=0)
+pic_r_c_left.add_part(text_right_arrow_off, origin_x=150, origin_y=-100)
+pic_r_c_left.add_part(text_left_arrow_on, origin_x=-150, origin_y=-100)
+pic_r_c_left.add_part(text_agent_box, origin_x=-150, origin_y=-70)
+event_rc_left = trial_rc_left.add_stimulus_event(pic_r_c_left)
+event_rc_left.set_time(0)
+event_rc_left.set_duration(agent_button_duration)
+event_rc_left.set_stimulus_time_in(0)
+event_rc_left.set_stimulus_time_out(agent_button_duration)
+event_rc_left.set_event_code("ANS R C L")
+# right
+trial_rc_right = pc.trial(scen)
+trial_rc_right.set_type(trial_rc_right.FIXED)
+trial_rc_right.set_all_responses(False)
+trial_rc_right.set_duration(agent_button_duration)
+pic_r_c_right = scen.picture()
+pic_r_c_right.add_part(text_r_c, origin_x=0, origin_y=0)
+pic_r_c_right.add_part(text_right_arrow_on, origin_x=150, origin_y=-100)
+pic_r_c_right.add_part(text_left_arrow_off, origin_x=-150, origin_y=-100)
+pic_r_c_right.add_part(text_agent_box, origin_x=150, origin_y=-70)
+event_rc_right = trial_rc_right.add_stimulus_event(pic_r_c_right)
+event_rc_right.set_time(0)
+event_rc_right.set_duration(agent_button_duration)
+event_rc_right.set_stimulus_time_in(0)
+event_rc_right.set_stimulus_time_out(agent_button_duration)
+event_rc_right.set_event_code("ANS R C R")
 
 # ---------------------------------------------------------------------- LI
 
@@ -285,11 +363,46 @@ event_li_t.set_event_code("STIM L I")
 # stim
 pic_l_i = scen.picture()
 pic_l_i.add_part(text_l_i, origin_x=0, origin_y=0)
-pic_l_i.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
-pic_l_i.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
+pic_l_i.add_part(text_right_arrow_off, origin_x=150, origin_y=-100)
+pic_l_i.add_part(text_left_arrow_off, origin_x=-150, origin_y=-100)
+pic_l_i.add_part(text_agent_box, origin_x=0, origin_y=-70)
 event_li = trial_li.add_stimulus_event(pic_l_i)
 event_li.set_time(stim_onset)
 event_li.set_duration(stim_duration)
+# agent answer
+## left
+trial_li_left = pc.trial(scen)
+trial_li_left.set_type(trial_li_left.FIXED)
+trial_li_left.set_all_responses(False)
+trial_li_left.set_duration(agent_button_duration)
+pic_l_i_left = scen.picture()
+pic_l_i_left.add_part(text_l_i, origin_x=0, origin_y=0)
+pic_l_i_left.add_part(text_right_arrow_off, origin_x=150, origin_y=-100)
+pic_l_i_left.add_part(text_left_arrow_on, origin_x=-150, origin_y=-100)
+pic_l_i_left.add_part(text_agent_box, origin_x=-150, origin_y=-70)
+event_li_left = trial_li_left.add_stimulus_event(pic_l_i_left)
+event_li_left.set_time(0)
+event_li_left.set_duration(agent_button_duration)
+event_li_left.set_stimulus_time_in(0)
+event_li_left.set_stimulus_time_out(agent_button_duration)
+event_li_left.set_event_code("ANS L I L")
+
+# right
+trial_li_right = pc.trial(scen)
+trial_li_right.set_type(trial_li_right.FIXED)
+trial_li_right.set_all_responses(False)
+trial_li_right.set_duration(agent_button_duration)
+pic_l_i_right = scen.picture()
+pic_l_i_right.add_part(text_l_i, origin_x=0, origin_y=0)
+pic_l_i_right.add_part(text_right_arrow_on, origin_x=150, origin_y=-100)
+pic_l_i_right.add_part(text_left_arrow_off, origin_x=-150, origin_y=-100)
+pic_l_i_right.add_part(text_agent_box, origin_x=150, origin_y=-70)
+event_li_right = trial_li_right.add_stimulus_event(pic_l_i_right)
+event_li_right.set_time(0)
+event_li_right.set_duration(agent_button_duration)
+event_li_right.set_stimulus_time_in(0)
+event_li_right.set_stimulus_time_out(agent_button_duration)
+event_li_right.set_event_code("ANS L I R")
 
 # ---------------------------------------------------------------------- RI
 
@@ -300,7 +413,7 @@ trial_ri.set_duration(trial_duration)
 # trigger
 pic_ri_t = scen.picture()
 pic_ri_t.add_part(box[64], origin_x=trigger_x, origin_y=trigger_y)
-pic_ri_t.add_part(text_l_i, origin_x=0, origin_y=0)
+pic_ri_t.add_part(text_r_i, origin_x=0, origin_y=0)
 event_ri_t = trial_ri.add_stimulus_event(pic_ri_t)
 event_ri_t.set_time(0)
 event_ri_t.set_duration(trigger_duration)
@@ -310,12 +423,46 @@ event_ri_t.set_event_code("STIM R I")
 # event_ri_t.set_port_code(48)
 # stim
 pic_r_i = scen.picture()
-pic_r_i.add_part(text_l_i, origin_x=0, origin_y=0)
-pic_r_i.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
-pic_r_i.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
+pic_r_i.add_part(text_r_i, origin_x=0, origin_y=0)
+pic_r_i.add_part(text_right_arrow_off, origin_x=150, origin_y=-100)
+pic_r_i.add_part(text_left_arrow_off, origin_x=-150, origin_y=-100)
+pic_r_i.add_part(text_agent_box, origin_x=0, origin_y=-70)
 event_ri = trial_ri.add_stimulus_event(pic_r_i)
 event_ri.set_time(stim_onset)
 event_ri.set_duration(stim_duration)
+# agent answer
+## left
+trial_ri_left = pc.trial(scen)
+trial_ri_left.set_type(trial_ri_left.FIXED)
+trial_ri_left.set_all_responses(False)
+trial_ri_left.set_duration(agent_button_duration)
+pic_r_i_left = scen.picture()
+pic_r_i_left.add_part(text_r_i, origin_x=0, origin_y=0)
+pic_r_i_left.add_part(text_right_arrow_off, origin_x=150, origin_y=-100)
+pic_r_i_left.add_part(text_left_arrow_on, origin_x=-150, origin_y=-100)
+pic_r_i_left.add_part(text_agent_box, origin_x=-150, origin_y=-70)
+event_ri_left = trial_ri_left.add_stimulus_event(pic_r_i_left)
+event_ri_left.set_time(0)
+event_ri_left.set_duration(agent_button_duration)
+event_ri_left.set_stimulus_time_in(0)
+event_ri_left.set_stimulus_time_out(agent_button_duration)
+event_ri_left.set_event_code("ANS R I L")
+# right
+trial_ri_right = pc.trial(scen)
+trial_ri_right.set_type(trial_ri_right.FIXED)
+trial_ri_right.set_all_responses(False)
+trial_ri_right.set_duration(agent_button_duration)
+pic_r_i_right = scen.picture()
+pic_r_i_right.add_part(text_r_i, origin_x=0, origin_y=0)
+pic_r_i_right.add_part(text_right_arrow_on, origin_x=150, origin_y=-100)
+pic_r_i_right.add_part(text_left_arrow_off, origin_x=-150, origin_y=-100)
+pic_r_i_right.add_part(text_agent_box, origin_x=150, origin_y=-70)
+event_ri_right = trial_ri_right.add_stimulus_event(pic_r_i_right)
+event_ri_right.set_time(0)
+event_ri_right.set_duration(agent_button_duration)
+event_ri_right.set_stimulus_time_in(0)
+event_ri_right.set_stimulus_time_out(agent_button_duration)
+event_ri_right.set_event_code("ANS R I R")
 
 # --------------------------------------------------------- RESPONSE TRIGGER
 # Correct
@@ -325,12 +472,13 @@ trial_t_correct.set_duration(20)
 pic_t_correct = scen.picture()
 pic_t_correct.add_part(text_fix, origin_x=0, origin_y=0)
 pic_t_correct.add_part(box[208], origin_x=trigger_x, origin_y=trigger_y)
-pic_t_correct.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
-pic_t_correct.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
-# event_t_correct = trial_t_correct.add_stimulus_event(pic_t_correct)
-# event_t_correct.set_time(0)
-# event_t_correct.set_duration(20)
-# event_t_correct.set_event_code("correct response")
+pic_t_correct.add_part(text_right_arrow_off, origin_x=150, origin_y=-100)
+pic_t_correct.add_part(text_left_arrow_off, origin_x=-150, origin_y=-100)
+pic_t_correct.add_part(text_agent_box, origin_x=0, origin_y=-70)
+event_t_correct = trial_t_correct.add_stimulus_event(pic_t_correct)
+event_t_correct.set_time(0)
+event_t_correct.set_duration(20)
+event_t_correct.set_event_code("correct response")
 # event_t_correct.set_port_code(100)
 # Incorrect
 trial_t_incorrect = pc.trial(scen)
@@ -339,8 +487,9 @@ trial_t_incorrect.set_duration(20)
 pic_t_incorrect = scen.picture()
 pic_t_incorrect.add_part(text_fix, origin_x=0, origin_y=0)
 pic_t_incorrect.add_part(box[224], origin_x=trigger_x, origin_y=trigger_y)
-pic_t_incorrect.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
-pic_t_incorrect.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
+pic_t_incorrect.add_part(text_right_arrow_off, origin_x=150, origin_y=-100)
+pic_t_incorrect.add_part(text_left_arrow_off, origin_x=-150, origin_y=-100)
+pic_t_incorrect.add_part(text_agent_box, origin_x=-0, origin_y=-70)
 # event_t_incorrect = trial_t_incorrect.add_stimulus_event(pic_t_incorrect)
 # event_t_incorrect.set_time(0)
 # event_t_incorrect.set_duration(20)
@@ -353,8 +502,9 @@ trial_t_omission.set_duration(20)
 pic_t_omission = scen.picture()
 pic_t_omission.add_part(text_fix, origin_x=0, origin_y=0)
 pic_t_omission.add_part(box[240], origin_x=trigger_x, origin_y=trigger_y)
-pic_t_omission.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
-pic_t_omission.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
+pic_t_omission.add_part(text_right_arrow_off, origin_x=150, origin_y=-100)
+pic_t_omission.add_part(text_left_arrow_off, origin_x=-150, origin_y=-100)
+pic_t_omission.add_part(text_agent_box, origin_x=0, origin_y=-70)
 # event_t_omission = trial_t_omission.add_stimulus_event(pic_t_omission)
 # event_t_omission.set_time(0)
 # event_t_omission.set_duration(20)
@@ -365,26 +515,30 @@ pic_t_omission.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
 pic_t_correct_left = scen.picture()
 pic_t_correct_left.add_part(text_fix, origin_x=0, origin_y=0)
 pic_t_correct_left.add_part(box[208], origin_x=trigger_x, origin_y=trigger_y)
-pic_t_correct_left.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
-pic_t_correct_left.add_part(text_left_arrow_on, origin_x=-300, origin_y=-300)
+pic_t_correct_left.add_part(text_right_arrow_off, origin_x=150, origin_y=-100)
+pic_t_correct_left.add_part(text_left_arrow_on, origin_x=-150, origin_y=-100)
+pic_t_correct_left.add_part(text_agent_box, origin_x=-150, origin_y=-70)
 # correct right
 pic_t_correct_right = scen.picture()
 pic_t_correct_right.add_part(text_fix, origin_x=0, origin_y=0)
 pic_t_correct_right.add_part(box[208], origin_x=trigger_x, origin_y=trigger_y)
-pic_t_correct_right.add_part(text_right_arrow_on, origin_x=300, origin_y=-300)
-pic_t_correct_right.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
+pic_t_correct_right.add_part(text_right_arrow_on, origin_x=150, origin_y=-100)
+pic_t_correct_right.add_part(text_left_arrow_off, origin_x=-150, origin_y=-100)
+pic_t_correct_right.add_part(text_agent_box, origin_x=150, origin_y=-70)
 # incorrect left
 pic_t_incorrect_left = scen.picture()
 pic_t_incorrect_left.add_part(text_fix, origin_x=0, origin_y=0)
 pic_t_incorrect_left.add_part(box[224], origin_x=trigger_x, origin_y=trigger_y)
-pic_t_incorrect_left.add_part(text_right_arrow_off, origin_x=300, origin_y=-300)
-pic_t_incorrect_left.add_part(text_left_arrow_on, origin_x=-300, origin_y=-300)
+pic_t_incorrect_left.add_part(text_right_arrow_off, origin_x=150, origin_y=-100)
+pic_t_incorrect_left.add_part(text_left_arrow_on, origin_x=-150, origin_y=-100)
+pic_t_incorrect_left.add_part(text_agent_box, origin_x=-150, origin_y=-70)
 # incorrect right
 pic_t_incorrect_right = scen.picture()
 pic_t_incorrect_right.add_part(text_fix, origin_x=0, origin_y=0)
 pic_t_incorrect_right.add_part(box[224], origin_x=trigger_x, origin_y=trigger_y)
-pic_t_incorrect_right.add_part(text_right_arrow_on, origin_x=300, origin_y=-300)
-pic_t_incorrect_right.add_part(text_left_arrow_off, origin_x=-300, origin_y=-300)
+pic_t_incorrect_right.add_part(text_right_arrow_on, origin_x=150, origin_y=-100)
+pic_t_incorrect_right.add_part(text_left_arrow_off, origin_x=-150, origin_y=-100)
+pic_t_incorrect_right.add_part(text_agent_box, origin_x=150, origin_y=-70)
 
 # ---------------------------------------------------------        feedback
 
@@ -415,7 +569,7 @@ event_feedback.set_event_code("feedback")
 ###########################################################################
 # ------------------------------------------------------------------- PARAMS
 
-max_block = 1
+max_block = 10
 max_trial = 100
 select_trial = []
 agent_answer = []
@@ -458,81 +612,52 @@ for blk in range(max_block):
     selected_trial = {1: trial_lc, 2: trial_rc, 3: trial_li, 4: trial_ri}
     # 問題ごとの正誤定義
     correct_answer = {1: "left", 2: "right", 3: "left", 4: "right"}
+    agent_trial = {1: {"left": trial_lc_left, "right": trial_lc_right},
+                   2: {"left": trial_rc_left, "right": trial_rc_right},
+                   3: {"left": trial_li_left, "right": trial_li_right},
+                   4: {"left": trial_ri_left, "right": trial_ri_right}}
+    not_lr = {"left": "right", "right": "left"}
     num_correct = 0
     num_omission = 0
     pic_block_head.set_part(1, block_letters[blk + 1])
     trial_block_head.present()
-    trial_fix.present()
     for idx, selection in enumerate(select_trial):
+        print(idx)
+        fix_jitter = random.randint(fix_min, fix_max)
+        trial_fix.set_duration(fix_jitter)
+        # fix
+        trial_fix.present()
         # lc,rc,li,ri
         selected_trial[selection].present()
         answer = agent_answer[idx]
         # correct
         if answer:
-            # left
-            if correct_answer[selection] == "left":
-                # correct trigger
-                event_t_correct = trial_t_correct.add_stimulus_event(pic_t_correct_left)
-                event_t_correct.set_time(0)
-                event_t_correct.set_duration(20)
-                event_t_correct.set_event_code("correct response")
-                # event_t_correct.set_port_code(100)
-                # trial_fix light on
-                event_fix_left = trial_fix.add_stimulus_event(pic_fix_left, 1)
-                event_fix_left.set_time(80)
-                # event_fix_left.set_stimulus_time_in(0)
-                # event_fix_left.set_stimulus_time_out(80)
-                # event_fix_left.set_duration(0)
-            elif correct_answer[selection] == "right":
-                event_t_correct = trial_t_correct.add_stimulus_event(pic_t_correct_right)
-                event_t_correct.set_time(0)
-                event_t_correct.set_duration(20)
-                event_t_correct.set_event_code("correct response")
-                # event_t_correct.set_port_code(100)
-                event_fix_right = trial_fix.add_stimulus_event(pic_fix_right, 1)
-                event_fix_right.set_time(80)
-                # event_fix_right.set_stimulus_time_in(0)
-                # event_fix_right.set_stimulus_time_out(80)
-                # event_fix_right.set_duration(80)
+            print("correct")
+            agent_trial[selection][correct_answer[selection]].present()
+            # present agent pic
             trial_t_correct.present()
-            trial_t_correct.remove_stimulus_event(1)
             num_correct += 1
         # incorrect
         elif not answer:
-            if correct_answer[selection] == "left":
-                event_t_incorrect = trial_t_incorrect.add_stimulus_event(pic_t_incorrect_right)
-                event_t_incorrect.set_time(0)
-                event_t_incorrect.set_duration(20)
-                event_t_incorrect.set_event_code("incorrect response")
-                # event_t_incorrect.set_port_code(200)
-                event_fix_right = trial_fix.add_stimulus_event(pic_fix_right, 1)
-                event_fix_right.set_time(80)
-                # event_fix_right.set_stimulus_time_in(0)
-                # event_fix_right.set_stimulus_time_out(80)
-                # event_fix_right.set_duration(80)
-            elif correct_answer[selection] == "right":
-                event_t_incorrect = trial_t_incorrect.add_stimulus_event(pic_t_incorrect_left)
-                event_t_incorrect.set_time(0)
-                event_t_incorrect.set_duration(20)
-                event_t_incorrect.set_event_code("incorrect response")
-                # event_t_incorrect.set_port_code(200)
-                event_fix_left = trial_fix.add_stimulus_event(pic_fix_left, 1)
-                event_fix_left.set_time(80)
-                # event_fix_left.set_stimulus_time_in(0)
-                # event_fix_left.set_stimulus_time_out(80)
-                # event_fix_left.set_duration(80)
+            print("incorrect")
+            agent_trial[selection][not_lr[correct_answer[selection]]].present()
             trial_t_incorrect.present()
-            trial_t_incorrect.remove_stimulus_event(1)
         else:
             pass
-        fix_jitter = random.randint(fix_min, fix_max)
-        trial_fix.set_duration(fix_jitter - 100)
-        # fix
-        trial_fix.present()
-        trial_fix.remove_stimulus_event(1)
     pic_block_tail.set_part(1, block_tale_letters[blk + 1])
     trial_block_tail.present()
 trial_task_tail.present()
-# TODO exporting log
 
 del scen
+
+###### TODO ######
+# NI生やしてトリガーが入るかどうか
+# 試行くらいランダムなタイミングで修正するトライアル
+# 左右2パターンに統合
+# 赤枠をなくす
+# Presentation形式に再度書き下し
+
+
+###### TODO Titan ######
+# Titan de Xbox controler task
+# 設定ファイルの配置確認
