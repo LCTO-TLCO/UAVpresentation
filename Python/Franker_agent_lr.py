@@ -17,7 +17,7 @@ pc.set_header_parameter("active_buttons", 3)
 pc.set_header_parameter("button_codes", "1, 2, 3")  # left, right, space
 # pc.set_header_parameter("write_codes", True)
 
-pc.open_experiment(os.path.abspath("./examples/test presentation/Flanker_pixel.exp"))
+pc.open_experiment(os.path.abspath("../examples/test presentation/Flanker_pixel.exp"))
 
 scen = pc.run(pc.PRESCONTROL1_USER_CONTROL | pc.PRESCONTROL1_WRITE_OUTPUT, 0, os.path.abspath(f"./log/{today}.log"),
               os.path.abspath(f"./log/{today}.txt"))
@@ -733,7 +733,4 @@ del scen
 # Presentation 入力と判定の、ログ確認
 ## リストとログの比較で出力の確認
 ## 呈示時間の確認
-## 入力を固定して入力値と正誤判定の確認
-### 全部omission扱いになってる
-# Presentation トリガーの正誤確認
 ## ソースからトリガーの種類の確認

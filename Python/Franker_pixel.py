@@ -11,7 +11,7 @@ pc.set_header_parameter("active_buttons", 3)
 pc.set_header_parameter("button_codes", "1, 2, 3")  # left, right, space
 # pc.set_header_parameter("write_codes", True)
 
-pc.open_experiment(os.path.abspath("./examples/test presentation/Flanker_pixel.exp"))
+pc.open_experiment(os.path.abspath("../examples/test presentation/Flanker_pixel.exp"))
 
 scen = pc.run(pc.PRESCONTROL1_USER_CONTROL | pc.PRESCONTROL1_WRITE_OUTPUT, 0, os.path.abspath("./log/log1.log"),
               os.path.abspath("./log/log1.txt"))
