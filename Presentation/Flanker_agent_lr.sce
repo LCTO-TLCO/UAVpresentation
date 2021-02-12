@@ -578,7 +578,7 @@ trial{
 		#stimulus_time_in 	= 0;  					# assign response that occur
 		#stimulus_time_out = $trial_duration; 	# 0-1000 ms after the stimulus
 		code = "ANS R R";
-		port_code = 48;
+		port_code = 32;
 	}event_rr_t;
 
 	#stim
@@ -780,6 +780,7 @@ trial{
 		time=0;
 		duration=20;
 		code="omission";
+		port_code = 240;
 	}event_t_omission;
 }trial_t_omission;
 
