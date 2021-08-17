@@ -1,5 +1,5 @@
 ### 注意
-### Python 3.7.x 系でのみ動作
+### Python 3.7.x 32bit系でのみ動作
 
 import os
 from packages import PresPy

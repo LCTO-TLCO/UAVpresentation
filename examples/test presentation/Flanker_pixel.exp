@@ -1,5 +1,5 @@
 <ver>20.2</ver>
-<efn>C:\Users\spike\PycharmProjects\UAVpresentation\examples\test presentation\Flanker_pixel.exp</efn>
+<efn>C:\Users\NDMC02\Programs\UAVpresentation\examples\test presentation\Flanker_pixel.exp</efn>
 <author></author>
 <con>
 <pause>P</pause>
@@ -51,10 +51,10 @@
 <lfn></lfn>
 </docs>
 <dp_list></dp_list>
-<dsd>C:\Users\spike\PycharmProjects\UAVpresentation\examples\test presentation</dsd>
+<dsd>C:\Users\NDMC02\Programs\UAVpresentation\examples\test presentation</dsd>
 <dxv>8</dxv>
 <efs>
-<filename>C:\Users\spike\PycharmProjects\UAVpresentation\examples\test presentation\Flanker_pixel.sce</filename>
+<filename>C:\Users\NDMC02\Programs\UAVpresentation\examples\test presentation\Flanker_pixel.sce</filename>
 </efs>
 <exclusive_mouse>1</exclusive_mouse>
 <exp_version></exp_version>
@@ -129,7 +129,7 @@
 <idt>0</idt>
 <ilc>0</ilc>
 <ip_chans></ip_chans>
-<lfd>C:\Users\spike\PycharmProjects\UAVpresentation\examples\test presentation</lfd>
+<lfd>C:\Users\NDMC02\Programs\UAVpresentation\examples\test presentation</lfd>
 <lnb>2</lnb>
 <lno>4</lno>
 <log>
@@ -139,7 +139,7 @@
 <its>0</its>
 <meta>1</meta>
 <pien>0</pien>
-<set_def_file>C:\Users\spike\PycharmProjects\UAVpresentation\examples\test presentation\Flanker_pixel.sdf</set_def_file>
+<set_def_file>C:\Users\NDMC02\Programs\UAVpresentation\examples\test presentation\Flanker_pixel.sdf</set_def_file>
 <stimulus_list>0</stimulus_list>
 <subject_id></subject_id>
 <subject_id_pol>0</subject_id_pol>
@@ -163,7 +163,25 @@
 <out_encrypt_key></out_encrypt_key>
 <pi_list></pi_list>
 <plat>1</plat>
-<port_devices></port_devices>
+<port_devices>
+<device>
+<parameters>
+<cts>0</cts>
+<dsrin>0</dsrin>
+<dsrout>0</dsrout>
+<dtr>disable</dtr>
+<rts>disable</rts>
+<set_fifo>1</set_fifo>
+<spd></spd>
+<spp></spp>
+<spr></spr>
+<sps></sps>
+</parameters>
+<piai>COM1</piai>
+<pian>Serial Port</pian>
+<pihpn>COM1</pihpn>
+</device>
+</port_devices>
 <rdl>
 <device>
 <abs_axis>
@@ -215,7 +233,7 @@
 <device>
 <device_type>3</device_type>
 <dx_device_type>0</dx_device_type>
-<name>Standard PS/2 Keyboard</name>
+<name>HID Keyboard Device</name>
 </device>
 <device>
 <abs_axis>
@@ -257,12 +275,7 @@
 <dx_device_type>0</dx_device_type>
 <max_raw_pos>65535</max_raw_pos>
 <min_raw_pos>0</min_raw_pos>
-<name>Microsoft Comfort Mouse 4500 (Mouse and Keyboard Center)</name>
-</device>
-<device>
-<device_type>4</device_type>
-<dx_device_type>17</dx_device_type>
-<name>Microsoft ハードウェア USB マウス</name>
+<name>HID-compliant mouse</name>
 </device>
 <device>
 <axis>
@@ -613,7 +626,7 @@
 <offset>82</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\Users\spike\PycharmProjects\UAVpresentation\examples\test presentation\Flanker_pixel.sce</sfn>
+<sfn>C:\Users\NDMC02\Programs\UAVpresentation\examples\test presentation\Flanker_pixel.sce</sfn>
 </sce>
 <sct>
 <capture_device>
@@ -646,19 +659,19 @@
 <sde>
 <buffer_length>1000</buffer_length>
 <custom_buf>sec_sw</custom_buf>
-<default>1</default>
+<default>0</default>
 <dup_channels>1</dup_channels>
 <ex_period>10</ex_period>
 <halt_on_underrun>1</halt_on_underrun>
 <max_mix_length>50</max_mix_length>
 <min_mix_length>25</min_mix_length>
-<mixer>dx_software</mixer>
+<mixer>custom</mixer>
 <rewind_distance>10</rewind_distance>
 <sh_period>0</sh_period>
 <side_speakers>1</side_speakers>
 <use_rewind_distance>0</use_rewind_distance>
 </sde>
-<sdv>プライマリ サウンド ドライバー</sdv>
+<sdv>None</sdv>
 <show_dis>1</show_dis>
 <show_parm>1</show_parm>
 <show_term>1</show_term>
