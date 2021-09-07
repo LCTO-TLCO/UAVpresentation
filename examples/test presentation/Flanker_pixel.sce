@@ -5,7 +5,7 @@ response_matching = simple_matching;
 default_font_size = 48;
 active_buttons = 3;
 button_codes = 1,2,3; #left, right, space
-#write_codes =true;
+write_codes =true;
 
 ###########################################################################
 #                                    SDL											  #

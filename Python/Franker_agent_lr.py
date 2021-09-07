@@ -15,12 +15,12 @@ pc.set_header_parameter("response_matching", "simple_matching")
 pc.set_header_parameter("default_font_size", 48)
 pc.set_header_parameter("active_buttons", 3)
 pc.set_header_parameter("button_codes", "1, 2, 3")  # left, right, space
-# pc.set_header_parameter("write_codes", True)
+pc.set_header_parameter("write_codes", True)
 
 pc.open_experiment(os.path.abspath("../examples/test presentation/Flanker_pixel.exp"))
 
-scen = pc.run(pc.PRESCONTROL1_USER_CONTROL | pc.PRESCONTROL1_WRITE_OUTPUT, 0, os.path.abspath(f"./log/{today}.log"),
-              os.path.abspath(f"./log/{today}.txt"))
+scen = pc.run(pc.PRESCONTROL1_USER_CONTROL | pc.PRESCONTROL1_WRITE_OUTPUT, 0, os.path.abspath(f"./log/{today}_agentlr.log"),
+              os.path.abspath(f"./log/{today}_agentlr.txt"))
 
 # SDL
 ## coller Trigger
@@ -272,7 +272,7 @@ event_l_t.set_duration(trigger_duration)
 # event_l_t.set_stimulus_time_in(0)
 # event_l_t.set_stimulus_time_out(trial_duration)
 event_l_t.set_event_code("STIM L")
-# event_l_t.set_port_code(12)
+event_l_t.set_port_code(12)
 # stim
 pic_l = scen.picture()
 pic_l.add_part(text_l, origin_x=0, origin_y=0)
@@ -300,7 +300,7 @@ event_ll_t.set_duration(trigger_duration)
 event_ll_t.set_stimulus_time_in(0)
 event_ll_t.set_stimulus_time_out(trial_duration)
 event_ll_t.set_event_code("ANS L L")
-# event_ll_t.set_port_code(8)
+event_ll_t.set_port_code(8)
 ## answer left
 pic_l_left = scen.picture()
 pic_l_left.add_part(text_l, origin_x=0, origin_y=0)
@@ -359,7 +359,7 @@ event_r_t.set_duration(trigger_duration)
 event_r_t.set_stimulus_time_in(0)
 event_r_t.set_stimulus_time_out(trial_duration)
 event_r_t.set_event_code("STIM R")
-# event_r_t.set_port_code(14)
+event_r_t.set_port_code(14)
 # stim
 pic_r = scen.picture()
 pic_r.add_part(text_r, origin_x=0, origin_y=0)
@@ -440,7 +440,7 @@ event_modify_left_t.set_stimulus_time_out(trigger_duration)
 event_modify_left_t.set_target_button([1, 2])
 event_modify_left_t.set_duration(trigger_duration)
 event_modify_left_t.set_event_code("STIM MOD L")
-# event_modify_left_t.set_port_code(100)
+event_modify_left_t.set_port_code(100)
 # stim
 event_modify_left = trial_modify_left.add_stimulus_event(pic_modify_left)
 event_modify_left.set_time(stim_onset)
@@ -463,7 +463,7 @@ event_modify_right_t.set_stimulus_time_out(trigger_duration)
 event_modify_right_t.set_target_button([1, 2])
 event_modify_right_t.set_duration(trigger_duration)
 event_modify_right_t.set_event_code("STIM MOD R")
-# event_modify_right_t.set_port_code(100)
+event_modify_right_t.set_port_code(100)
 
 # stim
 event_modify_right = trial_modify_right.add_stimulus_event(pic_modify_right)
@@ -482,7 +482,7 @@ event_modify_comp_left_t = trial_modify_comp_left.add_stimulus_event(pic_modify_
 event_modify_comp_left_t.set_time(0)
 event_modify_comp_left_t.set_duration(trigger_duration)
 event_modify_comp_left_t.set_event_code("STIM MODTO L")
-# event_modify_left_t.set_port_code(120)
+event_modify_left_t.set_port_code(120)
 
 event_modify_comp_left = trial_modify_comp_left.add_stimulus_event(pic_modify_left)
 event_modify_comp_left.set_time(stim_onset)
@@ -496,7 +496,7 @@ event_modify_comp_right_t = trial_modify_comp_right.add_stimulus_event(pic_modif
 event_modify_comp_right_t.set_time(0)
 event_modify_comp_right_t.set_duration(trigger_duration)
 event_modify_comp_right_t.set_event_code("STIM MODTO R")
-# event_modify_comp_right_t.set_port_code(128)
+event_modify_comp_right_t.set_port_code(128)
 
 event_modify_comp_right = trial_modify_comp_right.add_stimulus_event(pic_modify_right)
 event_modify_comp_right.set_time(stim_onset)
@@ -516,7 +516,7 @@ event_t_correct = trial_t_correct.add_stimulus_event(pic_t_correct)
 event_t_correct.set_time(0)
 event_t_correct.set_duration(20)
 event_t_correct.set_event_code("correct response")
-# event_t_correct.set_port_code(208)
+event_t_correct.set_port_code(208)
 
 # Incorrect
 trial_t_incorrect = pc.trial(scen)
@@ -531,7 +531,7 @@ event_t_incorrect = trial_t_incorrect.add_stimulus_event(pic_t_incorrect)
 event_t_incorrect.set_time(0)
 event_t_incorrect.set_duration(20)
 event_t_incorrect.set_event_code("incorrect response")
-# event_t_incorrect.set_port_code(224)
+event_t_incorrect.set_port_code(224)
 
 # Omission
 trial_t_omission = pc.trial(scen)
